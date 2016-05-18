@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="Build worklogs" default="all">
+    
+    
+    <!--The goal of this ant transformation is to create mutliple spreadsheets based off of which project is being worked on on a particular day-->
+    
+    <fileset dir="." id="csvs">
+        <include name="**/**.csv"/>
+    </fileset>
+    
+    <fileset dir="." id="worklogs">
+        <include name="**_log.ods"/>
+    </fileset>
+    
+    <fileset dir="." id="workFods">
+        <include name="**.fods"/>
+    </fileset>
+    
+    <target name="setup">
+       <delete>
+           <fileset refid="workFods"/>
+           <fileset refid="csvs"/>
+       </delete>
+    </target>
+    
+    <target name="convertLogsToFods">
+        <apply executable="soffice" failonerror="true">
+            <arg line="--headless --convert-to fods"/>
+            <fileset refid="worklogs"/>
+        </apply>
+    </target>
+    
+    <target name="cleanFods">
+        <java classname="net.sf.saxon.Transform" classpath="../../utilities/saxon9he.jar" failonerror="true">
+            <arg value="-s:../../xsl/fods_expand_master.xsl"/>
+            <arg value="-xsl:../../xsl/fods_expand_master.xsl"/>
+            <arg value="-o:../../xsl/fods_expand_master.xsl"/>
+            <arg value="--suppressXsltNamespaceCheck:on"/>
+        </java>
+    </target>
+    
+    <target name="splitFods">
+        <java classname="net.sf.saxon.Transform" classpath="../../utilities/saxon9he.jar" failonerror="true">
+            <arg value="-s:../../xsl/split_worklogs_master.xsl"/>
+            <arg value="-xsl:../../xsl/split_worklogs_master.xsl"/>
+            <arg value="-o:../../xsl/split_worklogs_master.xsl"/>
+            <arg value="--suppressXsltNamespaceCheck:on"/>
+        </java>
+    </target>
+    
+    <target name="clean">
+        <delete verbose="yes">
+            <fileset refid="workFods"/>
+        </delete>
+    </target>
+    
+    <target name="all">
+        <antcall target="setup"/>
+        <antcall target="convertLogsToFods"/>
+        <antcall target="cleanFods"/>
+        <antcall target="splitFods"/>
+        <antcall target="clean"/>
+    </target>
+  
+</project>
