@@ -1,3 +1,4 @@
 "Date","Day of the Week","Time","Hours worked","Description" 
-"test","","","","Graves stuff", 
-"test5","","","","Graves",
+"16-05-19","Thursday","10:30-4:30 & 6:00-8:00","8","Discussed future goals/outcomes with MH for Graves. Wrote up a timeline for continuing onwards.", 
+"2016-05-20","Friday","12:00-4:30","4.5","Working on diagnostics for graves project. Rewrote the broken references template so that it groups them by document and then by date. I thought it might be a bit more RA friendly.", 
+"2016-05-25","Wednesday","2:30-4:45","2.25","Working on diagnostics for graves project. Fixing minor issues in the wrong references as well as some stylistic things; I've decided to do the red/green colour coding like MoEML. I also started working on a wrong ref/type check.",

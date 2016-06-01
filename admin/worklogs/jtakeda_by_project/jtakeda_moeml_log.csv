@@ -1,4 +1,6 @@
 "Date","Day of the Week","Time","Hours worked","Description" 
-"2016-05-17","Monday","10:30-4:30 & 5:30-6:30","6 + 1 = 7","Worked on controller for diagnostics and next free id processing.", 
-"test4","","","","And moeml stuff", 
-"test6","","","","MoEML",
+"2016-05-17","Tuesday","10:30-4:30 & 5:30-6:30","6 + 1 = 7","Worked on controller for diagnostics and next free id processing.", 
+"2016-05-18","Wednesday","11:30-4:30 & 6:00-7:00","5","Working on controlling for next free id and diagnostics. Working on the modularization of diagnostics.", 
+"16-05-19","Thursday","10:30-4:30 & 6:00-8:00","8","Working on modularizing diagnostics a bit more; from 6-8, working on a check for images, which turned out to be more complicated than I thought. There are many images that are not in svn but are in eXist and vice versa. There are almost a number of images that are in different directories between the two systems. Should be fixed soon, even though we're going to be moving over to eXist packages in the near future anyways.", 
+"2016-05-20","Friday","12:00-4:30","4.5","Discussing Stow with JJ/MH/KT and working on stow proofing (reminder: one half ward = 3h between two people; so 12 labour hours per ward for proofing reading).", 
+"2016-05-24","Tuesday","10:00-4:30","6.5","Working on some diagnostics work and then working on historical people for MoEML's stow PERS-athon. Writing code to generate a stats page.",
