@@ -1,0 +1,34 @@
+<html>
+<head><title>Digital archaeology, Emulation & preservation</title></head>
+<link rel="stylesheet" type="text/css" href="retro.css" media="screen" />
+<body>
+<h1>Digital archaeology, etc</h1>
+
+ 
+
+<h2>In-browser Emulation</h2>
+
+<ul>
+	<li><a href="https://archive.org/details/msdos_Oregon_Trail_The_1990">Oregon Trail</a> [Internet Archive]</li>
+<li><a href="http://copy.sh/v86/">Other OSes<a></li>
+</ul>
+
+
+<a href="emulation.shtml">Back</a></li>
+
+<!--
+<ul>
+<li><a href="media.shtml">Old media</a></li>
+<li><a href="hardware.shtml">Old hardware</a></li>
+<li><a href="file.shtml">Old file formats</a></li>
+<li><a href="migration">Format migration</a></li>
+<li><a href="emulation">Emulation</a></li>
+<li><a href="browser">In-browser emulation</a></li>
+</ul>
+-->
+
+
+<p class="footer-text">Endings, May 17 2016</p>
+</body>
+</html>
+ 

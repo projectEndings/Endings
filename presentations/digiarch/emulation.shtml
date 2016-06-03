@@ -1,0 +1,44 @@
+<html>
+<head><title>Digital archaeology, Emulation & preservation</title></head>
+<link rel="stylesheet" type="text/css" href="retro.css" media="screen" />
+<body>
+<h1>Digital archaeology, etc</h1>
+
+ 
+
+<h2>Emulation/Virtualization</h2>
+
+<ul>
+	<li>Software pretends to be hardware:</li>
+	<ul>
+	<li> Apple II (AppleWin)</li>
+	<li> Mac OS 6 & 7 (Mini vMac, Basilisk II, Sheepshaver)</li>
+	<li> Commodore 64, Vic 20 (VICE)</li>
+	<li> Amiga (UAE)</li>
+	<li> DOS (DOSBox, etc)</li>
+	<li> Atari (Atari 800)</li>
+	</ul>	
+	<li>Legalities</li>	
+	<li>Demo</li>
+</ul>
+
+
+<a href="migration.shtml">Back</a></li> |
+<a href="browser.shtml">Next</a></li>
+
+<!--
+<ul>
+<li><a href="media.shtml">Old media</a></li>
+<li><a href="hardware.shtml">Old hardware</a></li>
+<li><a href="file.shtml">Old file formats</a></li>
+<li><a href="migration">Format migration</a></li>
+<li><a href="emulation">Emulation</a></li>
+<li><a href="browser">In-browser emulation</a></li>
+</ul>
+-->
+
+
+<p class="footer-text">Endings, May 17 2016</p>
+</body>
+</html>
+ 

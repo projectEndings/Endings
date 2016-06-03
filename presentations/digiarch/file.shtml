@@ -1,0 +1,38 @@
+<html>
+<head><title>Digital archaeology, Emulation & preservation</title></head>
+<link rel="stylesheet" type="text/css" href="retro.css" media="screen" />
+<body>
+<h1>Digital archaeology, etc</h1>
+
+ 
+
+<h2>Old File Formats</h2>
+
+<p>Examples</p>
+<ul>
+	<li>Wordstar</li>
+	<li>AppleWorks</li>
+	<li>WordPerfect</li>
+	<li>NAPLPS</li>
+</ul>
+
+
+<a href="hardware.shtml">Back</a></li> |
+<a href="migration.shtml">Next</a></li>
+
+<!--
+<ul>
+<li><a href="media.shtml">Old media</a></li>
+<li><a href="hardware.shtml">Old hardware</a></li>
+<li><a href="file.shtml">Old file formats</a></li>
+<li><a href="migration">Format migration</a></li>
+<li><a href="emulation">Emulation</a></li>
+<li><a href="browser">In-browser emulation</a></li>
+</ul>
+-->
+
+
+<p class="footer-text">Endings, May 17 2016</p>
+</body>
+</html>
+ 

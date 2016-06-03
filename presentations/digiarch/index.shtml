@@ -1,0 +1,33 @@
+<html>
+<head><title>Digital archaeology, Emulation & preservation</title></head>
+<link rel="stylesheet" type="text/css" href="retro.css" media="screen" />
+<body>
+<h1>Digital archaeology, etc</h1>
+
+ 
+
+<h2>Outline</h2>
+
+<table><tr><td valign="top">
+
+<ul>
+<li><a href="media.shtml">Old media</a></li>
+<li><a href="hardware.shtml">Old hardware</a></li>
+<li><a href="file.shtml">Old file formats</a></li>
+<li><a href="migration.shtml">Format migration</a></li>
+<li><a href="emulation.shtml">Emulation/Virtualization</a></li>
+<li><a href="browser.shtml">In-browser emulation</a></li>
+</ul>
+
+</td><td>
+
+
+<img src="macplus.jpg">
+
+</td></tr>
+</table>
+
+<p class="footer-text">Endings, May 17 2016</p>
+</body>
+</html>
+        
