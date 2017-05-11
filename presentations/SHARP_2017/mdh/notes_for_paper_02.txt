@@ -1,0 +1,44 @@
+Notes for SHARP presentation paper 2: 
+
+Bits from SSHRC grant application: 
+
+The reviewer questioned the following: -our assumption that HTML, CSS, and javascript will be useable in 50 years: In making this assumption, we are fully cognizant of the risks inherent in all such predictions. However, we believe this assumption is warranted since HTML5/JS/CSS is the basis not only for the WWW but also the majority of phone apps and tablet apps, but for an increasing number of desktop apps, as well as for the human interfaces to all cloud services. These technologies are widely deployed open standards for which migration paths will almost certainly exist. 
+
+What new solutions to the preservation challenge can our team propose? Rieger and Casad agree that a good long-term curation strategy requires preservation not only of static data such as XML files but also of the experience of using a given web application, along with its tools. One short-term strategy is to use virtual machines to reproduce the original server environment. However, virtual machine technology is software too; it changes and becomes obsolete, and running and maintaining virtual machines is not trivial. Instead, we propose rewriting current web applications using only technologies with a reliable long-term future. Hypertext Markup Language (HTML), Cascading Style Sheets (CSS) and Javascript (JS) are very good candidates for long-term usability; all three are managed by well-funded standards bodies, with a history of slow but steady evolution and standardization, and have universal support across computing browsers and platforms. The combination of HTML5, CSS and JS promises to be the most robust and successful combination of web technologies yet, forming the basis not only for websites but also for standalone applications on portable devices (as part of the “Open Web Platform”) and the user-interfaces for most cloud-based services. Having analyzed our four case-study projects, we know that, for digital editions and text collections, almost all of the current functionality which is dependent on server-side technologies such as XML databases can be reproduced using pure HTML5, CSS and JavaScript. Such an implementation, because it involves the generation of large numbers of static files with substantial duplication of material, is not a practical approach for a project still under way, in which data changes frequently, but once a project is over and the data is “frozen,” it makes perfect sense to “staticize” it. (One exception to this is search functionality, since user-input into a search engine cannot be pre-computed.) 
+
+CORE ASSUMPTIONS:
+
+1. The digital survival of our bits is accomplished through promiscuous archiving.
+
+2. The appearance and functionality of our web-based projects is intrinsic to their value, and should be preserved as fully as possible.
+
+3. We continue to have a functioning digital civilization (no apocalypse); but...
+
+4. ...we cannot depend on the availability of any specific piece of hardware, operating system, software application or service.
+
+
+
+Given these assumptions, we want to select formats which provide us with the best possible probability of survival over (say) 50 years.
+
+HTML5 for document encoding:
+
+The world's first website is still available:
+
+http://info.cern.ch/hypertext/WWW/TheProject.html
+
+Even though it uses a tag structure which does not conform with what was eventually standardized as HTML2 in 1995 (it has no <HTML> element, for instance), it still works in modern browers. This highlights two aspects of HTML which have been crucial to its success: backward compatibility and error tolerance. This is particularly true of the HTML5 specification, which "defines the parsing rules for HTML documents, whether they are syntactically correct or not" (https://html.spec.whatwg.org/multipage/syntax.html#parsing). 
+
+According to one estimate, there are now approximately 4.5 billion web pages (http://www.worldwidewebsize.com/), scattered across over a billion websites (http://www.internetlivestats.com/total-number-of-websites/). To put this in context, in 2010 Google estimated the number of published physical books at 129 million. The "installed base" of HTML is now approaching that of the entire history of physical publishing, and it shows no sign of slowing down. 75% of these websites use HTML, and 62.5% of them use HTML5 (https://w3techs.com/technologies/details/ml-html5/all/all). The remaining 25% use XHTML, which is basically a family of stricter standards of HTML. 
+
+Although lots of languages and technologies underly the WWW (PHP, JSP, relational databases, noSQL dbs, Python...), ultimately all of these are almost entirely in the business of producing HTML, which is consumed by a wide variety of agents.
+
+
+CSS for layout and style:
+
+In the same way that HTML has proved itself robust and fault-tolerant, CSS has also been designed with built-in "forward-compatible parsing rules" (<https://www.w3.org/TR/CSS/#partial>) which ease the ongoing development of the standard, as well as standardizing the way that partial implementations of the standard should work. In the history of CSS, there was one point at which backwards-compatibility was broken: between CSS 2.0 and 2.1/2.2, some unimplemented properties were removed. However, with this exception, CSS has developed as a well-managed, steadily-advancing standard which is used in a wide variety of contexts.
+
+JavaScript for interactivity:
+
+
+
+

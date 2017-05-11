@@ -1,0 +1,9 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="298" height="420" viewBox="0 0 298 420"><style type="text/css"><![CDATA[
+	.st0{fill:#EBEBEB;}
+	.st1{fill:#8ACF17;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#63A814;}
+]]></style><path class="st3" d="M27 386L0 82h298l-27 304-122 34z"/><path class="st1" d="M149 393.84l98.48-27.3L270.68 107H149z"/><path id="J_1_" class="st2" d="M55.476 145l3.33 37h142.38L190.5 305.86l-41.64 11.228-41.548-11.203L104.655 276h-37.45l5.227 58.664 76.392 21.26 76.55-21.26L242.348 145z"/><path class="st0" d="M148.86 317.088l-41.548-11.203L104.655 276h-37.45l5.227 58.664L149 355.924zM58.805 182H149v-37H55.476z"/><path d="M122.07 0v36h-31v20h52V0zM153.07 0v20.847L175.972 38H153.07v18h53V37.876L180.407 18h25.663V0z"/></svg>
