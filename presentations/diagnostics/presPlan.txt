@@ -2,8 +2,10 @@ Notes for presentation:
 
 Graphics needed: 
 
-	1. Splash. Star Trek thing? Got one candidate.
+	1. Splash. Star Trek thing? Got two candidates.
 
-	2. Big diagram of interrelated components in MoEML.
+	2. Doc network graph for MoEML. Done.
+
+	
 
 
