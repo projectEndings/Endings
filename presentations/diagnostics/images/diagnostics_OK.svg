@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="diagnostics_OK.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="610.18061"
+     inkscape:cy="298.46712"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:14.16119671;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4152"
+       width="1040.3314"
+       height="1052.4381"
+       x="5.1212082"
+       y="318.05176" />
+    <g
+       id="g4250"
+       transform="matrix(1.445947,0,0,1.447213,-12.638554,-192.28651)">
+      <rect
+         rx="31.31473"
+         ry="27.622475"
+         y="360.14185"
+         x="34.632343"
+         height="57.400276"
+         width="685.71429"
+         id="rect4138"
+         style="opacity:0.98999999;fill:#ffad01;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         rx="0"
+         y="358.40771"
+         x="509.11688"
+         height="60.609154"
+         width="153.54318"
+         id="rect4144"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         transform="scale(0.75281165,1.3283535)"
+         sodipodi:linespacing="125%"
+         id="text4140"
+         y="304.67233"
+         x="688.81488"
+         style="font-style:normal;font-weight:normal;font-size:31.9538002px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9790e1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#9790e1;fill-opacity:1"
+           y="304.67233"
+           x="688.81488"
+           id="tspan4142"
+           sodipodi:role="line">DIAGNOSTICS</tspan></text>
+      <rect
+         rx="16.16247"
+         ry="14.983585"
+         y="434.0159"
+         x="34.939911"
+         height="31.136309"
+         width="685.71429"
+         id="rect4138-3"
+         style="opacity:0.98999999;fill:#ffad01;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         rx="0"
+         y="431.25131"
+         x="583.16559"
+         height="35.355339"
+         width="78.791893"
+         id="rect4144-8"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         transform="scale(0.75281165,1.3283535)"
+         sodipodi:linespacing="125%"
+         id="text4140-8"
+         y="346.59744"
+         x="787.1778"
+         style="font-style:normal;font-weight:normal;font-size:31.9538002px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9790e1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#9790e1;fill-opacity:1"
+           y="346.59744"
+           x="787.1778"
+           id="tspan4142-4"
+           sodipodi:role="line">PASSED</tspan></text>
+      <rect
+         ry="16.162441"
+         y="434.14883"
+         x="34.345188"
+         height="564.27631"
+         width="116.37677"
+         id="rect4153"
+         style="opacity:1;fill:#ffad01;fill-opacity:1;stroke:#000000;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <rect
+         ry="0"
+         rx="0"
+         y="463.14636"
+         x="148.10359"
+         height="47.106716"
+         width="48.800518"
+         id="rect4188"
+         style="opacity:1;fill:#ffad01;fill-opacity:1;stroke:#000000;stroke-width:12.19188309;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         transform="scale(-1,1)"
+         d="m -197.20565,465.02525 a 46.459137,46.96162 0 0 1 32.87991,13.73905 46.459137,46.96162 0 0 1 13.62307,33.22255 l -46.45913,0 z"
+         sodipodi:end="0"
+         sodipodi:start="4.7114452"
+         sodipodi:ry="46.96162"
+         sodipodi:rx="46.459137"
+         sodipodi:cy="511.98685"
+         sodipodi:cx="-197.1618"
+         sodipodi:type="arc"
+         id="path4186"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:29.59375381;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffad01;stroke-width:8.56765938;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4430"
+         width="462.40021"
+         height="225.67918"
+         x="209.43745"
+         y="554.75299"
+         rx="35.362556"
+         ry="34.65099" />
+    </g>
+    <text
+       transform="scale(0.7524823,1.3289349)"
+       sodipodi:linespacing="125%"
+       id="text4140-9"
+       y="587.08527"
+       x="461.79526"
+       style="font-style:normal;font-weight:normal;font-size:46.22372437px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#ffffff;fill-opacity:1;"
+         y="587.08527"
+         x="461.79526"
+         id="tspan4142-6"
+         sodipodi:role="line">ALL TESTS SUCCESSFULLY COMPLETED</tspan></text>
+  </g>
+</svg>

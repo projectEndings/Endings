@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="diagnostics_level.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="138.70108"
+     inkscape:cy="945.98686"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.98999999;fill:#ffad01;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4138"
+       width="685.71429"
+       height="57.400276"
+       x="28.571428"
+       y="40.933632"
+       ry="27.622475"
+       rx="31.31473" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4144"
+       width="153.54318"
+       height="60.609154"
+       x="503.05597"
+       y="39.199509"
+       rx="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:31.9538002px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9790e1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="680.76385"
+       y="64.36869"
+       id="text4140"
+       sodipodi:linespacing="125%"
+       transform="scale(0.75281165,1.3283535)"><tspan
+         sodipodi:role="line"
+         id="tspan4142"
+         x="680.76385"
+         y="64.36869"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#9790e1;fill-opacity:1">DIAGNOSTICS</tspan></text>
+    <rect
+       style="opacity:0.98999999;fill:#ffad01;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4138-3"
+       width="685.71429"
+       height="31.136309"
+       x="28.878996"
+       y="114.80769"
+       ry="14.983585"
+       rx="16.16247" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4144-8"
+       width="78.791893"
+       height="35.355339"
+       x="577.10468"
+       y="112.04311"
+       rx="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:31.9538002px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9790e1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="779.12677"
+       y="106.29378"
+       id="text4140-8"
+       sodipodi:linespacing="125%"
+       transform="scale(0.75281165,1.3283535)"><tspan
+         sodipodi:role="line"
+         id="tspan4142-4"
+         x="779.12677"
+         y="106.29378"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#9790e1;fill-opacity:1">LEVEL 1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffad01;fill-opacity:1;stroke:#000000;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4153"
+       width="116.37677"
+       height="911.76874"
+       x="28.284271"
+       y="114.94064"
+       ry="16.162441" />
+    <rect
+       style="opacity:1;fill:#ffad01;fill-opacity:1;stroke:#000000;stroke-width:12.19188309;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4188"
+       width="48.800518"
+       height="47.106716"
+       x="142.04268"
+       y="143.93816"
+       rx="0"
+       ry="0" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:29.59375381;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path4186"
+       sodipodi:type="arc"
+       sodipodi:cx="-191.10089"
+       sodipodi:cy="192.77866"
+       sodipodi:rx="46.459137"
+       sodipodi:ry="46.96162"
+       sodipodi:start="4.7114452"
+       sodipodi:end="0"
+       d="m -191.14474,145.81706 a 46.459137,46.96162 0 0 1 32.87991,13.73905 46.459137,46.96162 0 0 1 13.62308,33.22255 l -46.45914,0 z"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

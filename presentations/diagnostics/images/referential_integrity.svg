@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="referential_integrity.svg"
-   inkscape:export-filename="/home/mholmes/WorkData/endings/Endings/presentations/diagnostics/images/referential_integrity.png"
+   inkscape:export-filename="/home/mholmes/WorkData/endings/Endings/presentations/diagnostics/images/fig_02_ref_integ_tweaked.png"
    inkscape:export-xdpi="135.38588"
    inkscape:export-ydpi="135.38588">
   <defs
@@ -101,21 +101,21 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#ffffdc"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="263.65273"
+     inkscape:cx="125.73107"
      inkscape:cy="130.4722"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1094"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1163"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="5"
      fit-margin-left="5"
@@ -138,6 +138,20 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-5.5271254,-17.432221)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:12.07298374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4196"
+       width="324.18597"
+       height="389.84589"
+       x="381.34036"
+       y="34.698723" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4194"
+       width="323.24881"
+       height="388.90872"
+       x="20.679415"
+       y="35.672382" />
     <rect
        style="fill:url(#linearGradient8275-2);fill-opacity:1;stroke:#909090;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect8259-8"
