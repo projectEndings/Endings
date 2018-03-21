@@ -1,5 +1,5 @@
 # Endings:
-##Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability
+## Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability
 
 Despite the thousands of digital projects launched during the past 20 years, experts warn of a new
 "digital dark age" as our ability to produce digital information continues to outpace our capacity to
