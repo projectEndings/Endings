@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Why do I need four search engines?</title>
+
+            <author>
+               <name>
+                  <forename>Martin</forename>
+                  <surname>Holmes</surname>
+               </name>
+               <affiliation>University of Victoria</affiliation>
+               <email>mholmes@uvic.ca</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Joseph</forename>
+                  <surname>Takeda</surname>
+               </name>
+               <affiliation>University of British Columbia</affiliation>
+               <email>joey.takeda@gmail.com</email>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>JADH</publisher>
+            <date/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication a Creative Commons Attribution 4.0 International license
+                     has been granted by the author(s) who retain full copyright.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The Japanese Association for Digital Humanities 2018 Conference, Tokyo, Japan.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">en</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>archiving</term>
+               <term>digital editions</term>
+               <term>preservation</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="abstract">
+            <p>This presentation addresses the question of how to create digital editions and 
+            other online resources in forms that are likely to endure and remain functional over many decades. In particular,
+            we focus on the dichotomy whereby the long-term robustness of a digital project, which is achieved by 
+            uncoupling it from transient server-side technologies and tools that require monitoring and maintenance,
+            is undermined by the requirement to provide methods for users to search the collection. We present as a 
+            case-study the <title level="m">Robert Graves Diary</title> project, which provides four separate search
+            facilities using different approaches.</p>
+         </div>
+      </front>
+      <body>
+
+         <div xml:id="intro">
+            <head>Introduction</head>
+            <p> Project Endings<note><ref target="https://github.com/projectEndings"
+                     >https://github.com/projectEndings</ref>, <ref
+                     target="https://onlineacademiccommunity.uvic.ca/endingsproject/"
+                     >https://onlineacademiccommunity.uvic.ca/endingsproject/</ref></note> is a
+               collaboration of University of Victoria scholars, digital humanists and librarians
+               whose aim is to address the progressive loss of digital scholarly resources due to
+               failures in archiving, preservation, and documentation, and over-dependence on
+               transient tools and technologies. The project is supported by a grant from the Social
+               Sciences and Humanities Research Council of Canada (<ref
+                  target="http://www.sshrc-crsh.gc.ca/">SSHRC</ref>). </p>
+
+            <p>The project is working with a number of case-studies—digital edition projects already
+               completed or nearing completion—and aiming to specify approaches, tools and
+               technologies that can help researchers complete their projects and archive them in
+               such a way that they have a strong chance of being available and functional for
+               decades to come.</p>
+
+            <p>In previous work (<ref type="bibl" target="#arneil_holmes_2017">Arneil and Holmes
+                  2017</ref>, <ref type="bibl" target="#holmes_2017">Holmes 2017</ref>, <ref
+                  type="bibl" target="#holmes_takeda_2017">Holmes and Takeda 2017</ref>), we have
+               argued strongly that likelihood that a digital edition project will survive and be
+               usable over the long term depends on the selection of a small core set of
+               technologies (HTML5, CSS and JavaScript), and the avoidance of server-side
+               technologies that will require maintenance or replacement over time. Our case-study
+               projects (among them <title level="m"><ref target="http://mariage/uvic.ca/">Le
+                     Mariage sous L’Ancien Régime</ref></title> and <title level="m"><ref
+                     target="http://graves.uvic.ca/">The Robert Graves Diary</ref></title>) are
+               constructed entirely in this way, with no server-side dependencies at all. </p>
+         </div>
+         <div xml:id="search">
+            <head>The problem of search</head>
+
+            <p>A digital edition consisting only of HTML, CSS and JavaScript can of course by rich
+               and highly interactive. However, there is one important component of a website which
+               generally requires some sort of server interaction: search. This is perhaps the most
+               difficult challenge for the Endings project: how do we make a resource searchable
+               without building in dependence on a server to host the index and respond to
+               queries?</p>
+            
+            <figure xml:id="fig1">
+               <graphic url="images/graves_search.png" width="1104px" height="570px"/>
+               <head type="legend">The first search interface of the Robert Graves Diary, which
+               also serves as its home page.</head>
+            </figure>
+
+            <p>Using the <title level="m">Robert Graves Diary</title> project as a testbed, we have
+               developed four distinct approaches, which will be described in this presentation:</p>
+
+            <list rend="ordered">
+               <item><emph>Bite the bullet and accept the server dependency.</emph> We currently
+                  host the Graves project materials inside an eXist XML database, which allows us to
+                  provide rich faceted search functionality at the expense of a dependency that will
+                  inevitably be unsupported in the long term.</item>
+               <item><emph>Enlist Google’s help.</emph> We have built an additional Google Custom
+                  Search page into the site, allowing users to search in the interface which is
+                  probably most familiar to them. The obvious drawback here is that Google’s terms,
+                  conditions and APIs change frequently, so we must expect this service to fail at
+                  some point when there is no active maintainer of the project.</item>
+               <item><emph>Enlist the help of our Library.</emph> The long-term preservation of our
+                  project will ultimately be in the hands of the University Library, who run their
+                  own Solr server for searching their collections. As part of the project build, we
+                  now create JSON index files for Solr to ingest; we can then provide a search page
+                  which queries this index.</item>
+               <item><emph>Provide a standalone search.</emph> For digital editions which are not
+                  too large, it is possible to create a JavaScript-only index, including stemming
+                  and relevance scoring, which is remarkably fast and requires no server support at
+                  all. This is the ultimate fallback when all else fails.</item>
+            </list>
+
+            <p>On the face of it, this level of redundancy may appear ridiculous, but in fact it provides
+            a level of flexibility which we believe is essential for the survival of 
+            projects with no ongoing maintenance. In the best-case scenario, four different methods
+            of searching the collection are available to the user, each with their own strengths
+            and weaknesses. In the worst case, where the collection survives only as a simple
+            collection of files on a drive somewhere, the standalone search will still work, 
+            while the other non-functional search interfaces provide evidence of the aspects of
+            the collection thought to be crucial search facets. </p>
+
+         </div>
+      </body>
+
+      <back>
+         <div type="bibliography">
+
+            <listBibl>
+               <bibl xml:id="arneil_holmes_2017"><author>Arneil, Stewart</author> and <author>Martin
+                     Holmes</author>. <date>2017</date>. <title level="a">Archiving form and
+                     function: preserving a 2003 digital project</title>. DPASSH Conference 2017:
+                  Digital Preservation for Social Sciences and Humanities, Brighton, UK, 14th June
+                  2018. </bibl>
+               <bibl xml:id="holmes_2017"><author>Holmes, Martin</author>. <date>2017</date>. <title
+                     level="a">Selecting Technologies for Long-Term Survival</title>. SHARP
+                  Conference 2017: Technologies of the Book, Victoria, BC, Canada, 10th June 2017.
+                     <ref
+                     target="https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf"
+                     >https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf</ref>.</bibl>
+               <bibl xml:id="holmes_takeda_2017"><author>Holmes, Martin</author> and <author>Joseph
+                     Takeda</author>. <date>2017</date>. <title level="a">Beyond Validation: Using
+                     Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your
+                     DH Project</title>. Digital Humanities 2017 Conference, Montreal, Canada, 1th
+                  August 2017. <ref target="https://dh2017.adho.org/abstracts/140/140.pdf"
+                     >https://dh2017.adho.org/abstracts/140/140.pdf</ref>.</bibl>
+
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
