@@ -108,7 +108,7 @@
          <div xml:id="search">
             <head>The problem of search</head>
 
-            <p>A digital edition consisting only of HTML, CSS and JavaScript can of course by rich
+            <p>A digital edition consisting only of HTML, CSS and JavaScript can of course be rich
                and highly interactive. However, there is one important component of a website which
                generally requires some sort of server interaction: search. This is perhaps the most
                difficult challenge for the Endings project: how do we make a resource searchable
