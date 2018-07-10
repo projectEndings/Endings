@@ -31,11 +31,13 @@ c
 
 2.7 Relentless validation: every site build involves validation of all input data (XML) and all output code (HTML5, JavaScript, CSS). 
 
+2.8 Inclusion of data: every site should include a documented copy of the source data, so that users of the site can 
+
 These principles are tempered by the following concessions:
 
-2.8 Once a fully-working static site is achieved, it may be enhanced by the use of other services such as a server-side indexing tool (Solr, eXist) to support searching and similar functionality.
+2.9 Once a fully-working static site is achieved, it may be enhanced by the use of other services such as a server-side indexing tool (Solr, eXist) to support searching and similar functionality.
 
-2.9 The use of an external library may be necessary to support a specific complex function which is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies.
+2.10 The use of an external library may be necessary to support a specific complex function which is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies.
 
 
 3. PROCESSING
@@ -64,7 +66,13 @@ For larger projects, these processes should all be triggered automatically by an
 
 Release management handles the public release of products. Without good release management, a project can never end gracefully; it can only falter and die. These principles apply to release management:
 
-5.1 
+5.1 Releases should be periodical and carefully planned. The "rolling release" model should be avoided.
+
+5.2 A release should only be made when the entire product set is coherent, consistent and complete (passing all validation and diagnostic tests).
+
+5.3 Like editions of print works, each release of a web resource should be clearly identified on every page by its build date and some kind of version number.
+
+5.4 Web resources should include detailed instructions for citation, so that end-users can unambiguously cite a specific page from a specific edition.
 
 
 
