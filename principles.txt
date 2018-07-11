@@ -18,7 +18,7 @@ Data is the expression of the source information, knowledge, and expertise of ou
 Products are the project output intended for end-users, typically in the form of websites or print documents. The following principles apply to products intended for the web:
 
 2.1 No dependence on server-side software: build a static website with no databases, no PHP, no Python.
-c
+
 2.2 No boutique or fashionable technologies: use only standards with support across all platforms, whose long-term viability is assured. Our choices are HTML5, JavaScript and CSS.
 
 2.3 No dependence on external libraries: no JQuery, no AngularJS, no Bootstrap.
