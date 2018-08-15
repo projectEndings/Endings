@@ -31,7 +31,7 @@ Products are the project output intended for end-users, typically in the form of
 
 2.7 Relentless validation: every site build involves validation of all input data (XML) and all output code (HTML5, JavaScript, CSS). 
 
-2.8 Inclusion of data: every site should include a documented copy of the source data, so that users of the site can 
+2.8 Inclusion of data: every site should include a documented copy of the source data, so that users of the site can repurpose the work easily.
 
 These principles are tempered by the following concessions:
 
