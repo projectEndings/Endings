@@ -111,14 +111,14 @@
 </td>
 <td id="AssetDisplay">
 	<div id="AssetsDiv" class="Assets">
-
+		&#160;
 	</div>
 </td></tr></table>
 </div>
 
 
 <div class="Feedback" id="FeedbackDiv">
-<div class="FeedbackText" id="FeedbackContent"></div>
+<div class="FeedbackText" id="FeedbackContent">&#160;</div>
 <button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="HideFeedback(); return false;">&nbsp;[strOKCaption]&nbsp;</button>
 </div>
 

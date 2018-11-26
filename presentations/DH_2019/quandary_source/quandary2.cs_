@@ -8,14 +8,28 @@ body{
 [inclPageBGColor]	background-color: [strPageBGColor];[/inclPageBGColor]
 	color: [strTextColor];
 [inclGraphicURL]	background-image: url([strGraphicURL]);[/inclGraphicURL] 
-	margin-right: 5%;
-	margin-left: 5%;
 	font-size: [strFontSize];
+}
+
+div.Titles, div.DecisionPoint, div.Feedback{
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p{
 	text-align: left;
-	margin: 0px;
+	margin: 0;
+}
+
+div.overall{
+  border: solid 1pt black;
+  margin: 0.5rem auto;
+}
+
+div.soFar{
+    margin: 0;
+    background-color: black;
 }
 
 div,span,td{
@@ -23,7 +37,7 @@ div,span,td{
 }
 
 div.Titles{
-	padding: 0.5em;
+	padding: 0.5rem;
 	text-align: center;
 	color: [strTitleColor];
 }
@@ -39,15 +53,15 @@ button{
 }
 
 div#Timer{
-	padding: 0.3em;
+	padding: 0.3rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
 span#TimerText{
-	padding: 0.3em;
-	border-width: 1px;
+	padding: 0.3rem;
+	border-width: 1pt;
 	border-style: solid;
 	font-weight: bold;
 	display: none;
@@ -58,7 +72,7 @@ div.ControlButtons{
 }
 
 .Instructions{
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 .DecisionPointTitle{
@@ -75,24 +89,24 @@ td#AssetDisplay{
 }
 
 div.Assets{
-	margin: 20px;
+	margin: 2rem;
 }
 
 table.AssetTable{
-	border-width: 3px;
+	border-width: 0.3rem;
 	border-style: double;
 	border-color: [strTextColor];
-	padding: 0.3em;
+	padding: 0.3rem;
 }
 
 table.AssetTable th{
 	background-color: [strTextColor];
 	color: [strExBGColor];
-	padding: 0.3em;
+	padding: 0.3rem;
 }
 
 div.LinkList{
-	margin-top: 10px;
+	margin-top: 2rem;
 }
 
 table.LinkTable{
@@ -108,8 +122,8 @@ table.LinkTable{
 table.DPTable{
 	margin-left: auto;
 	margin-right: auto;
-	border-width: 0px;
-	padding: 10px;
+	border-width: 0;
+	padding: 1rem;
 	vertical-align: top;
 }
 
@@ -120,8 +134,8 @@ div.Feedback {
 	top: 33%;
 	z-index: 1;
 	border-style: solid;
-	border-width: 1px;
-	padding: 5px;
+	border-width: 1pt;
+	padding: 0.5rem;
 	text-align: center;
 	color: [strTitleColor];
 	position: absolute;
@@ -132,11 +146,11 @@ div.DecisionPoint{
 [inclExBGColor]	background-color: [strExBGColor];[/inclExBGColor]
 	text-align: center;
 	color: [strTextColor];
-	padding: 0.5em;
+	padding: 0.5rem;
 	border-style: solid;
-	border-width: 1px 1px 1px 1px;
+	border-width: 1pt 1pt 1pt 1pt;
 	border-color: [strTextColor];
-	margin: 1px;
+	margin: 1rem auto;
 }
 
 .FuncButton {
@@ -151,8 +165,8 @@ div.DecisionPoint{
 	color: [strTextColor];
 	background-color: [strExBGColor];
 [/inclExBGColor]
-	border-width: 2px;
-	padding: 3px 6px 3px 6px;
+	border-width: 0.15rem;
+	padding: 0.2rem 0.4rem;
 	cursor: pointer;
 }
 
@@ -168,8 +182,8 @@ div.DecisionPoint{
 [/inclExBGColor]
 	background-color: [strTextColor];
 	color: [strExBGColor];
-	border-width: 2px;
-	padding: 3px 6px 3px 6px;
+	border-width: 0.15rem;
+	padding: 0.2rem 0.4rem;
 	cursor: pointer;
 }
 
@@ -185,8 +199,8 @@ div.DecisionPoint{
 	background-color: [strTextColor];
 	color: [strExBGColor];
 [/inclExBGColor]
-	border-width: 2px;
-	padding: 3px 6px 3px 6px;
+	border-width: 0.15rem;
+	padding: 0.2rem 0.4rem;
 	cursor: pointer;
 }
 
@@ -195,7 +209,7 @@ div.DecisionPoint{
 div.NavButtonBar{
 [inclNavBarColor]	background-color: [strNavBarColor];[/inclNavBarColor]
 	text-align: center;
-	margin: 2px 0px 2px 0px;
+	margin: 1rem auto;
 	clear: both;
 }
 
@@ -209,7 +223,7 @@ div.NavButtonBar{
 	background-color: [strNavBarColor];
 	color: [strNavTextColor];
 [/inclNavBarColor]
-	border-width: 2px;
+	border-width: 0.15rem;
 	cursor: pointer;	
 }
 
@@ -223,7 +237,7 @@ div.NavButtonBar{
 	color: [strNavBarColor];
 	background-color: [strNavTextColor];
 [/inclNavBarColor]
-	border-width: 2px;
+	border-width: 0.15rem;;
 	cursor: pointer;	
 }
 
@@ -237,7 +251,7 @@ div.NavButtonBar{
 	color: [strNavBarColor];
 	background-color: [strNavTextColor];
 [/inclNavBarColor]
-	border-width: 2px;
+	border-width: 0.15rem;
 	cursor: pointer;	
 }
 
