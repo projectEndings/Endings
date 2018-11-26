@@ -110,8 +110,8 @@ div.LinkList{
 }
 
 table.LinkTable{
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	text-align: left;
 }
 
@@ -120,8 +120,9 @@ table.LinkTable{
 }
 
 table.DPTable{
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
 	border-width: 0;
 	padding: 1rem;
 	vertical-align: top;
