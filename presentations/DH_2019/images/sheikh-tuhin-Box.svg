@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" id="svg2" viewBox="0 0 623.91 506.52" version="1.0" inkscape:version="0.91 r13725">
+  <defs id="defs4">
+    <linearGradient id="linearGradient2457" y2="477.59" gradientUnits="userSpaceOnUse" x2="400.02" gradientTransform="translate(-.0806 -2.6517)" y1="527.59" x1="341.56">
+      <stop id="stop2453" style="stop-color:#004455;stop-opacity:.5" offset="0"/>
+      <stop id="stop2455" style="stop-color:#162d50" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-31.026 -280.8)">
+    <g id="g2464" transform="matrix(3.466 0 0 3.466 -780.06 -1263.6)">
+      <g id="g2433">
+        <rect id="rect2401" style="fill:#003380" transform="matrix(-.98045 .19677 0 1 0 0)" height="99.91" width="71.606" y="527.76" x="-326.6"/>
+        <path id="rect2407" style="fill:#2c5aa0" d="m234.01 453.66l70.21-6.38 16 16.23-70.21 14.08-16-23.93z"/>
+      </g>
+      <g id="g2419">
+        <rect id="rect2403" style="fill:#0044aa" transform="matrix(.98481 .17365 0 1 0 0)" height="99.91" width="81.141" y="407.05" x="325.05"/>
+        <path id="rect2405" style="fill:#2c5aa0" d="m337.34 387.01l83.07-6.35-14.22 26.39h-81.03l12.18-20.04z" transform="matrix(.98481 .17365 0 1 0 0)"/>
+      </g>
+      <g id="g2423">
+        <rect id="rect2397" style="fill:#3771c8" transform="matrix(.98477 .17387 0 1 0 0)" height="99.91" width="81.036" y="433.54" x="253.88"/>
+        <path id="path2411" style="fill:#87aade" d="m244.01 445.66l79.8 8.08 6 37.92-79.8-14.07-6-31.93z"/>
+      </g>
+      <g id="g2459">
+        <rect id="rect2399" style="fill:#2c5aa0" transform="matrix(-.98045 .19677 0 1 0 0)" ry="0" width="71.606" y="557.87" x="-408" height="100.06"/>
+        <path id="rect2439" style="fill:url(#linearGradient2457)" d="m399.94 478.93l-70.13 14.1 11.94 31.9 58.19-16.84v-29.16z"/>
+        <path id="path2413" style="fill:#aaccff" d="m341.81 523.81l67.83-19.64-9.62-26.58-70.21 14.09 12 32.13z"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Box</dc:title>
+        <dc:date>2008-11-25T12:38:49</dc:date>
+        <dc:description/>
+        <dc:source>https://openclipart.org/detail/20395/box-by-sheikh_tuhin</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>sheikh_tuhin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>blue</rdf:li>
+            <rdf:li>box</rdf:li>
+            <rdf:li>package</rdf:li>
+            <rdf:li>paper</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

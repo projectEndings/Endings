@@ -32,6 +32,11 @@ div.soFar{
     background-color: black;
 }
 
+img.topicImage{
+  width: 15%;
+  float: right;
+}
+
 div,span,td{
 	color: [strTextColor];
 }
