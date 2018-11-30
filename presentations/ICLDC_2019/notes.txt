@@ -1,0 +1,7 @@
+MDH to produce around 10 slides with detailed notes along these lines:
+
+Survival of materials is vital; we're already doing 1 thing right that many digital projects are not in producing a print dictionary (assuming it's published).
+
+The other part of the equation is the interactive application. To preserve digital apps like this, you need LOCKSS. You need to produce something that archives CAN and WILL accept, and CAN and WILL serve on their servers; which researchers can download and use locally; which any OS or web server can run; which requires little or no maintenance. Thus HTML, CSS, JS. 
+
+But more than that: you need to be able to scatter these copies around and have them available, so you also MUST HAVE THE FREEDOM TO PUBLISH.
