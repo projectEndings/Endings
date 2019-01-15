@@ -1,4 +1,7 @@
-##Advance Preparation
+# Endings: How to end (and archive) your digital edition
+## A course for DHSI 2019
+
+## Advance Preparation
 
  - If your project has a current website with a public URL, send us that URL. We will run it through the Archive-It tool used by the Internet Archive so that you can see the results when you come to the course.
  - Work your way through our questionnaire [How sustainable is my DH project?](https://hcmc.uvic.ca/endings/questionnaire.htm). Warning: this will probably annoy you, but in a productive way, by forcing you to think about aspects of your project that you may have avoided considering.
@@ -8,22 +11,22 @@
    - Rockwell, G. et al. 2014. [Burying Dead Projects: Depositing the Globalization Compendium](http://digitalhumanities.org:8081/dhq/vol/8/2/000179/000179.html). *Digital Humanities Quarterly* 8.2.
    - 
 
-##Day 1
+## Day 1
 Instructors: 
 Learning Objectives: 
 
-##Day 2
+## Day 2
 Instructors: 
 Learning Objectives: 
 
-##Day 3
+## Day 3
 Instructors: 
 Learning Objectives:
 
-##Day 4
+## Day 4
 Instructors:
 Learning Objectives:
 
-##Day 5
+## Day 5
 Instructors:
 Learning Objectives:
