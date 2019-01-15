@@ -10,7 +10,7 @@ Proposal for DHSI 2018
 I. Text for DHSI website
 
 Few digital editions are finished and archived; some are eventually abandoned or neglected, while
-others. What do we need to do to ensure that our digital editions, begun with the best intentions
+others fail and disappear. What do we need to do to ensure that our digital editions, begun with the best intentions
 and often with generous funding, produce coherent, consistent, and complete products that can be
 deposited in the library? How can we maximize the chances that our digital editions will be
 accessible and functional for decades to come? This course is intended for people who are engaged
