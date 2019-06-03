@@ -1,0 +1,26 @@
+NOTES FOR THE ONTOLOGY OF DIGITAL EDITIONS
+
+There are components such as:
+
+	Digital surrogates
+	Transcriptions
+	Modern critical editions
+	Critical Paratexts
+	Critical apparatus
+	Prosopographies
+	Bibliographies
+	Gazetteers
+	
+There are continuums/spectrums such as:
+
+	Single text - small collection - large anthology
+
+	Single witness - multiple witnesses consulted - many witnesses transcribed/encoded
+
+	Unannotated - editorial annotations only - editorial + external annotations
+
+There are qualities such as:
+
+	Peer-reviewed
+	Open-access
+	
