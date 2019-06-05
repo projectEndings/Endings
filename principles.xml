@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Endings Principles for Digital Longevity</title>
+            <author>Martin Holmes</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by the University of Victoria Humanities Computing and Media Centre, the University of Victoria Library, and the Project Endings team. Free to anyone for any purpose.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital document.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <div>
+         <head>Endings Principles for Digital Longevity</head>
+
+           <p>We divide digital projects into five primary components: data, products, processing,
+              documentation, and release management.</p>
+           <list rend="numbered">
+              <item>DATA <p>Data is the expression of the source information, knowledge, and expertise
+                 of our researchers. The following principles apply to data:</p>
+                 <list rend="numbered">
+                    <item>Data is the expression of the source information, knowledge, and expertise
+                       of our researchers. The following principles apply to data:</item>
+                    
+                    <item>Data is stored only in formats which conform to open standards and which are
+                       amenable to processing (TEI XML, GML, ODF, TXT).</item>
+                    
+                    <item>Data is subject to version control (Subversion, Git).</item>
+                    
+                    <item>Data is continually subject to validation and diagnostic analysis.</item>
+                 </list>
+              </item>
+              <item>PRODUCTS <list rend="numbered">
+                 <item>Products are the project output intended for end-users, typically in the
+                    form of websites or print documents. The following principles apply to
+                    products intended for the web:</item>
+                 <item>No dependence on server-side software: build a static website with no
+                    databases, no PHP, no Python.</item>
+                 <item>No boutique or fashionable technologies: use only standards with support
+                    across all platforms, whose long-term viability is assured. Our choices are
+                    HTML5, JavaScript and CSS.</item>
+                 <item>No dependence on external libraries: no JQuery, no AngularJS, no
+                    Bootstrap.</item>
+                 <item>No query strings: every entity in the site has a unique page with a simple
+                    URL.</item>
+                 <item>Graceful failure: every page should still basically work even in the absence
+                    of JavaScript or CSS support.</item>
+                 <item>Massive redundancy: every page contains all the components it needs, so that
+                    it will function without the rest of the site if necessary, even though this
+                    means duplicating information across the site.</item>
+                 <item>Relentless validation: every site build involves validation of all input
+                    data (XML) and all output code (HTML5, JavaScript, CSS). </item>
+                 <item>Inclusion of data: every site should include a documented copy of the source
+                    data, so that users of the site can repurpose the work easily.</item>
+                 <item>These principles are tempered by the following concessions:</item>
+                 <item>Once a fully-working static site is achieved, it may be enhanced by the use
+                    of other services such as a server-side indexing tool (Solr, eXist) to
+                    support searching and similar functionality.</item>
+                 <item>The use of an external library may be necessary to support a specific
+                    function which is too complex to be coded locally (such as mapping
+                    or cryptography). Any such libraries must be open-source and widely-used,
+                    and must not themselves have dependencies.</item>
+              </list>
+              </item>
+              <item>PROCESSING <list rend="numbered">
+                 <item>Processing code is written and maintained by the project technical staff,
+                    and is also subject to version control. Processing code provides all the
+                    following functions:</item>
+                 <item>Validation of data.</item>
+                 <item>Diagnostics (analysis of data to identify issues, and to track and evaluate
+                    progress).</item>
+                 <item>Generation of products.</item>
+                 <item>Validation of products.</item>
+                 <item>For larger projects, these processes should all be triggered automatically
+                    by any change to version-controlled resources, typically running on a
+                    continuous integration server. Processing code should be open-source where
+                    possible, and have minimal dependencies, but it is not expected to have
+                    significant longevity; data and products are designed to survive, but
+                    processing code is contingent.</item>
+              </list>
+              </item>
+              <item>DOCUMENTATION <list rend="numbered">
+                 <item>Data models, including field names, descriptions, and controlled values,
+                    should be clearly documented in a static document that is maintained with
+                    the data, and should also form part of the products. </item>
+                 <item>All rights and intellectual property issues should be clearly documented.
+                    Where possible the Data and Products should be released under open licenses
+                    (Creative Commons, GNU, BSD, MPL).</item>
+              </list>
+              </item>
+              <item>RELEASE MANAGEMENT <list rend="numbered">
+                 <item>Release management handles the public release of products. Without good
+                    release management, a project can never end gracefully; it can only falter
+                    and die. These principles apply to release management:</item>
+                 <item>Releases should be periodical and carefully planned. The "rolling release"
+                    model should be avoided.</item>
+                 <item>A release should only be made when the entire product set is coherent,
+                    consistent and complete (passing all validation and diagnostic tests).</item>
+                 <item>Like editions of print works, each release of a web resource should be
+                    clearly identified on every page by its build date and some kind of version
+                    number.</item>
+                 <item>Web resources should include detailed instructions for citation, so that
+                    end-users can unambiguously cite a specific page from a specific
+                    edition.</item>
+              </list>
+              </item>
+              
+           </list>
+        </div>
+     </body>
+  </text>
+</TEI>
