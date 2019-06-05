@@ -23,4 +23,13 @@ There are qualities such as:
 
 	Peer-reviewed
 	Open-access
+	Open-source
+
+There are output formats such as:
+
+	XML code
+	JSON
+	HTML pages
+	ePubs
+	PDFs
 	

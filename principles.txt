@@ -37,7 +37,7 @@ These principles are tempered by the following concessions:
 
 2.9 Once a fully-working static site is achieved, it may be enhanced by the use of other services such as a server-side indexing tool (Solr, eXist) to support searching and similar functionality.
 
-2.10 The use of an external library may be necessary to support a specific complex function which is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies.
+2.10 The use of an external library may be necessary to support a specific function which is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies.
 
 
 3. PROCESSING

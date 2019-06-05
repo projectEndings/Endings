@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Endings Principles for Digital Longevity</title>
+        <style type="text/css">
+            <!--
+            body{
+                font-family: sans-serif;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            body>div{
+                max-width: 60em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 3em;
+            }
+            h1{
+                text-align: center;
+            }
+            ol{
+                list-style-type: none;
+                counter-reset: item;
+            }
+            ol>li{
+                counter-increment: item;
+                padding: 0.5em;
+                display: block;
+                font-size: 1.3rem;
+                margin-left: 2em;
+                text-indent: -2em;
+            }
+            ol>li::last-of-type{
+                margin-bottom: 1em;
+            }
+            ol>li>ol>li, ol>li>p{
+                font-size: 1rem;
+                padding: 0.5em;
+            }
+            ol>li:before{
+                content: counters(item, ".") ". ";
+                font-weight: bold;
+                /*padding: 0.5em 0.5em 0.5em 0;*/
+                /* display: inline-block;
+                min-width: 2em;*/
+            }
+            @media print{
+                body{
+                    font-family: georgia, "Times New Roman";
+                }
+                @page{
+                    width: 8.5in;
+                    height: 11in;
+                    margin:0.5in;
+                }
+                ol>li>ol>li{
+                    page-break-inside: avoid;
+                }
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Endings Principles for Digital Longevity</h1>
+            <p>We divide digital projects into five primary components: data, products, processing,
+                documentation, and release management.</p>
+            <ol>
+                <li>DATA <p>Data is the expression of the source information, knowledge, and expertise
+                        of our researchers. The following principles apply to data:</p>
+                    <ol>
+                        <li>Data is the expression of the source information, knowledge, and expertise
+                            of our researchers. The following principles apply to data:</li>
+    
+                        <li>Data is stored only in formats which conform to open standards and which are
+                            amenable to processing (TEI XML, GML, ODF, TXT).</li>
+    
+                        <li>Data is subject to version control (Subversion, Git).</li>
+    
+                        <li>Data is continually subject to validation and diagnostic analysis.</li>
+                    </ol>
+                </li>
+                <li>PRODUCTS <ol>
+                        <li>Products are the project output intended for end-users, typically in the
+                            form of websites or print documents. The following principles apply to
+                            products intended for the web:</li>
+                        <li>No dependence on server-side software: build a static website with no
+                            databases, no PHP, no Python.</li>
+                        <li>No boutique or fashionable technologies: use only standards with support
+                            across all platforms, whose long-term viability is assured. Our choices are
+                            HTML5, JavaScript and CSS.</li>
+                        <li>No dependence on external libraries: no JQuery, no AngularJS, no
+                            Bootstrap.</li>
+                        <li>No query strings: every entity in the site has a unique page with a simple
+                            URL.</li>
+                        <li>Graceful failure: every page should still basically work even in the absence
+                            of JavaScript or CSS support.</li>
+                        <li>Massive redundancy: every page contains all the components it needs, so that
+                            it will function without the rest of the site if necessary, even though this
+                            means duplicating information across the site.</li>
+                        <li>Relentless validation: every site build involves validation of all input
+                            data (XML) and all output code (HTML5, JavaScript, CSS). </li>
+                        <li>Inclusion of data: every site should include a documented copy of the source
+                            data, so that users of the site can repurpose the work easily.</li>
+                        <li>These principles are tempered by the following concessions:</li>
+                        <li>Once a fully-working static site is achieved, it may be enhanced by the use
+                            of other services such as a server-side indexing tool (Solr, eXist) to
+                            support searching and similar functionality.</li>
+                        <li>The use of an external library may be necessary to support a specific
+                            function which is too complex to be coded locally (such as mapping
+                            or cryptography). Any such libraries must be open-source and widely-used,
+                            and must not themselves have dependencies.</li>
+                    </ol>
+                </li>
+                <li>PROCESSING <ol>
+                        <li>Processing code is written and maintained by the project technical staff,
+                            and is also subject to version control. Processing code provides all the
+                            following functions:</li>
+                        <li>Validation of data.</li>
+                        <li>Diagnostics (analysis of data to identify issues, and to track and evaluate
+                            progress).</li>
+                        <li>Generation of products.</li>
+                        <li>Validation of products.</li>
+                        <li>For larger projects, these processes should all be triggered automatically
+                            by any change to version-controlled resources, typically running on a
+                            continuous integration server. Processing code should be open-source where
+                            possible, and have minimal dependencies, but it is not expected to have
+                            significant longevity; data and products are designed to survive, but
+                            processing code is contingent.</li>
+                    </ol>
+                </li>
+                <li>DOCUMENTATION <ol>
+                        <li>Data models, including field names, descriptions, and controlled values,
+                            should be clearly documented in a static document that is maintained with
+                            the data, and should also form part of the products. </li>
+                        <li>All rights and intellectual property issues should be clearly documented.
+                            Where possible the Data and Products should be released under open licenses
+                            (Creative Commons, GNU, BSD, MPL).</li>
+                    </ol>
+                </li>
+                <li>RELEASE MANAGEMENT <ol>
+                        <li>Release management handles the public release of products. Without good
+                            release management, a project can never end gracefully; it can only falter
+                            and die. These principles apply to release management:</li>
+                        <li>Releases should be periodical and carefully planned. The "rolling release"
+                            model should be avoided.</li>
+                        <li>A release should only be made when the entire product set is coherent,
+                            consistent and complete (passing all validation and diagnostic tests).</li>
+                        <li>Like editions of print works, each release of a web resource should be
+                            clearly identified on every page by its build date and some kind of version
+                            number.</li>
+                        <li>Web resources should include detailed instructions for citation, so that
+                            end-users can unambiguously cite a specific page from a specific
+                            edition.</li>
+                    </ol>
+                </li>
+    
+            </ol>
+        </div>
+    </body>
+</html>
