@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Prefabricated Website: Who Needs a Server Anyway?</title>
+            <!-- author information in separate <author> elements per author -->
+            <author>
+               <name xml:id="mholmes">
+                  <forename>Martin</forename>
+                  <surname>Holmes</surname>
+               </name>
+               <affiliation><roleName>Programmer/Consultant</roleName>, <orgName>University of
+                     Victoria Humanities Computing and Media Centre</orgName></affiliation>
+               <email>mholmes@uvic.ca</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Joseph</forename>
+                  <surname>Takeda</surname>
+               </name>
+               <affiliation><roleName>???</roleName>, <orgName>???</orgName></affiliation>
+               <email>joey.takeda@gmail.com</email>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TEI Consortium</publisher>
+            <date>2019</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication a Creative Commons Attribution 4.0 International license
+                     has been granted by the author(s) who retain full copyright.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>OpenEdition Journals -centre for open electronic publishing- is the platform for
+               journals in the humanities and social sciences, open to quality periodicals looking
+               to publish full-text articles online.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">en</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <!-- a list of keywords, each in its own <term> -->
+               <term>TEI and beyond: interactions, interchange, integrations and
+                  interoperability</term>
+               <term>TEI environments and infrastructures</term>
+               <term>TEI and publication</term>
+               <term>TEI and sustainability</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#mholmes" when="2019-06-28">Encoded the submission.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="abstract">
+            <p>Project Endings, a collaboration between digital humanists and librarians, is
+               devising principles (<ref
+                  target="https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt"
+                  >https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt</ref>)
+               for building DH projects in ways that ensure that they remain viable, functional, and
+               archivable into the distant future. Endings principles cover five components of
+               project design: <list rend="bulleted">
+                  <item>Data</item>
+                  <item>Products</item>
+                  <item>Processing</item>
+                  <item>Documentation</item>
+                  <item>Release Management</item>
+
+               </list> Previous Endings work has focused on Data and Products (Holmes 2017; Arneil
+               &amp; Holmes 2017) and diagnostic tools for monitoring project progress (Holmes &amp;
+               Takeda 2017 and 2018). This presentation will deal with the mechanics of Processing,
+               focusing in particular on building large static sites which are resilient because
+               they have no requirement for server-side technology at all. We will use the Map of
+               Early Modern London project as a case study.</p>
+
+            <p>Comprised of 2,000 TEI source files and 15,000 distinct entities, MoEML is a densely
+               interlinked project that requires a sophisticated build process to create its website
+               structure, the historical Agas Map interface, editions of primary source documents,
+               various indexes and gazetteers, and encyclopedia entries. As a flagship Endings
+               project, MoEML has been a testbed for the scalability of the Endings principles. The
+               MoEML site has 9,000 HTML files, 26,000 XML files, and over 5,000 images, and is
+               around 2GB in size. Our presentation will cover a number of key techniques in the
+               build process, including: <list rend="bulleted">
+                  <item>Validation, validation, validation: XML, HTML, CSS, and TEI egXML example
+                     code is validated at every stage of the build process. </item>
+                  <item>Diagnostics to check all links and targets. </item>
+                  <item>Unique query-free URLs for all entities </item>
+                  <item>Generating the gazetteer, which includes every variant spelling of every
+                     placename. </item>
+                  <item>Pre-generating HTML fragments for AJAX retrieval for every entity.</item>
+                  <item>Processing and rationalizing <gi>rendition</gi> elements and @style
+                     attributes. </item>
+                  <item>Using document type taxonomies to build sitemaps and breadcrumb trails. </item>
+                  <item>Filtering of images to include only those actually used.</item>
+               </list>
+            </p>
+         </div>
+      </front>
+      <body>
+         <!-- text divisions, each with an @xml:id and <head> -->
+         <div xml:id="firstdiv">
+            <head/>
+            <p>
+               <ref type="bibl" target="#bloggs13">Bloggs 2013</ref> tells us...</p>
+         </div>
+         <div xml:id="seconddiv">
+            <head/>
+            <p/>
+         </div>
+      </body>
+
+      <back>
+         <div type="bibliography">
+            <!-- the bibliography for the article, organized as a series of <bibl> elements inside <listBibl> -->
+            <listBibl>
+               <bibl xml:id="bloggs13"/>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
