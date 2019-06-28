@@ -22,7 +22,8 @@
                   <forename>Joseph</forename>
                   <surname>Takeda</surname>
                </name>
-               <affiliation><roleName>???</roleName>, <orgName>???</orgName></affiliation>
+               <affiliation><roleName>MA Student</roleName>, <orgName>University of British Columbia
+                  </orgName></affiliation>
                <email>joey.takeda@gmail.com</email>
             </author>
          </titleStmt>
@@ -69,8 +70,42 @@
    <text>
       <front>
          <div type="abstract" xml:id="abstract">
-            <p>Project Endings, a collaboration between digital humanists and librarians, is
-               devising principles (<ref
+            <p><title level="m"><ref target="https://github.com/projectEndings">Project
+                     Endings</ref></title>, a collaboration between digital humanists and
+               librarians, is devising principles (<ref
+                  target="https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt"
+                  >https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt</ref>)
+               for building DH projects in ways that ensure that they remain viable, functional, and
+               archivable into the distant future. Endings principles cover five components of
+               project design: 
+               
+               <list rend="bulleted">
+                  <item>Data</item>
+                  <item>Products</item>
+                  <item>Processing</item>
+                  <item>Documentation</item>
+                  <item>Release Management</item>
+
+               </list> Previous <title level="m">Endings</title> work has focused on Data and
+               Products (<ref type="bibl" target="#holmes_2017a">Holmes 2017</ref>; <ref type="bibl"
+                  target="#arneil_holmes_2017">Arneil &amp; Holmes 2017</ref>) and diagnostic tools
+               for monitoring project progress (<ref type="bibl" target="#holmes_takeda_2018">Holmes
+                  &amp; Takeda 2018</ref> and <ref type="bibl" target="#holmes_takeda_2019"
+                  >2019</ref>). This presentation will deal with the mechanics of Processing,
+               focusing in particular on building large static sites which are resilient because
+               they have no requirement for server-side technology at all. We will use the <ref
+                  target="https://mapoflondon.uvic.ca/">Map of Early Modern London</ref> (<title
+                  level="m">MoEML</title>) project as a case study.</p>
+         </div>
+      </front>
+      <body>
+         <!-- text divisions, each with an @xml:id and <head> -->
+         <div xml:id="intro">
+            <head>Introduction</head>
+
+            <p><title level="m"><ref target="https://github.com/projectEndings">Project
+                     Endings</ref></title>, a collaboration between digital humanists and
+               librarians, is devising principles (<ref
                   target="https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt"
                   >https://raw.githubusercontent.com/projectEndings/Endings/master/principles.txt</ref>)
                for building DH projects in ways that ensure that they remain viable, functional, and
@@ -82,21 +117,27 @@
                   <item>Documentation</item>
                   <item>Release Management</item>
 
-               </list> Previous Endings work has focused on Data and Products (Holmes 2017; Arneil
-               &amp; Holmes 2017) and diagnostic tools for monitoring project progress (Holmes &amp;
-               Takeda 2017 and 2018). This presentation will deal with the mechanics of Processing,
+               </list> Previous <title level="m">Endings</title> work has focused on Data and
+               Products (<ref type="bibl" target="#holmes_2017a">Holmes 2017</ref>; <ref type="bibl"
+                  target="#arneil_holmes_2017">Arneil &amp; Holmes 2017</ref>) and diagnostic tools
+               for monitoring project progress (<ref type="bibl" target="#holmes_takeda_2018">Holmes
+                  &amp; Takeda 2018</ref> and <ref type="bibl" target="#holmes_takeda_2019"
+                  >2019</ref>). This presentation will deal with the mechanics of Processing,
                focusing in particular on building large static sites which are resilient because
-               they have no requirement for server-side technology at all. We will use the Map of
-               Early Modern London project as a case study.</p>
+               they have no requirement for server-side technology at all.</p>
 
-            <p>Comprised of 2,000 TEI source files and 15,000 distinct entities, MoEML is a densely
-               interlinked project that requires a sophisticated build process to create its website
-               structure, the historical Agas Map interface, editions of primary source documents,
-               various indexes and gazetteers, and encyclopedia entries. As a flagship Endings
-               project, MoEML has been a testbed for the scalability of the Endings principles. The
-               MoEML site has 9,000 HTML files, 26,000 XML files, and over 5,000 images, and is
-               around 2GB in size. Our presentation will cover a number of key techniques in the
-               build process, including: <list rend="bulleted">
+
+
+            <p>We will use the <title level="m"><ref target="http://mapoflondon.uvic.ca">Map of
+                     Early Modern London</ref></title> project (MoEML), one of the flagship Endings
+               project, as a case study. Comprised of 2,000 TEI source files and 15,000 distinct
+               entities, MoEML is a densely interlinked project that requires a sophisticated build
+               process to create its website structure, the historical Agas Map interface, editions
+               of primary source documents, various indexes and gazetteers, and encyclopedia
+               entries. As a flagship Endings project, MoEML has been a testbed for the scalability
+               of the Endings principles. The MoEML site has 9,000 HTML files, 26,000 XML files, and
+               over 5,000 images, and is around 2GB in size. Our presentation will cover a number of
+               key techniques in the build process, including: <list rend="bulleted">
                   <item>Validation, validation, validation: XML, HTML, CSS, and TEI egXML example
                      code is validated at every stage of the build process. </item>
                   <item>Diagnostics to check all links and targets. </item>
@@ -111,25 +152,286 @@
                </list>
             </p>
          </div>
-      </front>
-      <body>
-         <!-- text divisions, each with an @xml:id and <head> -->
-         <div xml:id="firstdiv">
-            <head/>
-            <p>
-               <ref type="bibl" target="#bloggs13">Bloggs 2013</ref> tells us...</p>
+         <div xml:id="why">
+            <head>Why build a static site?</head>
+            <p>When in early 2019 the server which was hosting the tei-c.org website died, the
+                  <title level="m">WordPress</title>-based main site disappeared from the Internet
+               for a considerable time. Since <title level="m">WordPress</title> is a
+               database-dependent system, a single central database host is required to run it, and
+               until a new server could be brought up hosting that database, the site remained
+               unavailable. However, there was no such problem with the TEI Guidelines, which are
+               statically-built and available in multiple locations as a matter of course.<note>One
+                  of the perspectives Holmes brought to the <title level="m">Endings</title> project
+                  was his familiarity with the static build process for the TEI Guidelines, for
+                  which we are primarily indebted to the late Sebastian Rahtz, a wise and clever man
+                  who realized all this a long time ago.</note> A static site can be replicated
+               endlessly. All digital humanities projects will eventually end (<ref type="bibl"
+                  target="#kirschenbaum_2009">Kirschenbaum 2009</ref>; <ref type="bibl"
+                  target="#rockwell_et_al_2014">Rockwell et al 2014</ref>), and their products will
+               transition into minimally-curated archival hosting; static sites have much more
+               chance of survival, availability and replication if they have no server dependencies. </p>
+
+            <p>The world of large-scale software development is also coming to similar conclusions
+               for slightly different reasons. The JamStack initiative (<ref xml:id="quoteref1"
+                  type="bibl" target="#jamstack">JamStack.org</ref>) is also championing <quote
+                  source="#quoteref1">modern web development architecture based on client-side
+                  JavaScript, reusable APIs, and prebuilt Markup,</quote> in the interests of <quote
+                  source="#quoteref1">better performance</quote>, <quote source="#quoteref1"
+                  >cheaper, easier scaling</quote>, <quote source="#quoteref1">higher
+                  security</quote> and a <quote source="#quoteref1">better developer
+                  experience</quote>. Long-term archivability is not a primary goal of JamStack;
+               instead, one of their motivations is that a static site is far more easily deployed
+               across Content Delivery Networks such as Akamai because it has no reliance on
+               centralized back-end data sources such as a databases. Like JamStack, <title
+                  level="m">Endings</title> advocates products based on pure client-side HTML5, CSS,
+               and JavaScript. </p>
+
          </div>
-         <div xml:id="seconddiv">
-            <head/>
-            <p/>
+
+         <div xml:id="buildProcess">
+            <head>The build process</head>
+
+            <p><title level="m">MoEML</title>’s static build process, which is managed by <title
+                  level="m">Ant</title>, takes the densely-encoded, tightly-linked XML collection
+               created by our team and builds from it a massive, loosely-coupled collection of web
+               resources comprising everything we can possibly imagine an end-user might want to
+               see. Before we start, though, we first check whether the current state of the
+               collection is worth building into anything at all. We validate (RELAXNG), we validate
+               again (Schematron), and we check coherence (does every link point to something
+               meaningful?), consistency (does everything conform to the encoding guidelines and the
+               editorial guidelines?), and completeness (does everything mentioned actually exist?)
+               via our diagnostic processes (<ref type="bibl" target="#holmes_takeda_2019">Holmes
+                  and Takeda 2019</ref>). If a single file is invalid, or a single link is broken,
+               or an id is used for two different entities, the build fails and the process stops. A
+               website with errors is not worth building. </p>
+
+            <p>It is worth contrasting this rigorous suite of validation processes with the
+                  pre-<title level="m">Endings</title> form of the <title level="m">MoEML</title>
+               website, which was based on an <title level="m">eXist</title> XML database and to
+               which project staff uploaded new and changed materials as they finished them (or
+               thought they had finished them), when it occurred to them, or (sometimes)
+               accidentally, while uploading other materials. Articles were
+                  <soCalled>published</soCalled> containing links to other articles not yet written,
+               or person records not yet added to the personography. One person would add an item to
+               the bibliography with a new id, while another happened to use the same id for a
+               location; both would be uploaded, and, at best, links would break and, at worst, the
+               processing would fail to handle the error and break the site. Such issues were not
+               rampant, but they were omnipresent. We will have no more of that.</p>
+
+            <p>It should also be noted that these sorts of errors were not only caused by encoders;
+               developers of the <title level="m">MoEML</title> site had to be very careful that any
+               code committed to the eXist server was error-free. Testing code changes requires a
+               complete parallel hosting environment, which is an additional burden to maintain, and
+               to keep synchronized with the live site. But by checking the validity of our outputs
+               in the static build, we also necessarily ensure that our processes work: if
+               everything in the build is valid, then, at the very least, the code itself can be
+               compiled and it produces valid documents. Of course, this does not ensure that the
+               code functions precisely the way we want it to, but, as we discuss later, the static
+               build process gives the project time to ensure that the processes work as
+               expected.</p>
+
+            <p>Assuming all the validation tests pass, the first stage in building the website is to
+               make more TEI XML. Lots of it, in fact. We build five different versions of our XML
+               collection (see <ptr type="crossref" target="#fig_01"/>). <ref type="bibl"
+                  target="#holmes_2017b">Holmes (2017b)</ref> provides a full description of the
+               rationale behind this process, but the main justification is that we want to ensure
+               that any future user who comes to our project looking for an XML document can likely
+               find one that is tuned as closely as possible to their needs. We provide XML designed
+               to best represent the praxis of our own project (<soCalled>original</soCalled> XML),
+               XML designed to be less esoteric and that aligns more with standard TEI practices
+                  (<soCalled>standard</soCalled> XML), XML designed to be most amenable to generic
+               external processors (TEI Lite, TEI simplePrint), and XML designed to be detached
+               entirely from the rest of the collection, free of external links and dependencies
+                  (<soCalled>standalone</soCalled> XML). This is how we end up with 26,000 XML
+               files, from a starting collection of only 2,000. As soon as each new version of the
+               XML is created, you may easily guess what we do with it. We validate it. If any file
+               fails validation, the build stops. 
+               This is also when we create a wealth of new files that did not exist
+               before, including the project gazetteer and a range of compiled indexes and similar
+               materials whose information is inherent to the original XML, but which can now be
+               made explicit and tangible. More of this in the next section. </p>
+
+            <p>Finally, we begin to generate web products. A number of core principles govern the
+               structure and organization of those products: <list rend="ordered">
+                  <item><emph>Every entity</emph> (location, person, bibliography entry,
+                     organization, article, etc.) has a <emph>unique id</emph>, and <emph>every
+                        unique id gets its own individual page</emph> on the site. </item>
+
+                  <item><emph>No URL is ever abandoned.</emph> If an id is changed or an entity is
+                     removed from the collection, a page is still generated, redirecting to the new
+                     version of the id, or to an explanation of what has happened. Linked Open Data
+                     requires stable identifiers, so we have a responsibility to maintain them
+                     indefinitely.</item>
+
+                  <item><emph>Every page stands alone and complete in terms of content</emph>;
+                     everything referenced in the body of the page (people, places, bibliography
+                     items etc.) is included into the page itself, so that if the page becomes
+                     detached from its context (if, for example, someone saves a local copy to use
+                     while disconnected from the internet), it will continue to work. This of course
+                     means that there is massive duplication of data across the site, but we don’t
+                     care. The entire site still comes in smaller than an HD movie.</item>
+
+                  <item><emph>All pages live together in the same folder.</emph> This makes for a
+                     very large folder, but it means that linking is trivial and reliable, and URLs
+                     are easily remembered and typed.</item>
+
+               </list> Finally, after the website content is generated, all its pages and associated
+               CSS files are validated with the W3C’s VNU validator. As always, any invalid file
+               causes the build to fail. </p>
+            
+            <figure xml:id="fig_01">
+               <graphic url="img/moemlBuildProcess.png" width="2289px" height="3372px"/>
+               <head type="legend">Generation of multiple TEI output formats.</head>
+            </figure> 
          </div>
+
+         <div xml:id="advantages">
+            <head>Advantages: you can build anything</head>
+
+            <p>A major advantage of building the entire site offline is that we can run processes
+               across the entire dataset to build any resource we like, no matter how time- or
+               cycle-consuming it may be. A simple example is the <title level="a">A-Z
+                  Index,</title> which lists all 9,000 <att>xml:id</att>s used in the project and
+               provides information about the entity to which each id refers. This is an essential
+               resource for <title level="m">MoEML</title> encoders, who are often creating new
+               globally unique <att>xml:id</att>s for entities in the project; having a list of all
+                  <att>xml:id</att>s not only prevents duplicates ids, but also ensures that
+               encoders can check whether or not the person or place that they are creating already
+               exists in the project. Just-in-time creation of the index is not a feasible option:
+               at nearly 10MB, the server-side construction of the page, even on a powerful server,
+               would be slow. But, by creating this page ahead of time, the page downloads and
+               renders reasonably rapidly. We also produce a plain-text list of all the ids for
+               faster access and searching by encoders who may be on a slow internet connection.</p>
+
+            <p>Similarly, it would be impractical to generate the gazetteer of early modern London,
+               which aggregates and groups the thousands of variant placenames across the project,
+               from the source data on a live server. Before implementing the static build, this
+               resource was manually compiled in a semi-automated process. Now we create these
+               documents with the rest of the project, which ensures that these documents not only
+               reflect the current state of the data, but are also completely valid HTML before they
+               are published.</p>
+
+            <p>The offline build also allows us to take advantage of multi-step processes that would
+               be very difficult to manage in a just-in-time rendering scenario. We make great use
+               of the TEI <gi>rendition</gi>/<att>selector</att> mechanism, which uses CSS selector
+               syntax to specify TEI elements to which rendition descriptions apply when encoding
+               presentational aspects of the input. In our build process, we use a two step process
+               during the creation of the <soCalled>standard</soCalled> XML to resolve these CSS
+               selectors. For each document that has a <code>//rendition[@selector]</code>, we
+               create a temporary XSLT identity transform that converts the CSS selectors into XPath
+               statements, which are then used as the <att>match</att> value for a sequence of
+                  <tag>xsl:template</tag> elements. We run that transformation against the source
+               document to create the <soCalled>standard</soCalled> version of the XML, adding
+                  <att>renditions</att> that correspond with the predefined <gi>rendition</gi> in
+               the header. In our standalone process, we then take all @style attributes on elements
+               and abstract them into @rendition pointers to <gi>rendition</gi> elements in the
+               header. Then, in our HTML creation, all of the <gi>rendition</gi> elements are turned
+               into class selectors in the header of the HTML and, accordingly, all
+                  <att>rendition</att> attributes are converted into <att>class</att> values.</p>
+
+         </div>
+
+         <div xml:id="disadvantages">
+            <head>Disadvantages</head>
+
+            <p>The primary disadvantage of this approach is of course that it involves deferred
+               gratification. Builds take a long time, and they often fail to complete due to
+               invalidities or other errors. It may be hours before an encoder or author can see the
+               results of their work in the context of the built site, and this is particularly
+               frustrating for those who are encoding primary source documents and trying to capture
+               for reproduction rendering features of the original text.</p>
+
+            <p>However, patience is a virtue and cultivating it is no bad thing. Instant
+               gratification is not a feature of scholarly discourse; compared with waiting for a
+               journal article to be published, waiting a couple of hours to see the latest draft of
+               your document in all its glory is scarcely a hardship. This virtue also extends to
+               the discipline around the public release of complete new versions of a site. Rather
+               than a <soCalled>rolling release</soCalled> publication model, where on any given
+               day, the state of the site is inconsistent, incoherent, and unpredictable, a static
+               build process demands a fixed released process, akin to the model of editions of a
+               print text; each edition (delimited by project-specific milestones) is clearly
+               labelled and identified, and always coherent, consistent, and complete. As we have
+               learned from the TEI’s incremental releases of the Guidelines this is a far superior
+               approach, as such releases are much easier to maintain and archive over the long
+               term.</p>
+
+            <p>In addition, we do provide shortcuts through the build process for local testing of
+               individual files. Our build can be parameterized by supplying one or two specific
+               document ids as input, and in that case, the entire build runs for only those
+               documents and the results are visible within a minute or so. </p>
+
+         </div>
+
+         <div xml:id="conclusion">
+            <head>Conclusion</head>
+
+            <p> We will conclude by summarizing the intent and principles governing our build
+               process: <list rend="bulleted">
+                  <item>Everything that can be pre-fabricated should be pre-fabricated.</item>
+                  <item>Everything that could conceivably be useful should be created and
+                     included.</item>
+                  <item>Redundancy is beneficial; in fact it is elegant. If the same personography
+                     entry is replicated in fifty pages that mention that person, then good; any of
+                     those pages can now be used outside the context of the collection without
+                     loss.</item>
+                  <item>Patience is a virtue: let your build take a long time; let your releases be
+                     well-separated.</item>
+               </list>
+            </p>
+
+         </div>
+
       </body>
 
       <back>
          <div type="bibliography">
             <!-- the bibliography for the article, organized as a series of <bibl> elements inside <listBibl> -->
             <listBibl>
-               <bibl xml:id="bloggs13"/>
+               <bibl xml:id="arneil_holmes_2017"><author>Arneil, Stewart</author>, and
+                     <author>Martin Holmes</author>. <date>2017</date>. <title level="a">Archiving
+                     form and function: preserving a 2003 digital project.</title> DPASSH Conference
+                  2017: Digital Preservation for Social Sciences and Humanities, Brighton,
+                  UK.</bibl>
+               <bibl xml:id="holmes_2017a"><author>Holmes, Martin</author>. <date>2017a</date>.
+                     <title level="a">Selecting Technologies for Long-Term Survival.</title> SHARP
+                  Conference 2017: Technologies of the Book, Victoria, BC, Canada. <ref
+                     target="https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf"
+                     >https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf</ref>.</bibl>
+               <bibl xml:id="holmes_2017b"><author>Holmes, Martin</author>. <date>2017b</date>.
+                     <title level="a">Whatever happened to interchange?</title>
+                  <title level="j">Digital Scholarship in the Humanities</title>, Volume 32, Issue
+                  suppl_1, April 2017, Pages i63–i68. <ref
+                     target="https://doi.org/10.1093/llc/fqw048"
+                     >https://doi.org/10.1093/llc/fqw048</ref>.</bibl>
+               <bibl xml:id="holmes_takeda_2018"><author>Holmes, Martin</author>, and <author>Joseph
+                     Takeda</author>. <date>2018</date>. <title level="a">Why do I need four search
+                     engines?</title> Japanese Association for Digital Humanities Conference, Tokyo,
+                  Japan. <ref
+                     target="https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58"
+                     >https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58</ref>.</bibl>
+               <bibl xml:id="holmes_takeda_2019"><author>Holmes, Martin</author>, and <author>Joseph
+                     Takeda</author>. <date>2019</date>. <title level="a">Beyond Validation: Using
+                     Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your
+                     DH Project.</title> In <title level="j">Digital Scholarship in the
+                     Humanities</title>. Oxford University Press/EADH. <ref
+                     target="http://dx.doi.org/10.1093/llc/fqz011"
+                     >http://dx.doi.org/10.1093/llc/fqz011</ref>. </bibl>
+               <bibl xml:id="jamstack"><title level="m">JamStack: Modern web development
+                     architecture based on client-side JavaScript, reusable APIs, and prebuilt
+                     Markup</title>. <date>n.d.</date> https://jamstack.org.</bibl>
+               <bibl xml:id="kirschenbaum_2009"><author>Kirschenbaum, Matthew</author>.
+                     <date>2009</date>. <title level="a">Done: Finishing Projects in the Digital
+                     Humanities.</title>
+                  <title level="j">Digital Humanities Quarterly</title>, Volume 3, Issue 2. <ref
+                     target="http://digitalhumanities.org:8081/dhq/vol/3/2/000037/000037.html"
+                     >http://digitalhumanities.org:8081/dhq/vol/3/2/000037/000037.html</ref>.</bibl>
+               <bibl xml:id="rockwell_et_al_2014"><author>Rockwell, Geoffrey</author>, <author>Shawn
+                     Day</author>, <author>Joyce Yu</author>, and <author>Maureen Engel</author>.
+                     <date>2014</date>. <title level="a">Burying Dead Projects: Depositing the
+                     Globalization Compendium.</title>
+                  <title level="j">Digital Humanities Quarterly</title>, Volume 8, Issue 2. <ref
+                     target="http://digitalhumanities.org:8081/dhq/vol/8/2/000179/000179.html"
+                     >http://digitalhumanities.org:8081/dhq/vol/8/2/000179/000179.html</ref>.</bibl>
             </listBibl>
          </div>
       </back>
