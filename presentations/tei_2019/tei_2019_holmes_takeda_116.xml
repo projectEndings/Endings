@@ -169,7 +169,7 @@
                   target="#kirschenbaum_2009">Kirschenbaum 2009</ref>; <ref type="bibl"
                   target="#rockwell_et_al_2014">Rockwell et al 2014</ref>), and their products will
                transition into minimally-curated archival hosting; static sites have much more
-               chance of survival, availability and replication if they have no server dependencies. </p>
+               chance of survival, availability and replication if they have no server dependencies.</p>
 
             <p>The world of large-scale software development is also coming to similar conclusions
                for slightly different reasons. The JamStack initiative (<ref xml:id="quoteref1"
@@ -184,7 +184,7 @@
                across Content Delivery Networks such as Akamai because it has no reliance on
                centralized back-end data sources such as a databases. Like JamStack, <title
                   level="m">Endings</title> advocates products based on pure client-side HTML5, CSS,
-               and JavaScript. </p>
+               and JavaScript.</p>
 
          </div>
 
@@ -358,14 +358,14 @@
             <p>In addition, we do provide shortcuts through the build process for local testing of
                individual files. Our build can be parameterized by supplying one or two specific
                document ids as input, and in that case, the entire build runs for only those
-               documents and the results are visible within a minute or so. </p>
+               documents and the results are visible within a minute or so.</p>
 
          </div>
 
          <div xml:id="conclusion">
             <head>Conclusion</head>
 
-            <p> We will conclude by summarizing the intent and principles governing our build
+            <p>We will conclude by summarizing the intent and principles governing our build
                process: <list rend="bulleted">
                   <item>Everything that can be pre-fabricated should be pre-fabricated.</item>
                   <item>Everything that could conceivably be useful should be created and
