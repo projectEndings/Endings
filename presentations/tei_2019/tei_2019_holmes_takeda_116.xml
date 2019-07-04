@@ -17,7 +17,7 @@
                      Victoria Humanities Computing and Media Centre</orgName></affiliation>
                <email>mholmes@uvic.ca</email>
             </author>
-            <author>
+            <author xml:id="jtakeda">
                <name>
                   <forename>Joseph</forename>
                   <surname>Takeda</surname>
@@ -64,6 +64,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#jtakeda" when="2019-07-04">Copy edited the submission.</change>
          <change who="#mholmes" when="2019-06-28">Encoded the submission.</change>
       </revisionDesc>
    </teiHeader>
@@ -93,9 +94,8 @@
                   &amp; Takeda 2018</ref> and <ref type="bibl" target="#holmes_takeda_2019"
                   >2019</ref>). This presentation will deal with the mechanics of Processing,
                focusing in particular on building large static sites which are resilient because
-               they have no requirement for server-side technology at all. We will use the <ref
-                  target="https://mapoflondon.uvic.ca/">Map of Early Modern London</ref> (<title
-                  level="m">MoEML</title>) project as a case study.</p>
+               they have no requirement for server-side technology at all. We will use the <title level="m"><ref
+                  target="https://mapoflondon.uvic.ca/">Map of Early Modern London</ref></title> (MoEML) project as a case study.</p>
          </div>
       </front>
       <body>
@@ -138,14 +138,14 @@
                of the Endings principles. The MoEML site has 9,000 HTML files, 26,000 XML files, and
                over 5,000 images, and is around 2GB in size. Our presentation will cover a number of
                key techniques in the build process, including: <list rend="bulleted">
-                  <item>Validation, validation, validation: XML, HTML, CSS, and TEI egXML example
+                  <item>Validation, validation, validation: XML, HTML, CSS, and TEI <gi>egXML</gi> example
                      code is validated at every stage of the build process. </item>
                   <item>Diagnostics to check all links and targets. </item>
                   <item>Unique query-free URLs for all entities </item>
                   <item>Generating the gazetteer, which includes every variant spelling of every
                      placename. </item>
                   <item>Pre-generating HTML fragments for AJAX retrieval for every entity.</item>
-                  <item>Processing and rationalizing <gi>rendition</gi> elements and @style
+                  <item>Processing and rationalizing <gi>rendition</gi> elements and <att>style</att>
                      attributes. </item>
                   <item>Using document type taxonomies to build sitemaps and breadcrumb trails. </item>
                   <item>Filtering of images to include only those actually used.</item>
@@ -164,7 +164,7 @@
                   of the perspectives Holmes brought to the <title level="m">Endings</title> project
                   was his familiarity with the static build process for the TEI Guidelines, for
                   which we are primarily indebted to the late Sebastian Rahtz, a wise and clever man
-                  who realized all this a long time ago.</note> A static site can be replicated
+                  who realized all this a long time ago.</note> A static site, however, can be replicated
                endlessly. All digital humanities projects will eventually end (<ref type="bibl"
                   target="#kirschenbaum_2009">Kirschenbaum 2009</ref>; <ref type="bibl"
                   target="#rockwell_et_al_2014">Rockwell et al 2014</ref>), and their products will
@@ -178,7 +178,7 @@
                   JavaScript, reusable APIs, and prebuilt Markup,</quote> in the interests of <quote
                   source="#quoteref1">better performance</quote>, <quote source="#quoteref1"
                   >cheaper, easier scaling</quote>, <quote source="#quoteref1">higher
-                  security</quote> and a <quote source="#quoteref1">better developer
+                  security</quote>, and a <quote source="#quoteref1">better developer
                   experience</quote>. Long-term archivability is not a primary goal of JamStack;
                instead, one of their motivations is that a static site is far more easily deployed
                across Content Delivery Networks such as Akamai because it has no reliance on
@@ -192,18 +192,18 @@
             <head>The build process</head>
 
             <p><title level="m">MoEML</title>’s static build process, which is managed by <title
-                  level="m">Ant</title>, takes the densely-encoded, tightly-linked XML collection
+                  level="m">Apache Ant</title>, takes the densely-encoded, tightly-linked XML collection
                created by our team and builds from it a massive, loosely-coupled collection of web
                resources comprising everything we can possibly imagine an end-user might want to
                see. Before we start, though, we first check whether the current state of the
-               collection is worth building into anything at all. We validate (RELAXNG), we validate
+               collection is worth building into anything at all. We validate (RELAX NG), we validate
                again (Schematron), and we check coherence (does every link point to something
                meaningful?), consistency (does everything conform to the encoding guidelines and the
                editorial guidelines?), and completeness (does everything mentioned actually exist?)
                via our diagnostic processes (<ref type="bibl" target="#holmes_takeda_2019">Holmes
-                  and Takeda 2019</ref>). If a single file is invalid, or a single link is broken,
+                  &amp; Takeda 2019</ref>). If a single file is invalid, or a single link is broken,
                or an id is used for two different entities, the build fails and the process stops. A
-               website with errors is not worth building. </p>
+               website with errors is not worth building.</p>
 
             <p>It is worth contrasting this rigorous suite of validation processes with the
                   pre-<title level="m">Endings</title> form of the <title level="m">MoEML</title>
@@ -212,16 +212,16 @@
                thought they had finished them), when it occurred to them, or (sometimes)
                accidentally, while uploading other materials. Articles were
                   <soCalled>published</soCalled> containing links to other articles not yet written,
-               or person records not yet added to the personography. One person would add an item to
+               or person records not yet added to the personography. One encoder would add an item to
                the bibliography with a new id, while another happened to use the same id for a
-               location; both would be uploaded, and, at best, links would break and, at worst, the
+               location; both documents would be uploaded, and, at best, links would break and, at worst, the
                processing would fail to handle the error and break the site. Such issues were not
                rampant, but they were omnipresent. We will have no more of that.</p>
 
             <p>It should also be noted that these sorts of errors were not only caused by encoders;
                developers of the <title level="m">MoEML</title> site had to be very careful that any
-               code committed to the eXist server was error-free. Testing code changes requires a
-               complete parallel hosting environment, which is an additional burden to maintain, and
+               code committed to the eXist server was error-free. Testing code changes required a
+               parallel hosting environment, which was an additional burden to maintain, and
                to keep synchronized with the live site. But by checking the validity of our outputs
                in the static build, we also necessarily ensure that our processes work: if
                everything in the build is valid, then, at the very least, the code itself can be
@@ -249,7 +249,7 @@
                This is also when we create a wealth of new files that did not exist
                before, including the project gazetteer and a range of compiled indexes and similar
                materials whose information is inherent to the original XML, but which can now be
-               made explicit and tangible. More of this in the next section. </p>
+               made explicit and tangible. More of this in the next section.</p>
 
             <p>Finally, we begin to generate web products. A number of core principles govern the
                structure and organization of those products: <list rend="ordered">
@@ -298,8 +298,8 @@
                   <att>xml:id</att>s not only prevents duplicates ids, but also ensures that
                encoders can check whether or not the person or place that they are creating already
                exists in the project. Just-in-time creation of the index is not a feasible option:
-               at nearly 10MB, the server-side construction of the page, even on a powerful server,
-               would be slow. But, by creating this page ahead of time, the page downloads and
+               the server-side construction of the page, which is nearly 10MB, would be slow, even on a powerful server.
+               But, by creating this page ahead of time, the page downloads and
                renders reasonably rapidly. We also produce a plain-text list of all the ids for
                faster access and searching by encoders who may be on a slow internet connection.</p>
 
@@ -320,11 +320,11 @@
                selectors. For each document that has a <code>//rendition[@selector]</code>, we
                create a temporary XSLT identity transform that converts the CSS selectors into XPath
                statements, which are then used as the <att>match</att> value for a sequence of
-                  <tag>xsl:template</tag> elements. We run that transformation against the source
+                  <gi>xsl:template</gi> elements. We run that transformation against the source
                document to create the <soCalled>standard</soCalled> version of the XML, adding
                   <att>renditions</att> that correspond with the predefined <gi>rendition</gi> in
-               the header. In our standalone process, we then take all @style attributes on elements
-               and abstract them into @rendition pointers to <gi>rendition</gi> elements in the
+               the header. In our standalone process, we then take all <att>style</att> attributes on elements
+               and abstract them into <att>rendition</att> pointers to <gi>rendition</gi> elements in the
                header. Then, in our HTML creation, all of the <gi>rendition</gi> elements are turned
                into class selectors in the header of the HTML and, accordingly, all
                   <att>rendition</att> attributes are converted into <att>class</att> values.</p>
@@ -351,7 +351,7 @@
                build process demands a fixed released process, akin to the model of editions of a
                print text; each edition (delimited by project-specific milestones) is clearly
                labelled and identified, and always coherent, consistent, and complete. As we have
-               learned from the TEI’s incremental releases of the Guidelines this is a far superior
+               learned from the TEI’s incremental releases of the Guidelines, this is a far superior
                approach, as such releases are much easier to maintain and archive over the long
                term.</p>
 
