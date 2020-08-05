@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Endings Project</title>
+    <description>where dh work begins</description>
+    <link>https://projectendings.github.io</link>
+    <atom:link href="https://projectendings.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Tri-Agency Statement of Principles on Digital Data Management</title>
+        <description>
+          
+          The Government of Canada has released its official statement on data management and long-term accessibility for publicly funded research and seeks feedback on its draft policy.
+
+Tri-Agency Statement of Principles on Digital Data Management
+
+
+        </description>
+        <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
+        <link>https://projectendings.github.io/2018-12-19-tri-agency-statement/</link>
+        <guid isPermaLink="true">https://projectendings.github.io/2018-12-19-tri-agency-statement/</guid>
+      </item>
+    
+      <item>
+        <title>Portage Network's Research Data Management Tools</title>
+        <description>
+          
+          The Portage Network has released a suite of tools to help researchers plan for the long-term preservation of their data.
+
+        </description>
+        <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
+        <link>https://projectendings.github.io/2018-12-19-portage/</link>
+        <guid isPermaLink="true">https://projectendings.github.io/2018-12-19-portage/</guid>
+      </item>
+    
+      <item>
+        <title>New Website Launched</title>
+        <description>
+          
+          We’re pleased to announce the launch of our new website in anticipation for a busy year in 2019. This site designed using the “beautiful-jekyll” theme by Dean Attali and consists of a series of flat Markdown files that are rendered as HTML by our host, Github pages. Our old site...
+        </description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 -0800</pubDate>
+        <link>https://projectendings.github.io/2018-12-08-welcome/</link>
+        <guid isPermaLink="true">https://projectendings.github.io/2018-12-08-welcome/</guid>
+      </item>
+    
+  </channel>
+</rss>
