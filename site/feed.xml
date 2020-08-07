@@ -3,8 +3,8 @@
   <channel>
     <title>The Endings Project</title>
     <description>where dh work begins</description>
-    <link>https://projectendings.github.io</link>
-    <atom:link href="https://projectendings.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://endings.uvic.ca</link>
+    <atom:link href="https://endings.uvic.ca/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Tri-Agency Statement of Principles on Digital Data Management</title>
@@ -17,8 +17,8 @@ Tri-Agency Statement of Principles on Digital Data Management
 
         </description>
         <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
-        <link>https://projectendings.github.io/2018-12-19-tri-agency-statement/</link>
-        <guid isPermaLink="true">https://projectendings.github.io/2018-12-19-tri-agency-statement/</guid>
+        <link>https://endings.uvic.ca/2018-12-19-tri-agency-statement/</link>
+        <guid isPermaLink="true">https://endings.uvic.ca/2018-12-19-tri-agency-statement/</guid>
       </item>
     
       <item>
@@ -29,8 +29,8 @@ Tri-Agency Statement of Principles on Digital Data Management
 
         </description>
         <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
-        <link>https://projectendings.github.io/2018-12-19-portage/</link>
-        <guid isPermaLink="true">https://projectendings.github.io/2018-12-19-portage/</guid>
+        <link>https://endings.uvic.ca/2018-12-19-portage/</link>
+        <guid isPermaLink="true">https://endings.uvic.ca/2018-12-19-portage/</guid>
       </item>
     
       <item>
@@ -40,8 +40,8 @@ Tri-Agency Statement of Principles on Digital Data Management
           We’re pleased to announce the launch of our new website in anticipation for a busy year in 2019. This site designed using the “beautiful-jekyll” theme by Dean Attali and consists of a series of flat Markdown files that are rendered as HTML by our host, Github pages. Our old site...
         </description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 -0800</pubDate>
-        <link>https://projectendings.github.io/2018-12-08-welcome/</link>
-        <guid isPermaLink="true">https://projectendings.github.io/2018-12-08-welcome/</guid>
+        <link>https://endings.uvic.ca/2018-12-08-welcome/</link>
+        <guid isPermaLink="true">https://endings.uvic.ca/2018-12-08-welcome/</guid>
       </item>
     
   </channel>
