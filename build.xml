@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="Validation, Diagnostics and build" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
+
+  <description> 
+    ##################################################################### 
+    # Project build file by Martin Holmes (mholmes@uvic.ca), 2021.      #
+    # This build file processes the HTML pages of the site to update    #
+    # common components such as the menu.                               #
+    ##################################################################### 
+  </description>
+
+  <property name="echo.separator" value="************************************************"/>
+
+  <!-- We'll need access to the date. -->
+  <tstamp>
+    <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
+  </tstamp>
+  
+  <!-- Set of files to process. -->
+  <fileset id="htmlFiles" dir="${basedir}/site">
+    <include name="*.html"/>
+  </fileset>
+
+  <target name="buildHtml">
+    <description>
+      TARGET buildHtml
+      This target processes all the existing HTML files to 
+      refresh any common components such as menus.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Refreshing HTML pages..."/>
+<!--   Do the transformation. -->
+    <!--<java fork="true" classname="net.sf.saxon.Transform"
+      classpath="${basedir}/utilities/saxon9he.jar">
+      <arg value="-s:build_site.xml"/>
+      <arg value="-xsl:xsl/build_site.xsl"/>
+      <arg value="-\-suppressXsltNamespaceCheck:on"/>
+      <arg value="today=${today}"/>
+    </java>-->
+  </target>
+  
+  <target name="rsyncToLiveServer">
+    <description>
+      TARGET rsyncToLiveServer
+      This pushes the content up to the endings/www folder on the nfs.hcmc.uvic.ca server.
+      This will overwrite the existing site, but it will not delete any obsolete files.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Pushing content up to the live site."/>
+    <exec executable="rsync" dir="${basedir}/site">
+      <arg value="--stats"/>
+      <arg value="--recursive"/>
+      <arg value="--times"/>
+      <arg value="--verbose"/>
+      <!--<arg value="-\-delete"/>-->
+      <arg line="-e ssh"/>
+      <arg line="./html/"/>
+      <arg line="hcmc@nfs.hcmc.uvic.ca:/home1t/endings/www/"/>
+    </exec>
+  </target>
+
+  <target name="all">
+    <description> TARGET all This target runs all the processes defined elsewhere in the file. </description>
+    <antcall target="buildHtml"/>
+  </target>
+
+</project>
