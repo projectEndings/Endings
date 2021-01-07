@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"/>
   <title>News</title>
   <meta name="author" content="The Endings Project Team" />
   
@@ -43,7 +43,7 @@
   <meta property="og:title" content="News" />
   
    
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/>
   
   <meta property="og:type" content="website" />
   
@@ -59,7 +59,7 @@
   <meta name="twitter:title" content="News" />
   
   
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/>
   
   
   
@@ -100,7 +100,7 @@
         
           <li>
             
-<a href="accomplishments.html">Accomplishments & Outcomes</a>
+<a href="accomplishments.html">Accomplishments &amp; Outcomes</a>
           </li>
         
         
@@ -311,7 +311,7 @@
         The Government of Canada has released its official statement on data management and long-term accessibility for publicly funded research and seeks feedback on its draft policy.
         
         
-          <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read&#160;More]</a>
         
       </div>
     </div>
@@ -369,7 +369,7 @@
         We’re pleased to announce the launch of our new website in anticipation for a busy year in 2019. This site designed using the “beautiful-jekyll” theme by Dean Attali and consists of a series of flat Markdown files that are rendered as HTML by our host, Github pages.
         
         
-          <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read&#160;More]</a>
         
       </div>
     </div>
@@ -415,10 +415,10 @@
             </li></ul>
       <p class="copyright text-muted">
       The Endings Project Team
-      &nbsp;&bull;&nbsp;
+      &#160;&#x2022;&#160;
       2020
       
-      &nbsp;&bull;&nbsp;
+      &#160;&#x2022;&#160;
       <a href="index.html">endings.uvic.ca</a>
       
       
@@ -433,27 +433,9 @@
   </div>
 </footer>
   
-    
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-      <script>
-      	if (typeof jQuery == 'undefined') {
-      	  document.write('<script src="js/jquery-1.11.2.min.js"></scr' + 'ipt>');
-      	}
-      </script>
-    
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-	<script src="js/bootstrap.min.js"></script>
-    
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-	<script src="js/main.js"></script>
-    
-  
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   
   </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"/>
 
   <title>Tag Index</title>
 
@@ -59,7 +59,7 @@
   
 
    
-  <meta property="og:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  <meta property="og:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for..."/>
   
 
 
@@ -83,7 +83,7 @@
   
 
   
-  <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for..."/>
   
 
   
@@ -151,7 +151,7 @@
 
 
 
-<a href="accomplishments.html">Accomplishments & Outcomes</a>
+<a href="accomplishments.html">Accomplishments &amp; Outcomes</a>
 
           </li>
         
@@ -325,9 +325,9 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <a href="tags.html#news" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;news&nbsp;(3)</a><div id="full-tags-list"><h2 id="news" class="linked-section">
+      <a href="tags.html#news" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&#160;news&#160;(3)</a><div id="full-tags-list"><h2 id="news" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;news&nbsp;(3)
+        &#160;news&#160;(3)
     </h2>
     <div class="post-list"><div class="tag-entry">
                 <a href="2018-12-19-tri-agency-statement/index.html">Tri-Agency Statement of Principles on Digital Data Management</a>
@@ -377,11 +377,11 @@
             </li></ul>
       <p class="copyright text-muted">
       The Endings Project Team
-      &nbsp;&bull;&nbsp;
+      &#160;&#x2022;&#160;
       2020
 
       
-      &nbsp;&bull;&nbsp;
+      &#160;&#x2022;&#160;
       <a href="index.html">endings.uvic.ca</a>
       
 
@@ -397,36 +397,9 @@
   </div>
 </footer>
 
-  
-    
-
-
-
-
-
-
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-      <script>
-      	if (typeof jQuery == 'undefined') {
-      	  document.write('<script src="js/jquery-1.11.2.min.js"></scr' + 'ipt>');
-      	}
-      </script>
-    
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-	<script src="js/bootstrap.min.js"></script>
-    
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-	<script src="js/main.js"></script>
-    
-  
-
-
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   
   </body>
 </html>
