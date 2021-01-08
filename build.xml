@@ -11,11 +11,6 @@
   </description>
 
   <property name="echo.separator" value="************************************************"/>
-
-  <!-- We'll need access to the date. -->
-  <tstamp>
-    <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
-  </tstamp>
   
   <!-- Set of files to process. -->
   <fileset id="htmlFiles" dir="${basedir}/site">
@@ -30,14 +25,14 @@
     </description>
     <echo message="${echo.separator}"/>
     <echo message="Refreshing HTML pages..."/>
-<!--   Do the transformation. -->
-    <!--<java fork="true" classname="net.sf.saxon.Transform"
-      classpath="${basedir}/utilities/saxon9he.jar">
-      <arg value="-s:build_site.xml"/>
-      <arg value="-xsl:xsl/build_site.xsl"/>
-      <arg value="-\-suppressXsltNamespaceCheck:on"/>
-      <arg value="today=${today}"/>
-    </java>-->
+    <xslt destdir="${basedir}/site"
+      style="${basedir}/xsl/build)html.xsl"
+      extension=".xml" classpath="${basedir}/utilities/saxon9he.jar"
+      useImplicitFileset="false" 
+      failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <fileset refid="htmlFiles"/>
+    </xslt>
   </target>
   
   <target name="rsyncToLiveServer">

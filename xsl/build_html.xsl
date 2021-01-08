@@ -15,12 +15,14 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:param name="today" as="xs:string"/>
+  <xsl:variable name="today" as="xs:string" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC"/>
-   
-  <!-- Main navbar div. -->
-  <xsl:template match="div[@id='main-navbar']">
+  
+  <xsl:variable name="docId" select="substring-before(tokenize(document-uri(/), '/')[last()], '.html')"/>
+  
+  <!-- This is the main menu. Edit here to change menus on all pages. -->
+  <xsl:variable name="mainMenu" as="element(div)">
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -61,9 +63,9 @@
         </li>
       </ul>
     </div>
-  </xsl:template>
+  </xsl:variable>
   
-  <xsl:template match="footer">
+  <xsl:variable name="footer" as="element(footer)">
     <footer>
       <div class="container beautiful-jekyll-footer">
         <div class="row">
@@ -90,7 +92,7 @@
             <p class="copyright text-muted">
               The Endings Project Team
               &#160;&#x2022;&#160;
-              2<xsl:value-of select="$today"/>
+              <xsl:value-of select="$today"/>
               &#160;&#x2022;&#160;
               <a href="index.html">endings.uvic.ca</a>
             </p>
@@ -103,6 +105,34 @@
         </div>
       </div>
     </footer>
+  </xsl:variable>
+  
+  <xsl:template match="/">
+    <xsl:message>Processing file <xsl:value-of select="$docId"/> on <xsl:value-of select="$today"/>. </xsl:message>
+    <xsl:apply-templates/>
+  </xsl:template>
+   
+  <!-- Main navbar div. -->
+  <xsl:template match="div[@id='main-navbar']">
+    <xsl:copy select="$mainMenu">
+      <xsl:apply-templates select="$mainMenu/@*"/>
+      <xsl:apply-templates select="$mainMenu/node()"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- We want to highlight the chosen menu item. -->
+  <xsl:template match="a[ancestor::div[@id='main-navbar']]/@href">
+    <xsl:copy-of select="."/>
+    <xsl:if test="$docId = substring-before(., '.html')">
+      <xsl:attribute name="class" select="'current-page'"/>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="footer">
+    <xsl:copy>
+      <xsl:apply-templates select="$footer/@*"/>
+      <xsl:apply-templates select="$footer/node()"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="@*|node()">
