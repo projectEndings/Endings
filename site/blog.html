@@ -1,441 +1,351 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
-  <head>
-  <meta charset="utf-8" />
-  
-  <meta name="viewport" content="width=device-width, viewport-fit=cover"/>
-  <title>News</title>
-  <meta name="author" content="The Endings Project Team" />
-  
-  
-  
-  
-  
-  
-    
-      
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-    
-  
-  
-    
-      <link rel="stylesheet" href="css/bootstrap.min.css" />
-    
-      <link rel="stylesheet" href="css/bootstrap-social.css" />
-    
-      <link rel="stylesheet" href="css/main.css" />
-    
-  
-  
-    
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-    
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-    
-  
-  
-  
-  
-    <!-- Facebook OpenGraph tags -->
-  
-  
-  <meta property="og:title" content="News" />
-  
-   
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/>
-  
-  <meta property="og:type" content="website" />
-  
-  <meta property="og:url" content="https://endings.uvic.ca/blog/" />
-  <link rel="canonical" href="blog.html" />
-  
-  
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@" />
-  <meta name="twitter:creator" content="@" />
-  
-  <meta name="twitter:title" content="News" />
-  
-  
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/>
-  
-  
-  
-</head>
-  <body>
-    
-  
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-        <a class="navbar-brand navbar-brand-logo" href="index.html"><img src="img/endingsProjectLogo4.png" alt="Endings project logo"/></a>
-      
-    </div>
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-      
-        
-          <li>
-            
-<a href="about.html">About</a>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="principles.html">Principles</a>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="accomplishments.html">Accomplishments &amp; Outcomes</a>
-          </li>
-        
-        
-        
-          <li>
-<a href="symposium.html">Symposium</a>
-          </li>
-<li>
-            
-<a href="https://github.com/projectEndings/">Code</a>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="projects.html">Projects</a>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="people.html">People</a>
-          </li>
-        
-        
-        
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
-            <div class="navlinks-children">
-              
-                
-                  
-<a href="papers.html">Conference Papers</a>
-                
-              
-                
-                  
-<a href="articles.html">Journal Articles</a>
-                
-              
-                
-                  
-<a href="software.html">Software</a>
-                
-              
-                
-                  
-<a href="resources.html">Resources</a>
-                
-              
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"> 
+   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --> 
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+      <meta charset="utf-8"/> 
+      <meta name="viewport" content="width=device-width, viewport-fit=cover"/> 
+      <title>News</title> 
+      <meta name="author" content="The Endings Project Team"/> 
+      <link rel="stylesheet" href="css/font-awesome.min.css"/> 
+      <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+      <link rel="stylesheet" href="css/bootstrap-social.css"/> 
+      <link rel="stylesheet" href="css/main.css"/> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"/> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/> 
+      <!-- Facebook OpenGraph tags --> 
+      <meta property="og:title" content="News"/> 
+      <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &#34;%B %-d, %Y&#34; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/> 
+      <meta property="og:type" content="website"/> 
+      <meta property="og:url" content="https://endings.uvic.ca/blog/"/> 
+      <link rel="canonical" href="blog.html"/> 
+      <!-- Twitter summary cards --> 
+      <meta name="twitter:card" content="summary"/> 
+      <meta name="twitter:site" content="@"/> 
+      <meta name="twitter:creator" content="@"/> 
+      <meta name="twitter:title" content="News"/> 
+      <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &#34;%B %-d, %Y&#34; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/> 
+   </head> 
+   <body> 
+      <!--Do not edit directly. Make changes in the XSLT.--> 
+      <!--Do not edit directly. Make changes in the XSLT.--> 
+      <!--Do not edit directly. Make changes in the XSLT.--> 
+      <!--Do not edit directly. Make changes in the XSLT.--> 
+      <!--Do not edit directly. Make changes in the XSLT.--> 
+      <!--Do not edit directly. Make changes in the XSLT.-->
+      <nav class="navbar navbar-default navbar-fixed-top navbar-custom"><script>
+        function showHideMobileNav(sender){
+        let nav = document.querySelector('nav'), div = document.querySelector('#main-navbar');
+          nav.classList.toggle('top-nav-expanded');
+          div.classList.toggle('in');
+          div.getAttribute('aria-expanded')? div.removeAttribute('aria-expanded') : div.setAttribute('aria-expanded', 'true');
+          sender.getAttribute('aria-expanded')? sender.removeAttribute('aria-expanded') : sender.setAttribute('aria-expanded', 'true');
+        }
+      </script><div class="container-fluid">
+            <div class="navbar-header"><button onclick="showHideMobileNav(this)" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand navbar-brand-logo" href="index.html"><img src="img/endingsProjectLogo4.png" alt="Endings project logo"/></a></div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="principles.html">Principles</a></li>
+                  <li><a href="accomplishments.html">Accomplishments &amp; Outcomes</a></li>
+                  <li><a href="symposium.html">Symposium</a></li>
+                  <li><a href="https://github.com/projectEndings/">Code</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="people.html">People</a></li>
+                  <li class="navlinks-container"><a class="navlinks-parent" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+                  </li>
+                  <li><a href="blog.html" class="current-page">News</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
             </div>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="blog.html">News</a>
-          </li>
-        
-        
-        
-          <li>
-            
-<a href="contact.html">Contact</a>
-          </li>
-        
-        
-      </ul>
-    </div>
-	
-  </div>
-</nav>
-    <!-- TODO this file has become a mess, refactor it -->
-<header class="header-section ">
-<div class="intro-header no-img">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="page-heading">
-          <h1>News</h1>
-		  
-		  
-		  
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="posts-list">
-        
-        <article class="post-preview">
-          <h2 class="post-title">staticSearch 1.0 released!</h2>
-          <p class="post-meta">Posted on October 14, 2020</p>
-          <div class="post-entry-container">
-            <div class="post-entry">
-              <p>The first production-ready release of the staticSearch tool has been released:</p>
-              <ul>
-                
-                <li><a href="https://github.com/projectEndings/staticSearch/releases/tag/v1.0.0">staticSearch</a> version 1.0.0.</li>
-                
-              </ul>
-              
-              <p>This tool is already used in a number of Endings-compliant sites. You can see the full documentation <a href="staticSearch/docs/index.html">here</a>.</p>
-              
+         </div>
+      </nav> 
+      <!-- TODO this file has become a mess, refactor it --> 
+      <header class="header-section "> 
+         <div class="intro-header no-img"> 
+            <div class="container"> 
+               <div class="row"> 
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
+                     <div class="page-heading"> 
+                        <h1>News</h1> 
+                     </div> 
+                  </div> 
+               </div> 
+            </div> 
+         </div> 
+      </header> 
+      <div class="container" role="main"> 
+         <div class="row"> 
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
+               <div class="posts-list"> 
+                  <article class="post-preview"> 
+                     <h2 class="post-title">staticSearch 1.0 released!</h2> 
+                     <p class="post-meta">Posted on October 14, 2020</p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry"> 
+                           <p>The first production-ready release of the staticSearch tool has been released:</p> 
+                           <ul> 
+                              <li><a href="https://github.com/projectEndings/staticSearch/releases/tag/v1.0.0">staticSearch</a> version 1.0.0.
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </li> 
+                           </ul> 
+                           <p>This tool is already used in a number of Endings-compliant sites. You can see the
+                              full documentation <a href="staticSearch/docs/index.html">here</a>.
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p> 
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+                  <article class="post-preview"> 
+                     <h2 class="post-title">MyNDIR goes live!</h2> 
+                     <p class="post-meta">Posted on August 18, 2020</p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry"> 
+                           <p>A new entirely static Endings-compliant site has been published:</p> 
+                           <ul> 
+                              <li><a href="https://myndir.uvic.ca">My Norse Digital Image Repository</a>, edition 2.0.
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </li> 
+                           </ul> 
+                           <p>MyNDIR is a long-term project by Trish Baer that was originally a Cocoon/eXist
+                              application. Trish attended our 2019 DHSI course on Endings, <q>Endings: How 
+                                 to End (and Archive) your Digital Project,</q> and has since worked with HCMC 
+                              to restructure and redesign the site. Check out the fabulous results!
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p> 
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+                  <article class="post-preview"> 
+                     <h2 class="post-title">Progress in Lockdown</h2> 
+                     <p class="post-meta">Posted on August 5, 2020</p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry"> 
+                           <p>We have just published three entirely static sites:</p> 
+                           <ul> 
+                              <li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern London</a>, edition 6.4.
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </li> 
+                              <li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches</a>, edition 2.1.
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </li> 
+                              <li><a href="https://johnkeats.uvic.ca">Mapping Keats's Progress</a>, edition 3.0.
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </li> 
+                           </ul> 
+                           <p>and we're about to publish a fourth, Trish Baer's MyNDIR.</p> 
+                           <p>All four of these are using recent versions of the Endings <a href="https://github.com/projectEndings/staticSearch">staticSearch tool</a>, which now includes support for wildcard searches as well as booleans and a variety
+                              of different search filters. Check it out at the <a href="https://bcgenesis.uvic.ca/search.html">Despatches site</a>.
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p> 
+                           <p>This is a significant point in our work. Not only have we developed a set of rigorous
+                              principles for digital longevity; we have also applied them with complete success
+                              to a substantial number of projects. We have solved the search-dependency problem
+                              far more effectively than we expected to be able to; when we started Endings, we had
+                              no idea how to tackle it, and now we have search pages which are better, faster, more
+                              configurable and more elegant than what the old databases used to afford us. We have
+                              been able to take down two XML database applications, and when MyNDIR is published
+                              we'll be able to remove a third and shut down an entire Tomcat instance.
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p> 
+                           <p>We're also able to demonstrate that multiple editions can live side-by-side, just
+                              like books on a shelf; <a href="https://mapoflondon.uvic.ca/old/6.3/">MoEML</a> 6.3 is still available,
+                              as is <a href="https://bcgenesis.uvic.ca/old/2.0/">Despatches 2.0</a>. There's no reason why we shouldn't keep them, and every subsequent edition, for
+                              ever if we want to and we can afford the disk space. At any point, the Library can
+                              take any or all of these editions and serve them itself without any server requirements
+                              other than any old web server. 
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p> 
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+                  <article class="post-preview"> <a href="2018-12-19-tri-agency-statement/index.html"> 
+                        <h2 class="post-title">Tri-Agency Statement of Principles on Digital Data Management</h2> </a> 
+                     <p class="post-meta">
+                        Posted on December 19, 2018
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                     </p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry">
+                           The Government of Canada has released its official statement on data management and
+                           long-term accessibility for publicly funded research and seeks feedback on its draft
+                           policy.
+                           
+                           
+                           <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read More]</a> 
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+                  <article class="post-preview"> <a href="2018-12-19-portage/index.html"> 
+                        <h2 class="post-title">Portage Network's Research Data Management Tools</h2> </a> 
+                     <p class="post-meta">
+                        Posted on December 19, 2018
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                     </p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry">
+                           The Portage Network has released a suite of tools to help researchers plan for the
+                           long-term preservation of their data.
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+                  <article class="post-preview"> <a href="2018-12-08-welcome/index.html"> 
+                        <h2 class="post-title">New Website Launched</h2> </a> 
+                     <p class="post-meta">
+                        Posted on December 8, 2018
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                     </p> 
+                     <div class="post-entry-container"> 
+                        <div class="post-entry">
+                           We’re pleased to announce the launch of our new website in anticipation for a busy
+                           year in 2019. This site designed using the “beautiful-jekyll” theme by Dean Attali
+                           and consists of a series of flat Markdown files that are rendered as HTML by our host,
+                           Github pages.
+                           
+                           
+                           <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read More]</a> 
+                        </div> 
+                     </div> 
+                     <div class="blog-tags">
+                        Tags:
+                        
+                        
+                        <a href="tags.html#news">news</a> 
+                     </div> 
+                  </article> 
+               </div> 
+            </div> 
+         </div> 
+      </div> 
+      <footer>
+         <!--Do not edit directly. Make changes in the XSLT.-->
+         <div class="container beautiful-jekyll-footer">
+            <div class="row">
+               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center footer-links">
+                     <li><a href="mailto:mholmes@uvic.ca" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span><span class="sr-only">Email me</span></a></li>
+                     <li><a href="https://github.com/projectEndings" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span><span class="sr-only">GitHub</span></a></li>
+                     <li><a href="https://twitter.com/EndingsProject" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span><span class="sr-only">Twitter</span></a></li>
+                  </ul>
+                  <p class="copyright text-muted">
+                     The Endings Project Team
+                      • 
+                     2021-01-08
+                      • 
+                     <a href="index.html">endings.uvic.ca</a></p>
+                  <!--Please don't remove this, keep my open source work credited :)-->
+                  <p class="theme-by text-muted">
+                     Theme by
+                     <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a></p>
+               </div>
             </div>
-          </div>
-          
-          
-          
-          <div class="blog-tags">
-            Tags:
-            
-            
-            <a href="tags.html#news">news</a>
-            
-            
-          </div>
-        </article>
-        
-        <article class="post-preview">
-          <h2 class="post-title">MyNDIR goes live!</h2>
-          <p class="post-meta">Posted on August 18, 2020</p>
-          <div class="post-entry-container">
-            <div class="post-entry">
-              <p>A new entirely static Endings-compliant site has been published:</p>
-              <ul>
-                
-                <li><a href="https://myndir.uvic.ca">My Norse Digital Image Repository</a>, edition 2.0.</li>
-                
-              </ul>
-              
-              <p>MyNDIR is a long-term project by Trish Baer that was originally a Cocoon/eXist
-                application. Trish attended our 2019 DHSI course on Endings, <q>Endings: How 
-                  to End (and Archive) your Digital Project,</q> and has since worked with HCMC 
-                to restructure and redesign the site. Check out the fabulous results!</p>
-              
-            </div>
-          </div>
-          
-          
-          
-          <div class="blog-tags">
-            Tags:
-            
-            
-            <a href="tags.html#news">news</a>
-            
-            
-          </div>
-        </article>
-        
-        <article class="post-preview">
-          <h2 class="post-title">Progress in Lockdown</h2>
-          <p class="post-meta">Posted on August 5, 2020</p>
-          <div class="post-entry-container">
-            <div class="post-entry">
-              <p>We have just published three entirely static sites:</p>
-              <ul>
-              
-              <li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern London</a>, edition 6.4.</li>
-              
-              <li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches</a>, edition 2.1.</li>
-              
-              <li><a href="https://johnkeats.uvic.ca">Mapping Keats's Progress</a>, edition 3.0.</li>
-              
-              </ul>
-              <p>and we're about to publish a fourth, Trish Baer's MyNDIR.</p>
-                
-                <p>All four of these are using recent versions of the Endings <a href="https://github.com/projectEndings/staticSearch">staticSearch tool</a>, which now includes support for wildcard searches as well as booleans and a variety of different search filters. Check it out at the <a href="https://bcgenesis.uvic.ca/search.html">Despatches site</a>.</p>
-              
-                  <p>This is a significant point in our work. Not only have we developed a set of rigorous principles for digital longevity; we have also applied them with complete success to a substantial number of projects. We have solved the search-dependency problem far more effectively than we expected to be able to; when we started Endings, we had no idea how to tackle it, and now we have search pages which are better, faster, more configurable and more elegant than what the old databases used to afford us. We have been able to take down two XML database applications, and when MyNDIR is published we'll be able to remove a third and shut down an entire Tomcat instance.</p>
-                  
-                  <p>We're also able to demonstrate that multiple editions can live side-by-side, just like books on a shelf; <a href="https://mapoflondon.uvic.ca/old/6.3/">MoEML</a> 6.3 is still available,
-              as is <a href="https://bcgenesis.uvic.ca/old/2.0/">Despatches 2.0</a>. There's no reason why we shouldn't keep them, and every subsequent edition, for ever if we want to and we can afford the disk space. At any point, the Library can take any or all of these editions and serve them itself without any server requirements other than any old web server. </p>
-            </div>
-          </div>
-          
-          
-          
-          <div class="blog-tags">
-            Tags:
-            
-            
-            <a href="tags.html#news">news</a>
-            
-            
-          </div>
-        </article>
-  
-  <article class="post-preview">
-    <a href="2018-12-19-tri-agency-statement/index.html">
-	  <h2 class="post-title">Tri-Agency Statement of Principles on Digital Data Management</h2>
-	  
-    </a>
-    <p class="post-meta">
-      Posted on December 19, 2018
-    </p>
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        The Government of Canada has released its official statement on data management and long-term accessibility for publicly funded research and seeks feedback on its draft policy.
-        
-        
-          <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read&#160;More]</a>
-        
-      </div>
-    </div>
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="tags.html#news">news</a>
-      
-      
-    </div>
-    
-   </article>
-  
-  <article class="post-preview">
-    <a href="2018-12-19-portage/index.html">
-	  <h2 class="post-title">Portage Network's Research Data Management Tools</h2>
-	  
-    </a>
-    <p class="post-meta">
-      Posted on December 19, 2018
-    </p>
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        The Portage Network has released a suite of tools to help researchers plan for the long-term preservation of their data.
-        
-        
-      </div>
-    </div>
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="tags.html#news">news</a>
-      
-      
-    </div>
-    
-   </article>
-  
-  <article class="post-preview">
-    <a href="2018-12-08-welcome/index.html">
-	  <h2 class="post-title">New Website Launched</h2>
-	  
-    </a>
-    <p class="post-meta">
-      Posted on December 8, 2018
-    </p>
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        We’re pleased to announce the launch of our new website in anticipation for a busy year in 2019. This site designed using the “beautiful-jekyll” theme by Dean Attali and consists of a series of flat Markdown files that are rendered as HTML by our host, Github pages.
-        
-        
-          <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read&#160;More]</a>
-        
-      </div>
-    </div>
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="tags.html#news">news</a>
-      
-      
-    </div>
-    
-   </article>
-  
-</div>
-	    
-    </div>
-  </div>
-</div>
-    <footer>
-  <div class="container beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links"><li><a href="mailto:mholmes@uvic.ca" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">Email me</span>
-              </a>
-            </li><li><a href="https://github.com/projectEndings" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">GitHub</span>
-              </a>
-            </li><li><a href="https://twitter.com/EndingsProject" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li></ul>
-      <p class="copyright text-muted">
-      The Endings Project Team
-      &#160;&#x2022;&#160;
-      2020
-      
-      &#160;&#x2022;&#160;
-      <a href="index.html">endings.uvic.ca</a>
-      
-      
-      </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
-    <p class="theme-by text-muted">
-      Theme by
-      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
-    </p>
-      </div>
-    </div>
-  </div>
-</footer>
-  
-    
-    
-    
-  
-  </body>
+         </div>
+      </footer> 
+   </body> 
 </html>

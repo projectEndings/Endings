@@ -19,50 +19,39 @@
   
   <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC"/>
   
-  <xsl:variable name="docId" select="substring-before(tokenize(document-uri(/), '/')[last()], '.html')"/>
-  
   <!-- This is the main menu. Edit here to change menus on all pages. -->
-  <xsl:variable name="mainMenu" as="element(div)">
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="principles.html">Principles</a>
-        </li>
-        <li>
-          <a href="accomplishments.html">Accomplishments &amp; Outcomes</a>
-        </li>
-        <li>
-          <a href="symposium.html">Symposium</a>
-        </li>
-        <li>
-          <a href="https://github.com/projectEndings/">Code</a>
-        </li>
-        <li>
-          <a href="projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="people.html">People</a>
-        </li>
-        <li class="navlinks-container">
-          <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
-          <div class="navlinks-children">
-            <a href="papers.html">Conference Papers</a>
-            <a href="articles.html">Journal Articles</a>
-            <a href="software.html">Software</a>
-            <a href="resources.html">Resources</a>
-          </div>
-        </li>
-        <li>
-          <a href="blog.html">News</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
+  <xsl:variable name="mainMenu" as="element(nav)">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom"> 
+      <script>
+        function showHideMobileNav(sender){
+        let nav = document.querySelector('nav'), div = document.querySelector('#main-navbar');
+          nav.classList.toggle('top-nav-expanded');
+          div.classList.toggle('in');
+          div.getAttribute('aria-expanded')? div.removeAttribute('aria-expanded') : div.setAttribute('aria-expanded', 'true');
+          sender.getAttribute('aria-expanded')? sender.removeAttribute('aria-expanded') : sender.setAttribute('aria-expanded', 'true');
+        }
+      </script>
+      <div class="container-fluid"> 
+        <div class="navbar-header"> <button onclick="showHideMobileNav(this)" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand navbar-brand-logo" href="index.html"><img src="img/endingsProjectLogo4.png" alt="Endings project logo"/></a> 
+        </div> 
+        <!--Do not edit directly. Make changes in the XSLT.-->
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="principles.html">Principles</a></li>
+            <li><a href="accomplishments.html">Accomplishments &amp; Outcomes</a></li>
+            <li><a href="symposium.html">Symposium</a></li>
+            <li><a href="https://github.com/projectEndings/">Code</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="people.html">People</a></li>
+            <li class="navlinks-container"><a class="navlinks-parent" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+            </li>
+            <li><a href="blog.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div> 
+      </div> 
+    </nav> 
   </xsl:variable>
   
   <xsl:variable name="footer" as="element(footer)">
@@ -96,7 +85,7 @@
               &#160;&#x2022;&#160;
               <a href="index.html">endings.uvic.ca</a>
             </p>
-            <!-- Please don't remove this, keep my open source work credited :) -->
+            <xsl:comment>Please don't remove this, keep my open source work credited :)</xsl:comment>
             <p class="theme-by text-muted">
               Theme by
               <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
@@ -108,12 +97,16 @@
   </xsl:variable>
   
   <xsl:template match="/">
-    <xsl:message>Processing file <xsl:value-of select="$docId"/> on <xsl:value-of select="$today"/>. </xsl:message>
-    <xsl:apply-templates/>
+    <xsl:variable name="docName" as="xs:string" select="tokenize(document-uri(.), '/')[last()]"/>
+    <xsl:message>Processing file <xsl:value-of select="$docName"/> on <xsl:value-of select="$today"/>. </xsl:message>
+    <xsl:apply-templates>
+      <xsl:with-param name="docName" select="$docName" tunnel="yes"/>
+    </xsl:apply-templates>
   </xsl:template>
    
-  <!-- Main navbar div. -->
-  <xsl:template match="div[@id='main-navbar']">
+  <!-- Main menu nav. -->
+  <xsl:template match="nav[contains(@class, 'navbar')]">
+    <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
     <xsl:copy select="$mainMenu">
       <xsl:apply-templates select="$mainMenu/@*"/>
       <xsl:apply-templates select="$mainMenu/node()"/>
@@ -121,18 +114,27 @@
   </xsl:template>
   
   <!-- We want to highlight the chosen menu item. -->
-  <xsl:template match="a[ancestor::div[@id='main-navbar']]/@href">
-    <xsl:copy-of select="."/>
-    <xsl:if test="$docId = substring-before(., '.html')">
+  <xsl:template match="a[ancestor::div[@id='main-navbar']]">
+    <xsl:param tunnel="yes" name="docName" as="xs:string"/>
+    <xsl:copy select=".">
+      <xsl:apply-templates select="@*"/>
+    <xsl:if test="@href = $docName">
       <xsl:attribute name="class" select="'current-page'"/>
     </xsl:if>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="footer">
     <xsl:copy>
+      <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
       <xsl:apply-templates select="$footer/@*"/>
       <xsl:apply-templates select="$footer/node()"/>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="text()[normalize-space(.) = '']">
+    <xsl:text> </xsl:text>
   </xsl:template>
   
   <xsl:template match="@*|node()">
