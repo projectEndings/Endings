@@ -17,7 +17,7 @@
   
   <xsl:variable name="today" as="xs:string" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
-  <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC"/>
+  <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC" omit-xml-declaration="yes"/>
   
   <!-- This is the main menu. Edit here to change menus on all pages. -->
   <xsl:variable name="mainMenu" as="element(nav)">
@@ -34,7 +34,7 @@
       <div class="container-fluid"> 
         <div class="navbar-header"> <button onclick="showHideMobileNav(this)" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand navbar-brand-logo" href="index.html"><img src="img/endingsProjectLogo4.png" alt="Endings project logo"/></a> 
         </div> 
-        <!--Do not edit directly. Make changes in the XSLT.-->
+        <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="about.html">About</a></li>
@@ -44,7 +44,7 @@
             <li><a href="https://github.com/projectEndings/">Code</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="people.html">People</a></li>
-            <li class="navlinks-container"><a class="navlinks-parent" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
             </li>
             <li><a href="blog.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -106,9 +106,9 @@
    
   <!-- Main menu nav. -->
   <xsl:template match="nav[contains(@class, 'navbar')]">
-    <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
     <xsl:copy select="$mainMenu">
       <xsl:apply-templates select="$mainMenu/@*"/>
+    <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
       <xsl:apply-templates select="$mainMenu/node()"/>
     </xsl:copy>
   </xsl:template>
@@ -127,8 +127,8 @@
   
   <xsl:template match="footer">
     <xsl:copy>
-      <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
       <xsl:apply-templates select="$footer/@*"/>
+      <xsl:comment>Do not edit directly. Make changes in the XSLT.</xsl:comment>
       <xsl:apply-templates select="$footer/node()"/>
     </xsl:copy>
   </xsl:template>
