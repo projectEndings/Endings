@@ -116,6 +116,7 @@
   <!-- We want to highlight the chosen menu item. -->
   <xsl:template match="a[ancestor::div[@id='main-navbar']]">
     <xsl:param tunnel="yes" name="docName" as="xs:string"/>
+    <!--<xsl:message>docName is <xsl:value-of select="$docName"/></xsl:message>-->
     <xsl:copy select=".">
       <xsl:apply-templates select="@*"/>
     <xsl:if test="@href = $docName">

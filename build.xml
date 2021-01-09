@@ -63,15 +63,15 @@
     </description>
     <echo message="${echo.separator}"/>
     <echo message="Pushing content up to the live site."/>
-    <exec executable="rsync" dir="${basedir}/site">
+    <exec executable="rsync" dir="${basedir}">
       <arg value="--stats"/>
       <arg value="--recursive"/>
       <arg value="--times"/>
       <arg value="--verbose"/>
       <!--<arg value="-\-delete"/>-->
       <arg line="-e ssh"/>
-      <arg line="./html/"/>
-      <arg line="hcmc@nfs.hcmc.uvic.ca:/home1t/endings/www/"/>
+      <arg line="site/"/>
+      <arg line="mholmes@nfs.hcmc.uvic.ca:/home1t/endings/www/"/>
     </exec>
   </target>
 
