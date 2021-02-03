@@ -1,0 +1,12 @@
+
+Arneil, S., and Holmes, M. D. "Hot Potatoes: Free Tools for Creating Interactive Language Exercises for the World Wide Web," Paper presented at the EuroCALL conference, Leuven (September 1998).
+
+Arneil, S., and Holmes, M. D. "Juggling hot potatoes: Decisions and compromises in creating authoring tools for the Web". ReCALL Journal 11.2: 12-19 and College and University Media Review, Vol. 6 No. 1. CUP; CCUMC (September 1999). https://web.archive.org/web/20050526203034/http://www.eurocall-languages.org/recall/pdf/rvol11no2.pdf.
+
+Arneil, S., and Holmes, M. D. "Hot Potatoes, History and Future," Paper presented at EuroCALL Conference, Nijmegen (August 2001). http://web.uvic.ca/hrd/eurocall2001/HotPotPastFuture/PastFutureHome.htm.
+
+Burnard, L. How to Update Your ODD. TEI GitHub Repository (2016). http://teic.github.io/PDF/purifyDoc.pdf. (accessed 18 February 2019).
+
+Holmes, M. D. "Web Language." Online presentation showcasing the use of JavaScript-based exercises for language teaching. 1997. http://web.uvic.ca/lancenrd/martin/weblang/.
+
+

@@ -1,0 +1,22 @@
+
+
+OUTLINE:
+
+ - Intro: Early Days (already drafted)
+
+ - Project Endings: personnel, projects, work done, and funding
+
+ - The Principles
+ 
+ - The implementation, in our actual projects; elucidate the sections of the Principles document with real-world examples and discussion:
+ 
+    - Data (standards, formats, VCS)
+
+    - Products (draw on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester)
+    
+    - Processing (draw on ???)
+    
+    - Documentation 
+    
+    - Release Management (we now have enough numbered and archived releases for this to be easy to illustrate)
+
