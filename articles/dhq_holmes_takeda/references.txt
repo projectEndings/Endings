@@ -9,4 +9,4 @@ Burnard, L. How to Update Your ODD. TEI GitHub Repository (2016). http://teic.gi
 
 Holmes, M. D. "Web Language." Online presentation showcasing the use of JavaScript-based exercises for language teaching. 1997. http://web.uvic.ca/lancenrd/martin/weblang/.
 
-
+Takeda, J. and S. Lines. "Using Github and its Integrations to Create, Test, and Deploy a Digital Edition," Paper presented at the Text Encoding Initiative conference, Graz (September 2019).
