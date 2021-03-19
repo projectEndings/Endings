@@ -773,3 +773,37 @@ ul.nav li a.current-page{
   font-style: italic;
   font-size: 16px;
 }
+
+details{
+  margin: 0.5em;
+}
+
+details>summary{
+  cursor: pointer;
+  font-weight: bold;
+  border-style: none;
+}
+
+details[open]>summary, summary:focus{
+  border-style: none;
+  outline: none;
+}
+
+details>summary:before{
+  display: inline-block;
+  content: "▶ ";
+  margin-left: -1.5em;
+  width: 1.5em;
+  font-size: 2rem;
+}
+details[open]>summary:before{
+  display: inline-block;
+  content: "▼ ";
+  margin-left: -1.5em;
+  width: 1.5em;
+  font-size: 2rem;
+}
+
+details>p{
+  margin: 0.75em;
+}
