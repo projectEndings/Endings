@@ -40,7 +40,8 @@
             <li><a href="about.html">About</a></li>
             <li><a href="principles.html">Principles</a></li>
             <li><a href="accomplishments.html">Accomplishments &amp; Outcomes</a></li>
-            <li><a href="symposium.html">Symposium</a></li>
+            <!--<li><a href="symposium.html">Symposium</a></li>-->
+            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Symposium</a><div class="navlinks-children"><a href="symposium.html">Endings Symposium</a><a href="symposium_schedule.html">Schedule</a><a href="dhq.html">DHQ Special Edition</a><a href="https://endings.uvic.ca/symposium/discussion/">Discussion board (private)</a></div></li>
             <li><a href="https://github.com/projectEndings/">Code</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="people.html">People</a></li>
