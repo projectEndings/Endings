@@ -1,0 +1,1 @@
+Processing (mention diagnostics here too?); main point is that processing is not expected to last, only products are.

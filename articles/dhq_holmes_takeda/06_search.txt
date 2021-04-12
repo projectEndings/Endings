@@ -1,0 +1,11 @@
+The Lingering Problem: Search
+ 
+    - Our intermediate phase: eXist apps with entirely static content save for search
+    
+    - Experimentation with Google and Solr (draw on Tokyo presentation for this and below)
+    
+    - Existing offline searches: the single-massive-index approach, no use at scale
+    
+    - Our little brainwave: you only need the bits of the index that server your actual search.
+    
+    - How staticSearch works

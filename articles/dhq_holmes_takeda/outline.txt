@@ -2,25 +2,29 @@
 
 OUTLINE:
 
- - Intro: Early Days (already drafted)
+ - 01 Say what the paper is trying to do. 
 
- - Project Endings: personnel, projects, work done, and funding
-
- - The Principles
+ - 02 Intro: Early Days (already drafted)
  
- - The implementation, in our actual projects; elucidate the sections of the Principles document with real-world examples and discussion:
+ - 03 A litany of failures: all the things that we did wrong. E.g. query-string URLs causing failure to archive; content only linked through JS (for instance) that did not get harvested; inconsistent state of live applications; ...
+
+ - 04 And So Project Endings Came to Pass: personnel, projects, work done, and funding
+
+ - 05 The Principles: Codifying what we learned. Subsections to follow the proposed new sequence in Principles 2.0, which we can work on at the same time.
  
-    - Data (standards, formats, VCS)
+      The implementation, in our actual projects; elucidate the sections of the Principles document with real-world examples and discussion:
+ 
+    - 05.1 Data (standards, formats, VCS)
+    
+    - 05.2 Documentation 
+    
+    - 05.3 Processing (mention diagnostics here too?); main point is that processing is not expected to last, only products are.
+    
+    - 05.4 Products (draw on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrix harvester)
 
-    - Products (draw on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester)
-    
-    - Processing (draw on ???)
-    
-    - Documentation 
-    
-    - Release Management (we now have enough numbered and archived releases for this to be easy to illustrate)
+    - 05.5 Release Management (we now have enough numbered and archived releases for this to be easy to illustrate)
 
- - The Lingering Problem: Search
+ - 06 The Lingering Problem: Search
  
     - Our intermediate phase: eXist apps with entirely static content save for search
     
@@ -32,9 +36,9 @@ OUTLINE:
     
     - How staticSearch works
     
- - Now it's built, how do we archive it? Negotiating with the Library.
+ - 07 Archiving. Now it's built, how do we archive it? Negotiating with the Library.
     
- - Conclusion:
+ - 08 Conclusion:
  
     - We did it
     - You can do it
