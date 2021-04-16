@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Endings Principles for Digital Longevity</title>
+            <title>Endings Principles for Digital Longevity (1.0)</title>
             <author>Martin Holmes</author>
          </titleStmt>
          <publicationStmt>
@@ -20,7 +20,7 @@
   <text>
      <body>
         <div>
-         <head>Endings Principles for Digital Longevity</head>
+         <head>Endings Principles for Digital Longevity (1.0)</head>
 
            <p>We divide digital projects into five primary components: data, products, processing,
               documentation, and release management.</p>
