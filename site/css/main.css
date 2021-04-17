@@ -8,7 +8,10 @@ body {
   color: #404040;
   position: relative;
   background-color: #FFFFFF;
-  
+  /* Make the body flex so that it takes up the whole page, where neecessary */
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
 }
 p {
   line-height: 1.5;
@@ -47,7 +50,7 @@ hr.small {
   .main-content {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
-    padding-top: 130px;
+    /*  padding-top: 130px; */
   }
 }
 
@@ -260,7 +263,8 @@ img {
 footer {
   padding: 30px 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 50px;
+  // margin-top: 50px;
+  margin-top: auto;
   font-size: 14px;
   background-color: #F5F5F5;
   
@@ -427,7 +431,9 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  /* margin: 80px 0 20px; */
+  /* Nicer margin now that it actually does something */
+  margin-top: 2em;
   position: relative;
 }
 .intro-header.big-img {
@@ -507,7 +513,8 @@ footer .theme-by {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+   /*  Get rid of margin */
+    /*  margin-top: 130px; */
   }
   .intro-header.big-img {
     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -807,3 +814,33 @@ details[open]>summary:before{
 details>p{
   margin: 0.75em;
 }
+
+
+
+/* Make navbar sticky rather than fixed
+ * so that margins are properly applied for content
+ * following */
+nav.navbar.navbar-fixed-top{
+    position:sticky;
+    top:0;
+    
+}
+
+/* In all but mobile views, flex the navbar horizontally
+ * so that it doesn't end up taking up 3 spaces */
+@media (min-width: 767px){
+
+nav.navbar .container-fluid{
+    display:flex
+} 
+
+#main-navbar{
+    margin-left:auto;
+}
+    
+    
+}
+
+
+
+
