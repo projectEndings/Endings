@@ -19,6 +19,8 @@
   
   <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC" omit-xml-declaration="yes"/>
   
+  <xsl:mode on-no-match="shallow-copy"/>
+  
   <!-- This is the main menu. Edit here to change menus on all pages. -->
   <xsl:variable name="mainMenu" as="element(nav)">
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom"> 
@@ -45,8 +47,8 @@
             <li><a href="https://github.com/projectEndings/">Code</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="people.html">People</a></li>
-            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and logos</a><a href="resources.html">Resources</a>
-              <a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and Logos</a>
+              <a href="software.html">Software</a><a href="resources.html">Other Resources</a></div>
             </li>
             <li><a href="blog.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -139,11 +141,5 @@
   <xsl:template match="text()[normalize-space(.) = '']">
     <xsl:text> </xsl:text>
   </xsl:template>
-  
-  <xsl:template match="@*|node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()"/>
-    </xsl:copy>
-  </xsl:template>  
   
 </xsl:stylesheet>

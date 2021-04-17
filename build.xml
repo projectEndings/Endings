@@ -39,7 +39,7 @@
     <echo message="Refreshing HTML pages..."/>
     <xslt destdir="${basedir}/temp"
       style="${basedir}/xsl/build_html.xsl"
-      extension=".html" classpath="${basedir}/utilities/saxon9he.jar"
+      extension=".html" classpath="${basedir}/utilities/saxon-he-10.jar"
       useImplicitFileset="false" 
       failonerror="true">
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>

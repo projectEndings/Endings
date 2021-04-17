@@ -1,5 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"> 
-   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --> 
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"> <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --> 
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
       <meta name="viewport" content="width=device-width, viewport-fit=cover"/> 
@@ -10,24 +9,19 @@
       <link rel="stylesheet" href="css/bootstrap-social.css"/> 
       <link rel="stylesheet" href="css/main.css"/> 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"/> 
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/> 
-      <!-- Facebook OpenGraph tags --> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/> <!-- Facebook OpenGraph tags --> 
       <meta property="og:title" content="News"/> 
       <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &#34;%B %-d, %Y&#34; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/> 
       <meta property="og:type" content="website"/> 
       <meta property="og:url" content="https://endings.uvic.ca/blog/"/> 
-      <link rel="canonical" href="blog.html"/> 
-      <!-- Twitter summary cards --> 
+      <link rel="canonical" href="blog.html"/> <!-- Twitter summary cards --> 
       <meta name="twitter:card" content="summary"/> 
       <meta name="twitter:site" content="@"/> 
       <meta name="twitter:creator" content="@"/> 
       <meta name="twitter:title" content="News"/> 
-      <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &#34;%B %-d, %Y&#34; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/> 
-   </head> 
-   <body> 
-      <!--Do not edit directly. Make changes in the XSLT.--> 
-      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-         <!--Do not edit directly. Make changes in the XSLT.--><script>
+      <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &#34;%B %-d, %Y&#34; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =..."/> </head> 
+   <body> <!--Do not edit directly. Make changes in the XSLT.--> 
+      <nav class="navbar navbar-default navbar-fixed-top navbar-custom"><!--Do not edit directly. Make changes in the XSLT.--><script>
         function showHideMobileNav(sender){
         let nav = document.querySelector('nav'), div = document.querySelector('#main-navbar');
           nav.classList.toggle('top-nav-expanded');
@@ -48,28 +42,21 @@
                   <li><a href="https://github.com/projectEndings/">Code</a></li>
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="people.html">People</a></li>
-                  <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and logos</a><a href="resources.html">Resources</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+                  <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and Logos</a><a href="software.html">Software</a><a href="resources.html">Other Resources</a></div>
                   </li>
                   <li><a href="blog.html" class="current-page">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                </ul>
             </div>
          </div>
-      </nav> 
-      <!-- TODO this file has become a mess, refactor it --> 
+      </nav> <!-- TODO this file has become a mess, refactor it --> 
       <header class="header-section "> 
          <div class="intro-header no-img"> 
             <div class="container"> 
                <div class="row"> 
                   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
                      <div class="page-heading"> 
-                        <h1>News</h1> 
-                     </div> 
-                  </div> 
-               </div> 
-            </div> 
-         </div> 
-      </header> 
+                        <h1>News</h1> </div> </div> </div> </div> </div> </header> 
       <div class="container" role="main"> 
          <div class="row"> 
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
@@ -94,8 +81,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>Dr. Catherine Caws's Francotoile project was first published over a dozen years ago,
                               as
                               a Tomcat/eXist application; it has now been entirely rewritten as a static
@@ -109,16 +96,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> 
                      <h2 class="post-title">staticSearch 1.2 released!</h2> 
                      <p class="post-meta">Posted on March 3, 2021</p> 
@@ -142,8 +126,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>This tool is already used in <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">many Endings-compliant sites</a>. This release contains several new features and improvements. You can see the
                               full documentation <a href="staticSearch/docs/index.html">here</a>.
                               
@@ -157,16 +141,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> 
                      <h2 class="post-title">staticSearch 1.1 released!</h2> 
                      <p class="post-meta">Posted on January 9, 2021</p> 
@@ -190,8 +171,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>This tool is already used in <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">many Endings-compliant sites</a>. This release contains several new features and improvements. You can see the
                               full documentation <a href="staticSearch/docs/index.html">here</a>.
                               
@@ -208,16 +189,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> 
                      <h2 class="post-title">staticSearch 1.0 released!</h2> 
                      <p class="post-meta">Posted on October 14, 2020</p> 
@@ -241,8 +219,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>This tool is already used in a number of Endings-compliant sites. You can see the
                               full documentation <a href="staticSearch/docs/index.html">here</a>.
                               
@@ -261,16 +239,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> 
                      <h2 class="post-title">MyNDIR goes live!</h2> 
                      <p class="post-meta">Posted on August 18, 2020</p> 
@@ -308,8 +283,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>MyNDIR is a long-term project by Trish Baer that was originally a Cocoon/eXist
                               application. Trish attended our 2019 DHSI course on Endings, <q>Endings: How 
                                  to End (and Archive) your Digital Project,</q> and has since worked with HCMC 
@@ -343,16 +318,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> 
                      <h2 class="post-title">Progress in Lockdown</h2> 
                      <p class="post-meta">Posted on August 5, 2020</p> 
@@ -390,7 +362,8 @@
                                  
                                  
                                  
-                              </li> 
+                                 
+                                 </li> 
                               <li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches</a>, edition 2.1.
                                  
                                  
@@ -421,7 +394,8 @@
                                  
                                  
                                  
-                              </li> 
+                                 
+                                 </li> 
                               <li><a href="https://johnkeats.uvic.ca">Mapping Keats's Progress</a>, edition 3.0.
                                  
                                  
@@ -452,8 +426,8 @@
                                  
                                  
                                  
-                              </li> 
-                           </ul> 
+                                 
+                                 </li> </ul> 
                            <p>and we're about to publish a fourth, Trish Baer's MyNDIR.</p> 
                            <p>All four of these are using recent versions of the Endings <a href="https://github.com/projectEndings/staticSearch">staticSearch tool</a>, which now includes support for wildcard searches as well as booleans and a variety
                               of different search filters. Check it out at the <a href="https://bcgenesis.uvic.ca/search.html">Despatches site</a>.
@@ -486,7 +460,8 @@
                               
                               
                               
-                           </p> 
+                              
+                              </p> 
                            <p>This is a significant point in our work. Not only have we developed a set of rigorous
                               principles for digital longevity; we have also applied them with complete success
                               to a substantial number of projects. We have solved the search-dependency problem
@@ -524,7 +499,8 @@
                               
                               
                               
-                           </p> 
+                              
+                              </p> 
                            <p>We're also able to demonstrate that multiple editions can live side-by-side, just
                               like books on a shelf; <a href="https://mapoflondon.uvic.ca/old/6.3/">MoEML</a> 6.3 is still available,
                               as is <a href="https://bcgenesis.uvic.ca/old/2.0/">Despatches 2.0</a>. There's no reason why we shouldn't keep them, and every subsequent edition, for
@@ -560,16 +536,13 @@
                               
                               
                               
-                           </p> 
-                        </div> 
-                     </div> 
+                              
+                              </p> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> <a href="2018-12-19-tri-agency-statement/index.html"> 
                         <h2 class="post-title">Tri-Agency Statement of Principles on Digital Data Management</h2> </a> 
                      <p class="post-meta">
@@ -604,7 +577,8 @@
                         
                         
                         
-                     </p> 
+                        
+                        </p> 
                      <div class="post-entry-container"> 
                         <div class="post-entry">
                            The Government of Canada has released its official statement on data management and
@@ -612,16 +586,12 @@
                            policy.
                            
                            
-                           <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read More]</a> 
-                        </div> 
-                     </div> 
+                           <a href="2018-12-19-tri-agency-statement/index.html" class="post-read-more">[Read More]</a> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> <a href="2018-12-19-portage/index.html"> 
                         <h2 class="post-title">Portage Network's Research Data Management Tools</h2> </a> 
                      <p class="post-meta">
@@ -656,7 +626,8 @@
                         
                         
                         
-                     </p> 
+                        
+                        </p> 
                      <div class="post-entry-container"> 
                         <div class="post-entry">
                            The Portage Network has released a suite of tools to help researchers plan for the
@@ -693,15 +664,13 @@
                            
                            
                            
-                        </div> 
-                     </div> 
+                           
+                           </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
+                        <a href="tags.html#news">news</a> </div> </article> 
                   <article class="post-preview"> <a href="2018-12-08-welcome/index.html"> 
                         <h2 class="post-title">New Website Launched</h2> </a> 
                      <p class="post-meta">
@@ -736,7 +705,8 @@
                         
                         
                         
-                     </p> 
+                        
+                        </p> 
                      <div class="post-entry-container"> 
                         <div class="post-entry">
                            We’re pleased to announce the launch of our new website in anticipation for a busy
@@ -745,22 +715,13 @@
                            Github pages.
                            
                            
-                           <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read More]</a> 
-                        </div> 
-                     </div> 
+                           <a href="2018-12-08-welcome/index.html" class="post-read-more">[Read More]</a> </div> </div> 
                      <div class="blog-tags">
                         Tags:
                         
                         
-                        <a href="tags.html#news">news</a> 
-                     </div> 
-                  </article> 
-               </div> 
-            </div> 
-         </div> 
-      </div> 
-      <footer>
-         <!--Do not edit directly. Make changes in the XSLT.-->
+                        <a href="tags.html#news">news</a> </div> </article> </div> </div> </div> </div> 
+      <footer><!--Do not edit directly. Make changes in the XSLT.-->
          <div class="container beautiful-jekyll-footer">
             <div class="row">
                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -782,6 +743,4 @@
                </div>
             </div>
          </div>
-      </footer> 
-   </body> 
-</html>
+      </footer> </body> </html>

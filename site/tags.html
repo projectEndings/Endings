@@ -1,5 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"> 
-   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --> 
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"> <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --> 
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
       <meta name="viewport" content="width=device-width, viewport-fit=cover"/> 
@@ -10,24 +9,19 @@
       <link rel="stylesheet" href="css/bootstrap-social.css"/> 
       <link rel="stylesheet" href="css/main.css"/> 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"/> 
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/> 
-      <!-- Facebook OpenGraph tags --> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/> <!-- Facebook OpenGraph tags --> 
       <meta property="og:title" content="Tag Index"/> 
       <meta property="og:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for..."/> 
       <meta property="og:type" content="website"/> 
       <meta property="og:url" content="https://endings.uvic.ca/tags/"/> 
-      <link rel="canonical" href="tags.html"/> 
-      <!-- Twitter summary cards --> 
+      <link rel="canonical" href="tags.html"/> <!-- Twitter summary cards --> 
       <meta name="twitter:card" content="summary"/> 
       <meta name="twitter:site" content="@"/> 
       <meta name="twitter:creator" content="@"/> 
       <meta name="twitter:title" content="Tag Index"/> 
-      <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for..."/> 
-   </head> 
-   <body> 
-      <!--Do not edit directly. Make changes in the XSLT.--> 
-      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-         <!--Do not edit directly. Make changes in the XSLT.--><script>
+      <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for..."/> </head> 
+   <body> <!--Do not edit directly. Make changes in the XSLT.--> 
+      <nav class="navbar navbar-default navbar-fixed-top navbar-custom"><!--Do not edit directly. Make changes in the XSLT.--><script>
         function showHideMobileNav(sender){
         let nav = document.querySelector('nav'), div = document.querySelector('#main-navbar');
           nav.classList.toggle('top-nav-expanded');
@@ -48,28 +42,21 @@
                   <li><a href="https://github.com/projectEndings/">Code</a></li>
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="people.html">People</a></li>
-                  <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and logos</a><a href="resources.html">Resources</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+                  <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and Logos</a><a href="software.html">Software</a><a href="resources.html">Other Resources</a></div>
                   </li>
                   <li><a href="blog.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                </ul>
             </div>
          </div>
-      </nav> 
-      <!-- TODO this file has become a mess, refactor it --> 
+      </nav> <!-- TODO this file has become a mess, refactor it --> 
       <header class="header-section "> 
          <div class="intro-header no-img"> 
             <div class="container"> 
                <div class="row"> 
                   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
                      <div class="page-heading"> 
-                        <h1>Tag Index</h1> 
-                     </div> 
-                  </div> 
-               </div> 
-            </div> 
-         </div> 
-      </header> 
+                        <h1>Tag Index</h1> </div> </div> </div> </div> </div> </header> 
       <div class="container" role="main"> 
          <div class="row"> 
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> <a href="tags.html#news" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i> news (3)</a><div id="full-tags-list"> 
@@ -105,30 +92,16 @@
                      
                      
                      
-                  </h2> 
+                     
+                     </h2> 
                   <div class="post-list"> 
                      <div class="tag-entry"> <a href="2018-12-19-tri-agency-statement/index.html">Tri-Agency Statement of Principles on Digital Data Management</a> 
-                        <div class="entry-date"> 
-                           <time datetime="2018-12-19T00:00:00-08:00">December 19, 2018</time> 
-                        </div> 
-                     </div> 
+                        <div class="entry-date"> <time datetime="2018-12-19T00:00:00-08:00">December 19, 2018</time> </div> </div> 
                      <div class="tag-entry"> <a href="2018-12-19-portage/index.html">Portage Network's Research Data Management Tools</a> 
-                        <div class="entry-date"> 
-                           <time datetime="2018-12-19T00:00:00-08:00">December 19, 2018</time> 
-                        </div> 
-                     </div> 
+                        <div class="entry-date"> <time datetime="2018-12-19T00:00:00-08:00">December 19, 2018</time> </div> </div> 
                      <div class="tag-entry"> <a href="2018-12-08-welcome/index.html">New Website Launched</a> 
-                        <div class="entry-date"> 
-                           <time datetime="2018-12-08T00:00:00-08:00">December 08, 2018</time> 
-                        </div> 
-                     </div> 
-                  </div> 
-               </div> 
-            </div> 
-         </div> 
-      </div> 
-      <footer>
-         <!--Do not edit directly. Make changes in the XSLT.-->
+                        <div class="entry-date"> <time datetime="2018-12-08T00:00:00-08:00">December 08, 2018</time> </div> </div> </div> </div> </div> </div> </div> 
+      <footer><!--Do not edit directly. Make changes in the XSLT.-->
          <div class="container beautiful-jekyll-footer">
             <div class="row">
                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -150,6 +123,4 @@
                </div>
             </div>
          </div>
-      </footer> 
-   </body> 
-</html>
+      </footer> </body> </html>
