@@ -45,7 +45,8 @@
             <li><a href="https://github.com/projectEndings/">Code</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="people.html">People</a></li>
-            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="software.html">Software</a><a href="resources.html">Resources</a></div>
+            <li class="navlinks-container"><a class="navlinks-parent" onclick="this.parentNode.classList.toggle('show-children')" href="javascript:void(0)">Resources</a><div class="navlinks-children"><a href="papers.html">Conference Papers</a><a href="articles.html">Journal Articles</a><a href="compliance.html">Compliance and logos</a><a href="resources.html">Resources</a>
+              <a href="software.html">Software</a><a href="resources.html">Resources</a></div>
             </li>
             <li><a href="blog.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>

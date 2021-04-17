@@ -21,6 +21,11 @@
   <fileset id="tempFiles" dir="${basedir}/temp">
     <include name="*.html"/>
   </fileset>
+  
+  <!-- Images to push to the site folder. -->
+  <fileset id="imgFiles" dir="${basedir}/logos">
+    <include name="*.svg"/>
+  </fileset>
 
   <target name="buildHtml">
     <description>
@@ -55,6 +60,13 @@
     <delete dir="${basedir}/temp"/>
   </target>
   
+  <target name="copyRequiredFiles">
+    <copy todir="${basedir}/site/img">
+      <fileset refid="imgFiles"/>
+    </copy>
+    <zip basedir="${basedir}/logos" zipfile="${basedir}/site/logos.zip"/>
+  </target>
+  
   <target name="rsyncToLiveServer">
     <description>
       TARGET rsyncToLiveServer
@@ -79,6 +91,7 @@
     <description> TARGET all This target runs all the processes defined elsewhere in the file. </description>
     <antcall target="buildHtml"/>
     <antcall target="overwriteOriginals"/>
+    <antcall target="copyRequiredFiles"/>
   </target>
 
 </project>
