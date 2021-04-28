@@ -1,1 +1,101 @@
-Say what the paper is trying to do.
+What is now the Humanities Computing and Media Centre at the University of Victoria was once simply the Language Centre, a unit whose role was to maintain language laboratories and computer workstations and to write software applications used for language teaching courses. We had both Macintosh and Windows workstations, and would typically write custom software for one or other platform but not both, since writing cross-platform software applications was quite difficult in the days before the WWW and Java. When the Web first appeared, we seized on it enthusiastically as a practical way to provide language-teaching resources which could be delivered not only on both kinds of workstation in our labs but also to other locations. When JavaScript emerged around 1996, we were blessed with the capability to create truly interactive programmed teaching exercises, and by the turn of the millenium we had built language-teaching exercise collections for many languages, as well as desktop authoring tools to make the creation of such pages easy for non-coders (Arneil & Holmes 1998, 1999 and 2001).
+
+In the early 2000s, the Language Centre was transformed into the Humanities Computing and Media Centre (HCMC), and given a wider mandate to support what was then commonly termed Humanities Computing, now Digital Humanities. Better-funded projects came along, and more ambitious coding was undertaken, supporting not only language-teaching resources but also digital edition projects, historical datasets, mapping initiatives, and many other research and teaching activities. With the advent of new technologies and increased financial support, we were now able to create more sophisticated web applications and blessed with our own server, thanks to the ground-breaking Canadian TaPOR (Text-Analysis Portal) initiative, we were no longer constrained by static (albeit interactive) websites. Instead, we could create resources that could dynamically display, render, and deploy material in myriad contexts, decorated by server-side processing that could adapt to the needs of the user or the application context. Sophisticated searching, grouping, and presentation options that formerly posed significant challenges were now easy to implement. Beginning in 2003 we generated a large number of these projects, many of which continue to be well-known within the Digital Humanities, and continued to accrue new ones throughout the 2010s; our servers were well-populated and their CPUs were busy running XQuery, XSLT, PHP, SQL, and even ASP code.
+
+And as our project portfolio burgeoned, so did our maintenance burden. The server-side technologies that solved our earlier problems began to pose new ones: they required frequent maintenance and updates that often forced projects, while ostensibly finished or on hiatus, to be re-written completely. As an example, the Robert Graves Diary (https://graves.uvic.ca/), one of our earliest digital edition projects, was originally written based on eXist version 0.9 in 2003-2004; it had to be steadily revised throughout 2005-2007, and then completely rewritten for eXist 1.4 in 2012, because the original Tomcat/Cocoon/eXist 0.9 stack became obsolete. Then in 2014 it was updated again. This was a project on which the core academic work had been completed in the first phase of the project, but due to infrastructure churn it regularly returned to haunt us. Over the years, we amassed a maintenance burden which threatened to overwhelm our ability to support new projects coming through our doors.
+
+This problem was the impetus for Project Endings, which brought together a team consisting of academic digital humanists, programmers, and librarians, along with a selection of active, complex digital edition projects to determine how best to plan, execute, and archive our projects so that they could live on indefinitely without further maintenance. The Web had solved for us the challenge to "write once, run anywhere" (https://en.wikipedia.org/wiki/Write_once,_run_anywhere); the question we were now asking was how can we "write once, run forever"? And, as we discovered, we already had the answer in the form of the early projects that not only preceded the sophisticated database-backed projects tha  Indeed, while we were busy with the dynamic, database-backed projects built on MySQL and eXist that demanded constant upkeep, the static projects of the 1990s built using the rudimentary set of HTML and JavaScript available at the time continued to work, quietly enduring with virtually no maintenance at all. Indeed, the materials created during this period still exist and they still work perfectly. Examples can be seen in the Indonesian course materials created in 1999 (https://web.uvic.ca/hrd/indonesian/) and the endearingly-dated-looking "Web Language" online presentation (Holmes 1997), originally created in 1997 and last updated in 1999. The latter includes a feedback form which is still regularly used, so it still clearly has some relevance despite its appearance. The HTML and JavaScript is still fully functional, although non-standards-based cutting-edge technologies of the time, such as RealAudio, of course no longer work.
+
+This paper thus presents what we term the "Endings Principles": a set of approaches for creating archivable, sustainable, and maintable digital humanities web applications. At its core, the Endings Principles advocates for "static sites": websites created without the use of server-side processing, the 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Older projects required regular and time-consuming update
+
+new projects, and as the Digital Humanities started to become increasingly popular, we began to amass a maintenance burden that threatened to overwhelm our ability to support new projects coming through our doors.  
+
+
+But as our 
+ New technologies and better funding enabled more sophisticated, dynamic web applications; sophisticated searching, grouping, and presentation options were easy to implement and we could quickly build new,   Beginning in 2003 we generated a large number of these projects; our servers were well-populated and their CPUs were busy running XQuery, XSLT, PHP, SQL, and even ASP code.
+ blessed with our own esrver infrastructure, thanks to  we were no longer bound to static (albeit interactive) websites.  to run Tomcat, Cocoon, Postgresql, and a host of other backends to support the growing variety of DH projects under way at our institution. 
+
+As we moved into the 2010s and onwards, we continued to accumulated new digital humanities projects, many of which were long-term and large-scale endeavours, like The Map of Early Modern London, that too needed complex server-side infrastructures to support their research.  We continued to support older projects and
+
+hile also continuing to support and maintain older ones. But these projects that had, in many ways, 
+
+
+
+As Lou Burnard notes, "nothing in digital form is ever really finished"; DH projects may languish untended and unloved for periods of time, their progenitors typically intend to return to them, working on them periodically or when funding allows. Setting up such projects implies a commitment to maintaining them and, as we quickly discovered,  we amassed a maintenance burden which threatened to overwhelm our ability to support new projects coming through our doors.
+
+
+This accretion of projects and, in particular, the various technologies required to keep them alive threatened to overwhelm our ability to support the new projects that came through out doors. But as we moved into the 2010s and onwards, 
+
+
+
+While Lou Burnard notes that "nothing in digital form is every really finished," these project
+
+
+
+ became significant research tools,  that required significant infrastructure to  hich threatened to overwhelm our ability to support new projects coming through our doors.
+
+
+
+
+These projects, while Setting up such projects implies a commitment to maintaining them, and as our project portfolio burgeoned, so did our maintenance burden.  as we moved into the 2010s and onwards, a clear pattern began to emerge:
+
+
+
+
+
+This paper thus outlines our answer. Drawing on real-life examples from various DH projects—both the long-standing core Endings project as well as projects that we have worked on since—this paper defines a set of principles that, we argue, provide digital humanities projects with the best chance of survival. In particular, what 
+
+
+
+
+
+
+
+As we moved into the 2010s and onwards, a clear pattern began to emerge: projects created in the 1990s continued to work as intended with virtually no maintenance at all, but the projects we had built on sophisticated backend systems such as MySQL and eXist required frequent and time-consuming maintenance work. And if, as Lou Burnard (2016) notes,  then, paradoxically, the 
+
+
+
+As an example, the Robert Graves Diary (https://graves.uvic.ca/), one of our earliest digital edition projects, was launched in 2004–2005. Throughout 2005–2007, the application had to be steadily revised; by 2012, the original Tomcat/Cocoon/eXist 0.9 stack was obsolete and thus the application had to be rewritten entirely; and in 2014 it needed to be updated again. While the core academic work had been completed in the first phase of the project, due to infrastructure churn, the project regularly returned to haunt us. And between these updates to Graves, the HCMC continued to support new projects—like the Map of Early Modern London and Le Mariage Sous le Regime—that also required maintenance and support. Over the years, then, we began to amass a maintenance burden which threatened to overwhelm our ability to support new projects coming through our doors.
+
+
+
+
+ DH projects may languish untended and unloved for periods of time, but while their progenitors live, they typically have the intention to continue work on their projects, and return to them periodically or when funding allows. Setting up such projects implies a commitment to maintaining them, and as our project portfolio burgeoned, so did our maintenance burden.
+
+
+This problem,This problem was the impetus for Project Endings If the Web had solved for us the challenge to "write once, run anywhere" (https://en.wikipedia.org/wiki/Write_once,_run_anywhere), then the question we were now forced to confront was how can we write "write once, run forever"? Bringing together academic digital humanists, programmers, and librarians, Project Endings
+
+
+a multi-year collaboration between academic digital humanities, programmers, and librarians to challenge to the seemingly dire state of the affairs 
+
+  determine how we could best plan, execute, and archive digital humanities project.
+
+
+   Project Endings brought together a team consisting of academic digital humanists, programmers, and librarians, along with a selection of active, complex digital edition projects, to determine how we could best plan, execute and archive our projects in such a way that they would live on indefinitely without further maintenance. 
+
+
+
+
+
+
+This problem was the impetus for Project Endings: a collaboration between academic digital humanities, programmers, and librarians to determine how we could best plan, execute, and archive digital humanities projects. Often 
+
+
+ While the Web had solved the challenge to "write once, run anywhere" (https://en.wikipedia.org/wiki/Write_once,_run_anywhere) 
+
+ 
