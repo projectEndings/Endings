@@ -1,1 +1,44 @@
 Products (draw on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester)
+
+
+[Note: This assumes the re-organization of our Principles document as discussed before, to create version 2.0.]
+
+4.1 No dependence on server-side software: build a static website with no databases, no PHP, no Python. 
+
+"Lots of Copies Keep Stuff Safe," says the conventional wisdom, and Stanford has an entire digital preservation program (https://www.lockss.org/) named for this truism. And in fact there is no doubt that the more copies of something exist, the more likely it is to survive over the long term, especially if those copies are widely distributed geographically [citation needed -- see ?https://brewminate.com/classics-lost-and-found-the-survival-of-ancient-texts/]. In the world of online digital resources, though, it doesn't really matter how many archival copies of your TEI XML source encoding are distributed across the world; if the one hosting server which runs the database backend and WordPress front-end for your digital edition goes down, to all intents and purposes your project has disappeared.
+
+We have therefore focused on building digital editions which can run on any web server, anywhere, without any specific dependencies. If spinning up a new site requires nothing more than copying a collection of files to a server and circulating the URL, there is much more chance that _functional_ copies of the _products_ of your work will survive in a usable form. Every server-side dependency is a barrier to replication and therefore to survival.
+
+4.2 No boutique or fashionable technologies: use only standards with support across all platforms, whose long-term viability is assured. Our choices are HTML5, JavaScript and CSS. 
+
+4.3 No dependence on external libraries: no JQuery, no AngularJS, no Bootstrap.
+
+The World Wide Web -- the front-end of the modern Internet -- is perhaps the most successful and prolific invention in the history of human communication. Its current scale dwarfs the entire prior history of text, and it continues to expand at an astonishing rate. Underlying its functionality are three core languages: the markup language HTML, the style language CSS, and the scripting language JavaScript (ECMAScript), all of which are well-managed by standards bodies. This trio of technologies underlies more than the web, of course; cell phone applications, ePub documents, and many other forms of communication are also built on the base technologies of the Web, all of which are relatively simple and easy even for beginners to understand and learn.
+
+However, the world of content-creators who build Web resources is not so simple; rarely do they sit down and write plain HTML documents and style them with CSS. Instead, they tend to use large packaged libraries of existing code to generate the end-user Web pages we consume. Large coding frameworks for creating web-based resources come and go at a remarkable speed. At the time of writing, Angular, React, Vue, Express.js, Meteor, and Node are all popular JavaScript frameworks, while JQuery, Dojo, MooTools and others have fallen out of favour; by the time you read this, the situation will certainly have changed again. The same is true of database-dependent content-creation and delivery tools such as WordPress, Ruby on Rails, Drupal, Joomla and others. All of these efforts promise rapid site development at the cost of long-term maintenance issues. As Jim Nielsen (https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/) and others have pointed out, this creates an ecosystem in which "all web languages—HTML, CSS, and JS—are compile targets". Programmers no longer code directly in the target languages, and many do not even know them very well.
+
+And yet, the trifecta of those three core languages is a remarkably powerful. We know that because ultimately, all of those other languages, frameworks and tools, from MySQL+PHP to PostGresql+Python to RethinkDB+Node.js, basically do one thing: they produce HTML/CSS/JavaScript Web pages, and those Web pages do all the things we need them to do. And while each of those technologies or frameworks or back-end services will eventually stop working, for one reason or another, it is extremely unlikely that Web pages themselves will cease to function. One of the most remarkable things about HTML, CSS, and JavaScript is that over 20+ years of development, they have retained remarkable levels of backward compatibility. The first Web pages ever created still work perfectly (http://info.cern.ch/hypertext/WWW/TheProject.html); as we discussed in the introduction, the first projects we created at HCMC in the 1990s and early 2000s are also still perfectly functional. It is not unreasonable to think that, given the astonishing quantity of resources built and delivered through HTML, CSSm, and JavaScript, there is a strong chance that they will continue to function over the long term; and when they do, perhaps, alter in ways that make older forms of text less usable, there will be readily-available migration pathways and tools that can bring along everything that survives and is worth preserving. The same will not be true of this year's favourite JavaScript framework or last year's most popular content management system. 
+
+In the same way, if maintenance is ever required, it is very likely that there will be plenty of programmers familiar with the three core languages, able to read and understand standard code. It is not so certain that programmers capable of debugging and fixing a ReactJS application or a PHP script will be so common. Building your products from the three core technologies substantially increases their chances of survival.
+
+[DRAFTED TO HERE]
+
+2.4 No query strings: every entity in the site has a unique page with a simple URL that will function on any domain or ip address.
+
+2.5 Graceful failure: every page should still basically work even in the absence of JavaScript or CSS support.
+
+2.6 Massive redundancy: every page contains all the components it needs, so that it will function without the rest of the site if necessary, even though this means duplicating information across the site.
+
+2.7 Relentless validation: every site build involves validation of all input data (XML) and all output code (HTML5, JavaScript, CSS).
+
+2.8 Inclusion of data: every site should include a documented copy of the source data, so that users of the site can repurpose the work easily.
+
+These principles are tempered by the following concessions:
+
+2.9 Once a fully-working static site is achieved, it may be enhanced by the use of other services such as a server-side indexing tool (Solr, eXist) to support searching and similar functionality.
+
+2.10 The use of an external library may be necessary to support a specific function which is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies. 
+
+
+
+
