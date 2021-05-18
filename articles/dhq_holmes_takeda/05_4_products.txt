@@ -19,13 +19,23 @@ However, the world of content-creators who build Web resources is not so simple;
 
 And yet, the trifecta of those three core languages is a remarkably powerful. We know that because ultimately, all of those other languages, frameworks and tools, from MySQL+PHP to PostGresql+Python to RethinkDB+Node.js, basically do one thing: they produce HTML/CSS/JavaScript Web pages, and those Web pages do all the things we need them to do. And while each of those technologies or frameworks or back-end services will eventually stop working, for one reason or another, it is extremely unlikely that Web pages themselves will cease to function. One of the most remarkable things about HTML, CSS, and JavaScript is that over 20+ years of development, they have retained remarkable levels of backward compatibility. The first Web pages ever created still work perfectly (http://info.cern.ch/hypertext/WWW/TheProject.html); as we discussed in the introduction, the first projects we created at HCMC in the 1990s and early 2000s are also still perfectly functional. It is not unreasonable to think that, given the astonishing quantity of resources built and delivered through HTML, CSS, and JavaScript, there is a strong chance that they will continue to function over the long term; and when they do, perhaps, alter in ways that make older forms of text less usable, there will be readily-available migration pathways and tools that can bring along everything that survives and is worth preserving. The same will not be true of this year's favourite JavaScript framework or last year's most popular content management system. 
 
-
-
 In the same way, if maintenance is ever required, it is very likely that there will be plenty of programmers familiar with the three core languages, able to read and understand standard code. It is not so certain that programmers capable of debugging and fixing a ReactJS application or a PHP script will be so common. Building your products from the three core technologies substantially increases their chances of survival; dependence on back-end or external services is a temporary solution for short-term projects.
 
-[DRAFTED TO HERE]
-
 4.4 No query strings: every entity in the site has a unique page with a simple URL that will function on any domain or ip address.
+
+As noted above, older sites which queried back-end databases to construct their "pages" tended to have page URLs whose distinctive factors lay in the query string rather than in the base location. For example, to retrieve the diary entry for 22 February 1935 from the Robert Graves Diary project required the following URL:
+
+http://graves.uvic.ca/graves/site/xbrowse.xq?collection=%2Fdb%2Fgraves&type=diaryentry&query_stored=false&action=browse&search_text=-1&day=22&month=02&year=1935
+
+This concoction presented obvious difficulties for the Internet Archive crawler, so none of the diary entries were actually archived in the Wayback Machine from the original site. Contrast this with the current equivalent:
+
+http://graves.uvic.ca/diary_1935-02-22.html
+
+(See Holmes 2017 ["Selecting Technologies for Long-Term Survival." (Conference presentation.) SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada. [https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf]. 10/06/2017. ])
+
+which itself is linked from a sitemap page which ensures its retrieval. Such URLs are not only cleaner and simpler for automated tools to process; they can also be hacked by humans who happen to know exactly what date (in this case) they are looking for, and do not need to engage with form controls or other GUI components to get where they need to go.
+
+[DRAFTED TO HERE]
 
 4.5 Graceful failure: every page should still basically work even in the absence of JavaScript or CSS support.
 
