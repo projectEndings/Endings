@@ -1,7 +1,7 @@
 [A litany of failures: all the things that we did wrong. E.g. query-string URLs causing failure to archive; content only linked through JS (for instance) that did not get harvested; inconsistent state of live applications; ...]
 
 
-A Litany of Failures
+A Litany (Catalogue?) of Failures
 
 In the early days of the Endings project, we began to examine in detail the particular ways in which our older projects had progressively broken down. Some problems were obvious: obsolete versions of server-side applications and services (MapServer, MySQL, PHP) had been retired or replaced, and old code would not run on new versions, even if new versions existed. Other failures were more subtle. We investigated, for example, how successfully our applications had been archived by Archive.org and reproduced on the Wayback Machine. It was immediately obvious that sites built on backend databases, where "pages" were in fact queries to the database, were very problematic. The project Le Mariage sous l'Ancien Régime, which linked to its anthology documents with URLs like this:
 
