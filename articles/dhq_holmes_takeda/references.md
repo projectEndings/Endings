@@ -9,7 +9,7 @@
 
 [Cayless 2010] Cayless, H. 2010. "Ktêma es aiei: Digital Permanence from an Ancient Perspective." In _Digital Research in the Study of Classical Antiquity_, edited by Simon Mahony and Gabriel Bodard, 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless)
 
-Diaz, C. (2018) "Using static site generators for scholarly publications and open educational resources." The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
+[Diaz 2018] Diaz, C. (2018) "Using static site generators for scholarly publications and open educational resources." The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
 
 [Holmes 1997] Holmes, M. D. 1997. "Web Language." Online presentation showcasing the use of JavaScript-based exercises for language teaching. [url](https://web.uvic.ca/lancenrd/martin/weblang/).
 
@@ -22,6 +22,8 @@ Diaz, C. (2018) "Using static site generators for scholarly publications and ope
 [Holmes and Takeda 2019b] Holmes, M.D., and J. Takeda. 2019. "Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project." Digital Scholarship in the Humanities, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
 
 [Jakobsen and Orlandi 2016] Jakobsen, Jakob, and Claudio Orlandi. 2016. "On the CCA (in)security of MTProto."  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
+
+[Newson 2017] Newson, K. (2017) "Tools and workflows for collaborating on static website projects." The Code4Lib Journal. (2017) 38. [url](https://journal.code4lib.org/articles/12779)
 
 [Nielsen 1999] Nielsen, Jakob. 1999. "Graceful Degradation of Scalable Internet Services." Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
 
