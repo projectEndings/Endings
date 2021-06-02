@@ -30,7 +30,7 @@ But while data and products are designed to survive, processing code is necessar
 
 ##### {DRAFT}: New set of principles
 
->1. Relentless validation: all processing includes validation/linting of all inputs and outputs and all validation errors should exit the process and prevent further execution unti the errors are resolved
+>1. Relentless validation: all processing includes validation/linting of all inputs and outputs and all validation errors should exit the process and prevent further execution unti the errors are resolved; all validation should be accompanied by diagnostics
 >1. Continuous integration: Any change to the source data requires an entire rebuild of the site (triggered automatically by a continuous integration server where possible). Processing values validity and maintainability over speed and efficiency
 >1. Code is contingent: While code is not expected to have significant longevity, all code should strive to follow Endings principles for data and products. Ideally, processing code:
 >   1. should be subject to version control and, where possible, the same version control as the source data
