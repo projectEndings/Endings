@@ -9,13 +9,13 @@
 
 [Cayless 2010] Cayless, H. 2010. "Ktêma es aiei: Digital Permanence from an Ancient Perspective." In _Digital Research in the Study of Classical Antiquity_, edited by Simon Mahony and Gabriel Bodard, 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless)
 
+Diaz, C. (2018) "Using static site generators for scholarly publications and open educational resources." The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
+
 [Holmes 1997] Holmes, M. D. 1997. "Web Language." Online presentation showcasing the use of JavaScript-based exercises for language teaching. [url](https://web.uvic.ca/lancenrd/martin/weblang/).
 
 [Holmes 2017a] Holmes, M. D. 2017. "Whatever happened to interchange?" Digital Scholarship in the Humanities. (2017) 32 (suppl_1): i63-i68. Oxford University Press/EADH. [url](http://dx.doi.org/10.1093/llc/fqw048).
 
 [Holmes 2017b] Holmes, M. D. 2017. "Selecting Technologies for Long-Term Survival." Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada (June 2017). [url](https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf).
-
-
 
 [Holmes and Takeda 2019a] Holmes, M. D., and J. Takeda. 2019. "The Prefabricated Website: Who needs a server anyway?" Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449197). 
 
@@ -26,3 +26,5 @@
 [Nielsen 1999] Nielsen, Jakob. 1999. "Graceful Degradation of Scalable Internet Services." Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
 
 [Takeda and Lines 2019] Takeda, J. and Lines, S.  2019. "Using Github and its Integrations to Create, Test, and Deploy a Digital Edition," Paper presented at the Text Encoding Initiative conference, Graz, Austria (September 2019).
+
+[Unsworth 1997] Unsworth, J. "Documenting the Reinvention of Text: The Importance of Failure." The Journal of Electronic Publishing, 3.2 (December 1997). [doi:10.3998/3336451.0003.201](https://doi.org/10.3998/3336451.0003.201).
