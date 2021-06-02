@@ -11,6 +11,8 @@
 
 [Diaz 2018] Diaz, C. 2018. "Using static site generators for scholarly publications and open educational resources." The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
 
+[Gil 2015] Gil, A. (2015). “The User, the Learner and the Machines We Make.” 2015. Minimal Computing: A Working Group of GO::DH, 21 May 2015. http://godh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/
+
 [Holmes 1997] Holmes, M. D. 1997. "Web Language." Online presentation showcasing the use of JavaScript-based exercises for language teaching. [url](https://web.uvic.ca/lancenrd/martin/weblang/).
 
 [Holmes 2017a] Holmes, M. D. 2017. "Whatever happened to interchange?" Digital Scholarship in the Humanities. (2017) 32 (suppl_1): i63-i68. Oxford University Press/EADH. [url](http://dx.doi.org/10.1093/llc/fqw048).
@@ -23,10 +25,19 @@
 
 [Jakobsen and Orlandi 2016] Jakobsen, J., and C. Orlandi. 2016. "On the CCA (in)security of MTProto."  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
 
+[Rinaldi 2015] Rinaldi, B. 2015. *Static Site Generators.* O’Reilly Media Inc. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
+
 [Newson 2017] Newson, K. 2017. "Tools and workflows for collaborating on static website projects." The Code4Lib Journal. (2017) 38. [url](https://journal.code4lib.org/articles/12779)
 
 [Nielsen 1999] Nielsen, J. 1999. "Graceful Degradation of Scalable Internet Services." Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
 
+[Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 02 October 2016. http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/.
+
 [Takeda and Lines 2019] Takeda, J. and Lines, S.  2019. "Using Github and its Integrations to Create, Test, and Deploy a Digital Edition," Paper presented at the Text Encoding Initiative conference, Graz, Austria (September 2019).
 
-[Unsworth 1997] Unsworth, J. "Documenting the Reinvention of Text: The Importance of Failure." The Journal of Electronic Publishing, 3.2 (December 1997). [doi:10.3998/3336451.0003.201](https://doi.org/10.3998/3336451.0003.201).
+[Unsworth 1997] Unsworth, J. 1997. "Documenting the Reinvention of Text: The Importance of Failure." The Journal of Electronic Publishing, 3.2 (December 1997). [doi:10.3998/3336451.0003.201](https://doi.org/10.3998/3336451.0003.201).
+
+[Viglianti 2017] Viglianti, R. 2017. “Your Own Shelley-Godwin Archive: An off-line strategy for on-line publication.” TEI 2017 Conference, Victoria, BC, Canada. [url](https://hcmc.uvic.ca/tei2017/abstracts/t_126_viglianti_shelleygodwin.html).
+
+[Wickle, Williamson, and Becker 2020] Wikle, O., E. Williamson, and D. Becker. 2020. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib* 2020. [url]((https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/))
+
