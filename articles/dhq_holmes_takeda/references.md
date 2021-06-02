@@ -15,7 +15,9 @@
 
 [Holmes 2017b] Holmes, M. D. 2017. "Selecting Technologies for Long-Term Survival." Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada (June 2017). [url](https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf).
 
-[Holmes and Takeda 2019] Holmes, M. D., and J. Takeda. 2019. "The Prefabricated Website: Who needs a server anyway?" Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449197). 
+[Holmes and Takeda 2019a] Holmes, M.D., and J. Takeda. 2019. "Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project." Digital Scholarship in the Humanities, 34 (suppl_1) (2017): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
+
+[Holmes and Takeda 2019b] Holmes, M. D., and J. Takeda. 2019. "The Prefabricated Website: Who needs a server anyway?" Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449197). 
 
 [Jakobsen and Orlandi 2016] Jakobsen, Jakob, and Claudio Orlandi. 2016. "On the CCA (in)security of MTProto."  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
 
