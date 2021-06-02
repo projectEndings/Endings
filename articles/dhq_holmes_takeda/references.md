@@ -29,7 +29,9 @@
 
 [Newson 2017] Newson, K. 2017. "Tools and workflows for collaborating on static website projects." The Code4Lib Journal. (2017) 38. [url](https://journal.code4lib.org/articles/12779)
 
-[Nielsen 1999] Nielsen, J. 1999. "Graceful Degradation of Scalable Internet Services." Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
+[Jakob Nielsen 1999] Nielsen, Jakob. 1999. "Graceful Degradation of Scalable Internet Services." Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
+
+[Jim Nielsen 2021] Nielsen, Jim. 2021. "Web Languages as Compile Targets." _Jim Nielsen’s Blog_, 2021-04-05. [url](https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/).
 
 [Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 02 October 2016. [url](http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/).
 
