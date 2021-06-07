@@ -26,15 +26,22 @@
 
 [Holmes and Takeda 2019b] Holmes, M.D. and Takeda, J. 2019. “Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.” Digital Scholarship in the Humanities, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
 
+NOT NEEDED???:
+[InterPARES 2013] InterPARES 3 Team Canada (International Research on Permanent Authentic Records in Electronic Systems). Case Study 09: Alma Mater Society of The University of British Columbia: Policies and Procedures for Web Site Preservation. May 2013. [url](http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf).
+
 [Jakobsen and Orlandi 2016] Jakobsen, J., and C. Orlandi. 2016. “On the CCA (in)security of MTProto.”  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
 
-[Rinaldi 2015] Rinaldi, B. 2015. *Static Site Generators.* O’Reilly Media Inc. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
+[Molloy 2011] Molloy, L. “Oh, the Humanities! A Discussion about Research Data Management for the Arts and Humanities Disciplines.” In: JISC MRD - _Evidence Gathering_ 2011. [url](http://mrdevidence.jiscinvolve.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-)
+
+[Morreale 2019] Morreale, Laura. 2019. “Medieval Digital Humanities and the Rite of Spring: Thoughts on Performance and Preservation.” BodoArXiv. July 18. doi:10.34055/osf.io/7p2t6.
 
 [Newson 2017] Newson, K. 2017. “Tools and workflows for collaborating on static website projects.” The Code4Lib Journal. (2017) 38. [url](https://journal.code4lib.org/articles/12779)
 
 [Jakob Nielsen 1999] Nielsen, Jakob. 1999. “Graceful Degradation of Scalable Internet Services.” Nielsen Norman Group Website. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
 
 [Jim Nielsen 2021] Nielsen, Jim. 2021. “Web Languages as Compile Targets.” _Jim Nielsen’s Blog_, 2021-04-05. [url](https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/).
+
+[Rinaldi 2015] Rinaldi, B. 2015. *Static Site Generators.* O’Reilly Media Inc. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
 
 [Saachi 2015] Saachi, Simone. 2015. “What Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual Foundations for Digital Stewardship.” PhD thesis, University of Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. [url](https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download).
 
