@@ -12,19 +12,11 @@ We had conceded that the kinds of search our projects required—complex facetin
 
 Our intermediate solution was to stick with what we knew: package the static sites into a XAR bundle and spin up a simple eXist instance whose only job would be to index, query, and retrieve the search results from the static HTML pages. Of course, this worked perfectly and we released the first version of a number of our static sites following this approach. It was a suitable compromise, not a particularly satisfying solution, representing the kinds of fragility—where core functionality depended on a single server-side dependency—that we had sought to correct in the Endings project. We had gone through the trouble of re-writing these sites in their entirety to remove their dependency on eXist and had trumpeted our success with building completely static, serverless websites, and now here we were, returning to eXist, hat in hand. 
 
-If we were to to return to eXist, we reckoned, then we should at least try to improve the situation and, in the spirit of LOCKSS and following our principle for "Graceful Failure," we decided to take a decidely maximalist approach. Using Graves as our case-study, we supplemented eXist with three other approaches: an embedded Google search widget; an interface to query the library Solr instance, which would ingest index files provided by the project; and a simple Javascript-only search that queried pre-build JSON indexes. While this proliferation of search engines does sit rather uncomfortably with the rest of the Endings principles, which advocate for fewer dependencies and persistent solutions, multiple search engines was the best possible solution and, as we argued [Holmes and Takeda 2018],  "provides a level of flexibility [. . .] essential for the survival of projects" (59). 
+If we were to to return to eXist, we reckoned, then we should at least try to improve the situation; in the spirit of LOCKSS and following our principle for "Graceful Failure," we decided to take a decidely maximalist approach. Using Graves as our case-study, we supplemented eXist with three distinct approaches, which all had their own limitations with respect to functionality, archiving, and sustainbility, but could provide something of a safety net for the project.  We discuss these approach in greater detail in Holmes and Takeda 2018, but, in brief, those three approaches were: 1) a Google search widget, which would not offer anything beyond what Google already provides, but at least gave users a shortcut for a site-specific search; 2) an experimental interface for querying a Solr index provided by the Library (the eventual home for all of these projects), which could provide many of the facetting and filtering structures required by the project; and 3) a "standalone search,"  a Javascript-only string search interface that would stem user input, match it against an pre-built inverted index generated during the build process (a list of distinct words was created for each document, which was then run through the Python implementation of the Porter Stemmer, and then grouped the documents by word), and return a simple list of the documents in which that term appears. This  solution, as we noted then, worked well for small document collections, but lacked the necessary features—keyword-in-context, search faceting, and filtering— and thus should be considered the "ultimate fallback when all else fails" (59).
+
+But to revise our answer to the question "Why do I need four search engines?" that we posed in 2018: You don't. 
 
 
-
-#### Our intermediate phase: eXist apps with entirely static content save for search
-
-
-
-#### Experimentation with Google and Solr (draw on Tokyo presentation for this and below)
-
-
-
-<!-- JT: I reversed the following two points (used to be existing first, then brainwave). But I wonder if it makes sense to have existing offline search at the beginning (i.e. we knew that there were some offline searches available, but they just couldn't work; we also knew that there were services that we could use, but that's entirely unsustainable since it introduces a major dependency outside of our control) -->
 
 #### Our little brainwave: you only need the bits of the index that serve your actual search
 
