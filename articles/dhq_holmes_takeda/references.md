@@ -22,6 +22,8 @@
 
 [Holmes 2017b] Holmes, M. D. 2017. “Selecting Technologies for Long-Term Survival.” Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada (June 2017). [url](https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf).
 
+[Holmes and Takeda 2018] Holmes, M.. D. and Takeda, J. 2018. "Why do I need Four Search Engines?" Proceedings of the Japanese Association of Digital Humanities Conference, Tokyo, Japan (2018). [url](https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58)
+
 [Holmes and Takeda 2019a] Holmes, M. D., and Takeda, J. 2019. “The Prefabricated Website: Who needs a server anyway?” Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449197). 
 
 [Holmes and Takeda 2019b] Holmes, M.D. and Takeda, J. 2019. “Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.” Digital Scholarship in the Humanities, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
