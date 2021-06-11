@@ -6,7 +6,7 @@ With these Principles in place, we were able to convert the dormant projects, li
 
 <!--Image of the "old" graves homepage, maybe?-->
 
-But these sites all lacked a significant and crucial part of their functionality: search. Most digital editions require some form of text-based searching and, in many cases, the ability to search across a large and disparate document collection and aggregate documents based on multiple metrics is the project's raison d'être. Search was, in other words, non-negotiable—we could not sacrifice the robust search mechanisms on the existing site. We could quietly ignore search in projects where search functionality was peripheral to other modes of discovery and aggregation; these projects, like *The Map Of Early Modern London*, had the now ubiquitous search bar in the top right-hand corner and, if an internal member of the project team tried to use the search either locally or in Jenkins, the page simply told them they couldn't. But once again, Graves forced us to come up with a real solution: the homepage for the project was essential one large, faceted search page, which we were able to replicate perfectly using CSS and JavaScript, but since searching was handled entirely by eXist, the static version was rendered completely inert. 
+But these sites all lacked a significant and crucial part of their functionality: search. Most digital editions require some form of text-based searching and, in many cases, the ability to search across a large and disparate document collection and aggregate documents based on multiple metrics is the project's raison d'être. Search was, in other words, non-negotiable—we could not sacrifice the robust search mechanisms on the existing site. Though we could quietly ignore search for the time being  in some projects, like *The Map Of Early Modern London*,  where search was peripheral to the main functionality (if an internal member of the project team tried to use the search either locally or in Jenkins, the page simply told them they couldn't), but Graves forced us to come up with a real solution: the homepage for the project was essential one large, faceted search page, which we were able to replicate perfectly using CSS and JavaScript, but since searching was handled entirely by eXist, the static version was rendered completely inert. 
 
 We had conceded that the kinds of search our projects required—complex faceting and filters, wildcards, and exact phrase queries split across multiple, collection specific search pages—was necessarily the stuff of servers and could not be made static. While there were some solutions available, they were  ill-equiped to handle the thousands of documents, millions of words, and complex metadata structures that comprise a standard digital edition. Outsourcing indexing to an external service, like ElastiSearch, was out of the question as it would violate the core Endings principles and client-side Javascript search engines, like Lunr, while suitable for smaller projects, could not cope with the amount of data that comprise fairly even small digital editions. 
 
@@ -14,17 +14,13 @@ Our intermediate solution was to stick with what we knew: package the static sit
 
 If we were to to return to eXist, we reckoned, then we should at least try to improve the situation; in the spirit of LOCKSS and following our principle for "Graceful Failure," we decided to take a decidely maximalist approach. Using Graves as our case-study, we supplemented eXist with three distinct approaches, which all had their own limitations with respect to functionality, archiving, and sustainbility, but could provide something of a safety net for the project.  We discuss these approach in greater detail in Holmes and Takeda 2018, but, in brief, those three approaches were: 1) a Google search widget, which would not offer anything beyond what Google already provides, but at least gave users a shortcut for a site-specific search; 2) an experimental interface for querying a Solr index provided by the Library (the eventual home for all of these projects), which could provide many of the facetting and filtering structures required by the project; and 3) a "standalone search,"  a Javascript-only string search interface that would stem user input, match it against an pre-built inverted index generated during the build process (a list of distinct words was created for each document, which was then run through the Python implementation of the Porter Stemmer, and then grouped the documents by word), and return a simple list of the documents in which that term appears. This  solution, as we noted then, worked well for small document collections, but lacked the necessary features—keyword-in-context, search faceting, and filtering— and thus should be considered the "ultimate fallback when all else fails" (59).
 
-But to revise our answer to the question "Why do I need four search engines?" that we posed in 2018: You don't. 
-
-
-
-#### Our little brainwave: you only need the bits of the index that serve your actual search
-
-
-
-#### Existing offline searches: the single-massive-index approach, no use at scale
+Over the last three years, we have continued to improve and expand what we then called "standalone search" into "staticSearch": a fully-featured and sustainable search engine for static websites that has no server side dependencies. Now implemented by nearly a dozen projects, including the core Endings project and many others, staticSearch has not only allowed us to replicate  server-side search functionality, but has significantly expanded what these searches can do. So  to revise our answer to the question "Why do I need four search engines?": You don't.  
 
 
 
 #### How staticSearch works
+
+
+
+When a user enters a query, the search engine only needs to return the parts of the index that it needs and so rather than creating a massive index, we could create many small files—one for each stemmed word—that contains only the information for that term. 
 
