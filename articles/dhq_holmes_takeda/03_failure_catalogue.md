@@ -1,4 +1,4 @@
-[//]: # A litany of failures: all the things that we did wrong. E.g. query-string URLs causing failure to archive; content only linked through JS (for instance) that did not get harvested; inconsistent state of live applications; ...
+<!--A litany of failures: all the things that we did wrong. E.g. query-string URLs causing failure to archive; content only linked through JS (for instance) that did not get harvested; inconsistent state of live applications; ...-->
 
 
 ## 3. A Catalogue of Failures

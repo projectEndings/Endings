@@ -1,4 +1,4 @@
-[//]: # Products draws on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester. Note: This assumes the re-organization of our Principles document as discussed before, to create version 2.0.
+<!--Products draws on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester. Note: This assumes the re-organization of our Principles document as discussed before, to create version 2.0.-->
 
 ### 4.0 Products
 

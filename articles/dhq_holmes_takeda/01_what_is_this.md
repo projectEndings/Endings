@@ -1,5 +1,5 @@
 
-[//]: # Experimental attempt at combining INTRO_EARLY_DAYS with WHAT_IS_THIS.
+<!-- Experimental attempt at combining INTRO_EARLY_DAYS with WHAT_IS_THIS. -->
 
 ## 1. Introduction
 
