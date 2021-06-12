@@ -1,4 +1,4 @@
-Early Days
+## 2. Early Days
 
 What is now the Humanities Computing and Media Centre at the University of Victoria was once simply the Language Centre, a unit whose role was to maintain language laboratories and computer workstations and to write software applications used for language teaching courses. We had both Macintosh and Windows workstations, and would typically write custom software for one or other platform but not both, since writing cross-platform software applications was quite difficult in the days before the WWW and Java. When the Web first appeared, we seized on it enthusiastically as a practical way to provide language-teaching resources which could be delivered not only on both kinds of workstation in our labs but also to other locations. When JavaScript emerged around 1996, we were blessed with the capability to create truly interactive programmed teaching exercises, and by the turn of the millenium we had built language-teaching exercise collections for many languages, as well as desktop authoring tools to make the creation of such pages easy for non-coders (Arneil and Holmes 1998, 1999 and 2001).
 

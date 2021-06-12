@@ -1,4 +1,4 @@
-Archiving. Now it's built, how do we archive it? Negotiating with the Library. The issue with URLs -- is a domain name intrinsic to the identity of the project? Will the archive [pay to] maintain it?
+[//]: # Archiving. Now it's built, how do we archive it? Negotiating with the Library. The issue with URLs: is a domain name intrinsic to the identity of the project? Will the archive [pay to] maintain it?
 
 ## 7. Archiving
 

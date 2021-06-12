@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="buildArticle" default="convert">
+  
+  <description>
+    This is a simple build file to concatenate all the
+    sections into one Markdown file and save it; then 
+    convert the Markdown to various things.
+    
+  </description>
+  
+  <target name="concat">
+    <description>
+      TARGET concat
+      
+      Concatenates all the sections into a single file.
+    </description>
+    <echo>Concatenating markdown files.</echo>
+    <delete file="holmes_takeda_endings.md"/>
+    <concat destfile="holmes_takeda_endings.md" fixlastline="yes">
+
+        <file name="01_what_is_this.md"/>
+        <file name="02_intro_early_days.md"/>
+        <file name="03_failure_catalogue.md"/>
+        <file name="04_therefore_endings.md"/>
+        <file name="05_principles_intro.md"/>
+        <file name="05_1_data.md"/>
+        <file name="05_2_documentation.md"/>
+        <file name="05_3_processing.md"/>
+        <file name="05_4_products.md"/>
+        <file name="05_5_release.md"/>
+        <file name="06_search.md"/>
+        <file name="07_archiving.md"/>
+        <file name="08_conclusion.md"/>
+        <file name="references.md"/>
+      
+    </concat>
+  </target>
+  
+  <target name="convert" depends="concat">
+    <description>
+      TARGET convert
+      
+      Converts single-document markdown file into various other things.
+    </description>
+    <echo>Concatenating markdown to odt.</echo>
+    <delete file="holmes_takeda_endings.odt"/>
+    <exec executable="pandoc">
+      <arg line="-o holmes_takeda_endings.odt"/>
+      <arg line="-f markdown"/>
+      <arg line="-t odt"/>
+      <arg line="holmes_takeda_endings.md"/>
+    </exec>
+    
+  </target>
+  
+</project>
