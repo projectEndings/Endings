@@ -54,7 +54,6 @@
     <delete file="holmes_takeda_endings.pdf"/>
     <exec executable="pandoc">
       <arg line="-o holmes_takeda_endings.pdf"/>
-      <arg line="-V fontsize=12pt"/>
       <arg line="-f markdown"/>
       <arg line="-t html5"/>
       <arg line="holmes_takeda_endings.md"/>
