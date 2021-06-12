@@ -17,7 +17,7 @@
     <echo>Concatenating markdown files.</echo>
     <delete file="holmes_takeda_endings.md"/>
     <concat destfile="holmes_takeda_endings.md" fixlastline="yes">
-
+        <file name="metadata.yaml"/>
         <file name="01_what_is_this.md"/>
         <file name="02_intro_early_days.md"/>
         <file name="03_failure_catalogue.md"/>
@@ -42,10 +42,27 @@
       
       Converts single-document markdown file into various other things.
     </description>
-    <echo>Concatenating markdown to odt.</echo>
+    <echo>Converting markdown to odt.</echo>
     <delete file="holmes_takeda_endings.odt"/>
     <exec executable="pandoc">
       <arg line="-o holmes_takeda_endings.odt"/>
+      <arg line="-f markdown"/>
+      <arg line="-t odt"/>
+      <arg line="holmes_takeda_endings.md"/>
+    </exec>
+    <echo>Converting markdown to pdf.</echo>
+    <delete file="holmes_takeda_endings.pdf"/>
+    <exec executable="pandoc">
+      <arg line="-o holmes_takeda_endings.pdf"/>
+      <arg line="-V fontsize=12pt"/>
+      <arg line="-f markdown"/>
+      <arg line="-t html5"/>
+      <arg line="holmes_takeda_endings.md"/>
+    </exec>
+    <echo>Converting markdown to docx.</echo>
+    <delete file="holmes_takeda_endings.docx"/>
+    <exec executable="pandoc">
+      <arg line="-o holmes_takeda_endings.docx"/>
       <arg line="-f markdown"/>
       <arg line="-t odt"/>
       <arg line="holmes_takeda_endings.md"/>
