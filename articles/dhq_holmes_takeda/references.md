@@ -6,27 +6,33 @@
 
 [Arneil and Holmes 2001] Arneil, S., and Holmes, M. D. 2001. “Hot Potatoes, History and Future,” Paper presented at EuroCALL Conference, Nijmegen (August 2001). [url](https://web.uvic.ca/hrd/eurocall2001/HotPotPastFuture/PastFutureHome.htm).
 
+[Barats, Schafer and Fickers 2020] Barats, Christine, Valérie Schafer, and Andreas Fickers. 2020.  “Fading Away... The challenge of sustainability in digital studies.” _DHQ: Digital Humanities Quarterly_, 14(3). [url](http://digitalhumanities.org:8081/dhq/vol/14/3/000484/000484.html).
+
 [Burnard 2016] Burnard, L. 2016. “How to Update Your ODD.” TEI GitHub Repository (2016). [url](http://teic.github.io/PDF/purifyDoc.pdf). (accessed 18 February 2019).
 
 [Cayless 2010] Cayless, H. 2010. “Ktêma es aiei: Digital Permanence from an Ancient Perspective.” In _Digital Research in the Study of Classical Antiquity_, edited by Simon Mahony and Gabriel Bodard, 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless)
 
 [Diaz 2018] Diaz, C. 2018. “Using static site generators for scholarly publications and open educational resources.” The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
 
-[Goddard and Seeman 2020] Goddard, Lisa and Dean Seeman. 2020. “Chapter 3: Negotiating Sustainability: Building Digital Humanities Projects that Last”, _Doing Digital Humanities II_. London: Routledge.
+[Goddard and Seeman 2020] Goddard, L. and D. Seeman. 2020. “Chapter 3: Negotiating Sustainability: Building Digital Humanities Projects that Last”, _Doing Digital Humanities II_. London: Routledge.
 
 [Gil 2015] Gil, A. 2015. “The User, the Learner and the Machines We Make.” 2015. Minimal Computing: A Working Group of GO::DH, 21 May 2015. [url](http://godh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/)
 
+[Government of Canada 2016] Government of Canada. 2016 (updated 2021). _Tri-Agency Statement of Principles on Digital Data Management._ [url](https://science.gc.ca/eic/site/063.nsf/eng/h_83F7624E.html).
+
 [Holmes 1997] Holmes, M. D. 1997. “Web Language.” Online presentation showcasing the use of JavaScript-based exercises for language teaching. [url](https://web.uvic.ca/lancenrd/martin/weblang/).
 
-[Holmes 2017a] Holmes, M. D. 2017. “Whatever happened to interchange?” Digital Scholarship in the Humanities. (2017) 32 (suppl_1): i63-i68. Oxford University Press/EADH. [url](http://dx.doi.org/10.1093/llc/fqw048).
+[Holmes 2017a] Holmes, M. D. 2017. “Whatever happened to interchange?” _Digital Scholarship in the Humanities_ (2017) 32 (suppl_1): i63-i68. Oxford University Press/EADH. [url](http://dx.doi.org/10.1093/llc/fqw048).
 
 [Holmes 2017b] Holmes, M. D. 2017. “Selecting Technologies for Long-Term Survival.” Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada (June 2017). [url](https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf).
 
-[Holmes and Takeda 2018] Holmes, M.. D. and Takeda, J. 2018. "Why do I need Four Search Engines?" Proceedings of the Japanese Association of Digital Humanities Conference, Tokyo, Japan (2018). [url](https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58)
+[Holmes et al 2019] Holmes, M. D., K. Fralick, K. Fukushima and S. Karlson. 2019. “How we tripled our encoding speed in the Digital Victorian Periodical Poetry project.” Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449241).
+.
+[Holmes and Takeda 2018] Holmes, M.. D. and Takeda, J. 2018. “Why do I need Four Search Engines?” _Proceedings of the Japanese Association of Digital Humanities Conference_, Tokyo, Japan (2018). [url](https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58)
 
 [Holmes and Takeda 2019a] Holmes, M. D., and Takeda, J. 2019. “The Prefabricated Website: Who needs a server anyway?” Paper presented at the Text Encoding Initiative Conference, Graz, Austria (September 2019). [url](https://zenodo.org/record/3449197). 
 
-[Holmes and Takeda 2019b] Holmes, M.D. and Takeda, J. 2019. “Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.” Digital Scholarship in the Humanities, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
+[Holmes and Takeda 2019b] Holmes, M.D. and Takeda, J. 2019. “Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.” _Digital Scholarship in the Humanities_, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
 
 NOT NEEDED???:
 [InterPARES 2013] InterPARES 3 Team Canada (International Research on Permanent Authentic Records in Electronic Systems). Case Study 09: Alma Mater Society of The University of British Columbia: Policies and Procedures for Web Site Preservation. May 2013. [url](http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf).
