@@ -49,13 +49,15 @@ NOT NEEDED???:
 
 [Jim Nielsen 2021] Nielsen, Jim. 2021. “Web Languages as Compile Targets.” _Jim Nielsen’s Blog_, 2021-04-05. [url](https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/).
 
-[Rinaldi 2015] Rinaldi, B. 2015. *Static Site Generators.* O’Reilly Media Inc. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
+[Rinaldi 2015] Rinaldi, B. 2015. _Static Site Generators._ O’Reilly Media Inc. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
 
 [Saachi 2015] Saachi, Simone. 2015. “What Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual Foundations for Digital Stewardship.” PhD thesis, University of Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. [url](https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download).
 
 [Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 02 October 2016. [url](http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/).
 
 [Takeda and Lines 2019] Takeda, J. and Lines, S.  2019. “Using Github and its Integrations to Create, Test, and Deploy a Digital Edition,” Paper presented at the Text Encoding Initiative conference, Graz, Austria (September 2019). [url](https://gams.uni-graz.at/o:tei2019.174)
+
+[Thieberger 2016] Thieberger, N. 2016. “What remains to be done – Exposing invisible collections in the other 7000 languages and why it is a DH enterprise.” In _Digital Scholarship in the Humanities_ 32(2), 1:423–434. [url](http://dx.doi.org/10.1093/llc/fqw006).
 
 [Unsworth 1997] Unsworth, J. 1997. “Documenting the Reinvention of Text: The Importance of Failure.” The Journal of Electronic Publishing, 3.2 (December 1997). [doi:10.3998/3336451.0003.201](https://doi.org/10.3998/3336451.0003.201).
 
