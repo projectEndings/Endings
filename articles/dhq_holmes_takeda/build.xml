@@ -32,11 +32,24 @@
         <file name="07_archiving.md"/>
         <file name="08_conclusion.md"/>
         <file name="references.md"/>
-      
     </concat>
   </target>
   
-  <target name="convert" depends="concat">
+  <target name="tweak">
+    <description>
+      TARGET tweak
+      
+      Adds enhancements that make for better output
+      but would be onerous to maintain in the code.
+    </description>
+    <replaceregexp match="\[url\]\(([^\)]+)\)"
+                   replace="[\1](\1)" flags="g">
+      <file file="holmes_takeda_endings.md"/>
+    </replaceregexp>
+    
+  </target>
+  
+  <target name="convert" depends="concat, tweak">
     <description>
       TARGET convert
       
@@ -54,9 +67,11 @@
     <delete file="holmes_takeda_endings.pdf"/>
     <exec executable="pandoc">
       <arg line="-o holmes_takeda_endings.pdf"/>
+      <arg line="--variable mainfont='Noto Serif'"/>
       <arg line="-f markdown"/>
-      <arg line="-t html5"/>
-      <arg line="--css https://gist.githubusercontent.com/killercup/5917178/raw/40840de5352083adb2693dc742e9f75dbb18650f/pandoc.css"/>
+      <arg line="--pdf-engine=xelatex"/>
+      <!--<arg line="-t html5"/>
+      <arg line="-\-css https://gist.githubusercontent.com/killercup/5917178/raw/40840de5352083adb2693dc742e9f75dbb18650f/pandoc.css"/>-->
       <arg line="holmes_takeda_endings.md"/>
     </exec>
     <echo>Converting markdown to docx.</echo>
