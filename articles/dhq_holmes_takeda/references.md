@@ -6,6 +6,8 @@
 
 [Arneil and Holmes 2001] Arneil, S., and Holmes, M. D. 2001. “Hot Potatoes, History and Future,” Paper presented at EuroCALL Conference, Nijmegen (August 2001). [url](https://web.uvic.ca/hrd/eurocall2001/HotPotPastFuture/PastFutureHome.htm).
 
+[Arneil, Holmes and Newton 2019] Arneil, Stewart, Martin Holmes and Greg Newton. 2019. “Project Endings: Early Impressions From Our Recent Survey On Project Longevity In DH.” Paper presented by Greg Newton at Digital Humanities 2019 Conference, Utrecht, the Netherlands, July 2019. [url](https://dev.clariah.nl/files/dh2019/boa/0891.html).
+
 [Barats, Schafer and Fickers 2020] Barats, Christine, Valérie Schafer, and Andreas Fickers. 2020.  “Fading Away... The challenge of sustainability in digital studies.” _DHQ: Digital Humanities Quarterly_, 14(3). [url](http://digitalhumanities.org:8081/dhq/vol/14/3/000484/000484.html).
 
 [Burnard 2016] Burnard, L. 2016. “How to Update Your ODD.” TEI GitHub Repository (2016). [url](http://teic.github.io/PDF/purifyDoc.pdf). (accessed 18 February 2019).
