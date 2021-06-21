@@ -56,6 +56,7 @@
       <arg line="-o holmes_takeda_endings.pdf"/>
       <arg line="-f markdown"/>
       <arg line="-t html5"/>
+      <arg line="--css https://gist.githubusercontent.com/killercup/5917178/raw/40840de5352083adb2693dc742e9f75dbb18650f/pandoc.css"/>
       <arg line="holmes_takeda_endings.md"/>
     </exec>
     <echo>Converting markdown to docx.</echo>
