@@ -44,7 +44,7 @@
 
 [Molloy 2011] Molloy, L. “Oh, the Humanities! A Discussion about Research Data Management for the Arts and Humanities Disciplines.” In: JISC MRD - _Evidence Gathering_ 2011. [url](http://mrdevidence.jiscinvolve.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-)
 
-[Morgan 2021] Morgan, Paige. “Further thoughts on collectivity." Blog Post, January 27, 2021. [url](http://blog.paigemorgan.net/articles/21/further-thoughts.html).
+[Morgan 2021] Morgan, Paige. “Further thoughts on collectivity.” Blog Post, January 27, 2021. [url](http://blog.paigemorgan.net/articles/21/further-thoughts.html).
 
 [Morreale 2019] Morreale, L.. 2019. “Medieval Digital Humanities and the Rite of Spring: Thoughts on Performance and Preservation.” BodoArXiv. July 18. doi:10.34055/osf.io/7p2t6.
 
