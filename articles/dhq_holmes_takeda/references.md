@@ -38,6 +38,8 @@
 
 [Holmes and Takeda 2019b] Holmes, M.D. and Takeda, J. “Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.” _Digital Scholarship in the Humanities_, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. [url](https://doi.org/10.1093/llc/fqz011)
 
+[Holmes and Takeda 2020] Holmes, M.D. and Takeda, J. “Static Search: An Archivable and Sustainable Search Engine for the Digital Humanities.” Paper presented at the Digital Humanities Summer Institute (DHSI) Colloquium (#VirtualDHSI), 6 June 2020. [url](https://zenodo.org/record/3883150).
+
 [InterPARES 2013] InterPARES 3 Team Canada (International Research on Permanent Authentic Records in Electronic Systems). Case Study 09: Alma Mater Society of The University of British Columbia: Policies and Procedures for Web Site Preservation. May 2013. [url](http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf).
 
 [Jakobsen and Orlandi 2016] Jakobsen, J., and Orlandi. C. “On the CCA (in)security of MTProto.”  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).

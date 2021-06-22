@@ -1,18 +1,19 @@
+
 ### 5.1 Data
 
 Data is the expression of the source information, knowledge, and expertise of our researchers, and forms the basis and “necessary context for analytical claims” (Thieberger in this issue, and Thieberger 2016). Digital Humanities praxis has often tended to blur the distinction between data and products; according to Barats, Schafer and Fickers, for example, “data management is not just about the data that are used, but also about those, which are produced (metadata, results of research, etc.). In fact, data management covers the whole life cycle of a research project, from data selection to their curation and description, from analyse and interpreting data to its publication and long term storage” (paragraph 4). For the purpose of Endings principles, our definition of data is much more constrained: we define data as the source material from which end-user products are generated. In the case of a digital edition, data may take the form of TEI XML encodings of primary source or born-digital documents, but it may also include relational database data, digital images, audio or video recordings, and any other material which is acquired or generated during research, but which does not form part of the end product.
 
 The following principles apply to data:
 
-#### 1.1 Data is stored only in formats which conform to open standards and which are amenable to processing (TEI XML, GML, ODF, TXT).
+#### 5.1.1 Data is stored only in formats which conform to open standards and which are amenable to processing (TEI XML, GML, ODF, TXT).
 
 It is now common practice for funding agencies and host institutions to insist that projects create detailed data management plans. The Canadian _Tri-Agency Statement of Principles on Digital Data Management_, for example, specifies that “data should be collected and stored throughout the research project using software and formats that ensure secure storage, and enable preservation of and access to the data well beyond the duration of the research project” (Government of Canada 2016). In practice, this means using open, well-documented standards and file formats.
 
-#### 1.2 Data is subject to version control (Subversion, Git).
+#### 5.1.2 Data is subject to version control (Subversion, Git).
 
 The use of version control for DH data is now widely accepted practice and basic common sense; by its very nature it supports LOCKSS (every person checking out the repository to work on it creates a new copy), provides security against human error and data corruption, and enables sophisticated progress tracking (Holmes et al. 2019). We also believe that project history, as reflected in progressive changes to its dataset, merits preservation in itself, and version control systems support this.
 
-#### 1.3 Data is continually subject to validation and diagnostic analysis.
+#### 5.1.3 Data is continually subject to validation and diagnostic analysis.
 
 Since all the products of a project depend entirely on the reliability of the project's dataset, it is essential to establish and maintain the accuracy of the data. In Holmes and Takeda 2019b, we argued that in addition to data constraints using conventional schema languages such as RelaxNG and Schematron, further diagnostic processes are required. “The modern digital edition project typically consists of multiple documents with large numbers of pointers between them: links between named entities and authority lists such as personographies, placeographies, and bibliographies; pointers to external documents and fragments, images and other media; and similar complex interrelationships within the collection, and to external resources and authority lists. These relationships need to be tested, checked, and validated too, but it is impractical to do this using document-level schemas.” We break down accuracy into three Cs, consistency, coherence, and completeness, and describe various diagnostic tools and methods for sustaining data quality.
 

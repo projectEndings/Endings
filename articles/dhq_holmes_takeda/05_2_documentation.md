@@ -1,3 +1,4 @@
+
 ### 5.2 Documentation 
 
 There is a long tradition in digital humanities (and of course other fields) whereby the literature of best practices is suffused with exhortations to document more, document better, and document everything, whereas the reality in grant-funded projects is that documentation is frequently the last task on the agenda and therefore likely to be curtailed or neglected when funding runs out or deadlines approach (Morgan 2021). The Endings survey found that “60% [of projects] claimed to have a clearly documented data model, but 90% of those that had documentation considered it to be partial or inadequate, so it appears that a project’s data model is well documented in only about 50% of cases” (Arneil, Holmes and Newton 2019). We are no different in our exhortations to document thoroughly, but we do take a strong position with regard to the availability of documentation. 

@@ -1,6 +1,7 @@
+
 ### 5.5 Release Management 
 
-Without good release management, then, a project can never end gracefully; it can only falter and die. 
+Without good release management, a project can never end gracefully; it can only falter and die. 
 
 These principles apply to release management:
 
@@ -10,7 +11,7 @@ In the world of traditional print scholarship, a publication was a coherent sing
 
 #### 5.5.2 A release should only be made when the entire product set is coherent, consistent and complete (passing all validation and diagnostic tests).
 
-The irreversible nature of print publication means that prior to publication, an edition is typically subjected to intense and minute scrutiny in an effort to exclude all errata. Because digital material is much easier to remediate, it is not so common for the same level of diligent inspection to be applied to digital editions, despite the fact that much of this scrutiny can be automated. In Holmes and Takeda 2019b, we describe three distinct levels of diagnostic checks which can be incorporated into a project build process to provide mechanical proof that no links are broken, no content is missing, and all planned content and features are complete. This approach, combined with the detailed proofreading we would expect to apply to any scholarly publication prior to release, will minimize flaws in the released edition.
+The irreversible nature of print publication means that prior to publication, an edition is usually subjected to intense and minute scrutiny in an effort to exclude all errata. Because digital material is much easier to remediate, it is not so common for the same level of diligent inspection to be applied to digital editions, despite the fact that much of this scrutiny can be automated. In Holmes and Takeda 2019b, we describe three distinct levels of diagnostic checks which can be incorporated into a project build process to provide mechanical proof that no links are broken, no content is missing, and all planned content and features are complete. This approach, combined with the detailed proofreading we would expect to apply to any scholarly publication prior to release, will minimize flaws in the released edition.
 
 #### 5.5.3 Like editions of print works, each release of a web resource should be clearly identified on every page by its build date and some kind of version number.
 
@@ -18,7 +19,7 @@ Just like print editions, digital resources should carry a clear edition number 
 
 MoEML v.6.5, svn rev. 17540 2020-09-15 12:35:49 -0700 (Tue, 15 Sep 2020). 
 
-This includes not only the specific edition number (6.5), but also the Subversion repository revision from which it was built, along with the exact date and time of that revision.^:[Including the version control information also makes it possible to rebuild this edition exactly as it is, if data is lost or corrupted.]
+This includes not only the specific edition number (6.5), but also the Subversion repository revision from which it was built, along with the exact date and time of the build.^[Including the version control information also makes it possible to rebuild this edition exactly as it is, if data is lost or corrupted.]
 
 #### 5.5.4 Web resources should include detailed instructions for citation, so that end-users can unambiguously cite a specific page from a specific edition.
 
