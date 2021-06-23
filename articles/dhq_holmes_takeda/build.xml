@@ -31,6 +31,7 @@
         <file name="06_search.md"/>
         <file name="07_archiving.md"/>
         <file name="08_conclusion.md"/>
+        <file name="appendix.md"/>
         <file name="references.md"/>
     </concat>
   </target>
