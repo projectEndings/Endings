@@ -9,6 +9,12 @@ In the early days of the Endings project, we began to examine in detail how our 
 
 was scarcely archived at all, presumably because the archive crawler was unable to follow or parse the query-based links successfully, so for the most part, the archived versions of the site consist mainly of notices that “The Wayback Machine has not archived that URL.” 
 
+
+
+![Wayback Machine error page](images/mariageWayBackMachine.png){#id .class width=80% height=auto}
+
+
+
 *Mariage* also had a rather gratuitous feature whereby the end user could choose between three available colour schemes, and because that functionality relied entirely on JavaScript, the required CSS files had been retrieved and stored as though they were HTML pages, and no styling appeared on the site pages at all. Site search engines of course failed completely, as did any annotation popups linked from texts which relied on retrieving data by querying the backend database, and JavaScript-based interactivity was generally broken. In fact, the majority of our large-scale, high-profile digital edition projects were scarcely functional at all in the Wayback Machine, and most of their content had not even been retrieved and stored. 
 
 The Internet Archive had never been one of our primary backup strategies, but it was disappointing to discover how unsuccessful it had been in its attempts to crawl and reproduce our sites. Although some of these failures could perhaps be laid at the door of the Internet Archive crawler, Heritrix, which had some limitations, most of them were clearly our fault, and resulted from our crude approach to URL construction. One site, the _Robert Graves Diary_, was represented by only a handful of static pages, since the majority of its content was designed to be accessed through explicit searches from the home page, with the search parameters encoded in URL query strings; the crawler would have had no way to know what pages existed on the site other than the few information and background pages linked directly from the home page. On the live versions of these sites, any pages accessed by a user were typically constructed on the fly by XQuery and XSLT, so they did not exist in any form which could be backed up even locally by any normal method. 
@@ -22,12 +28,4 @@ Finally, we were forced to acknowledge that few of our projects had adequate doc
 We had, it seemed, spent a dozen years enthusiastically generating fragile, unmanageable, unmaintainable, unarchivable contraptions, and we were going to pay the price for our thoughtlessness.
 
 This is not an unusual situation. In fact, our research suggests that it is the norm for DH projects [citation needed from our survey]. Many DH web applications are built rapidly, using off-the-shelf frameworks and libraries which date quickly and are ultimately guaranteed to fail, and most projects either rebuild their applications in repeated cycles of funding, or see them languish and ultimately disappear. Our situation was perhaps more pointed and critical because we are a base-funded unit with a long lifetime, committed to maintaining our projects even after their initial funding is exhausted. Units like ours are still relatively rare; in most cases, there is little or no institutional help and no expectation of any. But having caused the problem, we now had to fix it, not just by rebuilding multiple large projects, but by doing so in such a way that we would not have to do the same work again in another ten years.
-
-
-
-<!--Add image after "not archived that URL" --> 
-
-![Wayback Machine error page](images/mariageWayBackMachine.png){#id .class width=80% height=auto}
-
-
 
