@@ -5,7 +5,7 @@ Data is the expression of the source information, knowledge, and expertise of ou
 
 #### 5.1.1 Data is stored only in formats which conform to open standards and which are amenable to processing (TEI XML, GML, ODF, TXT).
 
-It is now common practice for funding agencies and host institutions to insist that projects create detailed data management plans. The Canadian _Tri-Agency Statement of Principles on Digital Data Management_, for example, specifies that “data should be collected and stored throughout the research project using software and formats that ensure secure storage, and enable preservation of and access to the data well beyond the duration of the research project” (Government of Canada 2016). In practice, this means using open, well-documented standards and file formats.
+It is now common practice for funding agencies and host institutions to insist that projects create detailed data management plans. The Canadian _Tri-Agency Statement of Principles on Digital Data Management_, for example, specifies that “data should be collected and stored throughout the research project using software and formats that ensure secure storage, and enable preservation of and access to the data well beyond the duration of the research project” (Government of Canada 2016). In practice, this means using open, well-documented standards and file formats (i.e. files that can be read, opened, and processed without the need of special software or tools ) instead of proprietary formats.
 
 #### 5.1.2 Data is subject to version control (Subversion, Git).
 
