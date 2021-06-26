@@ -69,6 +69,12 @@
     <exec executable="pandoc">
       <arg line="-o holmes_takeda_endings.pdf"/>
       <arg line="--variable mainfont='Noto Serif'"/>
+      <arg line="--variable fontsize=12pt"/>
+      <arg line="--variable block-headings"/>
+      <arg line="--variable geometry:margin=1in"/>
+      <arg line="--variable linestretch=1.15"/>
+      <arg line="--variable papersize=a4"/>
+      <arg line="--variable urlcolor=blue"/>
       <arg line="-f markdown"/>
       <arg line="--pdf-engine=xelatex"/>
       <!--<arg line="-t html5"/>
