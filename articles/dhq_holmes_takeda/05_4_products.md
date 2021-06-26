@@ -1,5 +1,3 @@
-<!--Products draws on our previous work on HTML5/JS/CSS, and our relentless validation stuff; also discuss the work on Mariage that tested products using the Heritrage harvester. Note: This assumes the re-organization of our Principles document as discussed before, to create version 2.0.-->
-
 ### 5.4 Products
 
 Principles for products lie at the heart of the Endings approach, since products are the only components of a project that we really hope and expect will survive. This section of the Principles outlines the technological choices, structure, and organization we recommend for digital edition projects aiming for longevity.
