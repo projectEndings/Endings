@@ -25,14 +25,14 @@ In the same way, if maintenance is ever required, it is very likely that there w
 
 As noted above, older sites which queried back-end databases to construct their “pages” tended to have page URLs whose distinctive factors lay in the query string rather than in the base location. For example, to retrieve the diary entry for 22 February 1935 from the 2003 Robert Graves Diary project required the following URL (line-wrapped for easier reading):
 
-`http://graves.uvic.ca/graves/site/xbrowse.xq?
-collection=%2Fdb%2Fgraves&type=diaryentry&
-query_stored=false&action=browse&
-search_text=-1&day=22&month=02&year=1935`
+    http://graves.uvic.ca/graves/site/xbrowse.xq?
+    collection=%2Fdb%2Fgraves&type=diaryentry&
+    query_stored=false&action=browse&
+    search_text=-1&day=22&month=02&year=1935
 
 This concoction presented obvious difficulties for the Internet Archive crawler, so none of the diary entries were actually archived in the Wayback Machine from the original site. Contrast this with the current equivalent:
 
-`http://graves.uvic.ca/diary_1935-02-22.html`
+    http://graves.uvic.ca/diary_1935-02-22.html
 
 which itself is linked from a sitemap page to ensures its retrieval by standard crawlers (see Holmes 2017b). Such URLs are not only cleaner and simpler for automated tools to process; they can also be manipulated by humans who happen to know exactly what date (in this case) they are looking for, removing the additional step of  re-engaging with form controls or other GUI components when browsing the project. When rewriting  _Le Mariage sous L'Ancien Régime_ as a static Endings site, we were able to take advantage of our institution's involvement in the Archive.org project to deploy the Internet Archive's Heritrage crawler repeatedly on a pared-down version of the digital edition, inspecting the harvested results and tuning the site organization, linking and filenaming until we were able to ensure that everything important was being successfully crawled and archived.
 
@@ -46,7 +46,7 @@ Therefore in projects such as _The Map of Early Modern London_, we create a vari
 
 #### 5.4.6 Massive redundancy: every page contains all the components it needs, so that it will function without the rest of the site if necessary, even though this means duplicating information across the site.
 
-Just as we endeavour to provide repurposable XML versions of our documents, we try to provide HTML pages which can also be pulled out of the project and reused easily. While TEI XML is a widely-used and trusted archival format for digital scholarly work, compared with HTML, its audience is tiny. As we have noted elsewhere (Holmes 2017b), the many billions of HTML pages already created constitute many times the number of printed books produced in the entire history of humanity, and the variety of purposes already served by HTML (not only websites but mobile applications, archival storage, and others) will ensure that if anything from the current era of digital communication survives, it will be HTML. So our HTML is more likely to be reused than our XML in the long term.
+Just as we offer repurposable XML versions of our documents, we try to provide HTML pages which can also be pulled out of the project and reused easily. While TEI XML is a widely-used and trusted archival format for digital scholarly work, compared with HTML, its audience is tiny. As we have noted elsewhere (Holmes 2017b), the many billions of HTML pages already created constitute many times the number of printed books produced in the entire history of humanity, and the variety of purposes already served by HTML (not only websites but mobile applications, archival storage, and others) will ensure that if anything from the current era of digital communication survives, it will be HTML. So our HTML is more likely to be reused than our XML in the long term.
 
 Since we want to encourage this, it makes sense to provide documents in a form easily excised from the collection. Documents should, as far as is practical, stand alone, and therefore we usually generate our HTML outputs from the standalone versions of our XML source. Rather than having a document link to thirty external prosopography entries that live in other documents on the site, why not simply incorporate copies of all those entries inside the document itself? Text is typically small and compressible compared with some other digital resources. If we make a point of replicating all required linked records such as bibliographic citations, toponymic variants, and personography entries inside each individual document, any user can take a single HTML page and use it elsewhere without having to resolve a large number of pointers and retrieve a set of external resources to make the document functional. This of course means that the same individual personography entries may be replicated hundreds of times across a collection. This seems wasteful; but as we have said previously (Holmes and Takeda 2019a), “We don't care.” 
 

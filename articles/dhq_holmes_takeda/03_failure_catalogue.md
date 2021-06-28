@@ -5,7 +5,9 @@
 
 In the early days of the Endings project, we began to examine in detail how our older digital editions and sites had progressively broken down. Some problems were obvious: obsolete versions of server-side applications and services (MapServer, MySQL, PHP) had been retired or replaced, and old code would not run on new versions, even if new versions existed. Other failures were more subtle. We investigated, for example, how successfully our applications had been archived by The Internet Archive (https://archive.org/) and reproduced on the Wayback Machine (https://archive.org/web/). It was immediately obvious that sites built on backend databases, where “pages” were in fact queries to the database, were very problematic. The project _Le Mariage sous l'Ancien Régime_, which linked to its anthology documents with URLs like this:
 
-`http://mariage.uvic.ca/xhtml.xq?id=le_bourgeoise_desprit`
+
+    http://mariage.uvic.ca/xhtml.xq?id=le_bourgeoise_desprit
+    
 
 was scarcely archived at all, presumably because the archive crawler was unable to follow or parse the query-based links successfully, so for the most part, the archived versions of the site consist mainly of notices that “The Wayback Machine has not archived that URL.” 
 
