@@ -21,5 +21,7 @@ Simple client-side search engines such as Lunr.js work by generating a large ind
 
 Of course, text search alone is not enough; search facets such as topic, document type, date range, and other metadata-based filters are a fundamental requirement for searching digital editions and other rich document collections. One by one, we have added support for a range of these features, which can be configured by the addition of HTML &lt;meta&gt; elements with specific patterns to site pages. The staticSearch indexing process works its way through the HTML pages of a site indexing the text but also searching for these &lt;meta&gt; elements, building a collection of distinct JSON files which the search page can retrieve as needed to respond to queries and filter results.
 
+![One of several specialized search pages built using staticSearch for the _Digital Victorial Periodical Poetry_ project.](images/dvppSearch.png){#id .class width=80% height=auto}
+
 Holmes and Takeda 2020 provides a more detailed explanation of how staticSearch works, and the full documentation for the current release is available on the Project Endings website.^[[url](https://endings.uvic.ca/staticSearch/docs/index.html).]
 
