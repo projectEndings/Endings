@@ -86,7 +86,7 @@
     <exec executable="pandoc">
       <arg line="-o holmes_takeda_endings.docx"/>
       <arg line="-f markdown"/>
-      <arg line="-t odt"/>
+      <arg line="-t docx"/>
       <arg line="holmes_takeda_endings.md"/>
     </exec>
     
