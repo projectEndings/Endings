@@ -17,7 +17,7 @@ The irreversible nature of print publication means that an edition is often scru
 
 #### 5.5.3 Like editions of print works, each release of a web resource should be clearly identified by its build date and some kind of version number.
 
-Just like print editions, digital resources should carry a clear edition number on every page  which applies throughout the resource to every part of it. Our normal practice is to include this information in the page footer. At the time of writing, for example, the current version of *The Map of Early Modern London* carries this information in its footer:
+Just like print editions, digital resources should carry a clear edition number on every page which applies throughout the resource to every part of it. Our normal practice is to include this information in the page footer. At the time of writing, for example, the current version of *The Map of Early Modern London* contains this information in its footer:
 
     MoEML v.6.5, svn rev. 17540 2020-09-15 12:35:49 -0700 (Tue, 15 Sep 2020). 
 
