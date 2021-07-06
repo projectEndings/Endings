@@ -6,9 +6,9 @@ This is a list of all the projects which have been constructed or reconstructed 
 ### The original four projects
 
  - [The Map of Early Modern London](https://mapoflondon.uvic.ca)
- - [Le Mariage sous l’Ancien Régime](https://mariage.uvic.ca/)
- - The Nxa’amxcín Database and Dictionary (currently not public)        
+ - [Le Mariage sous l’Ancien Régime](https://mariage.uvic.ca)
  - [The Robert Graves Diary](https://graves.uvic.ca)
+ - The Nxa’amxcín Database and Dictionary (currently not public)        
           
 ### Projects later adopted by Endings
 
