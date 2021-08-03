@@ -80,6 +80,7 @@
       <arg value="--recursive"/>
       <arg value="--times"/>
       <arg value="--verbose"/>
+      <arg value="--omit-dir-times"/>
       <!--<arg value="-\-delete"/>-->
       <arg line="-e ssh"/>
       <arg line="site/"/>
