@@ -1,0 +1,35 @@
+Outline for Balisage Paper
+
+Driving Question: "How can we make a search engine for large document collections / digital edition sites that would fit within our XML/XSLT/Ant pipeline?"
+
+
+1. Background / rationale:
+    * We want to build static sites (sustainability, Endings, etc)
+    * And we want our search engines to be static, too
+    * So we made our own 
+
+2. How static search works
+   * There's a config that points to the document collection
+   * The documents are processed and tokenized
+   * The tokenized documents are converted to JSON
+   * We build a search page
+   * And then the Javascript fetches each of the crucial documents one by one 
+
+3. Why use XML / XSLT? Why not Python, Ruby, etc? 
+   * XSLT is able to capably handle the document types we need it to (well-formed XHTML5 and JSON)
+   * Memoized functions, built in handling for maps and arrays
+   * Configuration makes sense (match/patterns etc)
+   * Easily integrated into our development workflow
+
+4. The problem of memory and efficiency:
+   * The trouble with large document collections in tokenize
+      * Multiple passes = multiple trees
+      * collection/uri-collection retains them in memory in case they are needed again
+      * Saxon-HE does not discard them
+      * Neither does ant task unless we reload it
+   * Ongoing problem: the json step
+      * Need to read the entire collection of tokenized documents and group them. That's intensive.
+      * Giving ant more memory
+      * Ways we've resolved this:
+         * Minimizing the input tree size
+        
