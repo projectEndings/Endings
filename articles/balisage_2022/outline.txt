@@ -33,5 +33,5 @@ Driving Question: "How can we make a search engine for large document collection
       * Ways we've resolved this:
          * Minimizing the input tree size
          
-5. Bibliography
+5. References
         
