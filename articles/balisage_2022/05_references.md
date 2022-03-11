@@ -66,6 +66,8 @@
 
 [Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 2 October 2016. [url](http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/).
 
+[Takeda 2021] Takeda, Joey. 2021. “Sustainable StoryMaps: A Case Study in Staticization with StoryMapJS.” Paper presented at GIS Day 2021. Simon Fraser University and the University of British Columbia. November 19, 2021. 
+
 [Takeda and Lines 2019] Takeda, J. and Lines, S. 2019. “Using Github and its Integrations to Create, Test, and Deploy a Digital Edition,” Paper presented at the Text Encoding Initiative conference, Graz, Austria (September 2019). [url](https://gams.uni-graz.at/o:tei2019.174)
 
 [Thieberger 2016] Thieberger, N. 2016. “What remains to be done – Exposing invisible collections in the other 7000 languages and why it is a DH enterprise.” _Digital Scholarship in the Humanities_ 32(2) (2016), 1:423–434. [url](http://dx.doi.org/10.1093/llc/fqw006).
