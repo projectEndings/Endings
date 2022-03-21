@@ -12,6 +12,8 @@
 
 [Burnard 2016] Burnard, L. 2016. “How to Update Your ODD.” TEI GitHub Repository (2016). [url](http://teic.github.io/PDF/purifyDoc.pdf). (accessed 18 February 2019).
 
+[Cambazoglu and Baeza-Yates 2015] Cambazoglu, B., and Baeza-Yates, R. *Scalability Challenges in Web Search Engines*. Morgan and Claypool Publishers, 2015.
+
 [Carlin 2017] Carlin, Claire. 2017. “Mistakes Were Made: A TEI Project after Sixteen Years.” Conference of the Text Encoding Initiative, Victoria, BC, Canada. 14 November 2017.
 
 [Cayless 2010] Cayless, H. 2010. “Ktêma es aiei: Digital Permanence from an Ancient Perspective.” In Mahony, S., and Bodard, G. (eds), _Digital Research in the Study of Classical Antiquity_, pp. 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless).
@@ -33,7 +35,7 @@
 [Holmes 2017b] Holmes, M. D. 2017. “Selecting Technologies for Long-Term Survival.” Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada, June 2017. [url](https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf).
 
 [Holmes et al 2019] Holmes, M. D., K. Fralick, K. Fukushima and S. Karlson. 2019. “How we tripled our encoding speed in the Digital Victorian Periodical Poetry project.” Paper presented at the Text Encoding Initiative Conference, Graz, Austria, September 2019. [url](https://zenodo.org/record/3449241).
-.
+
 [Holmes and Takeda 2018] Holmes, M.. D. and Takeda, J. 2018. “Why do I need Four Search Engines?” _Proceedings of the Japanese Association of Digital Humanities Conference_, Tokyo, Japan (2018). [url](https://conf2018.jadh.org/files/Proceedings_JADH2018.pdf#page=58)
 
 [Holmes and Takeda 2019a] Holmes, M. D., and Takeda, J. 2019. “The Prefabricated Website: Who needs a server anyway?” Paper presented at the Text Encoding Initiative Conference, Graz, Austria, September 2019. [url](https://zenodo.org/record/3449197). 
@@ -62,6 +64,8 @@
 
 [Jim Nielsen 2021] Nielsen, Jim. 2021. “Web Languages as Compile Targets.” _Jim Nielsen’s Blog_, 5 April 2021. [url](https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/).
 
+[Nightingale 2011] Nightingale, Oliver. *lunr.js*. JavaScript. https://github.com/olivernn/lunr.js.
+
 [Quin 2008] Quin, Liam R. E. “Text Retrieval for XML-Encoded Corpora: A Lexical Approach.” Presented at Balisage: The Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In Proceedings of Balisage: The Markup Conference 2008. Balisage Series on Markup Technologies, vol. 1 (2008). https://doi.org/10.4242/BalisageVol1.Quin01.
 
 [Rinaldi 2015] Rinaldi, B. 2015. _Static Site Generators._ O’Reilly Media Inc. 2015. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
@@ -83,3 +87,5 @@
 [Warwick 2020] Warwick, C. 2020. Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources. Digital Scholarship in the Humanities, 35.4 (December 2020): 944–971. [url](https://doi.org/10.1093/llc/fqz081).
 
 [Wikle, Williamson, and Becker 2020] Wikle,  O., Williamson, E., and Becker, D. 2020. “What is Static Web and What’s it Doing in the Digital Humanities Classroom?” *dh+lib* 2020. [url](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/).
+
+[Zobel and Moffat 2006] Zobel, J., and Moffat, A. “Inverted Files for Text Search Engines.” *ACM Computing Surveys* 38 (2) (2006): 6-es. https://doi.org/10.1145/1132956.1132959.
