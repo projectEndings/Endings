@@ -44,6 +44,8 @@
 
 [Holmes and Takeda Forthcoming] Holmes, M.D. and Takeda, J. Forthcoming. “From Tamagotchis to Pet Rocks: Static Websites for Long-term Sustainability.” In peer review with _Digital Humanities Quarterly_, 2022.
 
+[Holstege 2015] Holstege, Mary. “Markup as Index Interface: Thinking Like a Search Engine.” Presented at Balisage: The Markup Conference 2015, Washington, DC, August 11 - 14, 2015. In Proceedings of Balisage: The Markup Conference 2015. Balisage Series on Markup Technologies, vol. 15 (2015). https://doi.org/10.4242/BalisageVol15.Holstege01.
+
 [InterPARES 2013] InterPARES 3 Team Canada (International Research on Permanent Authentic Records in Electronic Systems). 2013. Case Study 09: Alma Mater Society of The University of British Columbia: Policies and Procedures for Web Site Preservation. May 2013. [url](http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf).
 
 [Jakobsen and Orlandi 2016] Jakobsen, J., and Orlandi. C. 2016. “On the CCA (in)security of MTProto.”  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
@@ -59,6 +61,8 @@
 [Jakob Nielsen 1999] Nielsen, J. 1999. “Graceful Degradation of Scalable Internet Services.” Nielsen Norman Group Website, 1999. [url](https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/).
 
 [Jim Nielsen 2021] Nielsen, Jim. 2021. “Web Languages as Compile Targets.” _Jim Nielsen’s Blog_, 5 April 2021. [url](https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/).
+
+[Quin 2008] Quin, Liam R. E. “Text Retrieval for XML-Encoded Corpora: A Lexical Approach.” Presented at Balisage: The Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In Proceedings of Balisage: The Markup Conference 2008. Balisage Series on Markup Technologies, vol. 1 (2008). https://doi.org/10.4242/BalisageVol1.Quin01.
 
 [Rinaldi 2015] Rinaldi, B. 2015. _Static Site Generators._ O’Reilly Media Inc. 2015. [https://www.oreilly.com/library/view/ static-site-generators/9781492048558/](https://www.oreilly.com/library/view/ static-site-generators/9781492048558/)
 
