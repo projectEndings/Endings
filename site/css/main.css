@@ -572,6 +572,10 @@ footer .theme-by {
   }
 }
 
+.header-section{
+  margin-bottom: 1rem;
+}
+
 .caption {
   text-align: center;
   font-size: 14px;
