@@ -13,7 +13,7 @@ Driving Question: "How can we make a search engine for large document collection
    * The documents are processed and tokenized
    * The tokenized documents are converted to JSON
    * We build a search page
-   * And then the Javascript fetches each of the crucial documents one by one 
+   * And then the Javascript parses the search query to figure out which JSON files are needed, retrieves them, and computes results 
 
 3. Why use XML / XSLT? Why not Python, Ruby, etc? 
    * XSLT is able to capably handle the document types we need it to (well-formed XHTML5 and JSON)
