@@ -1,4 +1,4 @@
-# How staticSearch works
+## How staticSearch works
 
 staticSearch has two main features:
 
@@ -20,7 +20,7 @@ The build process, shown in the diagram below, runs the following steps:
 
 ![The staticSearch build process](images/staticSearch_process_01.svg "The staticSearch build Process"){width=80%}
 
-## The text search
+### The text search
 This process amounts to building a rich index of the terms and metadata in the documents, but the index is fragmented across a huge collection of individual files, because each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.); these are referred to as the "stem files". This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved. A stem file looks like this:
 
 ![An example stem file](images/stem_file.png "An example stem file"){width=80%}
@@ -41,15 +41,14 @@ This file is used when processing wildcard searches. When the user enters a wild
 
 For exact phrase (i.e. quoted string) searches, the quoted string is tokenized and the first non-stopword is extracted from it; that word is stemmed, and its stem file retrieved. Then all the contexts in that stem file are searched for an exact match for the phrase.
 
-## The search filters
+### The search filters
 
 In addition to the text search, the user can trigger the creation of a range of different search filter controls on the search page, by including some HTML meta tags with specific formats in the document. For example, if a document has these three meta tags:
-
+```html
     <meta name="Document type" class="staticSearch_desc" content="Poems"/>
     <meta name="Document type" class="staticSearch_desc" content="Translations"/>
-    <meta name="Date of publication"
- class="staticSearch_date" content="1895-01-05"/>
- 
+    <meta name="Date of publication" class="staticSearch_date" content="1895-01-05"/>
+```
 then the containing document will be classified as belonging to two document categories, "Poems" and "Translations", in the "Document type" selection filter (which we refer to as a "description filter"). A second date range filter will also be created. If an end-user searches for documents in either of those categories, using a date-range that includes 1895-01-05, then this document will be selected. Other filter types include boolean, number range, and "feature filters", which provide a typeahead searchable list of keywords. The build process creates a separate JSON file for each of these filters. The JSON for a description filter looks like this (heavily truncated example):
 
 ![An example filter file](images/desc_filter_json.png "An example, heavily truncated, description filter file"){width=80%}

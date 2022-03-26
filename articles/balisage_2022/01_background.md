@@ -1,4 +1,4 @@
-# Background: The Endings Project
+## Background: The Endings Project
 
 The Endings project is a SSHRC-funded collaboration between scholars, programmers and librarians to devise and implement guidelines and practices that ensure the long-term survival and archivability of digital edition projects, not just as data but as functioning web applications. In the first phase of the project, we converted a number of large digital editions with exist-db backends into entirely static sites consisting only of HTML, CSS and JavaScript (Holmes & Takeda 2019a; 2019b; Forthcoming).
 
