@@ -52,6 +52,8 @@
 
 [Jakobsen and Orlandi 2016] Jakobsen, J., and Orlandi. C. 2016. “On the CCA (in)security of MTProto.”  _SPSM '16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016_, 113–116. New York: Association for Computing Machinery. [url](https://doi.org/10.1145/2994459.2994468).
 
+[Kratke and Imsieske 2016] Kraetke, Martin, and Gerrit Imsieke. “XSLT as a Modern, Powerful Static Website Generator: Publishing Hogrefe's Clinical Handbook of Psychotropic Drugs as a Web App.” Presented at XML In, Web Out: International Symposium on sub rosa XML, Washington, DC, August 1, 2016. In Proceedings of XML In, Web Out: International Symposium on sub rosa XML. Balisage Series on Markup Technologies, vol. 18 (2016). https://doi.org/10.4242/BalisageVol18.Kraetke02.
+
 [Molloy 2011] Molloy, L. 2011. “Oh, the Humanities! A Discussion about Research Data Management for the Arts and Humanities Disciplines.” In: JISC MRD - _Evidence Gathering_ 2011. [url](http://mrdevidence.jiscinvolve.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-)
 
 [Morgan 2021] Morgan, Paige. 2021. “Further thoughts on collectivity.” Blog Post, January 27, 2021. [url](http://blog.paigemorgan.net/articles/21/further-thoughts.html).
@@ -89,3 +91,4 @@
 [Wikle, Williamson, and Becker 2020] Wikle,  O., Williamson, E., and Becker, D. 2020. “What is Static Web and What’s it Doing in the Digital Humanities Classroom?” *dh+lib* 2020. [url](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/).
 
 [Zobel and Moffat 2006] Zobel, J., and Moffat, A. “Inverted Files for Text Search Engines.” *ACM Computing Surveys* 38 (2) (2006): 6-es. https://doi.org/10.1145/1132956.1132959.
+
