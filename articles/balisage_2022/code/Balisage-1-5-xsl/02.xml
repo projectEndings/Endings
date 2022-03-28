@@ -1,0 +1,216 @@
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="how-staticsearch-works">
+  <title>How staticSearch works</title>
+  <para>
+    staticSearch has two main features:
+  </para>
+  <orderedlist numeration="arabic" spacing="compact">
+    <listitem>
+      <para>
+        A stemming text-search engine with wildcard and
+        keyword-in-context support
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        A range of filter types to constrain search results based on
+        document type, date, and so on.
+      </para>
+    </listitem>
+  </orderedlist>
+  <para>
+    There is one stipulation: the input document collection must consist
+    of well-formed HTML5 in the XHTML namespace. Well-formedness is
+    essential because we use Saxon to process the collection; the XHTML
+    namespace arises purely out of our own prejudice. One of the
+    documents must be a page which will be converted into the search
+    page; this can take any form as long as it contains a single
+    <code>&lt;div&gt;</code> element with the id
+    &quot;staticSearch&quot;.
+  </para>
+  <para>
+    The user supplies an XML configuration file which tells the
+    staticSearch build process where to find the documents and the
+    search page, and allows you to set various options such as the
+    number and length of keyword-in-context fragments to harvest for
+    each stem. They may also choose to insert specially-crafted HTML
+    meta tags into the headers of their documents to enable staticSearch
+    to create a range of different filter controls on the search page.
+  </para>
+  <para>
+    The build process, shown in the diagram below, runs the following
+    steps:
+  </para>
+  <orderedlist numeration="arabic" spacing="compact">
+    <listitem>
+      <para>
+        Checks and validates the input document collection.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Checks the user's configuration file, and if it is valid, uses
+        it to build an XSLT configuration file for the remaining
+        processes.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Processes all documents in the collection to create versions in
+        which stemmed tokens are tagged, and each tagged token has
+        additional information about its context (more on this later).
+        Each document is given an identifier consisting of its path
+        relative to the search page.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Uses the tokenized texts to build a collection of JSON files
+        which are used to power the search.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Creates the search page itself.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Creates a report on the process.
+      </para>
+    </listitem>
+  </orderedlist>
+  <para>
+    <inlinemediaobject>
+      <imageobject>
+        <objectinfo>
+          <title>
+            The staticSearch build Process
+          </title>
+        </objectinfo>
+        <imagedata fileref="images/staticSearch_process_01.svg" />
+      </imageobject>
+    </inlinemediaobject>{width=80%}
+  </para>
+  <section xml:id="the-text-search">
+    <title>The text search</title>
+    <para>
+      This process amounts to building a rich index of the terms and
+      metadata in the documents, but the index is fragmented across a
+      huge collection of individual files, because each unique stemmed
+      term has a JSON file to itself, named for itself ('book.json',
+      'walk.json', etc.); these are referred to as the &quot;stem
+      files&quot;. This means that when the search page queries the
+      index, it need only retrieve the individual JSON files for the
+      terms which are in the search; the bulk of the index is never
+      retrieved. A stem file looks like this:
+    </para>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <objectinfo>
+            <title>
+              An example stem file
+            </title>
+          </objectinfo>
+          <imagedata fileref="images/stem_file.png" />
+        </imageobject>
+      </inlinemediaobject>{width=80%}
+    </para>
+    <para>
+      This contains an entry for each document which contains the stem,
+      an overall score for that stem in that document, and precise
+      information about each individual instance, including a
+      keyword-in-context extract in which it is marked.
+    </para>
+    <para>
+      In addition to the stem files, the build process also creates the
+      following individual JSON files:
+    </para>
+    <para>
+      ssTitles.json This maps each document's unique identifier (its
+      path relative to the search page) to its title. It may also
+      include an icon with which to identify the document in search
+      results, and an optional sort key to be used instead of its title
+      when search results with the same score are being listed.
+    </para>
+    <para>
+      ssWordString.json This is a plain-text list of all the individual
+      (unstemmed) words appearing in the collection, separated by pipes:
+    </para>
+    <para>
+      ...|page||pairs||paragraph||part||parts||peep||People||per||percent||percentages||perhaps|...
+    </para>
+    <para>
+      This file is used when processing wildcard searches. When the user
+      enters a wildcard term, it is expanded into a regular expression
+      which is used to extract all of the individual matching words from
+      the word string JSON list. Each of those words is a potential
+      match, so it is stemmed, and its stem file is retrieved. Then a
+      search is made through all the contexts in those files to find
+      matches for the wildcard/regex term in their contexts, so that all
+      actual hits can be found.
+    </para>
+    <para>
+      For exact phrase (i.e. quoted string) searches, the quoted string
+      is tokenized and the first non-stopword is extracted from it; that
+      word is stemmed, and its stem file retrieved. Then all the
+      contexts in that stem file are searched for an exact match for the
+      phrase.
+    </para>
+  </section>
+  <section xml:id="the-search-filters">
+    <title>The search filters</title>
+    <para>
+      In addition to the text search, the user can trigger the creation
+      of a range of different search filter controls on the search page,
+      by including some HTML meta tags with specific formats in the
+      document. For example, if a document has these three meta tags:
+    </para>
+    <programlisting language="html">
+    &lt;meta name=&quot;Document type&quot; class=&quot;staticSearch_desc&quot; content=&quot;Poems&quot;/&gt;
+    &lt;meta name=&quot;Document type&quot; class=&quot;staticSearch_desc&quot; content=&quot;Translations&quot;/&gt;
+    &lt;meta name=&quot;Date of publication&quot; class=&quot;staticSearch_date&quot; content=&quot;1895-01-05&quot;/&gt;
+</programlisting>
+    <para>
+      then the containing document will be classified as belonging to
+      two document categories, &quot;Poems&quot; and
+      &quot;Translations&quot;, in the &quot;Document type&quot;
+      selection filter (which we refer to as a &quot;description
+      filter&quot;). A second date range filter will also be created. If
+      an end-user searches for documents in either of those categories,
+      using a date-range that includes 1895-01-05, then this document
+      will be selected. Other filter types include boolean, number
+      range, and &quot;feature filters&quot;, which provide a typeahead
+      searchable list of keywords. The build process creates a separate
+      JSON file for each of these filters. The JSON for a description
+      filter looks like this (heavily truncated example):
+    </para>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <objectinfo>
+            <title>
+              An example, heavily truncated, description filter file
+            </title>
+          </objectinfo>
+          <imagedata fileref="images/desc_filter_json.png" />
+        </imageobject>
+      </inlinemediaobject>{width=80%}
+    </para>
+    <para>
+      When an end-user's search makes use of a filter control, then
+      required filter JSON will also be downloaded along with any stem
+      files needed, but the filter files are also downloaded in the
+      background on page load so that most are already available by the
+      time a user has initiated a search.
+    </para>
+    <para>
+      When filters are combined with text search, the list of documents
+      containing hits for the text search are first computed, then those
+      hits are filtered based on the filter settings. The small size and
+      innate compressibility of the JSON files enables staticSearch to
+      produce results quite rapidly, even from relatively large document
+      collections.
+    </para>
+  </section>
+</section>

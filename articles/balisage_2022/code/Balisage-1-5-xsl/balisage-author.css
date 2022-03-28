@@ -1,0 +1,256 @@
+@import "docbook-table.css";
+
+* { display: block }
+
+jobtitle > *        { display: inline }
+orgname > *         { display: inline }
+personname > *      { display: inline }
+bibliomixed > *     { display: inline }
+title > *           { display: inline }
+subtitle > *        { display: inline }
+link > *            { display: inline }
+para > *            { display: inline }
+attribution > *     { display: inline }
+programlisting > *  { display: inline }
+code > *            { display: inline }
+trademark > *       { display: inline }
+mathphrase > *      { display: inline }
+term > *            { display: inline }
+
+/* added 20201015 to include newer v1.5 elements for accessibility */
+phrase > *          { display: inline }
+emphasis > *        { display: inline }
+subscript > *       { display: inline }
+superscript > *     { display: inline }
+inlinemediaobject * { display: inline }
+quote > *           { display: inline }
+th > *              { display: inline }
+td > *              { display: inline }
+
+/* these elements are blocks no matter where they appear */
+blockquote, equation, figure, footnote,
+informaltable, itemizedlist, mediaobject, note
+orderedlist, programlisting, variablelist { display: block }
+
+table, informaltable, tbody { display: table }
+
+tr { display: table-row }
+th { display: table-cell }
+td { display: table-cell }
+
+listitem { display: list-item }
+varlistentry > listitem { display: block }
+
+/* General formatting */
+
+article { background-color: #F0F8FF ; /* aliceblue */
+  padding-left: 5px; padding-right: 5px;
+  line-height: 120%;
+  counter-reset: appendix;
+  counter-reset: footnote;
+  counter-reset: table;
+  counter-reset: equation;
+  counter-reset: figure
+}
+
+title, subtitle { font-family: sans-serif; font-weight: bold }
+title { margin-top: 1ex }
+
+article > title { font-size: 140% }
+article > subtitle { font-size: 120%; font-style: italic }
+
+section > title, appendix > title, bibliography > title { font-size: 125% }
+section > section > title, appendix > section > title { font-size: 115% }
+section > section > section > title,
+appendix > section > section > title { font-size: 100% }
+section > section > section > section > title,
+appendix > section > section > section > title { font-size: 85% }
+
+appendix > title:before { content: 'Appendix ' counter(appendix, upper-alpha) '. ';
+  counter-increment: appendix }
+
+
+para { margin-top: 1ex }
+
+bibliomixed { margin-top: 1ex }
+
+bibliomixed[xreflabel]:before { content: '[' attr(xreflabel) '] ' }
+
+/* 20201015 Oxygen indicates "foldable" and "not-foldable" are deprecated */
+/* in favor of "-oxy-foldable" and "-oxy-not-foldable" */
+section, figure, table, footnote, appendix { -oxy-foldable:true;
+    -oxy-not-foldable-child: title }
+    
+
+table,
+figure,
+footnote,
+equation,
+note { padding: 5px;
+       margin-top: 5px;
+       background-color: white;
+       border: medium groove #B0C4DE; /* lightsteelblue */ }
+
+figure:before { font-family: sans-serif; font-size: 80%;
+  content: 'Figure ' counter(figure);
+  counter-increment: figure }
+
+footnote:before { font-family: sans-serif; font-size: 80%;
+  content: 'Footnote ' counter(footnote);
+  counter-increment: footnote }
+
+table:before { font-family: sans-serif; font-size: 80%;
+  content: 'Table ' counter(table, upper-roman);
+  counter-increment: table }
+
+equation:before { font-family: sans-serif; font-size: 80%;
+  content: 'Equation (' counter(equation, lower-alpha) ')';
+  counter-increment: equation }
+
+/* added 20201015 */
+/* caption > para:before { font-family: sans-serif; font-size: 80%; content: 'caption: ' } */
+
+/* added 20201015 to include newer v1.5 elements for accessibility */
+alt:before  { font-family: sans-serif; font-size: 80%; content: 'alt (accessibility): ' }
+
+/* added 20201015 to include newer v1.5 elements for accessibility */
+textobject > para:before { font-family: sans-serif; font-size: 80%; content: 'textobject (accessibility): ' }
+
+
+note:before { font-family: sans-serif; font-size: 80%; content: 'Note:' }
+
+blockquote { margin: 1em }
+
+programlisting { margin-top: 1em; margin-bottom: 1em }
+
+blockquote > *:first-child,
+figure > *:first-child,
+footnote > *:first-child,
+note > *:first-child { margin-top: 0ex }
+
+blockquote > attribution { text-align: right;
+  margin-top: 0.5ex }
+
+programlisting { font-family: monospace; white-space:pre }
+mediaobject imagedata {
+    content: attr(fileref, url)
+}
+
+itemizedlist { list-style-type: disc }
+orderedlist  { list-style-type: decimal }
+
+itemizedlist > listitem,
+orderedlist > listitem { margin-left: 2em }
+
+
+varlistentry > term { margin-top: 0.5ex; font-style: italic; font-weight: bold }
+varlistentry > listitem { margin-left: 1em }
+varlistentry > listitem > *:first-child { margin-top: 0px }
+
+/* Inline tagging  */
+
+inlinemediaobject imagedata {
+    display:inline;
+    content: attr(fileref, url)
+}
+
+code { font-family: monospace; }
+email, link { font-family: sans-serif; font-size: 90%; color: #4682B4 /* steelblue */ }
+blockquote > citation:before { content: '' }
+blockquote> citation:after { content: '' }
+quote:before { content: '\201c' }
+quote:after { content: '\201d' }
+subscript { vertical-align:sub; font-size: 80% }
+superscript { vertical-align:super; font-size: 80% }
+trademark {font-family: sans-serif; font-size: 90% }
+trademark:after { content: '\2122'; }
+
+xref { }
+footnoteref { }
+inlinemediaobject { }
+
+emphasis[role='ital'] { font-style: italic }
+emphasis[role='bold'] { font-weight: bold }
+emphasis[role='bital'] { font-style: italic; font-weight: bold }
+emphasis[role='rom'] { font-style: normal }
+emphasis[role='under'] { text-decoration: underline }
+
+citation:before,
+xref:before { font-family: sans-serif; font-size: 80%; content: attr(linkend) }
+
+/* Modifications to imported table module */
+
+/* Because the tgroup below is has the display: table, the table element 
+containing the element tgroup loses its display, becoming a block.*/
+
+table,
+informaltable{
+  border-color:#B0C4DE;
+  border-style:solid;
+  border-width:2px;
+  padding:5px;
+}
+
+tgroup {
+  display:table;
+  border-color:#B0C4DE;
+  border-style:solid;
+  border-width:1px;
+}
+
+
+table > caption { color: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    background-color:inherit;
+    text-align: left;
+    margin: 0px }
+
+/* Metadata formatting */
+info { padding: 5px;
+       margin-top: 5px;
+       background-color: #E6E6FA; /* lavender */
+       border: medium groove #B0C4DE; /* lightsteelblue */ }
+
+info *:first-child { margin-top: 0ex }
+info > * { margin-top: 1ex }
+
+confgroup > conftitle:before  { font-family: sans-serif; font-size: 80%; content: 'conference: ' }
+confgroup > confdates:before  { font-family: sans-serif; font-size: 80%; content: 'dates: ' }
+
+abstract:before  { font-family: sans-serif; font-size: 100%; font-weight: bold; 
+  content: 'Abstract:' }
+abstract > * { margin-left: 10px }
+
+author > personname:before  { font-family: sans-serif; font-size: 80%; content: 'author: ' }
+
+personname > *:before { content: ' ' }
+personname > *:first-child:before { content: '' }
+
+author > personblurb:before  { font-family: sans-serif; font-size: 80%; content: 'bio:' }
+author > personblurb > * { margin-left: 10px; }
+
+author > affiliation:before  { font-family: sans-serif; font-size: 80%; content: 'affiliation:' }
+author > affiliation > * { margin-left: 10px; }
+
+/* added 20201015 */
+author > email:before  { font-family: sans-serif; font-size: 80%; content: 'email:  ' }
+author > email > * { margin-left: 10px; }
+
+/* added 20201015 */
+author > link:before  { font-family: sans-serif; font-size: 80%; content: 'website:  ' }
+author > link > * { margin-left: 10px; }
+
+/* added 20201015 to include newer v1.5 elements */
+author > uri:before  { font-family: sans-serif; font-size: 80%; content: 'ORCID:  ' }
+author > uri > * { margin-left: 10px; }
+
+
+legalnotice:before  { font-family: sans-serif; font-size: 80%; content: 'legal notice:' }
+legalnotice > * { margin-left: 10px }
+
+keywordset:before  { font-family: sans-serif; font-size: 80%; content: 'keywords: ' }
+keyword { display: inline }
+keyword:before { content: '; ' }
+keyword:first-child:before { content: '' }
+

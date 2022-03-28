@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="buildBalisage">
+  
+  <description>Build for converting markdown files into Balisage XML.</description>
+  
+  <property name="tempDir" value="${basedir}/tmp"/>
+  <property name="distDir" value="${basedir}/dist"/>
+  <property name="saxon" value="${basedir}/../../utilities/saxon-he-10.jar"/>
+  
+  <target name="init">
+    <delete dir="${tempDir}"/>
+    <delete dir="${distDir}"/>
+    <mkdir dir="${tempDir}"/>
+    <delete dir="${distDir}"/>
+  </target>
+  
+  <target name="concat">
+    <!--First, concatenate all of the files in order-->
+    <concat destfile="${tempDir}/takeda-holmes-balisage.md">
+      <sort>
+        <fileset dir="${basedir}">
+          <include name="0*.md"/>
+        </fileset>
+        <name/>
+      </sort>
+    </concat>
+  </target>
+  
+  <target name="convert">
+    <exec executable="pandoc">
+        <arg line="-f gfm"/>
+        <arg line="-t docbook5"/>
+        <arg line="--metadata-file ${basedir}/metadata.yaml"/>
+        <arg line="-o ${tempDir}/takeda-holmes-balisage_docbook.xml"/>
+        <arg line="--standalone"/>
+        <arg line="${tempDir}/takeda-holmes-balisage.md"/>
+    </exec>
+  </target>
+  
+  <target name="clean">
+    <xslt
+      in="${tempDir}/takeda-holmes-balisage_docbook.xml"
+      out="${distDir}/takeda-holmes-balisage.xml"
+      style="code/docbook5-to-balisage.xsl"
+      classpath="${saxon}"
+      useImplicitFileset="false" 
+      failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  <target name="html">
+    <xslt
+      in="${distDir}/takeda-holmes-balisage.xml"
+      out="${distDir}/takeda-holmes-balisage.html"
+      style="code/Balisage-1-5-xsl/balisage-proceedings-html.xsl"
+      classpath="${saxon}"
+      useImplicitFileset="false" 
+      failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  
+  <target name="copy">
+    <copy file="${basedir}/code/Balisage-1-5-rng/balisage-1-5.rng" todir="${distDir}"/>
+    <copy todir="${distDir}">
+      <fileset dir="${basedir}">
+        <include name="images/**"/>
+      </fileset>
+    </copy>
+    <copy todir="${distDir}">
+      <fileset dir="${basedir}/code/Balisage-1-5-xsl">
+        <include name="**.css"/>
+      </fileset>
+    </copy>
+  </target>
+  
+
+  
+  <target name="all" depends="init, concat, convert, clean, html, copy"/>
+  
+  
+  
+  <!--First convert the markdown into docbook -->
+  
+  
+  
+  
+  
+  
+  
+  
+</project>
