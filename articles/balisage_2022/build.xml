@@ -31,6 +31,7 @@
         <arg line="-f gfm"/>
         <arg line="-t docbook5"/>
         <arg line="--metadata-file ${basedir}/metadata.yaml"/>
+        <arg line="--template ${basedir}/template.docbook5"/>
         <arg line="-o ${tempDir}/takeda-holmes-balisage_docbook.xml"/>
         <arg line="--standalone"/>
         <arg line="${tempDir}/takeda-holmes-balisage.md"/>
@@ -76,9 +77,15 @@
     </copy>
   </target>
   
+  <target name="open">
+    <exec executable="open">
+      <arg line="-a Firefox ${distDir}/takeda-holmes-balisage.html"/>
+    </exec>
+  </target>
+  
 
   
-  <target name="all" depends="init, concat, convert, clean, html, copy"/>
+  <target name="all" depends="init, concat, convert, clean, html, copy, open"/>
   
   
   

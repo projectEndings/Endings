@@ -1,6 +1,14 @@
 ---
 title:  'staticSearch'
-author:
-- Joey Takeda
-- Martin Holmes
+authors:
+- first_name: Joey
+  last_name: Takeda
+  affiliation: Digital Humanities Innovation Lab, Simon Fraser University
+  bio: Sample bio
+- first_name: Martin
+  last_name: Holmes
+  affiliation: Humanities Computing and Media Centre, University of Victoria
+  bio: Martin bio
+abstract: |
+ Write the abstract here
 ---
