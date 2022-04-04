@@ -54,19 +54,18 @@ Which yields the the following:
 
 If a word is indeed a word and is neither too short nor a stopword, it is then run through the user-configured XSLT stemmer. At the moment, staticSearch comes packaged with an [[]]. The full implementation of Porter 2 can be found in the repository: [[]])
 
+
+
 ### Indexing
 
-1. Produces thousands of token JSON files 
-2. This requires taking the entire document collection and grouping each token, which takes a significant amount of memory
-3. Of all of the technical problems, the KWIC creation is trickiest
-
-### The text search
-
-This process amounts to building a rich index of the terms and metadata in the documents, but the index is fragmented across a huge collection of individual files, because each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.); these are referred to as the "stem files". This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved. A stem file looks like this:
+From the tokenized document collection, we can now build a rich index of the terms and metadata in the documents that is fragmented across a huge collection of individual files; each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.), which are referred to as the "stem files". This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved. A stem file looks like this:
 
 ![An example stem file](/Users/takeda/projects/Endings/articles/balisage_2022/images/stem_file.png "An example stem file"){width=80%}
 
 This contains an entry for each document which contains the stem, an overall score for that stem in that document, and precise information about each individual instance, including a keyword-in-context extract in which it is marked.
+
+1. This requires taking the entire document collection and grouping each token, which takes a significant amount of memory
+2. Of all of the technical problems, the KWIC creation is trickiest
 
 In addition to the stem files, the build process also creates the following individual JSON files:
 
@@ -101,3 +100,4 @@ then the containing document will be classified as belonging to two document cat
 When an end-user's search makes use of a filter control, then required filter JSON will also be downloaded along with any stem files needed, but the filter files are also downloaded in the background on page load so that most are already available by the time a user has initiated a search.
 
 When filters are combined with text search, the list of documents containing hits for the text search are first computed, then those hits are filtered based on the filter settings. The small size and innate compressibility of the JSON files enables staticSearch to produce results quite rapidly, even from relatively large document collections.
+
