@@ -14,17 +14,43 @@
     <xsl:mode name="ref_1" on-no-match="shallow-copy"/>
     <xsl:mode name="quote" on-no-match="shallow-copy"/>
     <xsl:mode name="addQuotes" on-no-match="shallow-copy"/>
+    <xsl:mode name="cite" on-no-match="shallow-copy"/>
+    
+    <xsl:accumulator name="xref" initial-value="()">
+        <xsl:accumulator-rule match="xref[@linkend]"
+            select="distinct-values(($value, @linkend))"/>
+    </xsl:accumulator>
     
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="balisage-1-5.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
         <xsl:next-match/>
     </xsl:template>
     
+    <xsl:template match="article">
+        <xsl:variable name="cited" as="element(article)">
+            <xsl:apply-templates select="." mode="cite"/>
+        </xsl:variable>
+        <xsl:copy>
+            <xsl:apply-templates select="$cited/(@*|node())"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="text()[matches(.,'@')][not(ancestor::code or ancestor::literal)]" mode="cite">
+        <xsl:analyze-string select="." regex="@([a-zA-Z0-9]+)">
+            <xsl:matching-substring>
+                <xsl:message select="'Found cit: ' || regex-group(1)"/>
+                <xref linkend="{regex-group(1)}"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:template>
+    
     
     <xsl:template match="article/@version">
         <xsl:attribute name="version">5.0-subset Balisage-1.5</xsl:attribute>
     </xsl:template>
-    
     
     <xsl:template match="info">
         <xsl:apply-templates select="title"/>
@@ -35,9 +61,8 @@
     
     <xsl:template match="abstract">
         <xsl:copy>
-            <xsl:apply-templates select="//section[@xml:id='abstract']/para"/>
+            <xsl:apply-templates select="root(.)//section[@xml:id='abstract']/para"/>
         </xsl:copy>
-  
     </xsl:template>
     
     <xsl:template match="author">
@@ -143,17 +168,19 @@
     
     <xsl:template match="para" mode="ref">
         <xsl:variable name="labeled" select="hcmc:addLabelToPara(.)" as="element(para)"/>
-        <bibliomixed>
-            <xsl:apply-templates select="$labeled/*" mode="ref1"/>
-        </bibliomixed>
+        <xsl:variable name="xreflabel" select="$labeled/label/string(.)" as="xs:string"/>
+        <xsl:variable name="id" select="
+            replace($xreflabel, ' and ', '')
+            => replace('[^A-Za-z0-9]+','')"
+            as="xs:string"/>
+        <xsl:if test="$id = accumulator-after('xref')">
+            <bibliomixed xml:id="{$id}" xreflabel="{$xreflabel}">
+                <xsl:apply-templates select="$labeled/content" mode="#current"/>
+            </bibliomixed>
+        </xsl:if>
     </xsl:template>
     
-    <xsl:template match="para/label" mode="ref1">
-        <xsl:attribute name="xreflabel" select="string(.)"/>
-        <xsl:attribute name="xml:id" select="replace(string(.), ' and ', '') => replace('[^A-Za-z0-9]+','')"/>
-    </xsl:template>
-    
-    <xsl:template match="para/content" mode="ref1">
+    <xsl:template match="para/content" mode="ref">
         <xsl:variable name="quoted" as="element(content)">
             <xsl:copy>
                 <xsl:apply-templates select="node()" mode="quote"/>
