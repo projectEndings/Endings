@@ -1,8 +1,8 @@
 ### Indexing
 
-#### Stem Files
+staticSearch works by generating an "inverted index" from the tokenized documents; this index is simply a directory full of JSON files on the file system: each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.) that contains information about the documents in which that term appears.  This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved. 
 
-staticSearch works by generating an "inverted index" of JSON files on the file system: each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.) that contains information about the documents in which that term appears. This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved. 
+#### Stem Files
 
 Here's an example of the stem file for the term "glow":
 
