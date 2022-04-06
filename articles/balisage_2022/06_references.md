@@ -14,6 +14,8 @@
 
 [Cambazoglu and Baeza-Yates 2015] Cambazoglu, B., and Baeza-Yates, R. *Scalability Challenges in Web Search Engines*. Morgan and Claypool Publishers, 2015.
 
+[Camden and Rinaldi 2018] Camden, R., and Rinaldi, B. 2015. _Working with Static Sites._ O’Reilly Media Inc. 2018. [https://learning.oreilly.com/library/view/working-with-static/9781491960936/](https://learning.oreilly.com/library/view/working-with-static/9781491960936/)
+
 [Carlin 2017] Carlin, Claire. 2017. “Mistakes Were Made: A TEI Project after Sixteen Years.” Conference of the Text Encoding Initiative, Victoria, BC, Canada. 14 November 2017.
 
 [Cayless 2010] Cayless, H. 2010. “Ktêma es aiei: Digital Permanence from an Ancient Perspective.” In Mahony, S., and Bodard, G. (eds), _Digital Research in the Study of Classical Antiquity_, pp. 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless).
@@ -71,8 +73,6 @@
 [Porter 1980] Porter, M. F. “An algorithm for suffix stripping.” *Program*, 
 
 [Quin 2008] Quin, Liam R. E. “Text Retrieval for XML-Encoded Corpora: A Lexical Approach.” Presented at Balisage: The Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In Proceedings of Balisage: The Markup Conference 2008. Balisage Series on Markup Technologies, vol. 1 (2008). https://doi.org/10.4242/BalisageVol1.Quin01.
-
-[Camden and Rinaldi 2018] Camden, R., and Rinaldi, B. 2015. _Working with Static Sites._ O’Reilly Media Inc. 2018. [https://learning.oreilly.com/library/view/working-with-static/9781491960936/](https://learning.oreilly.com/library/view/working-with-static/9781491960936/)
 
 [Saachi 2015] Saachi, S. 2015. “What Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual Foundations for Digital Stewardship.” PhD thesis, University of Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. [url](https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download).
 
