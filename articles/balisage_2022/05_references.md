@@ -20,6 +20,8 @@
 
 [Cayless 2010] Cayless, H. 2010. “Ktêma es aiei: Digital Permanence from an Ancient Perspective.” In Mahony, S., and Bodard, G. (eds), _Digital Research in the Study of Classical Antiquity_, pp. 139-150.  [url](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless).
 
+[Chapman 2022] Chapman, M., et al. 2022. *The Winnifred Eaton Archive.* University of British Columbia. https://winnifredeatonarchive.org.
+
 [Diaz 2018] Diaz, C. 2018. “Using static site generators for scholarly publications and open educational resources.” The Code4Lib Journal, 42 (2018). [url](https://journal.code4lib.org/articles/13861).
 
 [Gelaw et al. 2002] Gelaw, D., Hastings, S., and Hartman, C. 2002. “A Metadata Approach to Preservation of Digital Resources: The University of North Texas Libraries’ Experience.” _First Monday_ 7.8 (2002). [url](http://firstmonday.org/ojs/index.php/fm/article/view/981).
@@ -77,6 +79,8 @@
 [Saachi 2015] Saachi, S. 2015. “What Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual Foundations for Digital Stewardship.” PhD thesis, University of Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. [url](https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download).
 
 [Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 2 October 2016. [url](http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/).
+
+[Stanger-Ross 2021]. Stanger-Ross, J., et al. *Landscapes of Injustice.* University of Victoria. https://loi.uvic.ca/archive.
 
 [Takeda 2021] Takeda, Joey. 2021. “Sustainable StoryMaps: A Case Study in Staticization with StoryMapJS.” Paper presented at GIS Day 2021. Simon Fraser University and the University of British Columbia. November 19, 2021. 
 
