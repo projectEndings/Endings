@@ -154,10 +154,14 @@
         <xsl:attribute name="role" select="'bold'"/>
     </xsl:template>
     
-    <xsl:template match="section[@xml:id='appendix']">
+    <xsl:template match="section[@xml:id='appendix'][not(section)] | section[@xml:id='appendix']/section">
         <appendix>
             <xsl:apply-templates/>
         </appendix>
+    </xsl:template>
+    
+    <xsl:template match="section[@xml:id='appendix'][section]">
+        <xsl:apply-templates select="section"/>
     </xsl:template>
    
     <xsl:template match="section[@xml:id = 'references']">
