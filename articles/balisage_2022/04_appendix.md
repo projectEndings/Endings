@@ -19,17 +19,15 @@ The following table details statistics about staticSearch's indexing process for
 
 ###  Sample Static Search Implementations
 
-![Phrasal search from the Colonial Despatches project](/Users/takeda/projects/Endings/articles/balisage_2022/images/despatches_phrasal_search.png)
+![Phrasal search from the Colonial Despatches project](images/despatches_phrasal_search.png)
 
 
-![Simple word search with fragment images](/Users/takeda/projects/Endings/articles/balisage_2022/images/mariage-chat-images.png)
+![Simple word search with fragment images](images/mariage-chat-images.png)
 
 
+![Filter only search with description and date filters](images/loi_casefiles_search.png)
 
 
+!["Wildcard search combined with description filters"](images/wea_wildcard_search.png "Foobarblort")
 
-![Filter only search with description and date filters](/Users/takeda/projects/Endings/articles/balisage_2022/images/loi_casefiles_search.png)
-
-
-
-!["Wildcard search combined with description filters"](/Users/takeda/projects/Endings/articles/balisage_2022/images/wea_wildcard_search.png "Foobarblort")
+[]: # (MDH comment: Should we just have a list of links to live project search pages? I think people would prefer that to looking at images.)
