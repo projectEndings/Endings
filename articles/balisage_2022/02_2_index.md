@@ -1,8 +1,8 @@
 ### Indexing
 
-staticSearch works by generating an "inverted index" from the tokenized documents; this index is simply a directory full of JSON files on the file system: each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.) that contains information about the documents in which that term appears.  This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved.  
+staticSearch works by generating an "inverted index" from the tokenized documents. This index is simply a directory full of JSON files on the file system: each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.) that contains information about the documents in which that term appears.  This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved.  
 
-The many JSON files range in size depending, of course, on their frequency within the document collection; in most cases, the individual JSON files are trivially small, but for very common words not included in the stopwords file, they can reach into MBs. However, given that these are texts files and most servers can serve and accept GZIP compression, the files can be highly compressed and thus retrieved almost instantly.     As shown in @statistics, regardless of compression, the JSON index is significantly smaller than the input document collection.
+The many JSON files range in size depending, of course, on their frequency within the document collection; in most cases, the individual JSON files are trivially small, but for very common words not included in the stopwords file, they can reach into MBs. However, given that these are texts files and most servers can serve GZIP compression, the files can be highly compressed and thus retrieved almost instantly.     As shown in @statistics, regardless of compression, the JSON index is significantly smaller than the input document collection.
 
 #### Stem Files
 
@@ -50,7 +50,7 @@ The `makeMap` template takes each group of stems and creates the an XML map in t
 
 ```xml
  <xsl:template name="makeMap" as="element(j:map)">
-        <!--The term we're creating a JSON for, inherited from the createMap template -->
+        <!--The term we're creating a JSON file for, inherited from the createMap template -->
         <xsl:variable name="stem" select="current-grouping-key()" as="xs:string"/>
         <!--The group of all the terms (so all of the spans that have this particular term
             in its @ss-stem -->
