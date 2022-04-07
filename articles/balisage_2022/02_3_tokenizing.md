@@ -1,6 +1,8 @@
 ### Tokenizing
 
-What we refer to as the "tokenization" process is a bit of a misnomer: it refers to a single monolithic stylesheet—`tokenize.xsl`—that processes each source document in multiple passes in order to create the minimal HTML structure necessary for generating the index. While the tokenization stage decorates each element with its stem, position, weight, et cetera, it only retains the information that is necessary for the indexing process, removing ignored elements, unnecessary wrappers, and most attributes. In most cases, input documents will contain a significant amount of HTML that appear on every page and should be completely ignored by the indexer, like the site menu, sidebar, or footer. As the example above shows, these elements are given a weight of 0, which means they are removed from the document. The tokenization process also removes elements that will have no bearing on the indexing process; this includes most inline elements, like links, spans, etc, unless these elements must be retained for a specific reason (i.e. they are assigned a higher weight or they contain a fragment identifier, which can be linked from the search results). 
+[]: # (MDH comment: I think this description would work better if the first part, which is all about eliminating unused/unwanted/excluded content, was clearly separated from the second, which is about tokenization/stemming. So I would replace this: "While the tokenization ... and most attributes." with this: "The first stage in the process is to remove irrelevant content.")
+
+What we refer to as the "tokenization" process is a bit of a misnomer: it refers to a single monolithic stylesheet—`tokenize.xsl`—that processes each source document in multiple passes in order to create the minimal HTML structure necessary for generating the index. While the tokenization stage wraps each token in a span element and decorates the element with the token's stem, position, weight, et cetera, it only retains the information that is necessary for the indexing process, removing ignored elements, unnecessary wrappers, and most attributes. In most cases, input documents will contain a significant amount of boilerplate HTML that appears on every page and should be completely ignored by the indexer, like the site menu, sidebar, or footer. As the example above shows, these elements are given a weight of 0, which means they are removed from the tokenized document. The tokenization process also removes elements that will have no bearing on the indexing process; this includes most inline elements, like links, spans, etc, unless these elements must be retained for a specific reason (i.e. they are assigned a higher weight or they contain a fragment identifier, which can be linked from the search results). 
 
 Often, a well-configured instance of staticSearch will produce tokenized documents that are significantly smaller than the original. For example, consider this line from a poem in the *Digital Victorian Periodical Poetry Project*:
 
@@ -20,6 +22,8 @@ The second process is, of course, tokenization. Each meaningful text node is mat
 * An alphanumeric word `[\p{L}\p{M}]+`
 * A hyphenated word: `$alphanumeric(-$alphanumeric)*)`
 
+[]: # (MDH comment: What are double apostrophes? Should this be straight and curly?)
+
 We also consider apostrophes (single and double) as part of a word, so the constructed Regular Expression is slightly more complicated when expressed in the XSLT:
 
 ```xml
@@ -35,10 +39,10 @@ Which yields the the following:
 (['‘’”“"\d]+([\.,]?\d+)|([\p{L}\p{M}'‘’”“"]+-[\p{L}\p{M}'‘’”“"]+(-[\p{L}\p{M}'‘’”“"]+)*)|[\p{L}\p{M}'‘’”“"]+)
 ```
 
-If a word is indeed a word and is neither too short nor a stopword, it is then run through the user-configured XSLT stemmer. At the moment, staticSearch has four different stemmers:Porter's stemming algorithms for English and French; an "identity" stemmer; and a diacritic stemmer, which simply strips diacritics and is otherwise idempotent.[^02_3_1] Users can specify their own stemmers, but, at the moment, the stemmers need to be implemented identically in both XSLT and JavaScript. We are currently exploring options for integrating existing implementations of Porter's stemming algorithms in Java and JavaScript (for Saxon and the browser, respectively).
+If a word is indeed a word and is neither too short nor a stopword, it is then run through the user-configured XSLT stemmer. At the moment, staticSearch has four different stemmers: Porter's stemming algorithms for English and French; an "identity" stemmer; and a diacritic stemmer, which simply strips diacritics and is otherwise idempotent.[^02_3_1] Users can specify their own stemmers, but, at the moment, the stemmers need to be implemented identically in both XSLT and JavaScript. We are currently exploring options for integrating existing implementations of Porter's stemming algorithms in Java and JavaScript (for Saxon and the browser, respectively).
 
 ---
 
 
 
-[^02_3_1]: While the "identity" stemmer is not necessarily ideal, it does vastly simplify the creation of a search engine for multi-lingual documents and document collections.
+[^02_3_1]: While the "identity" stemmer is not necessarily ideal, it does vastly simplify the creation of a search engine for multi-lingual documents and document collections. It also provides a convenient starting point for users who might want to implement their own stemmers.
