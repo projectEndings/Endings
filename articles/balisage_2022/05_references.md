@@ -72,7 +72,11 @@
 
 [Nightingale 2011] Nightingale, Oliver. *lunr.js*. JavaScript. https://github.com/olivernn/lunr.js.
 
-[Porter 1980] Porter, M. F. “An algorithm for suffix stripping.” *Program*, 
+[Porter 1980] Porter, M. F. “An algorithm for suffix stripping.” *Program* 14(3) (1980), 130–137.
+
+[Porter 2002]. Porter, M.F. "The English (Porter2) stemming algorithm." http://snowball.tartarus.org/algorithms/english/stemmer.html
+
+[Porter French] Porter, M.F. "French stemming algorithm." http://snowball.tartarus.org/algorithms/french/stemmer.html
 
 [Quin 2008] Quin, Liam R. E. “Text Retrieval for XML-Encoded Corpora: A Lexical Approach.” Presented at Balisage: The Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In Proceedings of Balisage: The Markup Conference 2008. Balisage Series on Markup Technologies, vol. 1 (2008). https://doi.org/10.4242/BalisageVol1.Quin01.
 
