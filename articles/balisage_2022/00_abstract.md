@@ -1,3 +1,3 @@
 ## Abstract
 
-Here is the abstract.
+Increasing awareness of the burdens of technical debt and the risks and costs associated with complex server infrastructures have prompted digital humanists to consider moving to purely static HTML/CSS/JS websites for projects such as online digital editions. Building static sites is not difficult, but digital editions also require sophisticated search capabilities, incorporating text search with stemming and wildcards as well as a rich array of filters tuned to the contents of the edition itself. Responding to this need, we created staticSearch, a system which builds search indexes offline with XSLT and queries them statically using JavaScript, providing a straightforward approach to search for purely static websites. This presentation will describe how staticSearch works, and discuss some of the interesting and challenging problems that such a system has to overcome.
