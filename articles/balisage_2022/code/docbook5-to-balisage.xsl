@@ -157,6 +157,10 @@
         </code>
     </xsl:template>
     
+    <xsl:template match="link[link]">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="entry/emphasis[@role='strong']">
         <xsl:apply-templates/>
     </xsl:template>
