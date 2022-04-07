@@ -16,7 +16,7 @@
   
   <target name="concat">
     <!--First, concatenate all of the files in order-->
-    <concat destfile="${tempDir}/takeda-holmes-balisage.md">
+    <concat fixlastline="yes" destfile="${tempDir}/takeda-holmes-balisage.md">
       <sort>
         <fileset dir="${basedir}">
           <include name="0*.md"/>

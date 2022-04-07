@@ -35,7 +35,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="text()[matches(.,'@')][not(ancestor::code or ancestor::literal)]" mode="cite">
+    <xsl:template match="text()[matches(.,'@')][not(ancestor::code or ancestor::literal or ancestor::programlisting)]" mode="cite">
         <xsl:analyze-string select="." regex="@([a-zA-Z0-9]+)">
             <xsl:matching-substring>
                 <xsl:message select="'Found cit: ' || regex-group(1)"/>
@@ -109,7 +109,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="orderedlist/@spacing"/>
+    <xsl:template match="orderedlist/@spacing | itemizedlist/@spacing"/>
     
     <xsl:template match="informaltable">
         <table>
@@ -144,10 +144,21 @@
         </td>
     </xsl:template>
     
+    
+    <xsl:template match="row/entry[emphasis[@role[.='strong']]] | row/entry[ancestor::thead]">
+        <th>
+            <xsl:apply-templates/>
+        </th>
+    </xsl:template>
+    
     <xsl:template match="literal">
         <code>
             <xsl:apply-templates/>
         </code>
+    </xsl:template>
+    
+    <xsl:template match="entry/emphasis[@role='strong']">
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="emphasis/@role[. = 'strong']">
@@ -156,7 +167,7 @@
     
     <xsl:template match="section[@xml:id='appendix'][not(section)] | section[@xml:id='appendix']/section">
         <appendix>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="@*|node()"/>
         </appendix>
     </xsl:template>
     
@@ -269,7 +280,7 @@
    </xsl:function>
     
     <!--Handling for footnotes-->
-    <xsl:template match="text()">
+<!--    <xsl:template match="text()">
         <xsl:analyze-string select="." regex="\[\^\d+:([^\\]+)\]">
             <xsl:matching-substring>
                 <footnote>
@@ -282,6 +293,6 @@
                 <xsl:value-of select="."/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
-    </xsl:template>
+    </xsl:template>-->
     
 </xsl:stylesheet>

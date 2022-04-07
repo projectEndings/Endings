@@ -2,28 +2,34 @@
 
 ### Statistics
 
-The following table details statistics about staticSearch's indexing process for three different projects: the very small staticSearch test set of documents; the *Winnifred Eaton Archive*'s (@Chapman2022) documents, including transcriptions; and the *Landscapes of Injustice*'s (@LOI) large archive of primary and secondary source materials.
+The following table details statistics about staticSearch's indexing process for three different projects: the very small staticSearch test set of documents; the *Winnifred Eaton Archive*'s (@Chapman2022) documents, including transcriptions; and the *Landscapes of Injustice*'s (@StangerRoss2021) large archive of primary and secondary source materials. Statistics below were taken on a Apple MacBook Pro running 16GB of RAM and silicon architecture (M1 Pro); timing and sizes are as reported by `gtime`, a port of GNU `time` for macOS.
 
-| **Project**                 | **Number of HTML files tokenized** | **Size of Document Collection** | **Average document size** | **# Number of token files** | **Total Size (uncompressed)** | **Average size (uncompressed)** | **Total Size (compressed)** | **Average  size (compressed) ** | ** Build time** | **Memory Used** |
-| --------------------------- | ---------------------------------- | ------------------------------- | ------------------------- | --------------------------- | ----------------------------- | ------------------------------- | --------------------------- | ------------------------------- | --------------- | --------------- |
-| **staticSearch Test Set**   | 10                                 | 17.4 KB                         | 1.8K                      | 678                         | 285K                          | 420B                            | 171K                        | 252B                            | 6s 680ms        | 391M            |
-| **Winnifred Eaton Archive** | 1820                               | 31M                             | 17K                       | 20514                       | 188M                          | 9.2K                            | 39M                         | 1.9K                            | 1m 24s 52ms     | 1.3G            |
-| **Landscapes of Injustice** | 93998                              | 264M                            | 2.9K                      | 92203                       | 617M                          | 6.7K                            | 106M                        | 1.2K                            | 8m 53s 20ms     | 3.7G            |
-
-
+| **Project**                        | **staticSearch Test Set** | **Winnifred Eaton Archive** | **Landscapes of Injustice** |
+| ---------------------------------- | ------------------------- | --------------------------- | --------------------------- |
+| **Number of HTML files tokenized** | 10                        | 1820                        | 93998                       |
+| **Size of Document Collection**    | 17.4 KB                   | 31M                         | 264M                        |
+| **Average document size**          | 1.8K                      | 17K                         | 2.9K                        |
+| **Number of token files**          | 678                       | 20514                       | 92203                       |
+| **Total Size (uncompressed)**      | 285K                      | 188M                        | 617M                        |
+| **Average size (uncompressed)**    | 420B                      | 9.2K                        | 6.7K                        |
+| **Total Size (compressed)**        | 171K                      | 39M                         | 106M                        |
+| **Average size (compressed)**      | 252B                      | 1.9K                        | 1.2K                        |
+| **Build time**                     | 6s 680ms                  | 1m 24s 52ms                 | 8m 53s 20ms                 |
+| **Memory Used**                    | 391M                      | 1.3G                        | 3.7G                        |
 
 ###  Sample Static Search Implementations
 
-![despatches_phrasal_search](/Users/takeda/projects/Endings/articles/balisage_2022/images/despatches_phrasal_search.png)
-
-![loi_casefiles_search](/Users/takeda/projects/Endings/articles/balisage_2022/images/mariage-chat-images.png)
+![Phrasal search from the Colonial Despatches project](/Users/takeda/projects/Endings/articles/balisage_2022/images/despatches_phrasal_search.png)
 
 
-
-
-
-![loi_casefiles_search](/Users/takeda/projects/Endings/articles/balisage_2022/images/loi_casefiles_search.png)
+![Simple word search with fragment images](/Users/takeda/projects/Endings/articles/balisage_2022/images/mariage-chat-images.png)
 
 
 
-![wea_wildcard_search](/Users/takeda/projects/Endings/articles/balisage_2022/images/wea_wildcard_search.png)
+
+
+![Filter only search with description and date filters](/Users/takeda/projects/Endings/articles/balisage_2022/images/loi_casefiles_search.png)
+
+
+
+!["Wildcard search combined with description filters"](/Users/takeda/projects/Endings/articles/balisage_2022/images/wea_wildcard_search.png "Foobarblort")

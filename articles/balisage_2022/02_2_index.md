@@ -2,7 +2,7 @@
 
 staticSearch works by generating an "inverted index" from the tokenized documents; this index is simply a directory full of JSON files on the file system: each unique stemmed term has a JSON file to itself, named for itself ('book.json', 'walk.json', etc.) that contains information about the documents in which that term appears.  This means that when the search page queries the index, it need only retrieve the individual JSON files for the terms which are in the search; the bulk of the index is never retrieved.  
 
-The many JSON files range in size depending, of course, on their frequency within the document collection; in most cases, the individual JSON files are trivially small, but for very common words not included in the stopwords file, they can reach into MBs. However, given that these are texts files and most servers can serve and accept GZIP compression, the files can be highly compressed and thus retrieved almost instantly.     As shown in Appendix 1, regardless of compression, the JSON index is significantly smaller than the input document collection.
+The many JSON files range in size depending, of course, on their frequency within the document collection; in most cases, the individual JSON files are trivially small, but for very common words not included in the stopwords file, they can reach into MBs. However, given that these are texts files and most servers can serve and accept GZIP compression, the files can be highly compressed and thus retrieved almost instantly.     As shown in @statistics, regardless of compression, the JSON index is significantly smaller than the input document collection.
 
 #### Stem Files
 
@@ -46,7 +46,7 @@ Each stem is created by grouping the entire set of stems by their `@ss-stem` val
 </xsl:for-each-group>
 ```
 
-The `makeMap` template takes each group of stems and creates the an XML map in the JSON namespace[^2: This advantage of using this structure rather than XPath maps and arrays is the ease with which we can construct an array until such time that the proposed XSLT 4.0 `<xsl:array>` instruction becomes available. ] for the file:
+The `makeMap` template takes each group of stems and creates the an XML map in the JSON namespace[^02_2_1] for the file:
 
 ```xml
  <xsl:template name="makeMap" as="element(j:map)">
@@ -223,10 +223,12 @@ This can still lead to very long strings being stored in memory, however, and so
 
 In addition to the stem files, the build process also creates the following individual JSON files:
 
-ssTitles.json 
+##### ssTitles.json 
+
 This maps each document's unique identifier (its path relative to the search page) to its title. It may also include an icon with which to identify the document in search results, and an optional sort key to be used instead of its title when search results with the same score are being listed.
 
-ssWordString.json
+##### ssWordString.json
+
 This is a plain-text list of all the individual (unstemmed) words appearing in the collection, separated by pipes:
 
 ```text
@@ -274,3 +276,8 @@ When an end-user's search makes use of a filter control, then required filter JS
 
 When filters are combined with text search, the list of documents containing hits for the text search are first computed, then those hits are filtered based on the filter settings. The small size and innate compressibility of the JSON files enables staticSearch to produce results quite rapidly, even from relatively large document collections.
 
+
+
+---
+
+[^02_2_1]: This advantage of using this structure rather than XPath maps and arrays is the ease with which we can construct an array until such time that the proposed XSLT 4.0 array instruction becomes available.
