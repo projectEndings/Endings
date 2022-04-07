@@ -17,19 +17,28 @@ The following table details statistics about staticSearch's indexing process for
 | **Build time**                     | 6s 680ms                  | 1m 24s 52ms                 | 8m 53s 20ms                 |
 | **Memory Used**                    | 391M                      | 1.3G                        | 3.7G                        |
 
+
+
 ###  Sample Static Search Implementations
 
-![Phrasal search from the Colonial Despatches project](/Users/takeda/projects/Endings/articles/balisage_2022/images/despatches_phrasal_search.png)
+![Phrasal search from the Colonial Despatches project](images/despatches_phrasal_search.png)
 
-
-![Simple word search with fragment images](/Users/takeda/projects/Endings/articles/balisage_2022/images/mariage-chat-images.png)
-
-
+Image from the Colonial Despatches project: https://bcgenesis.uvic.ca/search.html?q=%22timber%20trade%22
 
 
 
-![Filter only search with description and date filters](/Users/takeda/projects/Endings/articles/balisage_2022/images/loi_casefiles_search.png)
+![Simple word search with fragment images](images/mariage-chat-images.png)
+
+Image from *Le Mariage Sous le Ancien Regime*: https://mariage.uvic.ca/recherche.html?q=chat
 
 
 
-!["Wildcard search combined with description filters"](/Users/takeda/projects/Endings/articles/balisage_2022/images/wea_wildcard_search.png "Foobarblort")
+![Filter only search with description and date filters](images/loi_casefiles_search.png)
+
+Image from *Landscapes of Injustice*: https://loi.uvic.ca/archive/loiCollectionCustodianCaseFiles_search.html?Nationality=Canadian%20born&Date%20of%20Birth_from=1880&Date%20of%20Birth_to=1910
+
+
+
+!["Wildcard search combined with description filters"](images/wea_wildcard_search.png)
+
+Image from *The Winnifred Eaton Archive*: https://winnifredeatonarchive.org/search.html?q=sam*r*&Exhibit=Alberta%201917%E2%80%931954&Exhibit=In%20Hollywood%201916%E2%80%931935
