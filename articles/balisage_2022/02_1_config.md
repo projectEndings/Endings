@@ -1,6 +1,6 @@
 ### Configuration
 
-The structure and syntax of the configuration file is defined by staticSearch's custom schema (expressed as a TEI ODD) and provides specific options for the staticSearch build process. A basic configuration file looks something like this:
+The structure and syntax of the configuration file is defined by staticSearch's custom schema (expressed as a TEI ODD file) and provides specific options for the staticSearch build process. A basic configuration file looks something like this:
 
 ```xml
 <config xmlns="http://hcmc.uvic.ca/ns/staticSearch" version="2">
@@ -55,10 +55,10 @@ This configuration file is transformed into an XSLT stylesheet that is included 
 <rule match="menu | aside | footer" weight="0"/>
 ```
 
-The `@weight` attribute above signals the multiplier that should be applied to each instance of that element within a document when computing a term's score. We make some assumptions about specific weighting of elements (all heading-like elements `<h1>` etc are given a weight of 2; here a weight of 0 means that the indexer should ignore the element entirely).
+The `@weight` attribute above signals the multiplier that should be applied to each instance of that element within a document when computing a term's score. We make some assumptions about specific weighting of elements (all heading-like elements `<h1>` etc are given a weight of 2). A weight of 0 means that the indexer should ignore the element entirely).
 
 The rule element (and other elements that bear a `@match`) are converted into `<xsl:template>`s that are run during the multi-phase tokenization process. 
 
 ---
 
-[^02_1_1]: "Weight" here is a slightly misleading term; most discussions of search engines refer to what we call "weight" as "boost" where what we call "score" is usually framed as "weight"
+[^02_1_1]: "Weight" here is a slightly misleading term; most discussions of search engines refer to what we call "weight" as "boost" where what we call "score" is usually framed as "weight".
