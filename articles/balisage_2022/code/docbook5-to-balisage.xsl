@@ -5,6 +5,7 @@
     xpath-default-namespace="http://docbook.org/ns/docbook"
     xmlns="http://docbook.org/ns/docbook"
     xmlns:hcmc="https://hcmc.uvic.ca/ns/1.0"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     version="3.0">
     
     
@@ -16,14 +17,57 @@
     <xsl:mode name="addQuotes" on-no-match="shallow-copy"/>
     <xsl:mode name="cite" on-no-match="shallow-copy"/>
     
+    <xsl:variable name="filename"
+        select="hcmc:basename(replace(document-uri(/),'_docbook',''))"
+        as="xs:string"/>
+    
+    <xsl:variable name="images" as="map(*)">
+        <xsl:map>
+            <xsl:iterate select="//imagedata[@fileref]">
+                <xsl:param name="i" select="1"/>
+                <xsl:map-entry key="string(@fileref)" select="replace(@fileref, hcmc:basename(@fileref), ($filename || format-integer($i,'00')))"/>
+                <xsl:next-iteration>
+                    <xsl:with-param name="i" select="$i + 1"/>
+                </xsl:next-iteration>
+            </xsl:iterate>
+            
+        </xsl:map>
+        
+    </xsl:variable>
+    
+    <!--<xsl:accumulator name="images" initial-value="map{}">
+        <xsl:accumulator-rule match="imagedata[@fileref]">
+            <xsl:variable name="ref" select="string(@fileref)" as="xs:string"/>
+            <xsl:variable name="basename" select="hcmc:basename($ref)"/>
+            <xsl:if test="not(map:contains($value, $ref))">
+                <xsl:variable name="pos" select="count(map:keys($value)) + 1" as="xs:integer"/>
+                <xsl:variable name="newBasename" select="$filename || format-integer($pos,'00')" as="xs:string"/>
+                <xsl:message select="$newBasename"/>
+                <xsl:variable name="val" select="replace($ref, $basename, $newBasename)"/>
+                <xsl:sequence select="map:put($value, $ref, $val)"/>
+            </xsl:if>
+        </xsl:accumulator-rule>
+    </xsl:accumulator>-->
+    
     <xsl:accumulator name="xref" initial-value="()">
         <xsl:accumulator-rule match="xref[@linkend]"
             select="distinct-values(($value, @linkend))"/>
     </xsl:accumulator>
     
+    
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="balisage-1-5.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
         <xsl:next-match/>
+        <xsl:result-document href="../tmp/copy-images.sh" method="text">
+            #!/bin/bash
+            <xsl:value-of separator=";{codepoints-to-string(10)}">
+                <xsl:for-each select="map:keys($images)">
+                    <xsl:sequence select="'cp ' || . || ' dist/' || map:get($images,.)"/>
+                </xsl:for-each>
+                
+            </xsl:value-of>
+            
+        </xsl:result-document>
     </xsl:template>
     
     <xsl:template match="article">
@@ -33,10 +77,11 @@
         <xsl:copy>
             <xsl:apply-templates select="$cited/(@*|node())"/>
         </xsl:copy>
+        
     </xsl:template>
     
     <xsl:template match="text()[matches(.,'@')][not(ancestor::code or ancestor::literal or ancestor::programlisting)]" mode="cite">
-        <xsl:analyze-string select="." regex="@([a-zA-Z0-9]+)">
+        <xsl:analyze-string select="." regex="@([a-zA-Z0-9-]+)">
             <xsl:matching-substring>
                 <xsl:message select="'Found cit: ' || regex-group(1)"/>
                 <xref linkend="{regex-group(1)}"/>
@@ -53,9 +98,9 @@
     </xsl:template>
     
     <xsl:template match="info">
-        <xsl:apply-templates select="title"/>
+        <xsl:apply-templates select="title | subtitle"/>
         <xsl:copy>
-            <xsl:apply-templates select="*[not(self::title)]"/>
+            <xsl:apply-templates select="*[not(self::title or self::subtitle)]"/>
         </xsl:copy>
     </xsl:template>
     
@@ -108,6 +153,12 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    
+    <xsl:template match="imagedata/@fileref">
+        <xsl:attribute name="fileref" select="map:get($images, string(.))"/>
+    </xsl:template>
+    
+    
     
     <xsl:template match="orderedlist/@spacing | itemizedlist/@spacing"/>
     
@@ -190,7 +241,7 @@
         <xsl:variable name="xreflabel" select="$labeled/label/string(.)" as="xs:string"/>
         <xsl:variable name="id" select="
             replace($xreflabel, ' and ', '')
-            => replace('[^A-Za-z0-9]+','')"
+            => replace('[^A-Za-z0-9-]+','')"
             as="xs:string"/>
         <xsl:if test="$id = accumulator-after('xref')">
             <bibliomixed xml:id="{$id}" xreflabel="{$xreflabel}">
@@ -282,6 +333,13 @@
            </content>
        </para>
    </xsl:function>
+    
+    <xsl:function name="hcmc:basename" as="xs:string">
+        <xsl:param name="string"/>
+        <xsl:message select="$string"/>
+        <xsl:variable name="bits" select="tokenize($string,'[\./]')"/>
+        <xsl:sequence select="$bits[last() -1]"/>
+    </xsl:function>
     
     <!--Handling for footnotes-->
 <!--    <xsl:template match="text()">

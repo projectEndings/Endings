@@ -6,6 +6,7 @@
   <property name="tempDir" value="${basedir}/tmp"/>
   <property name="distDir" value="${basedir}/dist"/>
   <property name="saxon" value="${basedir}/../../utilities/saxon-he-10.jar"/>
+  <property name="filename" value="Bal2022take1223"/>
   
   <target name="init">
     <delete dir="${tempDir}"/>
@@ -16,7 +17,7 @@
   
   <target name="concat">
     <!--First, concatenate all of the files in order-->
-    <concat fixlastline="yes" destfile="${tempDir}/takeda-holmes-balisage.md">
+    <concat fixlastline="yes" destfile="${tempDir}/${filename}.md">
       <sort>
         <fileset dir="${basedir}">
           <include name="0*.md"/>
@@ -32,16 +33,17 @@
         <arg line="-t docbook5"/>
         <arg line="--metadata-file ${basedir}/metadata.yaml"/>
         <arg line="--template ${basedir}/template.docbook5"/>
-        <arg line="-o ${tempDir}/takeda-holmes-balisage_docbook.xml"/>
+        <arg line="-o ${tempDir}/${filename}_docbook.xml"/>
         <arg line="--standalone"/>
-        <arg line="${tempDir}/takeda-holmes-balisage.md"/>
+        <arg line="${tempDir}/${filename}.md"/>
     </exec>
   </target>
+
   
   <target name="clean">
     <xslt
-      in="${tempDir}/takeda-holmes-balisage_docbook.xml"
-      out="${distDir}/takeda-holmes-balisage.xml"
+      in="${tempDir}/${filename}_docbook.xml"
+      out="${distDir}/${filename}.xml"
       style="code/docbook5-to-balisage.xsl"
       classpath="${saxon}"
       useImplicitFileset="false" 
@@ -52,8 +54,8 @@
   
   <target name="html">
     <xslt
-      in="${distDir}/takeda-holmes-balisage.xml"
-      out="${distDir}/takeda-holmes-balisage.html"
+      in="${distDir}/${filename}.xml"
+      out="${distDir}/${filename}.html"
       style="code/Balisage-1-5-xsl/balisage-proceedings-html.xsl"
       classpath="${saxon}"
       useImplicitFileset="false" 
@@ -66,20 +68,19 @@
   <target name="copy">
     <copy file="${basedir}/code/Balisage-1-5-rng/balisage-1-5.rng" todir="${distDir}"/>
     <copy todir="${distDir}">
-      <fileset dir="${basedir}">
-        <include name="images/**"/>
-      </fileset>
-    </copy>
-    <copy todir="${distDir}">
       <fileset dir="${basedir}/code/Balisage-1-5-xsl">
         <include name="**.css"/>
       </fileset>
-    </copy>
+    </copy> 
+    <mkdir dir="${distDir}/images"/>
+    <exec executable="/bin/bash" dir="${basedir}">
+      <arg line="tmp/copy-images.sh"/>
+    </exec>
   </target>
   
   <target name="open">
     <exec executable="open">
-      <arg line="-a Firefox ${distDir}/takeda-holmes-balisage.html"/>
+      <arg line="-a Firefox ${distDir}/${filename}.html"/>
     </exec>
   </target>
   
