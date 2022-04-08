@@ -84,7 +84,7 @@
 
 [Sayers 2016] Sayers, J. 2016. “Minimal Definitions.” Minimal Computing: A Working Group of GO::DH, 2 October 2016. [url](http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/).
 
-[Stanger-Ross 2021]. Stanger-Ross, J., et al. *Landscapes of Injustice.* University of Victoria. https://loi.uvic.ca/archive.
+[Stanger-Ross 2021] Stanger-Ross, J., et al. *Landscapes of Injustice.* University of Victoria. https://loi.uvic.ca/archive.
 
 [Takeda 2021] Takeda, Joey. 2021. “Sustainable StoryMaps: A Case Study in Staticization with StoryMapJS.” Paper presented at GIS Day 2021. Simon Fraser University and the University of British Columbia. November 19, 2021. 
 
