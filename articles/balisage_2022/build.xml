@@ -84,6 +84,11 @@
     </exec>
   </target>
   
+  <target name="zip">
+    <zip destfile="${filename}.zip">
+      <fileset dir="${distDir}"/>
+    </zip>
+  </target>
 
   
   <target name="all" depends="init, concat, convert, clean, html, copy, open"/>
