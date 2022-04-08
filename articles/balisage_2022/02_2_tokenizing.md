@@ -39,12 +39,11 @@ Which yields the the following:
 (['‘’”“"\d]+([\.,]?\d+)|([\p{L}\p{M}'‘’”“"]+-[\p{L}\p{M}'‘’”“"]+(-[\p{L}\p{M}'‘’”“"]+)*)|[\p{L}\p{M}'‘’”“"]+)
 ```
 
-If a word is indeed a word and is neither too short nor a stopword, it is then run through the user-configured XSLT stemmer. At the moment, staticSearch has four different stemmers: the Porter stemming algorithms for English and French (@Porter1980; @Porter2002; @PorterFrench) ; an "identity" stemmer; and a diacritic stemmer, which simply strips diacritics and is otherwise idempotent.[^02_3_1] Users can specify their own stemmers, but, at the moment, the stemmers need to be implemented identically in both XSLT and JavaScript. We are currently exploring options for integrating existing implementations of Porter's stemming algorithms in Java and JavaScript (for Saxon and the browser, respectively).
+If a word is indeed a word and is neither too short nor a stopword, it is then run through the user-configured XSLT stemmer. At the moment, staticSearch has four different stemmers: the Porter stemming algorithms for English and French (@Porter1980; @Porter2002; @PorterFrench) ; an "identity" stemmer; and a diacritic stemmer, which simply strips diacritics and is otherwise idempotent.[^02_2_2] Users can specify their own stemmers, but, at the moment, the stemmers need to be implemented identically in both XSLT and JavaScript. We are currently exploring options for integrating existing implementations of Porter's stemming algorithms in Java and JavaScript (for Saxon and the browser, respectively).
 
 ---
 
 
 
-[^02_3_1]: While the "identity" stemmer is not necessarily ideal, it does vastly simplify the creation of a search engine for multi-lingual documents and document collections. It also provides a convenient starting point for users who might want to implement their own stemmers.
-
+[^02_2_2]: While the "identity" stemmer is not necessarily ideal, it does vastly simplify the creation of a search engine for multi-lingual documents and document collections. It also provides a convenient starting point for users who might want to implement their own stemmers.
 [^02_2_1]: @Quin2008 discusses possible solutions for full-text querying of XML with lq-text and notes that, while tedious, "a pragmatic approach is to re-write documents before indexing them, perhaps with XSLT." While we were not aware of Quin's extensions to lq-text hitherto working on staticSearch, the approach described in many ways pre-figures and anticipates our own.

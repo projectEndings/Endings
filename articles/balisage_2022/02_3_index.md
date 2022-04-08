@@ -46,7 +46,7 @@ Each stem is created by grouping the entire set of stems by their `@ss-stem` val
 </xsl:for-each-group>
 ```
 
-The `makeMap` template takes each group of stems and creates the an XML map in the JSON namespace[^02_2_1] for the file:
+The `makeMap` template takes each group of stems and creates the an XML map in the JSON namespace[^02_3_1] for the file:
 
 ```xml
  <xsl:template name="makeMap" as="element(j:map)">
@@ -280,4 +280,4 @@ When filters are combined with text search, the list of documents containing hit
 
 ---
 
-[^02_2_1]: The advantage of using this structure rather than XPath maps and arrays is the ease with which we can construct an array at least until such time that the proposed XSLT 4.0 `<xsl:array>` instruction becomes available.
+[^02_3_1]: The advantage of using this structure rather than XPath maps and arrays is the ease with which we can construct an array at least until such time that the proposed XSLT 4.0 `<xsl:array>` instruction becomes available.
