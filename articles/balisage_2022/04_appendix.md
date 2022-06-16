@@ -2,12 +2,12 @@
 
 ### Statistics
 
-The following table details statistics about staticSearch's indexing process for three different projects: the very small staticSearch test set of documents; the *Winnifred Eaton Archive*'s (@Chapman2022) documents, including transcriptions; and the *Landscapes of Injustice*'s (@Stanger-Ross2021) large archive of primary and secondary source materials. Statistics below were taken on a Apple MacBook Pro running 16GB of RAM and silicon architecture (M1 Pro); timing and sizes are as reported by `gtime`, a port of GNU `time` for macOS.
+The following table details statistics about staticSearch's indexing process for three different projects: the very small staticSearch test set of documents; the *Winnifred Eaton Archive*'s (@Chapman2022) documents, including transcriptions; and the *Landscapes of Injustice*'s (@Stanger-Ross2021) large archive of primary and secondary source materials. Statistics below were taken on an Apple MacBook Pro running 16GB of RAM and silicon architecture (M1 Pro); timing and sizes are as reported by `gtime`, a port of GNU `time` for macOS.
 
 | **Project**                        | **staticSearch Test Set** | **Winnifred Eaton Archive** | **Landscapes of Injustice** |
 | ---------------------------------- | ------------------------- | --------------------------- | --------------------------- |
 | **Number of HTML files tokenized** | 10                        | 1820                        | 93998                       |
-| **Size of Document Collection**    | 17.4 KB                   | 31M                         | 264M                        |
+| **Size of Document Collection**    | 17.4K                     | 31M                         | 264M                        |
 | **Average document size**          | 1.8K                      | 17K                         | 2.9K                        |
 | **Number of token files**          | 678                       | 20514                       | 92203                       |
 | **Total Size (uncompressed)**      | 285K                      | 188M                        | 617M                        |
