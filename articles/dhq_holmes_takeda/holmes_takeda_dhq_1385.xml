@@ -53,8 +53,10 @@
                 <publisher>Association for Computers and the Humanities</publisher>
                 <!-- This information will be completed at publication -->
                 <idno type="DHQarticle-id">001385</idno>
-                <idno type="volume">[to be assigned]<!-- volume number, with leading zeroes: e.g. 006 --></idno>
-                <idno type="issue">[to be assigned]<!-- issue number, without leading zeroes: e.g. 2 --></idno>
+                <idno type="volume">[to be
+                    assigned]<!-- volume number, with leading zeroes: e.g. 006 --></idno>
+                <idno type="issue">[to be
+                    assigned]<!-- issue number, without leading zeroes: e.g. 2 --></idno>
                 <date>2022</date>
                 <dhq:articleType>article</dhq:articleType>
                 <availability status="CC-BY-ND">
@@ -172,7 +174,18 @@
                     interactive programmed teaching exercises, and by the turn of the millenium we
                     had built language-teaching exercise collections for many languages, as well as
                     desktop authoring tools to make the creation of such pages easy for non-coders
-                    (Arneil and Holmes 1998, 1999, and 2001).</p>
+                    (<ref target="#arneilHolmes1998">Arneil and Holmes 1998</ref>, <ref target="#arneilHolmes1999">1999</ref>, and <ref target="#arneilHolmes2001">2001</ref>).</p>
+
+                <p>The materials we created during this period still exist, and they still work
+                    perfectly. Examples can be seen in the Indonesian course materials created in
+                    1999 
+                    (<ref target="https://web.uvic.ca/hrd/indonesian/">https://web.uvic.ca/hrd/indonesian/</ref>) 
+                    and the endearingly-dated <title rend="quotes">Web Language</title> online presentation (<ref target="#holmes1997">Holmes 1997</ref>), originally created in 1997 and last
+                    updated in 1999. The latter includes a feedback form which is still regularly
+                    used, so it still clearly has some relevance despite its appearance. The HTML
+                    and JavaScript is still fully functional, although non-standards-based
+                    cutting-edge technologies of the time, such as RealAudio, no longer work of
+                    course.</p>
 
 
                 <!--
@@ -195,80 +208,252 @@
         <back>
             <listBibl>
                 <!-- Encode each bibliographic item as <bibl>, and delete dummy record below. @xml:id and @label are required. All values for @xml:id should be lower-case. -->
-                <bibl xml:id="arneilHolmes1998" label="Arneil and Holmes 1998"><name>Arneil, S.</name>, and <name>Holmes, M. D</name>. 1998. <title rend="quotes">Hot Potatoes: Free Tools for Creating Interactive Language Exercises for the World Wide Web,</title> Paper presented at the EuroCALL conference, Leuven (September 1998).</bibl>
-                
-                <bibl xml:id="arneilHolmes1999" label="Arneil and Holmes 1999"><name>Arneil, S.</name>, and <name>Holmes, M. D.</name> <title rend="quotes">Juggling hot potatoes: Decisions and compromises in creating authoring tools for the Web.</title> <title rend="italic">ReCALL Journal</title> 11.2: 12-19 and College and University Media Review, Vol. 6 No. 1. CUP; CCUMC (September 1999) <ptr target="https://web.archive.org/web/20050526203034/http://www.eurocall-languages.org/recall/pdf/rvol11no2.pdf"/>.</bibl>
-                
-                <bibl xml:id="arneilHolmes2001" label="Arneil and Holmes 2001"><name>Arneil, S.</name>, and <name>Holmes, M. D.</name> <title rend="quotes">Hot Potatoes, History and Future,</title> Paper presented at EuroCALL Conference, Nijmegen, August 2001. <ptr target="https://web.uvic.ca/hrd/eurocall2001/HotPotPastFuture/PastFutureHome.htm"/>.</bibl>
-                
-                <bibl xml:id="arneilHolmesNewton2019" label="Arneil, Holmes and Newton 2019"><name>Arneil, S.</name>, <name>Holmes, M. D.</name>, and <name>Newton, G.</name> <title rend="quotes">Project Endings: Early Impressions From Our Recent Survey On Project Longevity In DH.</title> Paper presented by Greg Newton at Digital Humanities 2019 Conference, Utrecht, the Netherlands, July 2019. <ptr target="https://dev.clariah.nl/files/dh2019/boa/0891.html"/>.</bibl>
-                
-                <bibl xml:id="baratsShaferFickers2020" label="Barats, Schafer and Fickers 2020"><name>Barats, C.</name>, <name>Schafer, V.</name>, and <name>Fickers, A.</name> <title rend="quotes">Fading Away… The challenge of sustainability in digital studies.</title> DHQ: Digital Humanities Quarterly, 14.3 (2020). <ptr target="http://digitalhumanities.org:8081/dhq/vol/14/3/000484/000484.html"/>.</bibl>
-                
-                <bibl xml:id="burnard2016" label="Burnard 2016"><name>Burnard, L.</name> 2016. <title rend="quotes">How to Update Your ODD.</title> TEI GitHub Repository (2016). <ptr target="http://teic.github.io/PDF/purifyDoc.pdf"/>. (accessed 18 February 2019).</bibl>
-                
-                <bibl xml:id="cayless2010" label="Cayless 2010"><name>Cayless, H.</name> 2010. <title rend="quotes">Ktêma es aiei: Digital Permanence from an Ancient Perspective.</title> In Mahony, S., and Bodard, G. (eds), Digital Research in the Study of Classical Antiquity, pp. 139-150. <ptr target="https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless"/>.</bibl>
-                
-                <bibl xml:id="diaz2018" label="Diaz 2018"><name>Diaz, C.</name> 2018. <title rend="quotes">Using static site generators for scholarly publications and open educational resources.</title> The Code4Lib Journal, 42 (2018). <ptr target="https://journal.code4lib.org/articles/13861"/>.</bibl>
-                
-                <bibl xml:id="gelawEtAl2002" label="Gelaw et al. 2002"><name>Gelaw, D.</name>, <name>Hastings, S.</name>, and <name>Hartman, C.</name> <title rend="quotes">A Metadata Approach to Preservation of Digital Resources: The University of North Texas Libraries’ Experience.</title> First Monday 7.8 (2002). <ptr target="http://firstmonday.org/ojs/index.php/fm/article/view/981"/>.</bibl>
-                
-                <bibl xml:id="gil2015" label="Gil 2015">Gil, A. <title rend="quotes">The User, the Learner and the Machines We Make.</title> Minimal Computing: A Working Group of GO::DH, 21 May 2015. <ptr target="http://godh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/"/>.</bibl>
-                
-                <bibl xml:id="goddardSeeman2019" label="Goddard and Seeman 2019"><name>Goddard, L.</name>, and <name>Seeman, D.</name> <title rend="quotes">Chapter 3: Negotiating Sustainability: Building Digital Humanities Projects that Last.</title> In <name>Crompton, C.</name>, <name>Lane, R.J.</name>, and <name>Siemens, S.</name> (eds), <title rend="italic">Doing More Digital Humanities</title> (2019). London: Routledge.</bibl>
-                
-                <bibl xml:id="govCan2016" label="Government of Canada 2016"><name>Government of Canada</name>. <title rend="italic">Tri-Agency Statement of Principles on Digital Data Management</title> (2016, updated 2021). 2016 (updated 2021). <ptr target="https://science.gc.ca/eic/site/063.nsf/eng/h_83F7624E.html"/>.</bibl>
-                
-                <bibl xml:id="holmes1997" label="Holmes 1997"><name>Holmes, M. D.</name> <title rend="quotes">Web Language.</title> Online presentation showcasing the use of JavaScript-based exercises for language teaching (1997). <ptr target="https://web.uvic.ca/lancenrd/martin/weblang/"/>.</bibl>
-                
-                <bibl xml:id="holmes2017a" label="Holmes 2017a"><name>Holmes, M. D.</name> <title rend="quotes">Whatever happened to interchange?</title> <title rend="italic">Digital Scholarship in the Humanities</title> (2017) 32 (suppl_1): i63-i68. Oxford University Press/EADH. <ptr target="http://dx.doi.org/10.1093/llc/fqw048"/>.</bibl>
-                
-                <bibl xml:id="holmes2017b" label="Holmes 2017b"><name>Holmes, M. D.</name> <title rend="quotes">Selecting Technologies for Long-Term Survival.</title> Paper presented at the SHARP Conference 2017: Technologies of the Book, Victoria, BC, Canada, June 2017. <ptr target="https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf"/>.</bibl>
-                
-                <bibl xml:id="holmesEtAl2019" label="Holmes et al 2019"><name>Holmes, M. D.</name>, <name>Fralick, K.</name>, <name>Fukushima, K.</name> and <name>Karlson, S.</name> <title rend="quotes">How we tripled our encoding speed in the Digital Victorian Periodical Poetry project.</title> Paper presented at the Text Encoding Initiative Conference, Graz, Austria, September 2019. <ptr target="https://zenodo.org/record/3449241"/>.</bibl> 
-                    
-                <bibl xml:id="holmesTakeda2018" label="Holmes and Takeda 2018"><name>Holmes, M. D.</name>, and <name>Takeda, J.</name> 2018. <title rend="quotes">Why do I need Four Search Engines?</title> Proceedings of the Japanese Association of Digital Humanities Conference, Tokyo, Japan (2018). <ptr target="https://conf2018.jadh.org/files/Proceedings_JADH2018"/>.pdf#page=58</bibl>
-                
-                <bibl xml:id="holmesTakeda2019a" label="Holmes and Takeda 2019a"><name>Holmes, M. D.</name>, and <name>Takeda, J.</name> <title rend="quotes">The Prefabricated Website: Who needs a server anyway?</title> Paper presented at the Text Encoding Initiative Conference, Graz, Austria, September 2019. <ptr target="https://zenodo.org/record/3449197"/>.</bibl>
-                
-                <bibl xml:id="holmesTakeda2019b" label="Holmes and Takeda 2019b"><name>Holmes, M. D.</name> and <name>Takeda, J.</name> <title rend="quotes">Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete Your DH Project.</title> <title rend="italic">Digital Scholarship in the Humanities</title>, 34 (suppl_1) (December 2019): i100–i109. Oxford University Press/EADH. <ptr target="https://doi.org/10"/>.1093/llc/fqz011</bibl>
-                
-                <bibl xml:id="holmesTakeda2020" label="Holmes and Takeda 2020"><name>Holmes, M. D.</name> and <name>Takeda, J.</name> <title rend="quotes">Static Search: An Archivable and Sustainable Search Engine for the Digital Humanities.</title> Paper presented at the Digital Humanities Summer Institute (DHSI) Colloquium (#VirtualDHSI), 6 June 2020. <ptr target="https://zenodo.org/record/3883150"/>.</bibl>
-                
-                <bibl xml:id="interpares2013" label="InterPARES 2013"><name>InterPARES 3 Team Canada (International Research on Permanent Authentic Records in Electronic Systems)</name>. Case Study 09: Alma Mater Society of The University of British Columbia: Policies and Procedures for Web Site Preservation. May 2013. <ptr target="http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf"/>.</bibl>
-                
-                <bibl xml:id="jakobsenOrlandi2016" label="Jakobsen and Orlandi 2016"><name>Jakobsen, J.</name>, and <name>Orlandi. C.</name> <title rend="quotes">On the CCA (in)security of MTProto.</title> <title rend="italic">SPSM ’16: Proceedings of the 6th Workshop on Security and Privacy in Smartphones and Mobile Devices, October 2016</title>, 113–116. New York: Association for Computing Machinery. <ptr target="https://doi.org/10.1145/2994459.2994468"/>.</bibl>
-                
-                <bibl xml:id="molloy2011" label="Molloy 2011">Molloy, L. <title rend="quotes">Oh, the Humanities! A Discussion about Research Data Management for the Arts and Humanities Disciplines.</title> In: JISC MRD - <title rend="italic">Evidence Gathering</title> 2011. <ptr target="http://mrdevidence.jiscinvolve"/>.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-</bibl>
-                
-                <bibl xml:id="morgan2021" label="Morgan 2021"><name>Morgan, P.</name> <title rend="quotes">Further thoughts on collectivity.</title> Blog Post, January 27, 2021. <ptr target="http://blog.paigemorgan.net/articles/21/further-thoughts.html"/>.</bibl>
-                
-                <bibl xml:id="morreale2019" label="Morreale 2019"><name>Morreale, L.</name> 2019. <title rend="quotes">Medieval Digital Humanities and the Rite of Spring: Thoughts on Performance and Preservation.</title> BodoArXiv. July 18. doi:10.34055/osf.io/7p2t6.</bibl>
-                
-                <bibl xml:id="newson2017" label="Newson 2017"><name>Newson, K.</name> 2017. <title rend="quotes">Tools and workflows for collaborating on static website projects.</title> The Code4Lib Journal. (2017) 38. <ptr target="https://journal.code4lib"/>.org/articles/12779</bibl>
-                
-                <bibl xml:id="nielsenJakob1999" label="Jakob Nielsen 1999"><name>Nielsen, Jakob</name>. <title rend="quotes">Graceful Degradation of Scalable Internet Services.</title> Nielsen Norman Group Website, 1999. <ptr target="https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/"/>.</bibl>
-                
-                <bibl xml:id="nielsenJim2021" label="Jim Nielsen 2021"><name>Nielsen, Jim</name>. <title rend="quotes">Web Languages as Compile Targets.</title> Jim Nielsen’s Blog, 5 April 2021. <ptr target="https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/"/>.</bibl>
-                
-                <bibl xml:id="rinaldi2015" label="Rinaldi 2015"><name>Rinaldi, B.</name> <title rend="italic">Static Site Generators.</title> O’Reilly Media Inc. 2015. <ptr target="https://www.oreilly"/>.com/library/view/ static-site-generators/9781492048558/</bibl>
-                
-                <bibl xml:id="saachi2015" label="Saachi 2015">Saachi, S.. <title rend="quotes">What Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual Foundations for Digital Stewardship.</title> PhD thesis, University of Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. <ptr target="https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download"/>.</bibl>
-                
-                <bibl xml:id="sayers2016" label="Sayers 2016">Sayers, J. <title rend="quotes">Minimal Definitions.</title> Minimal Computing: A Working Group of GO::DH, 2 October 2016. <ptr target="http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/"/>.</bibl>
-                
-                <bibl xml:id="takedaLines2019" label="Takeda and Lines 2019"><name>Takeda, J.</name> and <name>Lines, S.</name> 2019. <title rend="quotes">Using Github and its Integrations to Create, Test, and Deploy a Digital Edition,</title> Paper presented at the Text Encoding Initiative conference, Graz, Austria (September 2019). <ptr target="https://gams.uni-graz.at/o:tei2019"/>.174</bibl>
-                
-                <bibl xml:id="thieberger2016" label="Thieberger 2016"><name>Thieberger, N.</name> <title rend="quotes">What remains to be done – Exposing invisible collections in the other 7000 languages and why it is a DH enterprise.</title> <title rend="italic">Digital Scholarship in the Humanities</title> 32(2) (2016), 1:423–434. <ptr target="http://dx.doi.org/10.1093/llc/fqw006"/>.</bibl>
-                
-                <bibl xml:id="unsworth1997" label="Unsworth 1997"><name>Unsworth, J.</name> <title rend="quotes">Documenting the Reinvention of Text: The Importance of Failure.</title> <title rend="italic">The Journal of Electronic Publishing</title>, 3.2 (December 1997). doi:10.3998/3336451.0003.201.</bibl>
-                
-                <bibl xml:id="viglianti2017" label="Viglianti 2017"><name>Viglianti, R.</name> <title rend="quotes">Your Own Shelley-Godwin Archive: An off-line strategy for on-line publication.</title> Paper presented at the TEI Conference, Victoria, BC, Canada, November 2017. <ptr target="https://hcmc.uvic.ca/tei2017/abstracts/t_126_viglianti_shelleygodwin.html"/>.</bibl>
-                
-                <bibl xml:id="warwick2020" label="Warwick 2020"><name>Warwick, C.</name> <title rend="quotes">Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources.</title> <title rend="italic">Digital Scholarship in the Humanities</title>, 35.4 (December 2020): 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081"/>.</bibl>
-                
-                <bibl xml:id="wikleWilliamsonBecker2020" label="Wikle, Williamson, and Becker 2020"><name>Wikle, O.</name>, <name>Williamson, E.</name>, and <name>Becker, D.</name> <title rend="quotes">What is Static Web and What’s it Doing in the Digital Humanities Classroom?</title> <title rend="italic">dh+lib</title> 2020. <ptr target="https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/"/>.</bibl>
-                
+                <bibl xml:id="arneilHolmes1998" label="Arneil and Holmes 1998"><name>Arneil,
+                        S.</name>, and <name>Holmes, M. D</name>. 1998. <title rend="quotes">Hot
+                        Potatoes: Free Tools for Creating Interactive Language Exercises for the
+                        World Wide Web,</title> Paper presented at the EuroCALL conference, Leuven
+                    (September 1998).</bibl>
+
+                <bibl xml:id="arneilHolmes1999" label="Arneil and Holmes 1999"><name>Arneil,
+                        S.</name>, and <name>Holmes, M. D.</name>
+                    <title rend="quotes">Juggling hot potatoes: Decisions and compromises in
+                        creating authoring tools for the Web.</title>
+                    <title rend="italic">ReCALL Journal</title> 11.2: 12-19 and College and
+                    University Media Review, Vol. 6 No. 1. CUP; CCUMC (September 1999) <ptr
+                        target="https://web.archive.org/web/20050526203034/http://www.eurocall-languages.org/recall/pdf/rvol11no2.pdf"
+                    />.</bibl>
+
+                <bibl xml:id="arneilHolmes2001" label="Arneil and Holmes 2001"><name>Arneil,
+                        S.</name>, and <name>Holmes, M. D.</name>
+                    <title rend="quotes">Hot Potatoes, History and Future,</title> Paper presented
+                    at EuroCALL Conference, Nijmegen, August 2001. <ptr
+                        target="https://web.uvic.ca/hrd/eurocall2001/HotPotPastFuture/PastFutureHome.htm"
+                    />.</bibl>
+
+                <bibl xml:id="arneilHolmesNewton2019" label="Arneil, Holmes and Newton 2019"
+                        ><name>Arneil, S.</name>, <name>Holmes, M. D.</name>, and <name>Newton,
+                        G.</name>
+                    <title rend="quotes">Project Endings: Early Impressions From Our Recent Survey
+                        On Project Longevity In DH.</title> Paper presented by Greg Newton at
+                    Digital Humanities 2019 Conference, Utrecht, the Netherlands, July 2019. <ptr
+                        target="https://dev.clariah.nl/files/dh2019/boa/0891.html"/>.</bibl>
+
+                <bibl xml:id="baratsShaferFickers2020" label="Barats, Schafer and Fickers 2020"
+                        ><name>Barats, C.</name>, <name>Schafer, V.</name>, and <name>Fickers,
+                        A.</name>
+                    <title rend="quotes">Fading Away… The challenge of sustainability in digital
+                        studies.</title> DHQ: Digital Humanities Quarterly, 14.3 (2020). <ptr
+                        target="http://digitalhumanities.org:8081/dhq/vol/14/3/000484/000484.html"
+                    />.</bibl>
+
+                <bibl xml:id="burnard2016" label="Burnard 2016"><name>Burnard, L.</name> 2016.
+                        <title rend="quotes">How to Update Your ODD.</title> TEI GitHub Repository
+                    (2016). <ptr target="http://teic.github.io/PDF/purifyDoc.pdf"/>. (accessed 18
+                    February 2019).</bibl>
+
+                <bibl xml:id="cayless2010" label="Cayless 2010"><name>Cayless, H.</name> 2010.
+                        <title rend="quotes">Ktêma es aiei: Digital Permanence from an Ancient
+                        Perspective.</title> In Mahony, S., and Bodard, G. (eds), Digital Research
+                    in the Study of Classical Antiquity, pp. 139-150. <ptr
+                        target="https://www.taylorfrancis.com/chapters/edit/10.4324/9781315577210-18/kt%C3%AAma-es-aiei-digital-permanence-ancient-perspective-hugh-cayless"
+                    />.</bibl>
+
+                <bibl xml:id="diaz2018" label="Diaz 2018"><name>Diaz, C.</name> 2018. <title
+                        rend="quotes">Using static site generators for scholarly publications and
+                        open educational resources.</title> The Code4Lib Journal, 42 (2018). <ptr
+                        target="https://journal.code4lib.org/articles/13861"/>.</bibl>
+
+                <bibl xml:id="gelawEtAl2002" label="Gelaw et al. 2002"><name>Gelaw, D.</name>,
+                        <name>Hastings, S.</name>, and <name>Hartman, C.</name>
+                    <title rend="quotes">A Metadata Approach to Preservation of Digital Resources:
+                        The University of North Texas Libraries’ Experience.</title> First Monday
+                    7.8 (2002). <ptr
+                        target="http://firstmonday.org/ojs/index.php/fm/article/view/981"/>.</bibl>
+
+                <bibl xml:id="gil2015" label="Gil 2015">Gil, A. <title rend="quotes">The User, the
+                        Learner and the Machines We Make.</title> Minimal Computing: A Working Group
+                    of GO::DH, 21 May 2015. <ptr
+                        target="http://godh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/"
+                    />.</bibl>
+
+                <bibl xml:id="goddardSeeman2019" label="Goddard and Seeman 2019"><name>Goddard,
+                        L.</name>, and <name>Seeman, D.</name>
+                    <title rend="quotes">Chapter 3: Negotiating Sustainability: Building Digital
+                        Humanities Projects that Last.</title> In <name>Crompton, C.</name>,
+                        <name>Lane, R.J.</name>, and <name>Siemens, S.</name> (eds), <title
+                        rend="italic">Doing More Digital Humanities</title> (2019). London:
+                    Routledge.</bibl>
+
+                <bibl xml:id="govCan2016" label="Government of Canada 2016"><name>Government of
+                        Canada</name>. <title rend="italic">Tri-Agency Statement of Principles on
+                        Digital Data Management</title> (2016, updated 2021). 2016 (updated 2021).
+                        <ptr target="https://science.gc.ca/eic/site/063.nsf/eng/h_83F7624E.html"
+                    />.</bibl>
+
+                <bibl xml:id="holmes1997" label="Holmes 1997"><name>Holmes, M. D.</name>
+                    <title rend="quotes">Web Language.</title> Online presentation showcasing the
+                    use of JavaScript-based exercises for language teaching (1997). <ptr
+                        target="https://web.uvic.ca/lancenrd/martin/weblang/"/>.</bibl>
+
+                <bibl xml:id="holmes2017a" label="Holmes 2017a"><name>Holmes, M. D.</name>
+                    <title rend="quotes">Whatever happened to interchange?</title>
+                    <title rend="italic">Digital Scholarship in the Humanities</title> (2017) 32
+                    (suppl_1): i63-i68. Oxford University Press/EADH. <ptr
+                        target="http://dx.doi.org/10.1093/llc/fqw048"/>.</bibl>
+
+                <bibl xml:id="holmes2017b" label="Holmes 2017b"><name>Holmes, M. D.</name>
+                    <title rend="quotes">Selecting Technologies for Long-Term Survival.</title>
+                    Paper presented at the SHARP Conference 2017: Technologies of the Book,
+                    Victoria, BC, Canada, June 2017. <ptr
+                        target="https://github.com/projectEndings/Endings/raw/master/presentations/SHARP_2017/mdh_sharp_2017.pdf"
+                    />.</bibl>
+
+                <bibl xml:id="holmesEtAl2019" label="Holmes et al 2019"><name>Holmes, M. D.</name>,
+                        <name>Fralick, K.</name>, <name>Fukushima, K.</name> and <name>Karlson,
+                        S.</name>
+                    <title rend="quotes">How we tripled our encoding speed in the Digital Victorian
+                        Periodical Poetry project.</title> Paper presented at the Text Encoding
+                    Initiative Conference, Graz, Austria, September 2019. <ptr
+                        target="https://zenodo.org/record/3449241"/>.</bibl>
+
+                <bibl xml:id="holmesTakeda2018" label="Holmes and Takeda 2018"><name>Holmes, M.
+                        D.</name>, and <name>Takeda, J.</name> 2018. <title rend="quotes">Why do I
+                        need Four Search Engines?</title> Proceedings of the Japanese Association of
+                    Digital Humanities Conference, Tokyo, Japan (2018). <ptr
+                        target="https://conf2018.jadh.org/files/Proceedings_JADH2018"
+                    />.pdf#page=58</bibl>
+
+                <bibl xml:id="holmesTakeda2019a" label="Holmes and Takeda 2019a"><name>Holmes, M.
+                        D.</name>, and <name>Takeda, J.</name>
+                    <title rend="quotes">The Prefabricated Website: Who needs a server
+                        anyway?</title> Paper presented at the Text Encoding Initiative Conference,
+                    Graz, Austria, September 2019. <ptr target="https://zenodo.org/record/3449197"
+                    />.</bibl>
+
+                <bibl xml:id="holmesTakeda2019b" label="Holmes and Takeda 2019b"><name>Holmes, M.
+                        D.</name> and <name>Takeda, J.</name>
+                    <title rend="quotes">Beyond Validation: Using Programmed Diagnostics to Learn
+                        About, Monitor, and Successfully Complete Your DH Project.</title>
+                    <title rend="italic">Digital Scholarship in the Humanities</title>, 34 (suppl_1)
+                    (December 2019): i100–i109. Oxford University Press/EADH. <ptr
+                        target="https://doi.org/10"/>.1093/llc/fqz011</bibl>
+
+                <bibl xml:id="holmesTakeda2020" label="Holmes and Takeda 2020"><name>Holmes, M.
+                        D.</name> and <name>Takeda, J.</name>
+                    <title rend="quotes">Static Search: An Archivable and Sustainable Search Engine
+                        for the Digital Humanities.</title> Paper presented at the Digital
+                    Humanities Summer Institute (DHSI) Colloquium (#VirtualDHSI), 6 June 2020. <ptr
+                        target="https://zenodo.org/record/3883150"/>.</bibl>
+
+                <bibl xml:id="interpares2013" label="InterPARES 2013"><name>InterPARES 3 Team Canada
+                        (International Research on Permanent Authentic Records in Electronic
+                        Systems)</name>. Case Study 09: Alma Mater Society of The University of
+                    British Columbia: Policies and Procedures for Web Site Preservation. May 2013.
+                        <ptr
+                        target="http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf"
+                    />.</bibl>
+
+                <bibl xml:id="jakobsenOrlandi2016" label="Jakobsen and Orlandi 2016"><name>Jakobsen,
+                        J.</name>, and <name>Orlandi. C.</name>
+                    <title rend="quotes">On the CCA (in)security of MTProto.</title>
+                    <title rend="italic">SPSM ’16: Proceedings of the 6th Workshop on Security and
+                        Privacy in Smartphones and Mobile Devices, October 2016</title>, 113–116.
+                    New York: Association for Computing Machinery. <ptr
+                        target="https://doi.org/10.1145/2994459.2994468"/>.</bibl>
+
+                <bibl xml:id="molloy2011" label="Molloy 2011">Molloy, L. <title rend="quotes">Oh,
+                        the Humanities! A Discussion about Research Data Management for the Arts and
+                        Humanities Disciplines.</title> In: JISC MRD - <title rend="italic">Evidence
+                        Gathering</title> 2011. <ptr target="http://mrdevidence.jiscinvolve"
+                    />.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-</bibl>
+
+                <bibl xml:id="morgan2021" label="Morgan 2021"><name>Morgan, P.</name>
+                    <title rend="quotes">Further thoughts on collectivity.</title> Blog Post,
+                    January 27, 2021. <ptr
+                        target="http://blog.paigemorgan.net/articles/21/further-thoughts.html"
+                    />.</bibl>
+
+                <bibl xml:id="morreale2019" label="Morreale 2019"><name>Morreale, L.</name> 2019.
+                        <title rend="quotes">Medieval Digital Humanities and the Rite of Spring:
+                        Thoughts on Performance and Preservation.</title> BodoArXiv. July 18.
+                    doi:10.34055/osf.io/7p2t6.</bibl>
+
+                <bibl xml:id="newson2017" label="Newson 2017"><name>Newson, K.</name> 2017. <title
+                        rend="quotes">Tools and workflows for collaborating on static website
+                        projects.</title> The Code4Lib Journal. (2017) 38. <ptr
+                        target="https://journal.code4lib"/>.org/articles/12779</bibl>
+
+                <bibl xml:id="nielsenJakob1999" label="Jakob Nielsen 1999"><name>Nielsen,
+                        Jakob</name>. <title rend="quotes">Graceful Degradation of Scalable Internet
+                        Services.</title> Nielsen Norman Group Website, 1999. <ptr
+                        target="https://www.nngroup.com/articles/graceful-degradation-of-scalable-internet-services/"
+                    />.</bibl>
+
+                <bibl xml:id="nielsenJim2021" label="Jim Nielsen 2021"><name>Nielsen, Jim</name>.
+                        <title rend="quotes">Web Languages as Compile Targets.</title> Jim Nielsen’s
+                    Blog, 5 April 2021. <ptr
+                        target="https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/"
+                    />.</bibl>
+
+                <bibl xml:id="rinaldi2015" label="Rinaldi 2015"><name>Rinaldi, B.</name>
+                    <title rend="italic">Static Site Generators.</title> O’Reilly Media Inc. 2015.
+                        <ptr target="https://www.oreilly"/>.com/library/view/
+                    static-site-generators/9781492048558/</bibl>
+
+                <bibl xml:id="saachi2015" label="Saachi 2015">Saachi, S.. <title rend="quotes">What
+                        Do We Mean by ‘Preserving Digital Information’? Towards Sound Conceptual
+                        Foundations for Digital Stewardship.</title> PhD thesis, University of
+                    Illinois at Urbana-Champaign, 2015. Columbia University Academic Commons. <ptr
+                        target="https://academiccommons.columbia.edu/doi/10.7916/D8Z60WN2/download"
+                    />.</bibl>
+
+                <bibl xml:id="sayers2016" label="Sayers 2016">Sayers, J. <title rend="quotes"
+                        >Minimal Definitions.</title> Minimal Computing: A Working Group of GO::DH,
+                    2 October 2016. <ptr
+                        target="http://go-dh.github.io/mincomp/thoughts/2016/10/02/minimaldefinitions/"
+                    />.</bibl>
+
+                <bibl xml:id="takedaLines2019" label="Takeda and Lines 2019"><name>Takeda, J.</name>
+                    and <name>Lines, S.</name> 2019. <title rend="quotes">Using Github and its
+                        Integrations to Create, Test, and Deploy a Digital Edition,</title> Paper
+                    presented at the Text Encoding Initiative conference, Graz, Austria (September
+                    2019). <ptr target="https://gams.uni-graz.at/o:tei2019"/>.174</bibl>
+
+                <bibl xml:id="thieberger2016" label="Thieberger 2016"><name>Thieberger, N.</name>
+                    <title rend="quotes">What remains to be done – Exposing invisible collections in
+                        the other 7000 languages and why it is a DH enterprise.</title>
+                    <title rend="italic">Digital Scholarship in the Humanities</title> 32(2) (2016),
+                    1:423–434. <ptr target="http://dx.doi.org/10.1093/llc/fqw006"/>.</bibl>
+
+                <bibl xml:id="unsworth1997" label="Unsworth 1997"><name>Unsworth, J.</name>
+                    <title rend="quotes">Documenting the Reinvention of Text: The Importance of
+                        Failure.</title>
+                    <title rend="italic">The Journal of Electronic Publishing</title>, 3.2 (December
+                    1997). doi:10.3998/3336451.0003.201.</bibl>
+
+                <bibl xml:id="viglianti2017" label="Viglianti 2017"><name>Viglianti, R.</name>
+                    <title rend="quotes">Your Own Shelley-Godwin Archive: An off-line strategy for
+                        on-line publication.</title> Paper presented at the TEI Conference,
+                    Victoria, BC, Canada, November 2017. <ptr
+                        target="https://hcmc.uvic.ca/tei2017/abstracts/t_126_viglianti_shelleygodwin.html"
+                    />.</bibl>
+
+                <bibl xml:id="warwick2020" label="Warwick 2020"><name>Warwick, C.</name>
+                    <title rend="quotes">Interfaces, Ephemera, and Identity: A Study of the
+                        Historical Presentation of Digital Humanities Resources.</title>
+                    <title rend="italic">Digital Scholarship in the Humanities</title>, 35.4
+                    (December 2020): 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081"
+                    />.</bibl>
+
+                <bibl xml:id="wikleWilliamsonBecker2020" label="Wikle, Williamson, and Becker 2020"
+                        ><name>Wikle, O.</name>, <name>Williamson, E.</name>, and <name>Becker,
+                        D.</name>
+                    <title rend="quotes">What is Static Web and What’s it Doing in the Digital
+                        Humanities Classroom?</title>
+                    <title rend="italic">dh+lib</title> 2020. <ptr
+                        target="https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/"
+                    />.</bibl>
+
             </listBibl>
 
         </back>
