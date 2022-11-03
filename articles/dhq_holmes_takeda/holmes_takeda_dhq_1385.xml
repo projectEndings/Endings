@@ -174,35 +174,184 @@
                     interactive programmed teaching exercises, and by the turn of the millenium we
                     had built language-teaching exercise collections for many languages, as well as
                     desktop authoring tools to make the creation of such pages easy for non-coders
-                    (<ref target="#arneilHolmes1998">Arneil and Holmes 1998</ref>, <ref target="#arneilHolmes1999">1999</ref>, and <ref target="#arneilHolmes2001">2001</ref>).</p>
+                        (<ref target="#arneilHolmes1998">Arneil and Holmes 1998</ref>, <ref
+                        target="#arneilHolmes1999">1999</ref>, and <ref target="#arneilHolmes2001"
+                        >2001</ref>).</p>
 
                 <p>The materials we created during this period still exist, and they still work
                     perfectly. Examples can be seen in the Indonesian course materials created in
-                    1999 
-                    (<ref target="https://web.uvic.ca/hrd/indonesian/">https://web.uvic.ca/hrd/indonesian/</ref>) 
-                    and the endearingly-dated <title rend="quotes">Web Language</title> online presentation (<ref target="#holmes1997">Holmes 1997</ref>), originally created in 1997 and last
-                    updated in 1999. The latter includes a feedback form which is still regularly
-                    used, so it still clearly has some relevance despite its appearance. The HTML
-                    and JavaScript is still fully functional, although non-standards-based
-                    cutting-edge technologies of the time, such as RealAudio, no longer work of
-                    course.</p>
+                    1999 (<ptr target="https://web.uvic.ca/hrd/indonesian/"/>) and the
+                    endearingly-dated <title rend="quotes">Web Language</title> online presentation
+                        (<ptr target="#holmes1997"/>), originally created in 1997 and last updated
+                    in 1999. The latter includes a feedback form which is still regularly used, so
+                    it still clearly has some relevance despite its appearance. The HTML and
+                    JavaScript is still fully functional, although non-standards-based cutting-edge
+                    technologies of the time, such as RealAudio, no longer work of course.</p>
 
+                <figure>
+                    <graphic url="images/figure01.png" style="width: 1432px; height: 775px;"/>
+                    <figDesc>The home page and an example exercise from the Beginning Indonesian
+                        site, dating from the late 1990s.</figDesc>
+                    <head>Screenshot of Beginning Indonesian homepage (left) and exercise (right).
+                        Screenshot taken in 2021, but it looked the same in 1999.</head>
+                </figure>
 
-                <!--
+                <p>In the early 2000s, the Language Centre was transformed into the Humanities
+                    Computing and Media Centre, and given a wider mandate to support what was then
+                    commonly termed Humanities Computing, now Digital Humanities. Better-funded
+                    projects came along, and more ambitious coding was undertaken, supporting not
+                    only language-teaching resources but also digital edition projects, historical
+                    datasets, mapping initiatives, and many other research and teaching activities.
+                    In particular, we developed some expertise in TEI and the XML-related languages,
+                    and began to create large online document collections such as the <title
+                        rend="italic">Colonial Despatches</title> project (<ptr
+                        target="https://bcgenesis.uvic.ca/"/>) and <title rend="italic">Le Mariage
+                        sous l’Ancien Régime</title> (<ptr target="https://mariage.uvic.ca/"/>). In
+                    place of static (albeit interactive) web pages, we started to build more
+                    sophisticated web applications based on PHP/MySQL database stacks and the eXist
+                    XML database.<note><ptr
+                            target="https://www.exist-db.org/exist/apps/homepage/index.html"
+                        />.</note> Now blessed with our own server infrastructure thanks to the
+                    ground-breaking Canadian TaPOR (Text-Analysis Portal) initiative, we were able
+                    to run Tomcat, Cocoon, Postgresql, and a host of other backends to support the
+                    growing variety of DH projects under way at our institution.</p>
+
+                <p>These server-side systems enabled us (along with the rest of the DH community) to
+                    build resources which were more coherent and easier to maintain; information
+                    about a single entity, individual, or place could be encoded or stored in a
+                    single record, but retrieved and displayed in a multitude of contexts wherever
+                    it was needed. Documents could be transcribed and encoded once, but decorated
+                    and rendered in many different ways based on the needs of the user or the
+                    application context. Sophisticated searching, grouping, and presentation options
+                    were easy to implement. Beginning in 2003 we generated a large number of these
+                    projects; our servers were well-populated and their CPUs were busy running
+                    XQuery, XSLT, PHP, SQL, and even ASP code.</p>
+
+                <p>As Lou Burnard (<ref target="#burnard2016">2016</ref>) remarks, <quote
+                        rend="inline" src="#burnard2016">nothing in digital form is ever really
+                        finished.</quote> DH projects may languish untended and unloved for periods
+                    of time, but their progenitors typically intend to continue working on them
+                    periodically or when funding allows. Setting up such projects implies a
+                    commitment to maintaining them, and as our project portfolio burgeoned, so did
+                    our maintenance burden. As we moved into the 2010s and onwards, a clear pattern
+                    began to emerge: projects created in the 1990s continued to work as intended
+                    with virtually no maintenance at all, but the projects we had built on
+                    sophisticated backend systems such as MySQL and eXist required frequent and
+                    time-consuming maintenance work. As an example, the <title rend="italic">Robert
+                        Graves Diary</title> (<ptr target="https://graves.uvic.ca/"/>), one of our
+                    earliest digital edition projects, was originally written based on eXist version
+                    0.9 in 2003–2004; it had to be steadily revised throughout 2005–2007, and then
+                    completely rewritten for eXist 1.4 in 2012, because the original
+                    Tomcat/Cocoon/eXist 0.9 stack became obsolete. Then in 2014 it had to be updated
+                    again. This was a project on which the core academic work had been completed in
+                    the first phase of the project, but due to infrastructure churn it regularly
+                    returned to haunt us. Over the years, we amassed a maintenance burden which
+                    threatened to overwhelm our ability to support new projects coming through our
+                    doors.</p>
+
+                <p>This problem was the impetus for Project Endings. The Web had solved for us the
+                    challenge to <quote rend="inline"
+                        source="https://en.wikipedia.org/wiki/Write_once,_run_anywhere">write once,
+                        run anywhere</quote>;<note><ptr
+                            target="https://en.wikipedia.org/wiki/Write_once,_run_anywhere"
+                        />.</note> the issue we were now addressing was how to <quote rend="inline"
+                        >write once, run forever.</quote> Project Endings brought together a team
+                    consisting of academic digital humanists, programmers, and librarians, along
+                    with a selection of active, complex digital edition projects, to determine how
+                    we could best plan, execute, and archive our projects in such a way that they
+                    would live on indefinitely without further maintenance.</p>
+            </div>
+
+            <div>
+                <head>3. A Catalogue of Failures</head>
+
+                <p>In the early days of the Endings project, we began to examine in detail how our
+                    older digital editions and sites had progressively broken down. Some problems
+                    were obvious: obsolete versions of server-side applications and services
+                    (MapServer, MySQL, PHP) had been retired or replaced, and old code would not run
+                    on new versions, even if new versions existed. Other failures were more subtle.
+                    We investigated, for example, how successfully our applications had been
+                    archived by The Internet Archive (<ptr target="https://archive.org/"/>) and
+                    reproduced on the Wayback Machine (<ptr target="https://archive.org/web/"/>). It
+                    was immediately obvious that sites built on backend databases, where
+                        <q>pages</q> were in fact queries to the database, were very problematic.
+                    The project <title rend="italic">Le Mariage sous l’Ancien Régime</title>, which
+                    linked to its anthology documents using URLs that queried the server (e.g.
+                        <code>http://mariage.uvic.ca/xhtml.xq?id=le_bourgeoise_desprit</code>), was
+                    scarcely archived at all, presumably because the archive crawler was unable to
+                    follow or parse the query-based links successfully, so for the most part, the
+                    archived versions of the site consist mainly of notices that <quote
+                        rend="inline">The Wayback Machine has not archived that URL.</quote></p>
+
+                <figure>
+                    <graphic url="images/figure02.png" style="width: ; height: ;"/>
+                    <figDesc>An error page from the Wayback Machine, which has failed to archive a
+                        web page whose content is retrieved using a query string.</figDesc>
+                    <head>Wayback Machine error page</head>
+                </figure>
+
+                <p><title rend="italic">Mariage</title> also had a rather gratuitous feature whereby
+                    the end user could choose between three available colour schemes, and because
+                    that functionality relied entirely on JavaScript, the required CSS files had
+                    been retrieved and stored as though they were HTML pages, and no styling
+                    appeared on the site pages at all. Site search engines failed completely, as did
+                    any annotation popups linked from texts which relied on retrieving data by
+                    querying the backend database, and JavaScript-based interactivity was generally
+                    broken. In fact, the majority of our large-scale, high-profile digital edition
+                    projects were scarcely functional at all in the Wayback Machine, and most of
+                    their content had not even been retrieved and stored.</p>
+
+                <p>The Internet Archive had never been one of our primary backup strategies, but it
+                    was disappointing to discover how unsuccessful it had been in its attempts to
+                    crawl and reproduce our sites. Although some of these failures could perhaps be
+                    laid at the door of the Internet Archive crawler, Heritrix, which had some
+                    limitations, most of them were clearly our fault, and resulted from our crude
+                    approach to URL construction. One site, the <title rend="italic">Robert Graves
+                        Diary</title>, was represented by only a handful of static pages, since the
+                    majority of its content was designed to be accessed through explicit searches
+                    from the home page, with the search parameters encoded in URL query strings; the
+                    crawler would have had no way to know what pages existed on the site other than
+                    the few information and background pages linked directly from the home page. On
+                    the live versions of these sites, any pages accessed by a user were typically
+                    constructed on the fly by XQuery and XSLT, so they did not exist in any form
+                    which could be backed up even locally by any normal method.</p>
+
+                <p>Digging deeper into methods for backing up and replicating our projects within
+                    our own institution revealed other problems. Some sites and applications
+                    included hard-coded links to local resources using absolute URLs rather than
+                    relative ones, so if the site were replicated in a different location, it would
+                    still be dependent on, and prone to send the user over to, the original
+                    site.</p>
+
+                <p>Another problem faced by projects backed by online databases was a lack of
+                    consistency in versioning of content. Typically, multiple project members had
+                    rights to upload new material directly into the live database, thus
+                        <q>publishing</q> it, but there was no attempt to ensure that the current
+                    state of the live site was — in Endings parlance — coherent, consistent, and
+                    complete (see <ptr target="#holmesTakeda2019b"/>). Someone editing a primary
+                    source text might upload a new chapter to the site, forgetting that it contained
+                    links to newly-added people in the personography or locations in the
+                    placeography which also needed to be uploaded, so those links would fail. Every
+                        <q>page</q> might have a different publication date, and the site overall
+                    had no version or edition information, so anyone citing it would be forced to
+                    fall back on the rather unfortunate <q>last accessed</q> date to anchor their
+                    citation, knowing that the specific version of the document they were citing
+                    might change tomorrow with no warning and no way to retrieve the previous
+                    version. This was a problem of project organization rather than a technical
+                    issue, and it arose largely out of the working methods emerging in the early
+                    2000s. In the excitement provoked by the new affordances and publication
+                    possibilities inherent in digital projects, there was a tendency to publish
+                    anything and everything as quickly as possible. A measured and thoughtful
+                    approach to <q>rolling publication</q> is of course possible, but, as we discuss
+                    in section 5.5, our work on Endings has convinced us that for most projects, a
+                    more traditional edition-based methodology is better.</p>
                 
+                <p>Finally, we were forced to acknowledge that few of our projects had adequate documentation, making remediation and reconstruction doubly difficult.</p>
                 
-                <p>Sample paragraph to demonstrate markup. <cit><quote rend="inline">Quotations from other sources are accompanied by citations.</quote><ptr target="#surname2009" loc="143"/></cit>. You may also encode:
-                <list>
-                    <item><term>Specialized terminology</term></item>
-                    <item><emph>emphasized words</emph></item>
-                    <item><hi rend="bold">highlighted words (use @rend for rendition)</hi></item>
-                    <item><title rend="italic">titles of works (use @rend for rendition)</title></item>
-                    <item><q>words to which you want to call attention</q></item>
-                    <item><code>phrase-level code samples</code></item>
-                </list>
-                 For more complete documentation, see the DHQ encoding guide (http://www.digitalhumanities.org/dhq/submissions/dhq_encoding_documentation.html).  
-                </p>
-                <p></p>-->
+                <p>We had, it seemed, spent a dozen years enthusiastically generating fragile, unmanageable, unmaintainable, unarchivable contraptions, and we were going to pay the price for our thoughtlessness.</p>
+                
+                <p>This is not an unusual situation. In fact, our research suggests that it is the norm for DH projects.<note>In our Endings survey, for example, 31% of projects used a MySQL database, 15% used Drupal, and 18% used WordPress; others depended on Ruby/Rails, Django, Omeka, Plone, Cocoon, and eXist.</note> Many DH web applications are built rapidly, using off-the-shelf frameworks and libraries which date quickly and are ultimately guaranteed to fail, and most projects either rebuild their applications in repeated cycles of funding, or see them languish and ultimately disappear. Our situation was perhaps more pointed and critical because we are a base-funded unit with a long lifetime, committed to maintaining our projects even after their initial funding is exhausted. Units like ours are still relatively rare; in most cases, there is little or no institutional help and no expectation of any. But having caused the problem, we now had to fix it, not just by rebuilding multiple large projects, but by doing so in such a way that we would not have to do the same work again in another ten years.</p>
+
             </div>
         </body>
         <back>
