@@ -189,11 +189,11 @@
                     technologies of the time, such as RealAudio, no longer work of course.</p>
 
                 <figure>
+                    <head>Screenshot of Beginning Indonesian homepage (left) and exercise (right).
+                        Screenshot taken in 2021, but it looked the same in 1999.</head>
                     <graphic url="images/figure01.png" style="width: 1432px; height: 775px;"/>
                     <figDesc>The home page and an example exercise from the Beginning Indonesian
                         site, dating from the late 1990s.</figDesc>
-                    <head>Screenshot of Beginning Indonesian homepage (left) and exercise (right).
-                        Screenshot taken in 2021, but it looked the same in 1999.</head>
                 </figure>
 
                 <p>In the early 2000s, the Language Centre was transformed into the Humanities
@@ -228,7 +228,7 @@
                     XQuery, XSLT, PHP, SQL, and even ASP code.</p>
 
                 <p>As Lou Burnard (<ref target="#burnard2016">2016</ref>) remarks, <quote
-                        rend="inline" src="#burnard2016">nothing in digital form is ever really
+                        rend="inline" source="#burnard2016">nothing in digital form is ever really
                         finished.</quote> DH projects may languish untended and unloved for periods
                     of time, but their progenitors typically intend to continue working on them
                     periodically or when funding allows. Setting up such projects implies a
@@ -284,10 +284,10 @@
                         rend="inline">The Wayback Machine has not archived that URL.</quote></p>
 
                 <figure>
+                    <head>Wayback Machine error page</head>
                     <graphic url="images/figure02.png" style="width: ; height: ;"/>
                     <figDesc>An error page from the Wayback Machine, which has failed to archive a
                         web page whose content is retrieved using a query string.</figDesc>
-                    <head>Wayback Machine error page</head>
                 </figure>
 
                 <p><title rend="italic">Mariage</title> also had a rather gratuitous feature whereby
@@ -345,14 +345,326 @@
                     approach to <q>rolling publication</q> is of course possible, but, as we discuss
                     in section 5.5, our work on Endings has convinced us that for most projects, a
                     more traditional edition-based methodology is better.</p>
-                
-                <p>Finally, we were forced to acknowledge that few of our projects had adequate documentation, making remediation and reconstruction doubly difficult.</p>
-                
-                <p>We had, it seemed, spent a dozen years enthusiastically generating fragile, unmanageable, unmaintainable, unarchivable contraptions, and we were going to pay the price for our thoughtlessness.</p>
-                
-                <p>This is not an unusual situation. In fact, our research suggests that it is the norm for DH projects.<note>In our Endings survey, for example, 31% of projects used a MySQL database, 15% used Drupal, and 18% used WordPress; others depended on Ruby/Rails, Django, Omeka, Plone, Cocoon, and eXist.</note> Many DH web applications are built rapidly, using off-the-shelf frameworks and libraries which date quickly and are ultimately guaranteed to fail, and most projects either rebuild their applications in repeated cycles of funding, or see them languish and ultimately disappear. Our situation was perhaps more pointed and critical because we are a base-funded unit with a long lifetime, committed to maintaining our projects even after their initial funding is exhausted. Units like ours are still relatively rare; in most cases, there is little or no institutional help and no expectation of any. But having caused the problem, we now had to fix it, not just by rebuilding multiple large projects, but by doing so in such a way that we would not have to do the same work again in another ten years.</p>
+
+                <p>Finally, we were forced to acknowledge that few of our projects had adequate
+                    documentation, making remediation and reconstruction doubly difficult.</p>
+
+                <p>We had, it seemed, spent a dozen years enthusiastically generating fragile,
+                    unmanageable, unmaintainable, unarchivable contraptions, and we were going to
+                    pay the price for our thoughtlessness.</p>
+
+                <p>This is not an unusual situation. In fact, our research suggests that it is the
+                    norm for DH projects.<note>In our Endings survey, for example, 31% of projects
+                        used a MySQL database, 15% used Drupal, and 18% used WordPress; others
+                        depended on Ruby/Rails, Django, Omeka, Plone, Cocoon, and eXist.</note> Many
+                    DH web applications are built rapidly, using off-the-shelf frameworks and
+                    libraries which date quickly and are ultimately guaranteed to fail, and most
+                    projects either rebuild their applications in repeated cycles of funding, or see
+                    them languish and ultimately disappear. Our situation was perhaps more pointed
+                    and critical because we are a base-funded unit with a long lifetime, committed
+                    to maintaining our projects even after their initial funding is exhausted. Units
+                    like ours are still relatively rare; in most cases, there is little or no
+                    institutional help and no expectation of any. But having caused the problem, we
+                    now had to fix it, not just by rebuilding multiple large projects, but by doing
+                    so in such a way that we would not have to do the same work again in another ten
+                    years.</p>
 
             </div>
+
+            <div>
+                <head>4. The Endings Project</head>
+
+                <p>The Endings Project was set up as a formal collaboration between the HCMC
+                    programmers grappling with the issue of project obsolescence, four Principal
+                    Investigators leading some of our largest and longest-running active projects,
+                    and a group from the University Library that specialized in digital preservation
+                    and collections. We began with the aim of researching, formalizing, and testing
+                    a range of strategies for rewriting four projects — <title rend="italic">The Map
+                        of Early Modern London</title>, <title rend="italic">Le Mariage sous
+                        L’Ancien Régime</title>, the <title rend="italic">Nxaʔamxcín Dictionary
+                        Database</title>, and the <title rend="italic">Robert Graves Diary</title> —
+                    with longevity in mind. The project, formally titled Endings: Concluding,
+                    Archiving, and Preserving Digital Projects for Long-Term Usability, was funded
+                    by the Social Sciences and Humanities Research Council of Canada (SSHRC) for
+                    four years starting in April 2016. Since then, we have added many more projects,
+                    some new and some dating back many years, to the project portfolio, and there
+                    are now 14 projects under the Endings umbrella. Each individual project has
+                    provided its own unique set of challenges and resulted in fresh ideas and
+                    strategies as we have learned to build static sites from them.</p>
+
+                <p>The Endings project has produced a range of outputs, including a survey with
+                    follow-up interviews, software, many articles and presentations, many
+                    static-site digital editions,<note>The Appendix lists most of the static sites
+                        we have produced so far.</note> and the 2021 symposium from which this
+                    special issue was born. But perhaps the most important outcome of our work has
+                    been the set of principles that codifies our approach to site-building.</p>
+            </div>
+
+            <div>
+                <head>5. Endings Principles, or: from Tamagotchis to Pet Rocks</head>
+
+                <p>Readers of a certain age may remember the 1990s craze for the Tamagotchi, an
+                    electronic device that was designed to mimic a pet animal by requiring regular
+                    attention — feeding, education, play — from its owner in order to keep it
+                    healthy. Our digital edition projects had become rather like Tamagotchis in
+                    requiring constant tending simply to keep them functional. Slightly older
+                    readers, however, may remember a similar, pre-digital fad from the 1980s. The
+                    Pet Rock was exactly what it purported to be: a piece of rock, which required
+                    nothing whatsoever from its owner. <quote rend="inline"
+                        source="https://en.wikipedia.org/wiki/Pet_Rock">A rock would not need to be
+                        fed, walked, bathed, or groomed, and it would not die, become sick, or be
+                        disobedient</quote> (<ref target="https://en.wikipedia.org/wiki/Pet_Rock"
+                        >Wikipedia</ref>). Our Endings mission was to devise methods for turning our
+                    Tamagotchis into Pet Rocks.</p>
+
+                <p>The Endings Principles present a set of simple guidelines for this process, and
+                    are intended for two audiences: researchers who have Tamagotchi projects that
+                    are already too needy, and who are looking for an exit strategy; and (more
+                    importantly) researchers in the early stages of planning and setting up new
+                    projects, who are in a position to build a sustainable, low-maintenance digital
+                    edition from the outset.</p>
+
+                <p>This article lays out and discusses version 2.2 of the Endings Principles. This
+                    version does not differ substantially from the initial draft, first published on
+                    the Endings website in 2018, but the major sections have been re-ordered. Those
+                    sections cover the five principal aspects of a digital edition project which we
+                    consider to be crucial in designing for longevity: Data, Documentation,
+                    Processing, Products, and Release Management.</p>
+
+                <div>
+                    <head>5.1 Data</head>
+
+                    <p>Data is the expression of the source information, knowledge, and expertise of
+                        our researchers, and forms the basis and <quote rend="inline">necessary
+                            context for analytical claims</quote> (Thieberger in this issue, and
+                            <ptr target="#thieberger2016"/>). Digital Humanities praxis has often
+                        tended to blur the distinction between data and products; according to <ref
+                            target="#baratsSchaferFickers2020">Barats, Schafer, and Fickers</ref>,
+                        for example, <cit><quote rend="inline">data management is not just about the
+                                data that are used, but also about those, which are produced
+                                (metadata, results of research, etc.). In fact, data management
+                                covers the whole life cycle of a research project, from data
+                                selection to their curation and description, from analyse and
+                                interpreting data to its publication and long term storage</quote>
+                            <dhq:citRef><ref target="#baratsSchaferFickers2020">para
+                                4</ref></dhq:citRef></cit>. For the purpose of Endings principles,
+                        our definition of data is much more constrained: we define data as the
+                        source material from which end-user products are generated. In the case of a
+                        digital edition, data may take the form of TEI XML encodings of primary
+                        source or born-digital documents, but it may also include relational
+                        database data, digital images, audio or video recordings, and any other
+                        material acquired or generated during research, but which does not form part
+                        of the end product.</p>
+
+                    <div>
+                        <head>5.1.1 Data is stored only in formats which conform to open standards
+                            and which are amenable to processing (TEI XML, GML, ODF, TXT).</head>
+
+                        <p>It is now common practice for funding agencies and host institutions to
+                            insist that projects create detailed data management plans. The Canadian
+                            Tri-Agency Statement of Principles on Digital Data Management, for
+                            example, specifies that <cit><quote rend="inline">data should be
+                                    collected and stored throughout the research project using
+                                    software and formats that ensure secure storage, and enable
+                                    preservation of and access to the data well beyond the duration
+                                    of the research project</quote>
+                                <dhq:citRef><ptr target="#govCan2016"/></dhq:citRef></cit>. In
+                            practice, this means using open, well-documented standards and file
+                            formats (i.e. files that can be read, opened, and processed without the
+                            need of special software or tools) instead of proprietary formats.</p>
+                    </div>
+
+                    <div>
+                        <head>5.1.2 Data is subject to version control (Subversion, Git).</head>
+
+                        <p>The use of version control for DH data is now widely accepted practice;
+                            by its very nature it supports LOCKSS (Lots of Copies Keep Stuff Safe)
+                            (every person checking out the repository to work on it creates a new
+                            copy), provides security against human error and data corruption, and
+                            enables sophisticated progress tracking (<ptr target="#holmesEtAl2019"
+                            />). We also believe that project history, as reflected in progressive
+                            changes to its dataset, merits preservation in itself, and version
+                            control systems support this. Jim McGrath, at our Endings Symposium,
+                            discussed in detail the importance of recognizing and surfacing
+                            contributions by students, post-doctoral researchers, and other
+                                <q>precarious</q> labour, and Jessica Otis (in this issue) also
+                            addresses this topic. Version control allows detailed tracking of
+                            contributions file-by-file, allowing for more granular visualization of
+                                responsibilities.<note>See, for example, this video of SVN commits
+                                generated using Gource from MoEML’s svn repository: <ptr
+                                    target="https://www.youtube.com/watch?v=Qor69c2Cvmc"
+                            />.</note></p>
+                    </div>
+
+                    <div>
+
+                        <head>5.1.3 Data is continually subject to validation and diagnostic
+                            analysis.</head>
+
+                        <p>Since all products depend entirely on the reliability of the project’s
+                            dataset, it is essential to establish and maintain the accuracy of the
+                            data. For XML datasets, all files should be validated against the
+                            appropriate schemas; for other types of data, routines should be built
+                            into processing that confirm that the project’s data conforms to the
+                            project’s determined syntax and convention.<note>We discuss this
+                                processing in greater detail in 5.4.</note> In addition to
+                            confirming that individual files validate against the project’s schema,
+                            the entire dataset should also be checked using a set of what we have
+                            previously called <cit><quote rend="inline">diagnostics</quote>
+                                <dhq:citRef><ptr target="#holmesTakeda2019b"/></dhq:citRef></cit>.
+                            As we argued, projects contain multiple internal and external
+                            relationships — to project-defined entities, other pages within the
+                            project, or external vocabularies — that <cit><quote rend="inline">need
+                                    to be tested, checked, and validated, too, but it is impractical
+                                    to do this using document-level schemas</quote>
+                                <dhq:citRef><ptr target="#holmesTakeda2019b" loc="i101–2"
+                                    /></dhq:citRef></cit>. Taken together, standard document
+                            validation and diagnostics are necessary for confirming that a project
+                            is consistent, coherent, and complete.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>5.2 Documentation</head>
+
+                    <p>Within the digital humanities (and many other fields), the literature of best
+                        practices is suffused with exhortations to document more, document better,
+                        and document everything. The reality for grant-funded projects, however, is
+                        that documentation is frequently the last task on the agenda and therefore
+                        likely to be curtailed or neglected when funding runs out or deadlines
+                        approach (<ptr target="#morgan2021"/>). The Endings survey found that
+                                <cit><quote rend="inline">60% [of projects] claimed to have a
+                                clearly documented data model, but 90% of those that had
+                                documentation considered it to be partial or inadequate, so it
+                                appears that a project’s data model is well documented in only about
+                                50% of cases</quote>
+                            <dhq:citRef><ptr target="#arneilHolmesNewton2019"/></dhq:citRef></cit>.
+                        We are no different in our exhortations to document thoroughly, but we do
+                        take a strong position regarding the availability of documentation.</p>
+
+                    <div>
+                        <head>5.2.1 Data models, including field names, descriptions, and controlled
+                            values, should be clearly described in a static document that is
+                            maintained with the data and forms part of the products.</head>
+
+                        <p>In most of our larger projects, such as <title rend="italic">The Map of
+                                Early Modern London</title>, training for research assistants and
+                            other contributors forms a core part of the project’s mission, and we
+                            have learned to build this kind of praxis documentation directly into
+                            the published digital edition itself. This has two significant
+                            advantages over keeping documentation segregated and private. First,
+                            since the documentation is published with the edition, it will always
+                            travel with the published product, increasing the likelihood that future
+                            researchers will be able to make sense of our materials and adopt or
+                            repurpose them easily. Second, the visibility of our documentation helps
+                            to keep us honest. Documentation is less prone to be aspirational and
+                            more likely to reflect the reality of our praxis if users of our
+                            editions can read it alongside the editions themselves, and point out
+                            any failures or discrepancies.</p>
+
+                    </div>
+
+                    <div>
+                        <head>5.2.2 All rights and intellectual property issues should be clearly
+                            documented. Where possible the Data and Products should be released
+                            under open licenses (Creative Commons, GNU, BSD, MPL).</head>
+
+                        <p>As suggested above, a project’s best chance of long-term survival lies in
+                            making it as amenable as possible to copying and repurposing. While this
+                            article is mainly concerned with overcoming the technical barriers to
+                            digital longevity, it must also be noted that any materials or data
+                            accompanied by any sort of restrictive covenant or license will
+                            inevitably be less appealing to a future researcher considering making
+                            use of it. In the same way, the LOCKSS preservation strategy requires
+                            the collaboration of multiple institutions willing to host project
+                            products over the long term, and this is much less likely to happen if
+                            licensing issues make it more difficult to deliver the materials to the
+                            institution’s end-users in a convenient way. Therefore we strongly
+                            recommend that projects, where possible, make all their materials
+                            available under generous Creative Commons licenses, open-source all
+                            their code, and avoid depending on any proprietary data, programming,
+                            libraries, or other resources. For example, it is far better to try to
+                            acquire your own copy of a historical text and scan the pages yourself
+                            than to build a digital edition around page-images supplied under
+                            license by a corporation or other rights-holder who may restrict access
+                            to them.<note>There are of course contexts in which it may be impossible
+                                to make all data publicly available; one of our own Endings
+                                projects, the <title rend="italic">Nxa’amxcín Database and
+                                    Dictionary</title>, contains culturally-sensitive personal and
+                                linguistic data which cannot be shared outside the original language
+                                community.</note></p>
+
+                        <p>Even worse than restrictive licensing is lack of clarity about license
+                            terms. If an institution or a researcher cannot discover the terms under
+                            which content has been released, they will never be able to determine
+                            whether they can or should archive or make use of it.</p>
+
+                    </div>
+
+
+                </div>
+
+                <div>
+                    <head>5.3 Processing</head>
+
+                    <p>There is no unique way to create an Endings-compliant site; different
+                        projects demand different technologies and there is no single language,
+                        framework, or tool that will work for every case. So the principles below
+                        are necessarily technology-agnostic and, while our own personal preferences
+                        may become apparent from the examples, we do not advocate for one “stack”
+                        over another. But there is certainly no shortage of processing pipelines for
+                        creating static sites. The uptake of the <q>JAMstack</q> (Javascript, API,
+                        and Markup) — a movement that grew out of the popularity of Node.js and NPM
+                        and is now closely allied with static asset providers like GitHub, Netlify,
+                        and Amazon S3 — has lead to both the popularization and proliferation of
+                        static site generators, such as Next.js, Hugo, and Jekyll.<note>At the time
+                            of writing, the JAMStack website lists 326 generators across 45
+                            programming languages.</note> Within the digital humanities, proponents
+                        of <q>minimal computing</q> have mobilized these tools to create frameworks
+                        that significantly minimize the barriers to access in creating static
+                        digital editions and digital exhibits.<note>Some of the most popular of
+                            these tools are the GO:DH Minimal Computing Group’s digital-edition
+                            platform <q>Ed</q> and their digital exhibit builder <q>Wax</q> as well
+                            as LIB-Static’s <q>Collection Builder.</q> For a more comprehensive
+                            outline of the goals of minimal computing for the GO:DH Minimal
+                            Computing Group, see <ptr target="#gil2015"/> and <ptr
+                                target="#sayers2016"/>. There is also a growing interest in the use
+                            of static collections within libraries as demonstrated by <ptr
+                                target="#newson2017"/>, <ptr target="#diaz2018"/>, and <ptr
+                                target="#wikleWilliamsonBecker2020"/>.</note></p>
+
+                    <p>But just because a pipeline produces static HTML output doesn’t mean that the
+                        processing produces a site that is archivable and sustainable in the long
+                        term. The Endings team was made painfully aware of this in the creation of
+                        our own Endings website, which was built initially using GitHub Pages and a
+                        pre-built Jekyll template. Though completely static, the site violated many
+                        core Endings principles: it was comprised of malformed, invalid HTML that
+                        relied on Bootstrap 4 and a set of JQuery-based JavaScript to handle various
+                        UI components. The site has since been developed into valid XHTML5 with all
+                        JQuery dependencies replaced by CSS3 and all updates handled by XSL
+                        transformations managed by an Ant build script. The problem with the old
+                        Endings site was not that it was built with Jekyll and that, had we just
+                        used Ant and XSL in the first place, all of our problems would have been
+                        solved; rather, the main issue was that the processing was meant only to
+                        create a static site, and not one that was coherent, consistent, complete,
+                        and free of technical debt.</p>
+
+                    <p>We understand processing, then, not in terms of a particular pipeline, tool,
+                        or programming language, but rather as the set of steps necessary for
+                        creating robust, sustainable, and archivable resources. While we have
+                        created some tools — like our diagnostics toolsets<note>See <ptr
+                                target="https://github.com/projectEndings/diagnostics"/> and <ptr
+                                target="https://github.com/projectEndings/html_diagnostics"
+                            />.</note> as well as staticSearch, which is discussed in detail in
+                        Section 6 — as part of the Endings project, these toolsets are neither
+                        necessary nor sufficient for an Endings <q>processing</q> pipeline.</p>
+
+                </div>
+
+
+            </div>
+
+
         </body>
         <back>
             <listBibl>
@@ -387,7 +699,7 @@
                     Digital Humanities 2019 Conference, Utrecht, the Netherlands, July 2019. <ptr
                         target="https://dev.clariah.nl/files/dh2019/boa/0891.html"/>.</bibl>
 
-                <bibl xml:id="baratsShaferFickers2020" label="Barats, Schafer and Fickers 2020"
+                <bibl xml:id="baratsSchaferFickers2020" label="Barats, Schafer and Fickers 2020"
                         ><name>Barats, C.</name>, <name>Schafer, V.</name>, and <name>Fickers,
                         A.</name>
                     <title rend="quotes">Fading Away… The challenge of sustainability in digital
