@@ -1202,10 +1202,142 @@ https://graves.uvic.ca/diary_1935-02-22.html
                 <p>We’re doing it. You should do it too. You’ll regret it if you don’t.</p>
                 
             </div>
+            
+            <div>
+                <head>Appendix 1: Endings-compliant projects</head>
+                
+                <p>This is a list of all the projects which have been constructed or reconstructed in accordance with the Endings principles outlined in this article.</p>
+                
+                <div>
+                    <head>The original four projects</head>
+                    
+                    <list type="unordered">
+                        <item><ref target="https://mapoflondon.uvic.ca/">The Map of Early Modern London</ref></item>
+                        <item><ref target="https://mariage.uvic.ca/">Le Mariage sous l’Ancien Régime</ref></item>
+                        <item><ref target="https://graves.uvic.ca/">The Robert Graves Diary</ref></item>
+                        <item>The Nxa’amxcín Database and Dictionary (currently not public)</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Projects later adopted by Endings</head>
+                    
+                    <list type="unordered">
+                        <item><ref target="https://bcgenesis.uvic.ca">The Colonial Despatches of Vancouver Island and British Columbia</ref></item>
+                        <item><ref target="https://dvpp.uvic.ca">Digital Victorian Periodical Poetry</ref> (site still under development)</item>
+                        
+                        <item><ref target="https://francotoile,uvic.ca">Francotoile</ref></item>
+                        
+                        <item><ref target="https://loi.uvic.ca">The Landscapes of Injustice Archive</ref></item>
+                        
+                        <item><ref target="https://johnkeats.uvic.ca">Mapping Keat’s Progress</ref></item>
+                        
+                        <item><ref target="https://mvp.uvic.ca">Modernist Versions Project</ref></item>
+                        
+                        <item>The Scandinavian Canadian Studies Journal (Moved in 2022 to another host institution, and no longer Endings-compliant)</item>
+                        
+                        <item><ref target="https://winnifredeatonarchive.org">The Winnifred Eaton Archive</ref></item>
+                    </list>
+                    
+                </div>
+            </div>
 
+            <div>
+                <head>Appendix 2: Endings Principles (version 2.2)</head>
+                
+                <p>We divide digital projects into five primary components:</p>
+                
+                <list type="ordered">
+                    
+                    <item><ref target="#epData">Data</ref></item>
+                    <item><ref target="#epDoc">Documentation</ref></item>
+                    <item><ref target="#epProc">Processing</ref></item>
+                    <item><ref target="#epProd">Products</ref></item>
+                    <item><ref target="#epRel">Release management</ref></item>
+                    
+                </list>
+                
+                <div xml:id="epData">
+                    <head>1 Data</head>
+                    
+                    <p>Data is the expression of the source information, knowledge, and expertise of our researchers. The following principles apply to data:</p>
+                    
+                    <p>1.1 Data is stored only in formats that conform to open standards and that are amenable to processing (TEI XML, GML, ODF, TXT).</p>
+                    
+                    <p>1.2 Data is subject to version control (Subversion, Git).</p>
+                    
+                    <p>1.3 Data is continually subject to validation and diagnostic analysis.</p>
+                    
+                </div>
+                
+                <div xml:id="epDoc">
+                    <head>2 Documentation</head>
+                    
+                    <p>2.1 Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and forms part of the products.</p>
+                    
+                    <p>2.2 All rights and intellectual property issues should be clearly documented. Where possible the Data and Products should be released under open licenses (Creative Commons, GNU, BSD, MPL).</p>
+                </div>
+                
+                <div xml:id="epProc">
+                    <head>3 Processing</head>
+                    
+                    <p>Processing code is written and maintained by the project technical staff, and is also subject to version control. Processing code provides all the following functions:</p>
+                    
+                    <p>3.1 Relentless validation: all processing includes validation/linting of all inputs and outputs and all validation errors should exit the process and prevent further execution until the errors are resolved.</p>
+                    
+                    <p>3.2 Continuous integration: Any change to the source data requires an entire rebuild of the site (triggered automatically where possible).</p>
+                    
+                    <p>3.3 Code is contingent: While code is not expected to have significant longevity, wherever possible, all code should follow Endings principles for data and products.</p>
+                    
+                </div>
+                
+                <div xml:id="epProd">
+                    <head>4 Products</head>
+                    
+                    <p>Products are the project outputs intended for end-users, typically in the form of websites or print documents. The following principles apply to products intended for the web:</p>
+                    
+                    <p>4.1 No dependence on server-side software: build a static website with no databases, no PHP, no Python.</p>
+                    
+                    <p>4.2 No boutique or fashionable technologies: use only standards with support across all platforms, whose long-term viability is assured. Our choices are HTML5, JavaScript and CSS.</p>
+                    
+                    <p>4.3 No dependence on external libraries or services: no JQuery, no AngularJS, no Bootstrap, no Google Search.</p>
+                    
+                    <p>4.4 No query strings: every entity in the site has a unique page with a simple URL that will function on any domain or IP address.</p>
+                    
+                    <p>4.5 Inclusion of data: every site should include a documented copy of the source data, so that users of the site can repurpose the work easily.</p>
+                    
+                    <p>4.6 Massive redundancy: every page contains all the components it needs, so that it will function without the rest of the site if necessary, even though doing so means duplicating information across the site.</p>
+                    
+                    <p>4.7 Graceful failure: every page should still function effectively even in the absence of JavaScript or CSS support.</p>
+                    
+                    <p>These principles are tempered by the following concessions:</p>
+                    
+                    <p>4.8 Once a fully-working static site is achieved, it may be enhanced by the use of other services such as a server-side indexing tool (Solr, eXist) to support searching and similar functionality.</p>
+                    
+                    <p>4.9 The use of an external library may be necessary to support a specific function that is too complex to be coded locally (such as mapping or cryptography). Any such libraries must be open-source and widely-used, and must not themselves have dependencies.</p>
+                </div>
+                
+                <div xml:id="epRel">
+                    <head>5 Release management</head>
+                    
+                    <p>Release management handles the public release of products. These principles apply to release management:</p>
+                    
+                    <p>5.1 Releases should be periodical and carefully planned. The “rolling release” model should be avoided.</p>
+                    
+                    <p>5.2 A release should only be made when the entire product set is coherent, consistent, and complete (passing all validation and diagnostic tests).</p>
+                    
+                    <p>5.3 Like editions of print works, each release of a web resource should be clearly identified on every page by its build date and some kind of version number.</p>
+                    
+                    <p>5.4 Web resources should include detailed instructions for citation, so that end-users can unambiguously cite a specific page from a specific edition.</p>
+                    
+                    <p>5.5 URLs for individual resources within a digital publication should persist across editions. Any moved, retired, or deleted resources no longer available at a previously accessible URL should be redirected appropriately.</p>
+                    
+                </div>
+                
+            </div>
 
         </body>
         <back>
+            
             <listBibl>
                 <!-- Encode each bibliographic item as <bibl>, and delete dummy record below. @xml:id and @label are required. All values for @xml:id should be lower-case. -->
                 <bibl xml:id="arneilHolmes1998" label="Arneil and Holmes 1998"><name>Arneil,
