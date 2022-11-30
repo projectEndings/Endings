@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.digitalhumanities.org/dhq/common/schema/dhqTEI-ready.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.digitalhumanities.org/dhq/common/schema/DHQauthor-TEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.digitalhumanities.org/dhq/common/schema/DHQauthor-TEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cc="http://web.resource.org/cc/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dhq="http://www.digitalhumanities.org/ns/dhq">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Author should supply the title and personal information. Change the value of xml:lang if not English.-->
+                <title type="article" xml:lang="en">Introduction to Special Issue: Project
+                    Resiliency in the Digital Humanities</title>
+                <dhq:authorInfo xml:id="martindholmes">
+                    <dhq:author_name>Martin <dhq:family>Holmes</dhq:family></dhq:author_name>
+                    <idno type="ORCID">https://orcid.org/0000-0002-3944-1116</idno>
+                    <dhq:affiliation>University of Victoria Humanities Computing and Media
+                        Centre</dhq:affiliation>
+                    <email>mholmes@uvic.ca</email>
+                    <dhq:bio>
+                        <p>Martin Holmes is a programmer in the University of Victoria Humanities
+                            Computing and Media Centre. He is the lead programmer on several large
+                            digital edition projects including the <title rend="italic">Map of Early
+                                Modern London</title> (MoEML) and <title rend="italic">Le Mariage
+                                sous l'Ancien Régime</title>, and is part of the Project Endings
+                            team. He served on the TEI Technical Council from 2010 to 2015 and was
+                            managing editor of the <title rend="italic">Journal of the Text Encoding
+                                Initiative</title> from 2013 to 2015.</p>
+                    </dhq:bio>
+                </dhq:authorInfo>
+                <dhq:authorInfo xml:id="janellejenstad">
+                    <dhq:author_name>Janelle <dhq:family>Jenstad</dhq:family></dhq:author_name>
+                    <idno type="ORCID">https://orcid.org/0000-0003-1389-7921</idno>
+                    <dhq:affiliation>University of Victoria Department of English</dhq:affiliation>
+                    <email>jenstad@uvic.ca</email>
+                    <dhq:bio>
+                        <p>Janelle Jenstad is Professor of English at the University of Victoria.
+                            She directs <title rend="italic">The Map of Early Modern London</title>
+                            (MoEML) and <title rend="italic">Linked Early Modern Drama
+                                Online</title> (LEMDO), and co-coordinates the <title rend="italic"
+                                >New Internet Shakespeare Editions</title> and <title rend="italic"
+                                >Digital Renaissance Editions</title>. With Jennifer Roberts-Smith
+                            and Mark Kaethler, she co-edited <title rend="italic">Shakespeare’s
+                                Language in Digital Media</title> (Routledge). Her essays and book
+                            chapters have appeared in <title rend="italic">Shakespeare
+                                Bulletin</title>, <title rend="italic">Elizabethan Theatre</title>,
+                                <title rend="italic">EMLS</title>, <title rend="italic"
+                                >JMEMS</title>, <title rend="italic">DHQ</title>, <title
+                                rend="italic">Digital Studies</title>, and other venues. For a full
+                            list, see janellejenstad.com.</p>
+                    </dhq:bio>
+                </dhq:authorInfo>
+                <dhq:authorInfo xml:id="matthuculak">
+                    <dhq:author_name>J. Matthew <dhq:family>Huculak</dhq:family></dhq:author_name>
+                    <idno type="ORCID">https://orcid.org/0000-0002-2717-1112</idno>
+                    <dhq:affiliation>University of Victoria Advanced Research Services &amp; Digital
+                        Scholarship Librarian</dhq:affiliation>
+                    <email>huculak@uvic.ca</email>
+                    <dhq:bio>
+                        <p>J. Matthew Huculak is Head of Advanced Research Services at the
+                            University of Victoria Libraries. He is the former director of the
+                                <title rend="italic">Modernist Versions Project</title>, <title
+                                rend="italic">OpenModernisms</title>, and managing editor of the
+                                <title rend="italic">Modernism/modernity Print +</title> Platform,
+                            winner of the Innovation in Publishing Award from the Association of
+                            American Publishers. His research focuses on libraries, archives, print
+                            history and modernist periodical production. For a list of his work,
+                            visit lib.uvic.ca/huculakcv.</p>
+                    </dhq:bio>
+                </dhq:authorInfo>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Alliance of Digital Humanities Organizations</publisher>
+                <publisher>Association for Computers and the Humanities</publisher>
+                <!-- This information will be completed at publication -->
+                <idno type="DHQarticle-id">[to be
+                    assigned]<!-- including leading zeroes: e.g. 000110 --></idno>
+                <idno type="volume">[to be
+                    assigned]<!-- volume number, with leading zeroes: e.g. 006 --></idno>
+                <idno type="issue">[to be
+                    assigned]<!-- issue number, without leading zeroes: e.g. 2 --></idno>
+                <date>2022</date>
+                <dhq:articleType>introduction</dhq:articleType>
+                <availability status="CC-BY-ND">
+                    <!--         If using a different license from the default, choose one of the following:
+                  CC-BY-ND (DHQ default): <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/"/>     
+                  CC-BY:  <cc:License rdf:about="https://creativecommons.org/licenses/by/2.5/"/>
+                  CC0: <cc:License rdf:about="https://creativecommons.org/publicdomain/zero/1.0/"/>
+-->
+                    <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/"/>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Encoded from original Google Doc by Martin Holmes, 2022-12.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="dhq_keywords">
+                    <bibl>DHQ classification scheme; full list available at <ref
+                            target="http://www.digitalhumanities.org/dhq/taxonomy.xml"
+                            >http://www.digitalhumanities.org/dhq/taxonomy.xml</ref></bibl>
+                </taxonomy>
+                <taxonomy xml:id="authorial_keywords">
+                    <bibl>introduction, project resiliency, endings</bibl>
+                </taxonomy>
+                <taxonomy xml:id="project_keywords">
+                    <bibl>DHQ project registry; full list available at <ref
+                            target="http://www.digitalhumanities.org/dhq/projects.xml"
+                            >http://www.digitalhumanities.org/dhq/projects.xml</ref></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#dhq_keywords">
+                    <!-- Authors may suggest one or more keywords from the DHQ keyword list, visible at http://www.digitalhumanities.org/dhq/taxonomy.xml; these may be supplemented or modified by DHQ editors -->
+                    <list type="simple">
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="#authorial_keywords">
+                    <!-- Authors may include one or more keywords of their choice -->
+                    <list type="simple">
+                        <item>project resiliency</item>
+                        <item>endings</item>
+                        <item>introduction</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#project_keywords">
+                    <list type="simple">
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <!-- Each change should include @who and @when as well as a brief note on what was done. -->
+            <change who="#martindholmes" when="2022-12">Created the file and encoded the
+                text.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- If a translation is added to the original article, add an enclosing <text> and <group> element -->
+    <text xml:lang="en" type="original">
+        <front>
+            <dhq:abstract>
+                <!-- Include a brief abstract of the article -->
+                <!-- DO WE NEED AN ABSTRACT FOR A SHORT INTRO? -->
+                <p/>
+            </dhq:abstract>
+            <dhq:teaser>
+                <!-- Include a brief teaser, no more than a phrase or a single sentence -->
+                <p>The end is where we start from.</p>
+            </dhq:teaser>
+        </front>
+        <body>
+            <head>Introduction to Special Issue: Project Resiliency in the Digital Humanities</head>
+            <!-- Use <div> only if there is more than one section -->
+            <div>
+                <epigraph>
+                    <cit>
+                        <quote rend="block"> What we call the beginning is often the end<lb/> And to
+                            make an end is to make a beginning. <lb/> The end is where we start
+                            from. </quote>
+                        <dhq:citRef>– T. S. Eliot, <title rend="quotes">Little
+                            Gidding</title></dhq:citRef>
+                    </cit>
+                </epigraph>
+            </div>
+            <div>
+                <head>
+                    <quote rend="inline">The end is where we start from</quote>
+                </head>
+
+                <p>Over the past decade, digital humanists have come a long way in recognizing when
+                    a project is <quote rend="inline">done</quote> (<ref target="#kirschenbaum2009"
+                        >Kirschenbaum 2009</ref>). But DH still has a problem when it comes to
+                    project resiliency. As Constance Crompton points out in her contribution to this
+                    issue, DH grant funding is disproportionately awarded to new and shiny digital
+                    technologies and tools rather than to disciplinary scholarship implemented and
+                    published with standard digital tools. Almost no funding is available for
+                    maintenance, remediation, upgrading, and remaking, even though technological
+                    frameworks will have changed considerably in a five-year funding cycle. The
+                    result is a huge maintenance burden for project leads and developers (Holmes
+                    &amp; Takeda in this issue) and/or a hosting and storage problem for
+                    institutions (Cummings in this issue). </p>
+            </div>
+            <div>
+                <head><quote rend="inline">What we call a beginning</quote>: Project Endings</head>
+                <p>Most of the papers in this DHQ special issue are the product of a virtual
+                    symposium held in April 2021 by <ref target="https://endings.uvic.ca">The
+                        Endings Project</ref> at the University of Victoria. The Endings Project, a
+                    five-year collaboration funded by the Social Sciences and Humanities Research
+                    Council (<ref target="http://www.sshrc-crsh.gc.ca/">SSHRC</ref>), is creating
+                    tools, principles, policies, code, and recommendations for digital scholarship
+                    practitioners to create accessible, stable, long-lasting resources in the
+                    humanities. Unusually for DH, the Endings Project was initiated by developers
+                    (see Holmes &amp; Takeda in this issue). It brings together digital humanists
+                    and librarians because, as Matthew Kirschenbaum has argued, <cit><quote
+                            rend="inline">Digital humanists need the long-term perspective on data
+                            that archivists have</quote>
+                        <dhq:citRef><ptr target="#kirschenbaum2013"/></dhq:citRef></cit>. The
+                    Endings team’s HCMC developers (all of them humanists by their first training)
+                    are the bridge between Humanities researchers and Librarians/archivists,
+                    facilitating a long-term conversation between the three constituencies
+                    responsible for the intellectual generation, building, and long-term
+                    preservation of digital research products. </p>
+
+                <p>The impetus for The Endings Project was the substantial maintenance burden
+                    accrued by UVic’s Humanities Computing and Media Centre (<ref target="https://hcmc.uvic.ca/">HCMC</ref>), which has been
+                    involved in over 200 digital humanities projects since the 1990s. Its history,
+                    as described in Holmes &amp; Takeda, clearly shows the problems inherent in
+                    current approaches to digital edition projects, particularly projects with
+                    short-term or sporadic grant funding. The growing maintenance burden facing the
+                    HCMC was ultimately unsustainable, and Project Endings was conceived and
+                    convened to address this problem. </p>
+                
+                
+                
+
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <!-- Encode each bibliographic item as <bibl>, and delete dummy record below. @xml:id and @label are required. All values for @xml:id should be lower-case. -->
+                <bibl xml:id="carlin2018" label="Carlin 2018">Carlin, C. 2018. <title rend="quotes"
+                        >Endings: Concluding, Archiving, and Preserving, Digital Projects for
+                        Long-Term Usability.</title>
+                    <title rend="italic">KULA: Knowledge Creation, Dissemination, and Preservation
+                        Studies</title>, 2(1), p.19. DOI: <ptr
+                        target="https://doi.org/10.5334/kula.35"/>.</bibl>
+
+                <bibl xml:id="endingsTeam2022" label="Endings Team 2022">Endings Team. 2022. <title
+                        rend="quotes">Endings Project Survey Results.</title>
+                    <ptr target="https://endings.uvic.ca/survey.html"/>.</bibl>
+
+                <bibl xml:id="kirschenbaum2009" label="Kirschenbaum 2009">Kirschenbaum, Matthew G.
+                    2009. <title rend="quotes">Done: Finishing Projects in the Digital
+                        Humanities.</title>
+                    <title rend="italic">Digital Scholarship in the Humanities</title> Volume 3
+                    Number 2. <ptr
+                        target="http://www.digitalhumanities.org/dhq/vol/3/2/000037/000037.html"
+                    />.</bibl>
+
+                <bibl xml:id="kirschenbaum2013" label="Kirschenbaum 2013">Kirschenbaum, Matthew.
+                    2013. <title rend="quotes">The .txtual Condition: Digital Humanities,
+                        Born-Digital Archives and the Future Literary.</title> Digital Scholarship
+                    in the Humanities Volume 7 Number 1. <ptr
+                        target="http://www.digitalhumanities.org/dhq/vol/7/1/000151/000151.html"/>. </bibl>
+
+                <bibl xml:id="wotton1672" label="Wotton 1672">Wotton, Sir Henry. <title
+                        rend="italic">Reliquiae Wottonianae: Or, a Collection of Lives, Letters,
+                        Poems, with Characters of Sundry Personages, and Other Incomparable Pieces
+                        of Language and Art</title>. London: T. Roycroft, 1672.</bibl>
+
+
+            </listBibl>
+
+        </back>
+    </text>
+</TEI>
