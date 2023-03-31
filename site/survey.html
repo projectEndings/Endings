@@ -20,7 +20,11 @@
       <meta name="twitter:site" content="@"/> 
       <meta name="twitter:creator" content="@"/> 
       <meta name="twitter:title" content="Conference Papers and Presentations"/> 
-      <meta name="twitter:description" content="Building Sustainable Digital Humanities Projects"/> </head> 
+      <meta name="twitter:description" content="Building Sustainable Digital Humanities Projects"/>
+   
+      <link rel="stylesheet" href="css/viz-style.css"/>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+   </head> 
    <body> <!--Do not edit directly. Make changes in the XSLT.--> 
       <nav class="navbar navbar-default navbar-fixed-top navbar-custom"><!--Do not edit directly. Make changes in the XSLT.--><script>
         function showHideMobileNav(sender){
@@ -489,7 +493,12 @@
                   <h3>14. How much did the following factors help or hinder completion (or timely completion)
                      of your project? 1 = had a significant negative impact upon completion. 2 = had a
                      negative impact upon completion. 3 = had little or no impact upon completion. 4 =
-                     had a positive impact upon completion. 5 = had a major positive impact upon completion.</h3> <!--<h3>&gt;&gt;&gt;INSERT INTERACTIVE VISUALIZATION HERE&lt;&lt;&lt; </h3>--> </div> 
+                     had a positive impact upon completion. 5 = had a major positive impact upon completion.</h3> 
+                  
+                  <!--<h3>&gt;&gt;&gt;INSERT INTERACTIVE VISUALIZATION HERE&lt;&lt;&lt; </h3>--> 
+                  <h4>Click on graph elements to toggle details</h4>
+                  <div id="likert" class="viz" style="margin-left: -25vw; margin-right: 20vw;"></div>
+               </div> 
                <div id="q15"> 
                   <h3>15. Where is it   archived?</h3> 
                   <table> 
@@ -664,7 +673,12 @@
                         <td>19.72%</td> </tr> </table> </div> 
                <div id="q20"> 
                   <h3>20. What were   the significant obstacles to long term preservation? Please rank them
-                     in order.</h3> <!--<h3>&gt;&gt;&gt; Put visualization here &lt;&lt;&lt;&lt; </h3>--> </div> 
+                     in order.</h3> 
+                  
+                  <h4>Click on graph elements to toggle details</h4>   
+                  <div id="rank" class="viz" style="margin-left: -30vw; margin-right: -20vw;"></div>
+                  
+                  <!--<h3>&gt;&gt;&gt; Put visualization here &lt;&lt;&lt;&lt; </h3>--> </div> 
                <div id="q21"> 
                   <h3>21. Which of the   following standardized data models did you use in your project?
                      (Check all   that apply.)</h3> 
@@ -950,4 +964,6 @@
                </div>
             </div>
          </div>
-      </footer> </body> </html>
+      </footer> 
+      <script src="js/visualizations.js"></script>
+   </body> </html>
