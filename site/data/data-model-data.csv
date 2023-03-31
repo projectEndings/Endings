@@ -1,0 +1,10 @@
+﻿category,amount,total,note
+Dublin Core,19,71,
+MODS,5,71,
+TEI,17,71,
+RAD,1,71,
+EAD,0,71,
+DocBook,0,71,
+DDI,0,71,
+I created my own data model,18,71,
+other,8,71,"""n/a"" or ""don't know"" removed from count.; a model developed by Harvard and University of Illinois; METS/ ALTO; London Charter;  WMS (web mapping standard); KML; OLAC; OAI; Various ontologies"

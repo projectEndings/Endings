@@ -1,0 +1,51 @@
+body {
+    font: 10px sans-serif;
+}
+
+h2 {  
+margin: auto;
+width: 60%;
+padding: 10px;
+text-indent: 50px;
+color: grey;
+}
+
+h1 {
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+
+.stats {
+font-size: 200%;
+color: white;
+font-weight: bold;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.arc text {
+            font: 10px sans-serif;
+            text-anchor: middle;
+        }
+
+        .arc path {
+            stroke: #fff;
+        }
+
+        .title {
+            fill: teal;
+            font-weight: bold;
+}
+
+.viz {
+    margin-bottom: 50px;
+}
+.tick{
+	cursor: pointer;
+}
