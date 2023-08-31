@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="Validation, Diagnostics and build" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
+
+  <description> 
+    ##################################################################### 
+    # Project build file by Martin Holmes (mholmes@uvic.ca), 2023.      #
+    # This build file processes the site content in the pages folder    #
+    # to create a fully-realized site in both languages in the products #
+    # folder.                                                           #
+    ##################################################################### 
+  </description>
+
+  <property name="echo.separator" value="************************************************"/>
+  
+  <!-- Set of content source files to process. -->
+  <fileset id="sourceFiles" dir="${basedir}/pages">
+    <include name="*.xml"/>
+  </fileset>
+  <!-- Images to push to the site folder. -->
+  <fileset id="imgFiles" dir="${basedir}/logos">
+    <include name="*.svg"/>
+  </fileset>
+  
+  <target name="buildCss">
+    <description>
+      TARGET buildCss
+      This builds the SCSS file to create CSS and map file for the output site.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Building SCSS source to create CSS file in HTML folder."/>
+    <mkdir dir="${basedir}/products/css"/>
+    <exec executable="sass">
+      <arg value="${basedir}/css/endings.scss"/>
+      <arg value="${basedir}/products/css/endings.css"/>
+    </exec>
+  </target>
+ 
+  <target name="buildHtml">
+    <description>
+      TARGET buildHtml
+      This target processes all the existing HTML files to 
+      refresh any common components such as menus. It places
+      the output into a temp folder so that it can be inspected
+      before overwriting the originals.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Building all the site pages..."/>
+    
+    
+    <xslt destdir="${basedir}/temp"
+      style="${basedir}/xsl/build_html.xsl"
+      extension=".html" classpath="${basedir}/utilities/saxon-he-10.jar"
+      useImplicitFileset="false" 
+      failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <fileset refid="htmlFiles"/>
+    </xslt>
+  </target>
+  
+  <target name="copyRequiredFiles">
+    <copy todir="${basedir}/site/img">
+      <fileset refid="imgFiles"/>
+    </copy>
+    <zip basedir="${basedir}/logos" zipfile="${basedir}/site/logos.zip"/>
+  </target>
+  
+  <target name="rsyncToLiveServer">
+    <description>
+      TARGET rsyncToLiveServer
+      This pushes the content up to the endings/www folder on the nfs.hcmc.uvic.ca server.
+      This will overwrite the existing site, but it will not delete any obsolete files.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Pushing content up to the live site."/>
+    <exec executable="rsync" dir="${basedir}">
+      <arg value="--stats"/>
+      <arg value="--recursive"/>
+      <arg value="--times"/>
+      <arg value="--verbose"/>
+      <arg value="--omit-dir-times"/>
+      <!--<arg value="-\-delete"/>-->
+      <arg line="-e ssh"/>
+      <arg line="products/"/>
+      <arg line="mholmes@nfs.hcmc.uvic.ca:/home1t/endings/www/"/>
+    </exec>
+  </target>
+
+  <target name="all">
+    <description> TARGET all This target runs all the processes defined elsewhere in the file. </description>
+    <antcall target="buildHtml"/>
+    <antcall target="overwriteOriginals"/>
+    <antcall target="copyRequiredFiles"/>
+  </target>
+
+</project>
