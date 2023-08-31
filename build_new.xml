@@ -19,9 +19,15 @@
   <fileset id="sourceFiles" dir="${basedir}/pages">
     <include name="*.xml"/>
   </fileset>
+  
   <!-- Images to push to the site folder. -->
-  <fileset id="imgFiles" dir="${basedir}/logos">
-    <include name="*.svg"/>
+  <fileset id="imgFiles" dir="${basedir}/img">
+    <include name="*.*"/>
+  </fileset>
+  
+  <!-- Fonts for the site. -->
+  <fileset id="fonts" dir="${basedir}/fonts">
+    <include name="*.*"/>
   </fileset>
   
   <target name="clean">
@@ -73,10 +79,13 @@
   </target>
   
   <target name="copyRequiredFiles">
-    <copy todir="${basedir}/site/img">
+    <copy todir="${basedir}/products/img">
       <fileset refid="imgFiles"/>
     </copy>
-    <zip basedir="${basedir}/logos" zipfile="${basedir}/site/logos.zip"/>
+    <copy todir="${basedir}/products/fonts">
+      <fileset refid="fonts"/>
+    </copy>
+    <zip basedir="${basedir}/logos" zipfile="${basedir}/products/logos.zip"/>
   </target>
   
   <target name="rsyncToLiveServer">

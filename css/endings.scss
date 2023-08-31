@@ -1,2 +1,152 @@
 /*  This will be the source file for creating the CSS which 
  *  reproduces the style from the beautiful-jekyll theme. */
+ 
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.6.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 18px;
+    color: #404040;
+    position: relative;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.42857143;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    text-transform: uppercase;
+    padding: 1em;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EAEAEA;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    a{
+        font-weight: 800;
+        color: #404040;
+        font-size: 12px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 0.75em;
+        font-family: sans-serif;
+    }
+    div>ul{
+        list-style-type: none;
+        >li{
+            display: inline-block;
+        }
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+  }
+  @media (min-width: 768px) {
+    .navbar-toggle {
+      display: none;
+    }
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    border-radius: 4px;
+  }
+
+.navbar-custom .navbar-brand-logo img {
+    height: 50px;
+}
+  
+a {
+  color: #008AFF;
+  text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+header{
+    text-align: center;
+    width: 66%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+hr.small{
+    width: 6em;
+    font-weight: bold;
+}
+
+
+main{
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 66%;
+}
+
+/* Footer stuff. */
+
+footer{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    margin: 1em 0 0 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-top: 1px solid #EAEAEA;
+}
+
+ul.footer-links{
+    font-family: FontAwesome;
+    list-style-type: none;
+    li{
+        display: inline;
+        a[href^='mailto']::before{
+            content: "\f111";
+            width: 48px;
+            display: inline-block;
+        }
+    }
+}

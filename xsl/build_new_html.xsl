@@ -189,6 +189,15 @@
     
     <!-- *********** FOOTER TEMPLATES *********************** -->
     
+    <xd:doc>
+        <xd:desc>We need to inject the build date.</xd:desc>
+    </xd:doc>
+    <xsl:template match="span[@class='build-date']">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:sequence select="$today"/>
+        </xsl:copy>
+    </xsl:template>
     
     
     <!-- *********** ATTRIBUTE TEMPLATES *********************** -->
