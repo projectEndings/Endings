@@ -6,11 +6,11 @@
     <main>
         <p style="text-align: center;">
             <img src="img/endings_logo_badge_transparent.svg"
-                style="margin-left: auto; margin-right: auto;"/>
+                style="margin-left: auto; margin-right: auto;" alt="Transparent Endings logo badge"/>
             <img src="img/endings_logo_badge_dark.svg"
-                style="margin-left: auto; margin-right: auto;"/>
+                style="margin-left: auto; margin-right: auto;" alt="Dark Endings logo badge"/>
             <img src="img/endings_logo_badge_white.svg"
-                style="margin-left: auto; margin-right: auto;"/></p>
+                style="margin-left: auto; margin-right: auto;" alt="Light Endings logo badge"/></p>
         <p>To claim your project's products are Endings-compliant is to promise that they adhere to
             the <a href="principles.html">Endings principles</a>. This means that:</p>
         <ul>
