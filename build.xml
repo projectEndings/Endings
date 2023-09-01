@@ -4,29 +4,69 @@
 
   <description> 
     ##################################################################### 
-    # Project build file by Martin Holmes (mholmes@uvic.ca), 2021.      #
-    # This build file processes the HTML pages of the site to update    #
-    # common components such as the menu.                               #
+    # Project build file by Martin Holmes (mholmes@uvic.ca), 2023.      #
+    # This build file processes the site content in the pages folder    #
+    # to create a fully-realized site in both languages in the products #
+    # folder.                                                           #
     ##################################################################### 
   </description>
 
   <property name="echo.separator" value="************************************************"/>
   
-  <!-- Set of files to process. -->
-  <fileset id="htmlFiles" dir="${basedir}/site">
-    <include name="*.html"/>
-  </fileset>
+  <property name="saxon" value="${basedir}/utilities/saxon-he-10.jar"/>
   
-  <!-- Set of files to process. -->
-  <fileset id="tempFiles" dir="${basedir}/temp">
-    <include name="*.html"/>
+  <!-- Set of content source files to process. -->
+  <fileset id="sourceFiles" dir="${basedir}/pages">
+    <include name="*.xml"/>
   </fileset>
   
   <!-- Images to push to the site folder. -->
-  <fileset id="imgFiles" dir="${basedir}/logos">
-    <include name="*.svg"/>
+  <fileset id="imgFiles" dir="${basedir}/img">
+    <include name="*.*"/>
   </fileset>
-
+  
+  <!-- Fonts for the site. -->
+<!--  <fileset id="fonts" dir="${basedir}/fonts">
+    <include name="*.*"/>
+  </fileset>-->
+  
+  <target name="clean">
+    <description>
+      TARGET clean
+      This target clears out old build products.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Cleaning up content from previous builds..."/>
+    <mkdir dir="${basedir}/products"/>
+    <delete includeemptydirs="true">
+      <fileset dir="${basedir}/products">
+        <include name="*"/>
+        <include name="**/*"/>
+      </fileset>
+    </delete>
+    <!-- Now get the git hash for our build. -->
+    <exec executable="git">
+      <arg value="rev-parse"/>
+      <arg value="--short"/>
+      <arg value="HEAD"/>
+      <redirector output="GITREV"/>
+    </exec>
+  </target>
+  
+  <target name="buildCss">
+    <description>
+      TARGET buildCss
+      This builds the SCSS file to create CSS and map file for the output site.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Building SCSS source to create CSS file in HTML folder."/>
+    <mkdir dir="${basedir}/products/css"/>
+    <exec executable="sass">
+      <arg value="${basedir}/css/endings.scss"/>
+      <arg value="${basedir}/products/css/endings.css"/>
+    </exec>
+  </target>
+ 
   <target name="buildHtml">
     <description>
       TARGET buildHtml
@@ -36,35 +76,21 @@
       before overwriting the originals.
     </description>
     <echo message="${echo.separator}"/>
-    <echo message="Refreshing HTML pages..."/>
-    <xslt destdir="${basedir}/temp"
-      style="${basedir}/xsl/build_html.xsl"
-      extension=".html" classpath="${basedir}/utilities/saxon-he-10.jar"
-      useImplicitFileset="false" 
-      failonerror="true">
-      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-      <fileset refid="htmlFiles"/>
-    </xslt>
-  </target>
-  
-  <target name="overwriteOriginals">
-    <description>
-      TARGET overwriteOriginals
-      This target copies the products in the temp folder back into
-      the original site folder, overwriting the original input files,
-      then deletes the temp files.
-    </description>
-    <copy todir="${basedir}/site">
-      <fileset refid="tempFiles"/>
-    </copy>
-    <delete dir="${basedir}/temp"/>
+    <echo message="Building all the site pages..."/>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="${saxon}" failonerror="true" dir="${basedir}">
+      <arg value="-s:xsl/build_html.xsl"/>
+      <arg value="-xsl:xsl/build_html.xsl"/>
+      <arg value="projDir=${basedir}/"/>
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+    </java>
   </target>
   
   <target name="copyRequiredFiles">
-    <copy todir="${basedir}/site/img">
+    <copy todir="${basedir}/products/img">
       <fileset refid="imgFiles"/>
     </copy>
-    <zip basedir="${basedir}/logos" zipfile="${basedir}/site/logos.zip"/>
+    <copy todir="${basedir}/products" file="${basedir}/logos/favicon.svg"/>
+    <zip basedir="${basedir}/logos" zipfile="${basedir}/products/logos.zip"/>
   </target>
   
   <target name="rsyncToLiveServer">
@@ -83,15 +109,17 @@
       <arg value="--omit-dir-times"/>
       <!--<arg value="-\-delete"/>-->
       <arg line="-e ssh"/>
-      <arg line="site/"/>
+      <arg line="products/"/>
       <arg line="mholmes@nfs.hcmc.uvic.ca:/home1t/endings/www/"/>
     </exec>
   </target>
 
   <target name="all">
-    <description> TARGET all This target runs all the processes defined elsewhere in the file. </description>
+    <description> TARGET all 
+      This target runs all the processes defined elsewhere in the file. </description>
+    <antcall target="clean"/>
+    <antcall target="buildCss"/>
     <antcall target="buildHtml"/>
-    <antcall target="overwriteOriginals"/>
     <antcall target="copyRequiredFiles"/>
   </target>
 

@@ -44,6 +44,9 @@ nav{
         position: relative;
         display: block;
         font-weight: 800;
+        &:hover{
+            color: #008AFF;
+        }
     }
     div>ul{
         list-style-type: none;
