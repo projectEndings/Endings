@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="people" xmlns="http://www.w3.org/1999/xhtml">
     <h1>People</h1>
-    <h3>Building Sustainable Digital Humanities Projects</h3>
+    <h2>Building Sustainable Digital Humanities Projects</h2>
     <main>
         <ul>
             <li><a href="#endings-humanities-faculty">Humanities Faculty</a></li>

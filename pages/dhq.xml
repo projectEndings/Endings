@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="dhq" xmlns="http://www.w3.org/1999/xhtml">
     <h1><i>Digital Humanities Quarterly</i> Special Edition</h1>
-    
     <main>
-        <p>Out of the 2021 Endings symposium we produced a <a href="http://digitalhumanities.org/dhq/vol/17/1/index.html">special issue</a> of the <a href="http://digitalhumanities.org/dhq/"><i>Digital Humanities Quarterly</i></a> entitled <i>Project Resiliency</i>. Our presenters
-            turned their presentations into full articles for the special edition. An
-            additional article focused on technical considerations and the software 
-            and site build processes developed by the Endings team was be contributed
-            by Martin Holmes and Joey Takeda, and a summary of the methodological foundations
-            for our interview process was contributed by Emily Comeau The special edition
-            was edited by Janelle Jenstad, Martin Holmes, and Matt Huculak.</p> 
+        <p>Out of the 2021 Endings <a href="symposium.html">symposium</a> we produced a <a
+                href="http://digitalhumanities.org/dhq/vol/17/1/index.html">special issue</a> of the
+                <a href="http://digitalhumanities.org/dhq/"><i>Digital Humanities Quarterly</i></a>
+            entitled <i>Project Resiliency</i>. Our presenters turned their presentations into full
+            articles for the special edition. An additional article focused on technical
+            considerations and the software and site build processes developed by the Endings team
+            was be contributed by Martin Holmes and Joey Takeda, and a summary of the methodological
+            foundations for our interview process was contributed by Emily Comeau The special
+            edition was edited by Janelle Jenstad, Martin Holmes, and Matt Huculak.</p>
+        <p>See <a href="outputs.html#publications">Publications</a> for a full list of the contents
+            of the special issue.</p>
     </main>
-    
 </body>
