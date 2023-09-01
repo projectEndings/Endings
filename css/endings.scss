@@ -1,13 +1,5 @@
 /*  This will be the source file for creating the CSS which 
  *  reproduces the style from the beautiful-jekyll theme. */
- 
- @font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.eot?v=4.6.0');
-    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal
-}
 
 * {
     box-sizing: border-box;
@@ -15,6 +7,7 @@
 
 html {
   font-size: 10px;
+  scroll-padding-top: 11em;
 }
 
 body {
@@ -60,6 +53,7 @@ nav{
         align-items: center;
         justify-content: right;
         margin: 0;
+        padding-left: 0;
         >li{
             display: inline-block;
         }
@@ -117,7 +111,7 @@ a.current-page {
     padding-bottom: 15px;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
     display: block;
 }
 
@@ -126,7 +120,7 @@ header{
     width: 66%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0.67em;
+    margin-top: 1.67em;
     margin-bottom: 0.67em;
 }
 
@@ -157,6 +151,51 @@ main{
     margin-left: 17%;
     margin-right: 17%;
     width: 66%;
+}
+
+ul.bibliography{
+    list-style-type: none;
+    >li{
+        margin-left: 3em;
+        text-indent: -3em;
+    }
+}
+
+details {
+    margin: 1em;
+    border-bottom: 1px solid #EAEAEA;
+    summary{
+        cursor: pointer;
+    }
+}
+
+table{
+    padding: 0;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    tr{
+        border-top: 1px solid #cccccc;
+        background-color: #ffffff;
+    }
+    tr:nth-child(2n) {
+        background-color: #f8f8f8;
+    }
+    th{
+        font-weight: bold;
+        border: 1px solid #cccccc;
+        text-align: left;
+        padding: 6px 13px;
+    }
+    td{
+        border: 1px solid #cccccc;
+        text-align: left;
+        padding: 6px 13px;
+    }
+}
+
+figure.graph img{
+    max-width: 66vw;
 }
 
 /* Footer stuff. */

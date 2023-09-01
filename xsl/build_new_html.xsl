@@ -69,6 +69,11 @@
     <xsl:param name="contentDocs" as="document-node()*" select="collection($contentDir || '?select=*.xml;recurse=yes')"/>
     
     <xd:doc>
+        <xd:desc>The latest git revision.</xd:desc>
+    </xd:doc>
+    <xsl:param name="gitRev" as="xs:string" select="normalize-space(unparsed-text($projDir || 'GITREV'))"/>
+    
+    <xd:doc>
         <xd:desc>Root template kicks off everything.</xd:desc>
     </xd:doc>
     <xsl:template match="/">
@@ -196,6 +201,8 @@
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:sequence select="$today"/>
+            <xsl:sequence select="'rev.'"/>
+            <xsl:sequence select="$gitRev"/>
         </xsl:copy>
     </xsl:template>
     

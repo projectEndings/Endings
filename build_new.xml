@@ -26,9 +26,9 @@
   </fileset>
   
   <!-- Fonts for the site. -->
-  <fileset id="fonts" dir="${basedir}/fonts">
+<!--  <fileset id="fonts" dir="${basedir}/fonts">
     <include name="*.*"/>
-  </fileset>
+  </fileset>-->
   
   <target name="clean">
     <description>
@@ -44,6 +44,13 @@
         <include name="**/*"/>
       </fileset>
     </delete>
+    <!-- Now get the git hash for our build. -->
+    <exec executable="git">
+      <arg value="rev-parse"/>
+      <arg value="--short"/>
+      <arg value="HEAD"/>
+      <redirector output="GITREV"/>
+    </exec>
   </target>
   
   <target name="buildCss">
@@ -82,9 +89,7 @@
     <copy todir="${basedir}/products/img">
       <fileset refid="imgFiles"/>
     </copy>
-    <copy todir="${basedir}/products/fonts">
-      <fileset refid="fonts"/>
-    </copy>
+    <copy todir="${basedir}/products" file="${basedir}/logos/favicon.svg"/>
     <zip basedir="${basedir}/logos" zipfile="${basedir}/products/logos.zip"/>
   </target>
   
