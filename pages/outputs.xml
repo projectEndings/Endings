@@ -11,7 +11,7 @@
             <p>Our flagship publication is the special edition of <i>Digital Humanities Quarterly</i> entitled
                 <i><a href="http://digitalhumanities.org/dhq/vol/17/1/index.html">Project Resiliency</a></i>, edited by 
                 Martin Holmes, Matt Huculak, and Janelle Jenstad. These are the articles in that issue:</p>
-            <ul>
+            <ul class="bibliography">
                 <li><a href="http://digitalhumanities.org/dhq/vol/17/1/000671/000671.html">Introduction to Special Issue: Project
                     Resiliency in the Digital Humanities</a>. Martin Holmes, University of Victoria Humanities Computing and Media Centre; Janelle Jenstad, University of Victoria Department of English; J. Matthew Huculak, University of Victoria Advanced Research Services &amp; Digital Scholarship Librarian.</li>
                 <li><a href="http://digitalhumanities.org/dhq/vol/17/1/000665/000665.html">The Stories
@@ -39,7 +39,7 @@
             </ul>
             
             <h4>Other publications</h4>
-            <ul> 
+            <ul class="bibliography"> 
                 
                 <li>Arneil, Stewart. 2023. 
                     “Planning for Sustainability: A Reality Check from the Development Team.” <i>IDEAH</i>, Vol 3 Iss./ 5. DOI: <a href="https://doi.org/10.21428/f1f23564.00227403">https://doi.org/10.21428/f1f23564.00227403</a>.</li>
@@ -56,7 +56,7 @@
         
         <div id="presentations">
             <h3>Presentations</h3>
-            <ul>
+            <ul class="bibliography">
                 <li> 
                     Arneil, Stewart, and Martin Holmes. 2017. “Archiving form and function: preserving
                     a 2003 digital project.” DPASSH Conference 2017: Digital Preservation for Social Sciences

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body id="resources" xmlns="http://www.w3.org/1999/xhtml">
+    <h1>Other Resources</h1>
+    <main>
+        <p>As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
+                outcomes</a>, we list here a collection of resources that we have found useful,
+            especially in the early phases of our research.</p>
+        <h3 id="useful-projects">Useful Projects</h3>
+        <ul class="bibliography">
+            <li>
+                The Digital Documentation Process, “Make your DH projects findable, citable, and
+                    stable.” <a href="https://digitalhumanitiesddp.com"
+                        >https://digitalhumanitiesddp.com</a>
+            </li>
+            <li>
+                The Socio-Technical Sustainability Roadmap “[O]ne of the deliverables from the
+                    NEH-funded project, ‘Sustaining MedArt,’ that was housed from 2016-2018 in the
+                    University of Pittsburgh’s Visual Media Workshop (VMW).” It offers a project
+                    survey walkthrough to help you think about the long-term preservation of your
+                    projects. <a href="https://sites.haa.pitt.edu/sustainabilityroadmap/"
+                        >https://sites.haa.pitt.edu/sustainabilityroadmap/</a>
+            </li>
+        </ul>
+        <h3 id="papers--other-publications">Papers &amp; Other Publications</h3>
+        <p>This list demonstrates that preservation has been a concern of the DH community since the
+            late 1990s. We present the list in two parts in order to demonstrate our awareness of
+            the increasing attention to the challenges addressed in our application.</p>
+        
+        <h4 id="part-i-early-warnings-up-to-2005">Part I: Early warnings, up to 2005</h4>
+        
+        <ul class="bibliography">
+        <li>Alemneh D. et al. “A Metadata Approach to Preservation of Digital Resources: The
+            University of North Texas Libraries’ Experience.” <em>First Monday</em> 7.8 (2002). <a
+                href="http://firstmonday.org/ojs/index.php/fm/article/view/981/"
+                >http://firstmonday.org/ojs/index.php/fm/article/view/981</a></li>
+        <li>Arms, William Y. “Preservation of Scientific Serials: Three Current Examples.” <em>The
+                Journal of Electronic Publishing</em> 5.2 (December 1999): 47 pars. <a
+                href="http://quod.lib.umich.edu/j/jep/3336451.0005.202/preservation-of-scientific-serials-three-current-examples?rgn=main;view=fulltext"
+                >http://quod.lib.umich.edu/j/jep/3336451.0005.202/</a></li>
+        <li>Bearman, David. “Reality and Chimeras in the Preservation of Electronic Records.”
+                <em>D-Lib Magazine</em> 5.4 (April 1999): 15 pars. <a
+                href="http://www.dlib.org/dlib/april99/bearman/04bearman.html"
+                >http://www.dlib.org/dlib/april99/bearman/04bearman.html</a></li>
+        <li>Bullock, Alison. <em>Preservation of Digital Information: Issues and Current Status.</em>
+            Network Notes #60. Information Technology Services. National Library of Canada (April
+            22, 1999). <a
+                href="http://epe.lac-bac.gc.ca/100/202/301/netnotes/netnotes-h/notes60.htm"
+                >http://epe.lac-bac.gc.ca/100/202/301/netnotes/netnotes-h/notes60.htm</a></li>
+        <li>Day, Michael. “Metadata for digital preservation: an update.” <em>Ariadne</em> 22 (Dec
+            1999): 39 pars. <a href="http://www.ariadne.ac.uk/issue22/metadata/"
+                >http://www.ariadne.ac.uk/issue22/metadata/</a></li>
+        <li>Hedstrom, Margaret. “Digital Preservation: A Time Bomb for Digital Libraries.”
+                <em>Computers and the Humanities</em>, 31 (1998): 189-202.</li>
+        <li>Hedstrom, Margaret. “The Role of National Initiatives in Digital Preservation.” <em>RLG
+                DigiNews</em> 2. (October 1998): 11 pars. <a
+                href="http://worldcat.org/arcviewer/1/OCC/2007/08/08/0000070519/viewer/"
+                >http://worldcat.org/arcviewer/1/OCC/2007/08/08/0000070519/viewer/</a></li>
+        <li>Hodge, Gail M. “Best Practices for Digital Archiving: An Information Life Cycle
+            Approach.” <em>D-Lib Magazine</em> 6.1 (January 2000): 63 pars. <a
+                href="http://www.dlib.org/dlib/january00/01hodge.html"
+                >http://www.dlib.org/dlib/january00/01hodge.html</a></li>
+        <li>Hodge, Gail and B. C. Carroll. “Digital Electronic Archiving: the State of the Art and
+            the State of the Practice.” Executive summary of <em>A Report Sponsored by International
+                Council for Scientific and Technical Information</em>. Information Policy Committee
+            and CENDI. Information International Associates Inc. 26 April 1999. <a
+                href="http://www.icsti.org/IMG/pdf/digarch99_Exec-2.pdf"
+                >http://www.icsti.org/IMG/pdf/digarch99_Exec-2.pdf</a></li>
+        <li>Landow, G. P. and Delany, P. “Hypertext, Hypermedia and Literary Studies: The State of
+            the Art.” In Paul Delany and George P. Landow (eds.), <em>Hypermedia and Literary
+                Studies</em>. Cambridge, MA: MIT Press, 1991. 3–50.</li>
+        <li>Matthews, G. A. Poulter, and E. Blagg. “Preservation of Digital Materials: Policy and
+            Strategy for the UK.” JISC/NPO Studies on the Preservation of Electronic Materials.
+                <em>British Library Research and Innovation Report</em> 41. British Library Research
+            and Innovation Centre, 1997. <a
+                href="http://www.ukoln.ac.uk/services/papers/bl/blri041/digpres.html"
+                >http://www.ukoln.ac.uk/services/papers/bl/blri041/digpres.html</a></li>
+        <li>Philips, Margaret. “Ensuring Long-Term Access to Online Publications.” <em>Journal of
+                Electronic Publishing</em> 4.4 (June, 1999): 48 pars. <a
+                href="http://quod.lib.umich.edu/j/jep/3336451.0004.405/"
+                >http://quod.lib.umich.edu/j/jep/3336451.0004.405/</a></li>
+        <li>Rothenberg, Jeff. “Avoiding Technological Quicksand: Finding a Viable Technical
+            Foundation for Digital Preservation.” A Report to the Council on Library and Information
+            Resources. Commission on Preservation and Access, January 1999. <a
+                href="http://www.clir.org/pubs/reports/rothenberg/contents.html"
+                >http://www.clir.org/pubs/reports/rothenberg/contents.html</a></li>
+        <li>Rothenberg, J. and T. Bikson. “Carrying Authentic, Understandable and Usable Digital
+            Records Through Time.” Report to the Dutch National Archives and Ministry of the
+            Interior. <em>RAND- Europe</em>, 6 Aug 1999. <a
+                href="http://www.rand.org/pubs/rand_europe/RE99-016.html"
+                >http://www.rand.org/pubs/rand_europe/RE99-016.html</a></li>
+        <li>Rothenberg, Jeff. “An Experiment in Using Emulation to Preserve Digital Publications.”
+            The Koninklijke Bibliotheek. RAND-Europe The Koninklijke Bibliotheek Den Haag, April
+            2000. <a href="http://www.kb.nl/sites/default/files/docs/NEDLIBemulation.pdf"
+                >http://www.kb.nl/sites/default/files/docs/NEDLIBemulation.pdf</a></li>
+        <li>Siemens, Raymond (Project Coordinator), Michael Best, Alan Burk, Elizabeth Grove-White,
+            Jean-Claude Guédon, James Kerr, Andy Pope, Geoffrey Rockwell, Lynne Siemens. <em>The
+                Credibility of Electronic Publishing.</em> Report for the Humanities and Social
+            Sciences Federation of Canada, 2000. <a
+                href="http://internetshakespeare.uvic.ca/Annex/Articles/Tassie/cred/"
+                >http://internetshakespeare.uvic.ca/Annex/Articles/Tassie/cred/</a></li>
+        <li>Smith, Abbey. “Preservation in the Future Tense.” <em>CLIR Issues</em> 3 (May/June 1998):
+            46 pars. <a href="https://www.clir.org/1998/05/clir-issues-number-3/"
+                >https://www.clir.org/1998/05/clir-issues-number-3/</a></li>
+        <li>Social Sciences and Humanities Research Council. <em>National Research Data Archive
+                Consultation Phase One: Needs Assessment Report</em>. May 2001. <a
+                href="http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/da_phase1_e.pdf"
+                >http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/da_phase1_e.pdf</a></li>
+        <li>Social Sciences and Humanities Research Council. <em>Final Report. National Data Archive
+                Consultation. Building Infrastructure for Access to and Preservation of Research
+                Data</em>. Submitted by the NDAC Working Group to the Social Sciences and Humanities
+            Research Council of Canada and the National Archivist of Canada. June 2002. <a
+                href="http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/da_finalreport_e.pdf"
+                >http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/da_finalreport_e.pdf</a></li>
+        </ul>
+        
+        <h4 id="part-ii-2005-onwards">Part II: 2005 onwards</h4>
+        
+<ul class="bibliography">        
+        <li>ArchiveReady.com: Website Archivability Testing Tool, 20 August 2015. <a
+                href="http://archiveready.com/">http://archiveready.com/</a></li>
+        <li>“Assessing Long Term Access from Short Term Digitization Projects.” University of London
+            Computing Centre in <em>Digital Preservation Case Notes</em> , 14 December 2010. Digital
+            Preservation Coalition (DCP). <a href="http://www.dpconline.org/advice/case-notes"
+                >http://www.dpconline.org/advice/case-notes</a></li>
+        <li>Ball, Alex. <em>Preservation and Curation in Institutional Repositories</em>. Bath, UK:
+            UKOLN, 2010. <a
+                href="http://www.dcc.ac.uk/sites/default/files/documents/reports/irpc-report-v1.3.pdf"
+                >http://www.dcc.ac.uk/sites/default/files/documents/reports/irpc-report-v1.3.pdf</a></li>
+        <li>Beagrie et al. “Keeping Data Research Safe 2.” JISC Research Study, 31 July 2009. <a
+                href="http://www.data-archive.ac.uk/media/1687/KRDS2_finalreport.pdf"
+                >http://www.data-archive.ac.uk/media/1687/KRDS2_finalreport.pdf</a></li>
+        <li>Brown, Susan, P. Clements, I. Grundy, S. Ruecker, J. Antoniuk and S. Balazs. “Published
+            Yet Never Done: The Tension Between Projection and Completion in Digital Humanities
+            Research.” <em>Digital Humanities Quarterly</em> 3.2 (2009). <a
+                href="http://www.digitalhumanities.org/dhq/vol/3/2/"
+                >http://www.digitalhumanities.org/dhq/vol/3/2/</a></li>
+        <li>Burkhardt, Marcus. “Improvements to the Usability of Software Collections Will Unlock the
+            Potential of Open Digital Archives.” Impact of Social Sciences, LSE Impact Blog, 27 May
+            2013. <a
+                href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/05/27/usability-of-software-"
+                >http://blogs.lse.ac.uk/impactofsocialsciences/2013/05/27/usability-of-software-</a>
+            collections/</li>
+        <li>Burrows, T. “Sharing Humanities Data for e-Research. Conceptual and Technical Issues.” In
+                <em>Sustainable Data from Digital Research. Humanities Perspectives on Digital
+                Scholarship. Proceedings of the Conference Held at the University of Melbourne,
+                12-14th December 2011</em>. Sydney: Custom Book Centre. <a
+                href="https://research-repository.uwa.edu.au/en/publications/sharing-humanities-data-for-e-research-conceptual-and-technical-i"
+                >https://research-repository.uwa.edu.au/en/publications/sharing-humanities-data-for-e-research-conceptual-and-technical-i</a></li>
+        <li>Caplan, Priscilla. “The Florida Digital Archive and DAITSS: A Working Preservation
+            Repository Based on Format Migration.” <em>International Journal on Digital
+                Libraries</em> 6.4 (2007): 305-311. <a
+                href="http://link.springer.com/content/pdf/10.1007%2Fs00799-007-0009-6.pdf"
+                >http://link.springer.com/content/pdf/10.1007%2Fs00799-007-0009-6.pdf</a></li>
+        <li>Canadian Research Data Summit 2011. <em>Mapping the Data Landscape</em>. <a
+                href="http://longrangeplan.ca/wp-content/uploads/2010/10/Data_Summit_Report.pdf"
+                >http://longrangeplan.ca/wp-content/uploads/2010/10/Data_Summit_Report.pdf</a></li>
+        <li>Chawner, Brenda, and Rowena Cullen. “Institutional Repositories in New Zealand: Comparing
+            Institutional Strategies for Digital Preservation and Discovery.” ResearchArchive @
+            Victoria, 2008. <a href="http://researcharchive.vuw.ac.nz/handle/10063/277"
+                >http://researcharchive.vuw.ac.nz/handle/10063/277</a></li>
+        <li>Conway, P. “Preservation in the Age of Google: Digitization, Digital Preservation, and
+            Dilemmas.” The Library Quarterly 80.1 (2010): 61-79. <em>Data Center for the
+                Humanities</em> (DCH). June 2013. <a href="http://www.dch.uni-koeln.de"
+                >http://www.dch.uni-koeln.de</a></li>
+        <li>Davis, Corey. “Archiving the Web: A Case Study from the University of Victoria.
+                <em>Code{4}Lib Journal</em> , 26. (October 2014). <a
+                href="https://journal.code4lib.org/articles/10015"
+                >https://journal.code4lib.org/articles/10015</a></li>
+        <li>De Leeuwe, Just, and Mirella Van der Velde. “From Repository to Eternity: From Delft
+            Repository to DARE—The Developments of OAI in the Netherlands.” <em>Serials: The Journal
+                for the Serials Community</em> 19, no. 2 (2006): 156-160.</li>
+        <li><em>Digital Preservation Handbook.</em> Digital Preservation Coalition (DCP). 2012. <a
+                href="http://www.dpconline.org/advice/preservationhandbook"
+                >http://www.dpconline.org/advice/preservationhandbook</a></li>
+        <li><em>Digital Preservation Management: Implementing Short-term Strategies for Long-term
+                Problems.</em> Workshop, Cornell University Library, 2003-2007. <a
+                href="http://dpworkshop.org/dpm-eng/eng_index.html"
+                >http://dpworkshop.org/dpm-eng/eng_index.html</a></li>
+        <li>D’Iorio, P. “Scholarly Information Management: A Proposal in Connexions.”
+                <em>OpenStax-CNX</em>. 14 May 2010. <a href="http://cnx.org/content/m34327/1.2/"
+                >http://cnx.org/content/m34327/1.2/</a></li>
+        <li>Downs, Robert R., and Robert S. Chen. “Self-Assessment of a Long-Term Archive for
+            Interdisciplinary Scientific Data as a Trustworthy Digital Repository.” <em>Journal of
+                Digital Information</em> 11.1 (2010). <a
+                href="http://journals.tdl.org/jodi/article/view/"
+                >http://journals.tdl.org/jodi/article/view/</a></li>
+        <li>Durno, John, and Jerry Trofimchuk. “Digital Forensics on a Shoestring: A Case Study from
+            the University of Victoria.” <em>Cod{4}Lib Journal</em> 27 (January 2015). <a
+                href="http://journal.code4lib.org/articles/10279"
+                >http://journal.code4lib.org/articles/10279</a></li>
+        <li>Goethals, Andrea et al. “Facing the Challenge of Web Archives Preservation
+            Collaboratively: The Role and Work of the IIPC Preservation Working Group.” <em>D-Lib
+                Magazine</em> 21.5-6 (May/June 2015). <a
+                href="http://www.dlib.org/dlib/may15/goethals/05goethals.html"
+                >http://www.dlib.org/dlib/may15/goethals/05goethals.html</a></li>
+        <li>Green, Ann, Stuart Macdonald and Robin Rice. <em>Policy-making for Research Data in
+                Repositories: A Guide</em>. 2009. <a
+                href="http://www.coar-repositories.org/files/guide.pdf"
+                >http://www.coar-repositories.org/files/guide.pdf</a></li>
+        <li>Grotke, Abbie. “Web Archiving at the Library of Congress.” LOC website, 2 August 2014. <a
+                href="http://www.infotoday.com/cilmag/dec11/Grotke.shtml"
+                >http://www.infotoday.com/cilmag/dec11/Grotke.shtml</a></li>
+        <li>Hitchcock, Steve, David Tarrant, and L. Carr. <em>Towards Repository Preservation
+                Services: Final Report from the JISC Preserv 2 Project</em>. London: JISC, 2009. <a
+                href="http://ie-repository.jisc.ac.uk/381/"
+            >http://ie-repository.jisc.ac.uk/381/</a></li>
+        <li>Hockx-Yu, Helen. “Digital Preservation in the Context of Institutional Repositories.”
+                <em>Program: _Electronic Library and Information Systems</em> 40.3 (2006): 232-243.
+                <a href="http://eprints.rclis.org/8189">http://eprints.rclis.org/8189</a></li>
+        <li>Hrynaszkiewicz, Iain. “Data Descriptors: Providing the Necessary Information to Make Data
+            Open, Discoverable and Reusable.” Impact of Social Sciences, LSE Impact Blog, 22 October
+            2014. <a
+                href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/10/22/data-descriptors-open-discoverable-nature/"
+                >http://blogs.lse.ac.uk/impactofsocialsciences/2014/10/22/data-descriptors-open-discoverable-nature/</a></li>
+        <li>Humphrey, Chuck. <em>Preserving Research Data in Canada: The Long Tale of Data</em> Blog,
+            December 2012-present. <a href="http://preservingresearchdataincanada.net/"
+                >http://preservingresearchdataincanada.net/</a></li>
+        <li>International Internet Preservation Coalition. <a href="http://www.netpreserve.org/"
+                >http://www.netpreserve.org/</a></li>
+        <li>InterPARES 3 Team Canada (International Research on Permanent Authentic Records in
+            Electronic Systems). <em>Case Study 09: Alma Mater Society of The University of British
+                Columbia: Policies and Procedures for Web Site Preservation</em>. May 2013. <a
+                href="http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf"
+                >http://www.interpares.org/ip3/display_file.cfm?doc=ip3_canada_cs09_wks02_action_25_v1-3.pdf</a></li>
+        <li>JISC. e-Science Curation Report. <em>Data Curation for e-Science in the UK: An Audit to
+                Establish Requirements for Future Curation and Provision</em>. 2003. <a
+                href="http://www.jisc.ac.uk/uploaded_documents/e-ScienceReportFinal.pdf"
+                >http://www.jisc.ac.uk/uploaded_documents/e-ScienceReportFinal.pdf</a></li>
+        <li>Kenney, Anne R. and Nancy Y. McGovern. “The Five Organizational Stages of Digital
+            Preservation.” <em>Digital Libraries: A Vision for the Twenty-first Century</em>. Ann
+            Arbor: University of Michigan Scholarly Monograph Series, 2003.</li>
+        <li>Kirschenbaum, Matthew G. “Done: Finishing Projects in the Digital Humanities.”
+            Introduction to special issue of <em>Digital Humanities Quarterly</em> 3.2 (2009). <a
+                href="http://www.digitalhumanities.org/dhq/vol/3/2/000037/000037.html"
+                >http://www.digitalhumanities.org/dhq/vol/3/2/000037/000037.html</a></li>
+        <li>Knight, Gareth, and Sheila Anderson. <em>SHERPA Digital Perservation: Final Report</em>.
+            London: JISC, 2007. <a
+                href="http://www.jisc.ac.uk/publications/documents/sherpadpfinalreport.aspx"
+                >http://www.jisc.ac.uk/publications/documents/sherpadpfinalreport.aspx</a></li>
+        <li>Kretzschmar, William A. “It’s For Sale, So It Must Be Finished: Digital Projects in the
+            Scholarly Publishing World.” <em>Digital Humanities Quarterly</em> 3.2 (2009). <a
+                href="http://www.digitalhumanities.org/dhq/vol/3/2/000039/000039.html"
+                >http://www.digitalhumanities.org/dhq/vol/3/2/000039/000039.html</a></li>
+        <li>Kretzschmar, W. Jr. and Potter W. “Library Collaboration with Large Digital Humanities
+            Projects.” Literary and Linguistic Computing 24.4 (2010): 439-445.</li>
+        <li>Maron, Nancy L. , Sarah Pickle, preface by Deanna Marcum. <em>Searching for
+                Sustainability: Strategies from Eight Digitized Special Collections.</em> Ithaka S +
+            R, 20 November 2013. <a
+                href="http://www.sr.ithaka.org/research-publications/searching-sustainability"
+                >http://www.sr.ithaka.org/research-publications/searching-sustainability</a></li>
+        <li>Maron, Nancy L. and Sarah Pickle. <em>Sustaining the Digital Humanities</em>. Ithaka S +
+            R, 18 June 2014. <a
+                href="http://www.sr.ithaka.org/research-publications/sustaining-digital-humanities"
+                >http://www.sr.ithaka.org/research-publications/sustaining-digital-humanities</a></li>
+        <li>Maron , Nancy L, Jason Yun and Sarah Pickle. <em>Sustaining our Digital Future:
+                Institutional Strategies for Digital Content</em>. JISC, Strategic Content Alliance
+            and Ithaka S + R. January 29, 2013. <a
+                href="http://www.sr.ithaka.org/research-publications/sustaining-our-digital-future"
+                >http://www.sr.ithaka.org/research-publications/sustaining-our-digital-future</a></li>
+        <li>Molloy, L. “Oh, the Humanities! A Discussion about Research Data Management for the Arts
+            and Humanities Disciplines.” In: JISC MRD - <em>Evidence Gathering</em> 2011. <a
+                href="http://mrdevidence.jiscinvolve.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-research-data-management-for-the-arts-and-humanities-disciplines/"
+                >http://mrdevidence.jiscinvolve.org/wp/2011/12/16/oh-the-humanities-a-discussion-about-</a></li>
+        <li>Morreale, Laura K. “Medieval Digital Humanities and The Rite of Spring: Thoughts on
+            Performance and Preservation.” In: <em>The Digital Medieval: New Directions in Medieval
+                History and the Digital Humanities</em>. Walter Prescott Webb Memorial Lectures 53,
+            College Station: Texas A&amp;M University Press, forthcoming. <a
+                href="https://osf.io/preprints/bodoarxiv/7p2t6/"
+                >https://osf.io/preprints/bodoarxiv/7p2t6/</a></li>
+        <li>Munoz, Trevor. “Stewarding Digital Humanities Work on the Web at MITH.” Maryland
+            Institute for Technology in the Humanities, 15 June 2015. <a
+                href="http://mith.umd.edu/stewarding-digital-humanities-work-on-the-web-at-mith/"
+                >http://mith.umd.edu/stewarding-digital-humanities-work-on-the-web-at-mith/</a></li>
+        <li>Nowiskie, Bethany and Dot Porter. “The Graceful Degradation Survey: Managing Digital
+            Humanities Projects Through Times of Transition and Decline.” <em>Digital
+                Humanities</em> conference 2010, King’s College London. <a
+                href="http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-722.html"
+                >http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-722.html</a></li>
+        <li>Nowviskie, Bethany. “Digital Humanities in the Anthropocene.” Keynote address, Digital
+            Humanities conference, Lausanne, Switzerland, 9 July 2014. Available at <a
+                href="http://nowviskie.org/2014/anthropocene/"
+                >http://nowviskie.org/2014/anthropocene/</a></li>
+        <li>Palmer, Carole L., Nicholas M. Weber, Trevor Munoz and Allen H. Renear. “Foundations of
+            Data Curation: The Pedagogy and Practice of ‘Purposeful Work’ with Research Data.”
+                <em>Archive Journal</em> 3 (Summer 2013). <a
+                href="http://www.archivejournal.net/issue/3/archives-remixed/foundations-of-data-curation-the-pedagogy-and-practice-of-purposeful-work-with-research-data/"
+                >http://www.archivejournal.net/issue/3/archives-remixed/foundations-of-data-curation-the-pedagogy-and-practice-of-purposeful-work-with-research-data/</a></li>
+        <li>Pitti, Daniel. “Designing Sustainable Projects and Publications.” In <em>A Companion to
+                Digital Humanities.</em> Susan Schreibman, Ray Siemens and John Unsworth (eds.).
+            Oxford: Blackwell, 2004. <a href="http://digitalhumanities.org/companion/"
+                >http://digitalhumanities.org/companion/</a></li>
+        <li>Prieto, Adolfo G. “From Conceptual to Perceptual Reality: Trust in Digital Repositories.”
+                <em>Library Review</em> 58.8 (2009): 593-606.</li>
+        <li>Reed, Ashley. “Managing an Established Digital Humanities Project: Principles and
+            Practices from the Twentieth Year of the William Blake Archive.” Digital Humanities
+            Quarterly, vol. 008, no. 1, Apr. 2014. <a
+                href="http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html"
+                >http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html</a></li>
+        <li>Research Data Canada, Research Data Strategy Working Group. <em>Stewardship of Research
+                Data in Canada: A Gap Analysis</em>. 2008. <a
+                href="http://datalib.library.ualberta.ca/data/GapAnalysis.pdf"
+                >http://datalib.library.ualberta.ca/data/GapAnalysis.pdf</a></li>
+        <li>Rieger, Oya and Mickey Casad. “Interactive Digital Media Art Survey: Key Findings and
+            Observations.” Digital Scholarship and Preservation Services Press. Blog post, July 30
+            2014. <a
+                href="https://blogs.cornell.edu/dsps/2014/07/30/interactive-digital-media-art-survey-key-findings-and-observations/"
+                >https://blogs.cornell.edu/dsps/2014/07/30/interactive-digital-media-art-survey-key-findings-and-observations/</a></li>
+        <li>Rockwell, Geoffrey, Shawn Da, Joyce Yu and Maureen Engel. “Burying Dead Projects:
+            Depositing the Globalization Compendium.” <em>Digital Humanities Quarterly</em> 8.2
+            (2014). <a href="http://digitalhumanities.org:8081/dhq/vol/8/2/000179/000179.html"
+                >http://digitalhumanities.org:8081/dhq/vol/8/2/000179/000179.html</a></li>
+        <li>Rumsey, Sally, and Ben O’Steen. “OAI-ORE, PRESERV2 and Digital Preservation.”
+                <em>Ariadne</em> , no. 57 (2008). <a
+                href="http://www.ariadne.ac.uk/issue57/rumsey-osteen/"
+                >http://www.ariadne.ac.uk/issue57/rumsey-osteen/</a></li>
+        <li>Saachi, Simone. “What Do We Mean by ‘Preserving Digital Information’? Towards Sound
+            Conceptual Foundations for Digital Stewardship.” PhD thesis, University of Illinois at
+            Urbana-Champaign, 2015. Columbia University Academic Commons.
+            academiccommons.columbia.edu/catalog/a</li>
+        <li>Sahle, Patrick, Simone Kronenwett and J. Blumtritt. “Sustainability?! Four Paradigms for
+            Humanities Data Centers.” <em>Digital Humanities</em> conference 2014, Lausanne,
+            Switzerland. <a href="http://dharchive.org/paper/DH2014/Poster-285.xml"
+                >http://dharchive.org/paper/DH2014/Poster-285.xml</a></li>
+        <li>Sewell, David. “Large-Scale Humanities Computing Projects: Snakes Eating Tails, or Every
+            End is a New Beginning?” <em>Digital Humanities Quarterly</em> 3.2 (2009). <a
+                href="http://www.digitalhumanities.org/dhq/vol/3/2/000039/000039.html"
+                >http://www.digitalhumanities.org/dhq/vol/3/2/000039/000039.html</a></li>
+        <li>Siemens, Lynne. (ed.). <em>Issues in Large Project Planning and Management</em>. Digital
+            Humanities Summer Institute. Victoria (2009).</li>
+        <li>Sinclair, Stéfan and Geoffrey Rockwell. “Towards an Archaeology of Text Analysis Tools.”
+            Conference paper, Digital Humanities conference, Lausanne, Switzerland, July 2014. <a
+                href="https://dh2014.files.wordpress.com/2014/07/dh2014_abstracts_proceedings_07-11.pdf"
+                >https://dh2014.files.wordpress.com/2014/07/dh2014_abstracts_proceedings_07-11.pdf</a></li>
+        <li>Smith, MacKenzie. “Exploring Variety in Digital Collections and the Implications for
+            Digital Preservation.” <em>Library Trends</em> 54.1 (2005): 6-15. <a
+                href="https://dspace.mit.edu/handle/1721.1/30592"
+                >https://dspace.mit.edu/handle/1721.1/30592</a></li>
+        <li>Social Sciences and Humanities Research Council. <em>Draft Tri-Agency Statement of
+                Principles on Digital Data Management.</em> 20 July 2015. <a
+                href="https://www.science.gc.ca/eic/site/063.nsf/eng/h_83F7624E.html"
+                >https://www.science.gc.ca/eic/site/063.nsf/eng/h_83F7624E.html</a></li>
+        <li>Social Sciences and Humanities Research Council. Image, Text, Sound, Technology Program.
+            SSHRC Awards Search Engine (1998-2013). <a
+                href="http://www.outil.ost.uqam.ca/CRSH/RechProj.aspx"
+                >http://www.outil.ost.uqam.ca/CRSH/RechProj.aspx</a></li>
+        <li>Social Sciences and Humanities Research Council. <em>Reports on Plans and Priorities</em>
+            , 2013- Part III. 6 September 2013. <a
+                href="http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/rpp/2013-2014/rpp-eng.aspx"
+                >http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/rpp/2013-2014/rpp-eng.aspx</a></li>
+        <li>Social Sciences and Humanities Research Council, <em>et al</em>. <em>Capitalizing on Big
+                Data: Toward a Policy Framework for Advancing Digital Scholarship in Canada.</em> 16
+            October 2013. <a
+                href="http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/digital_scholarship_consultation_e.pdf"
+                >http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/digital_scholarship_consultation_e.pdf</a></li>
+        <li>Social Sciences and Humanities Research Council. <em>Research Data Archiving Policy</em>.
+            4 April 2014. <a
+                href="http://www.sshrc-crsh.gc.ca/about-au_sujet/policies-politiques/statements-enonces/edata-donnees_electroniques-eng.aspx"
+                >http://www.sshrc-crsh.gc.ca/about-au_sujet/policies-politiques/statements-enonces/edata-</a></li>
+        <li><em>Sustainable Economics for a Digital Planet: Ensuring Long-Term Access to Digital
+                Information</em>. Final Report of the Blue Ribbon Task Force on Sustainable Digital
+            Preservation and Access, 2010. <a
+                href="http://brtf.sdsc.edu/biblio/BRTF_Final_Report.pdf"
+                >http://brtf.sdsc.edu/biblio/BRTF_Final_Report.pdf</a></li>
+        <li>TAPAS Project (Text Encoding Initiative <em>Archiving Publishing and Access Service).
+                (Launch planned Fall 2014.</em>
+            <a href="http://tapasproject.org/">http://tapasproject.org/</a></li>
+        <li>Thaller, M. et al. “DA-NRW: A Distributed Architecture for Long-Term Preservation.”
+                <em>Proceedings of the 1st International Workshop on Semantic Digital Archives</em>.
+            2011. <a href="http://ceur-ws.org/Vol-801/paper13.pdf"
+                >http://ceur-ws.org/Vol-801/paper13.pdf</a></li>
+        <li><em>UK Data Archive</em>. 2002-2014. <a href="http://www.data-archive.ac.uk/"
+                >http://www.data-archive.ac.uk/</a></li>
+        <li>Van den Eyden, V. “Data Management Practices in the Social Sciences.” Colchester: UK Data
+            Archive Report, 2010. <a
+                href="http://www.data-archive.ac.uk/media/203597/datamanagement_socialsciences.pdf"
+                >http://www.data-archive.ac.uk/media/203597/</a></li>
+        <li>Van den Eynden, V., L. Corti and M. Woollard et al. “Managing and Sharing Data 2011: Best
+            Practice for Researchers.” Colchester: UK Data Archive Report, 2011. <a
+                href="http://www.data-archive.ac.uk/media/2894/managingsharing.pdf"
+                >http://www.data-archive.ac.uk/media/2894/managingsharing.pdf</a></li>
+        <li>Venkataraman, Bina. “The Race to Preserve Disappearing Data.” <em>Boston Globe</em> 17
+            May 2015. https://www.bostonglobe.com/ideas/2015/05/16/the-race-preserve-disappearing-
+            data/0KPHAx5iK6jaLIvWQqIl4O/story.html** [Elizabeth tweeted this article when it came
+            out in May. Not very scholarly, but some excellent quotations, such as “Digital
+            preservation is essentially a hot potato problem, where everyone wants to pass
+            responsibility onward” (Francine Berman, chair of the Research Data Alliance and
+            professor of computer science at Rensselaer Polytechnic Institute).]</li>
+        <li>Vila, Camille. The Cost of Customization: Building, Maintaining, and Sustaining DH
+            Projects. Berkeley Digital Humanities, 23 April 2015. <a
+                href="http://digitalhumanities.berkeley.edu/blog/15/04/23/cost-customization-building-maintaining-and-sustaining-dh-projects"
+                >http://digitalhumanities.berkeley.edu/blog/15/04/23/cost-customization-building-maintaining-and-sustaining-dh-projects</a></li>
+        </ul>
+        
+        <!-- MDH: I don't believe this is really meaningful; projects should list their own publications
+             and most of these are irrelevant to Endings. -->
+        <!--<h3 id="digital-humanities-contributions-emanating-from-our-case-study-projects">Digital Humanities Contributions Emanating from Our Case Study Projects</h3> 
+        <p>(including conference papers, marked [C])</p> 
+        <h3 id="the-robert-graves-diary-project"><em>The Robert Graves Diary Project</em></h3> 
+        <p><strong>[C]</strong> Grove-White, Elizabeth. “Authorship, Collaboration and ‘Radiant Textuality’: Reflections
+            on Robert Graves’ Diaries and <em>Epilogue</em> .” Robert Graves and the Art of Collaboration, Conference of the Robert Graves Society.
+            Mallorca, Spain, July 2006.</p> 
+        <p><strong>[C]</strong> Grove-White, Elizabeth. “Developing TEI Ontologies for Diurnal Records: Robert Graves
+            Diary Case Study.” Digital Humanities Observatory/NINEs, Summer Workshop. Royal Irish
+            Academy, July 2009. (Led directly to the Irish partnership for the public humanities
+            <em>Letters of 1916</em> project. <a href="http://dh.tcd.ie/letters1916/"><del>http://dh.tcd.ie/letters1916/</del></a>
+            New link: <a href="http://dh.tcd.ie/letters1916/">http://letters1916.maynoothuniversity.ie/</a></p> 
+        <p><strong>[C]</strong> Grove-White, Elizabeth. “Robert Graves’s Irish Inheritances.” Robert Graves and Ireland:
+            A Symposium. Queen’s University of Belfast, November 2011.</p> 
+        <h3 id="the-nxaamxcín-database-and-dictionary"><em>The Nxa’amxcín Database and Dictionary</em></h3> 
+        <p><strong>[C]</strong> Holmes, Martin, and Greg Newton. “Rescuing Old Data: Case Studies, Tools and Techniques.”
+            Digital Humanities 2008. Oulu, Finland, June 2008. <a href="http://www.ekl.oulu.fi/dh2008/">http://www.ekl.oulu.fi/dh2008/</a> Digital%20Humanities%202008%20Book%20of%20Abstracts.pdf</p> 
+        <p><strong>[C]</strong> Holmes, Martin, and Ewa Czaykowska-Higgins. “Technology in Documentation: TEI and
+            the Nxa’amxcín Dictionary.” 3rd International Conference on Language Documentation
+            and Conservation (ICLDC 3). University of Hawaii, March 2013. https:// scholarspace.manoa.hawaii.edu/bitstream/handle/10125/26189/26189.pdf</p> 
+        <p><strong>[C]</strong> Holmes, Martin, Ewa Czaykowska-Higgins, and Sarah Kell. “Interoperability in Practice:
+            The Nxa’amxcín Dictionary.” Canadian Society for Digital Humanities (CSDH/SCHN), Congress
+            of the CFHSS. Victoria, BC, June 2013.</p> 
+        <p>Czaykowska-Higgins, Ewa, Martin Holmes, and Sarah Kell. “Technology in Documentation:
+            TEI and the Nxa’amxcín Dictionary.” <em>Language Documentation and Conservation</em> 8 (March 2014): 1-37. <a href="http://scholarspace.manoa.hawaii.edu/bitstream/handle/10125/4604/czaykowska.pdf">http://scholarspace.manoa.hawaii.edu/bitstream/handle/10125/4604/czaykowska.pdf</a></p> 
+        <h3 id="le-mariage-sous-lancien-régime"><em>Le Mariage sous l’Ancien Régime</em></h3> 
+        <p>Carlin, Claire. “Drawing Knowledge from Information: Early Modern Texts on the TAPoR
+            Platform,” <em>Text Technololgy 1</em> (2005): 13-20.</p> 
+        <p><strong>[C]</strong> Holmes, Martin, Claire Carlin, and Eric Haswell. “Problems with Marriage: Annotating
+            Seventeenth-century French Engravings with TEI and SVG.” Digital Humanities 2006.
+            Paris, France, July 2006. <a href="http://www.allc-ach2006.colloques.paris-sorbonne.fr/DHs.pdf">http://www.allc-ach2006.colloques.paris-sorbonne.fr/DHs.pdf</a></p> 
+        <p><strong>[C]</strong> Holmes, Martin, and Claire Carlin. “Domstic Strife in Early Modern Europe: Images
+            and Texts in a Virtual Anthology.” Digital Humanities 2008. Oulu, Finland, June 2008.
+            <a href="http://www.ekl.oulu.fi/dh2008/Digital%20Humanities%202008%20Book%20of%20Abstracts.pdf">http://www.ekl.oulu.fi/dh2008/Digital%20Humanities%202008%20Book%20of%20Abstracts.pdf</a></p> 
+        <p><strong>[C]</strong> Holmes, Martin. “Using the Universal Similarity Metric to Map Correspondences between
+            Witnesses.” Digital Humanities 2010. London, England. July, 2010. <a href="http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-693.html">http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-693.html</a></p> 
+        <p>Holmes, Martin, and Laurent Romary. “Encoding Models for Scholarly Literature”. <em>E- Publishing and Digital Libraries: Legal and Organizational Issues</em>. Eds. Ioannis Iglezakis, Tatiana-Eleni Synodinou, and Sarantos Kapidakis. Hershey,
+            PA: Information Science Reference, 2011. <a href="http://hal.archives-ouvertes.fr/hal-00390966/fr/">http://hal.archives-ouvertes.fr/hal-00390966/fr/</a></p> 
+        <p><strong>[C]</strong> Holmes, Martin, and Megan Timney. “Image Markup Tool 2.0.” Digital Humanities 2011.
+            Stanford,CA, June 2011. <a href="http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-128.xml">http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-128.xml</a></p> 
+        <h3 id="the-map-of-early-modern-london"><em>The Map of Early Modern London</em></h3> 
+        <p>(includes invited lectures, marked [L])</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “Mapping Early Modern London: A Hypertext Atlas Project.” <em>City Limits? The European City, 1400-1900</em>. University of Manitoba,Winnipeg, October 2004.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “The Map of Early Modern London: Navigating the World We Have Lost.”
+            Renaissance Society of America. San Francisco, March 2006.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle, and Stewart Arneil, Humanities Computing and Media Centre. “Interface
+            Design for Humanities Visualization,” course at Digital Humanities Summer Institute.
+            University of Victoria, June 2007.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “Map of Early Modern London: Project Demonstration and Reflections.”
+            “New Directions in Digital Humanities Scholarship” Symposium, Council on Library and
+            Information Resources (CLIR) and Graduate School of Library and Information Science.
+            University of Illinois at Urbana-Champaign, February 2009.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle, and Tracey Hill (Bath Spa University). “‘Our devices for that solemne
+            and Iouiall daye’: Collaboration in the Making of the Early Modern Lord Mayor’s Show.”
+            North American Conference on British Studies. Baltimore, November 2010.</p> 
+        <p>Jenstad, Janelle. “Using Early Modern Maps in Literary Studies: Views and Caveats
+            from London.” <em>New Directions in the Geohumanities: Art, Text, and History at the Edge of Place</em>. Ed. Michael Dear, Jim Ketchum, Sarah Luria, and Douglas Richardson. New York: Routledge,
+            2011. 112-19.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “Mapping the Literary Culture of Early Modern London.” Université
+            Paul- Valéry, Montpellier, France, November 2011.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “The Pleasures and Perils of Starting a DH Project: Reflections
+            on Gender, Work, and Tenure from an Accidental Digital Humanist.” Keynote Address,
+            Humanities Computing Conference. University of Alberta, March 2012.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “Mobilizing Student Scholarship for <em>The Map of Early Modern London</em> .” For “Building Digital Humanities in the Undergraduate Classroom: An Electronic
+            Roundtable.” Modern Language Associate. Seattle, December 2012.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “Looking for the Forest in XML Trees, or, Where’s London in the
+            Map of Early Modern London?” Inaugural George Washington University Digital Humanities
+            Symposium, 24 January 2013.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “Georeferencing the Agas Map.” Renaissance Studies and New Technologies
+            session, Renaissance Society of America. San Diego, April 2013.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “Versioning John Stow’s <em>A Survey of London</em> , or, What’s New in 1618 and 1633?” Bibliographical Society of Canada. Congress of
+            the CFHSS. Victoria, BC, June 2013.</p> 
+        <p><strong>[C]</strong> Holmes, Martin, Janelle Jenstad, Nathan Phillips, Sarah Milligan, and Cameron Butt.
+            “Encoding Historical Dates Correctly: Is It Practical, and Is It Worth It?” Digital
+            Humanities 2013. Lincoln, Nebraska, July 2013. <a href="http://dh2013.unl.edu/abstracts/ab-179.html">http://dh2013.unl.edu/abstracts/ab-179.html</a></p> 
+        <p><strong>[C]</strong> Holmes, Martin and Janelle Jenstad. “Practical Interoperability: The Map of Early
+            Modern London and the Internet Shakespeare Editions.” Digital Humanities 2013. Lincoln,
+            Nebraska, July 2013. <a href="http://dh2013.unl.edu/abstracts/ab-180.html">http://dh2013.unl.edu/abstracts/ab-180.html</a></p> 
+        <p><strong>[C]</strong> Jenstad, Janelle. “GIS, Spatial Narratives, and Interdisciplinarity.” Workshop on
+            Mapping Geo-Cultural Space. University of Queensland, August 8–9, 2013.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “Networks and Neighbourhoods in Early Modern London.” Catapult
+            Center for Digital Humanities and Computational Analysis, Indiana University. Oct.
+            28, 2013.</p> 
+        <p><strong>[C]</strong> Jenstad, Janelle and Diane Jakacki. “Mapping Toponyms in Early Modern Plays with
+            MoEML and the ISE.” Renaissance Society of America. New York, New York, March 2014.</p> 
+        <p><strong>[L]</strong> Jenstad, Janelle. “Mapping Geo-Cultural Spaces in Early Modern London.” Andrew W.
+            Mellon Distinguished Speaker (New Horizons series). Bucknell University, 2014.</p> 
+        -->
+    </main>
+</body>

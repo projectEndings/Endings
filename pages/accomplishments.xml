@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body id="accomplishments" xmlns="http://www.w3.org/1999/xhtml">
+    <h1>Accomplishments &amp; Outcomes</h1>
+    <main>
+        <p>The Endings project funding from the <a
+                href="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx">Social Sciences and
+                Humanities Research Council of Canada (SSHRC)</a> has enabled us to complete
+            a great deal of practical and theoretical work, listed here:
+        </p>
+        
+        <ul> 
+            <li><a href="principles.html">Project Principles</a></li> 
+            <li><a href="compliance.html">Endings Compliance</a></li> 
+            <li><a href="survey.html">Survey Results</a></li> 
+            <li><a href="software.html">Software</a></li> 
+            <li><a href="https://github.com/projectEndings/">Our Code</a></li>
+            <li><a href="outputs.html">Our Publications, Presentations and Workshops</a></li> 
+        </ul> 
+        
+    </main>
+</body>

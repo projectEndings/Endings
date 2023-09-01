@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body id="contact" xmlns="http://www.w3.org/1999/xhtml">
+    <h1>Contact us</h1>
+    
+    <main>
+        <h3 id="main-contact">Main contact</h3> 
+        <p><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, University of Victoria</p>
+    </main>
+</body>
