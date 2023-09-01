@@ -33,23 +33,38 @@ body {
 
 nav{
     text-transform: uppercase;
-    padding: 1em;
+    padding: 0.5em;
     background-color: #F5F5F5;
     border-bottom: 1px solid #EAEAEA;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0;
     a{
         font-weight: 800;
         color: #404040;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 1px;
         display: inline-block;
-        padding: 0.75em;
+        padding: 1.3em 1.2em;
         font-family: sans-serif;
+        line-height: 20px;
+        position: relative;
+        display: block;
+        font-weight: 800;
     }
     div>ul{
         list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        margin: 0;
         >li{
             display: inline-block;
+        }
+        >li:first-of-type{
+            margin-right: auto;
         }
     }
 }
@@ -82,10 +97,24 @@ nav{
 .navbar-custom .navbar-brand-logo img {
     height: 50px;
 }
+
+div.navlinks-children{
+    position: absolute;
+    display: none;
+}
   
 a {
   color: #008AFF;
   text-decoration: none;
+}
+
+a.current-page {
+    background-color: lightgray;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -130,12 +159,13 @@ main{
 footer{
     background-color: rgb(245, 245, 245);
     text-align: center;
-    margin: 1em 0 0 0;
+    margin: auto 0 0 0;
     padding: 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
     border-top: 1px solid #EAEAEA;
+
 }
 
 ul.footer-links{
@@ -143,10 +173,16 @@ ul.footer-links{
     list-style-type: none;
     li{
         display: inline;
-        a[href^='mailto']::before{
-            content: "\f111";
-            width: 48px;
-            display: inline-block;
+        margin: 0.5em;
+    }
+    a{
+        background-color: transparent;
+    }
+    img, svg{
+        width: 3em;
+        height: 3em;
+        &:hover{
+            fill: #008AFF;
         }
     }
 }
