@@ -22,17 +22,9 @@
       <!-- Navigation will be processed at build time to highlight selected menu item by adding  class="current-page" based 
          on the target @href and the id of the page currently being processed. -->
       <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-         <script>
-        function showHideMobileNav(sender){
-        let nav = document.querySelector('nav'), div = document.querySelector('#main-navbar');
-          nav.classList.toggle('top-nav-expanded');
-          div.classList.toggle('in');
-          div.getAttribute('aria-expanded')? div.removeAttribute('aria-expanded') : div.setAttribute('aria-expanded', 'true');
-          sender.getAttribute('aria-expanded')? sender.removeAttribute('aria-expanded') : sender.setAttribute('aria-expanded', 'true');
-        }
-      </script>
          <div class="container-fluid">
-            <div class="navbar-header"><button onclick="showHideMobileNav(this)" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <label id="mainMenuToggle" for="mainMenuCheckbox">☰</label>
+            <input class="offscreen" type="checkbox" id="mainMenuCheckbox"/>
             <!-- Any changes here will be inherited by all pages. -->
             <div class="collapse navbar-collapse" id="main-navbar">
                <ul class="nav navbar-nav navbar-right">

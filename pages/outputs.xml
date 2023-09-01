@@ -138,7 +138,7 @@
         
         <div id="workshops">
             <h3>Workshops</h3>
-            <ul>
+            <ul class="bibliography">
                 <li>“Endings: How to End (and Archive) your Digital Project.” Martin Holmes, Janelle Jenstad and Claire Carlin, with Stewart Arneil, Ewa Czaykowska-Higgins, John Durno, Lisa Goddard, Matt Huculak, Greg Newton, and Joseph Takeda. 1-week workshop, Digital Humanities Summer Institute, 2019.</li>
                 
                 <li>“How to End your Digital Project.” Janelle Jenstad and Joey Takeda. DH@Guelph Summer Workshops, 2023.</li>
