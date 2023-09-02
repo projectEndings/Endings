@@ -31,7 +31,8 @@
     <xd:doc>
         <xd:desc>Output is HTML.</xd:desc>
     </xd:doc>
-    <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC" omit-xml-declaration="yes"/>
+    <xsl:output method="xhtml" html-version="5" indent="yes" encoding="UTF-8" normalization-form="NFC" 
+        omit-xml-declaration="yes" include-content-type="no"/>
     
     <xd:doc>
         <xd:desc>Mostly this is an identity transform.</xd:desc>

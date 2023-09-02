@@ -93,6 +93,29 @@
     <zip basedir="${basedir}/logos" zipfile="${basedir}/products/logos.zip"/>
   </target>
   
+  <target name="validateSite">
+    <description>
+      TARGET validateSite
+      This target validates the complete collection of XHTML5 documents 
+      comprising the output site, using the VNU validator (the same validator used by 
+      the W3C's online validation service).
+      Before it can proceed, it has to copy the jar file, which is stored with an 
+      obfuscated name so that it doesn't break Oxygen's ability to build TEI ODD 
+      files due to a duplicate class.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Validating the HTML pages produced in the build using the VNU validator."/>
+    <copy file="${basedir}/utilities/vnu.jarx" tofile="${basedir}/utilities/vnu.jar"/>
+    <java jar="${basedir}/utilities/vnu.jar" failonerror="false" fork="true">
+      <arg value="--format text"/>
+      <arg value="--skip-non-html"/>
+      <arg value="--also-check-css"/>
+      <arg value="--xml"/>
+      <arg value="${basedir}/products"/>
+    </java>
+    <delete file="${basedir}/utilities/vnu.jar"/>
+  </target>
+  
   <target name="rsyncToLiveServer">
     <description>
       TARGET rsyncToLiveServer
@@ -121,6 +144,7 @@
     <antcall target="buildCss"/>
     <antcall target="buildHtml"/>
     <antcall target="copyRequiredFiles"/>
+    <antcall target="validateSite"/>
   </target>
 
 </project>
