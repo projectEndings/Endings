@@ -17,6 +17,8 @@
       <meta property="og:type" content="website"/> 
       <meta property="og:url" content="https://endings.uvic.ca/[page file name will be inserted here]"/> 
       <link rel="canonical" href="[page file name will be inserted here]"/>
+      
+      <script src="js/endings.js"><!-- This is the language switching script. --></script>
    </head> 
    <body> 
       <!-- Navigation will be processed at build time to highlight selected menu item by adding  class="current-page" based 
@@ -43,6 +45,10 @@
             </div>
          </div>
       </nav> 
+      <aside id="langSwitcher">
+         <span><input type="radio" name="viewLang" id="en" value="en"/><label for="en">en</label></span>
+         <span><input type="radio" name="viewLang" id="fr" value="fr"/><label for="fr">fr</label></span>
+      </aside>
       <!-- This is where the page heading will go. -->
       <header class="header-section">
          <h1>[Page title will be inserted here]</h1>

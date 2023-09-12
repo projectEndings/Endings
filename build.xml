@@ -25,6 +25,11 @@
     <include name="*.*"/>
   </fileset>
   
+  <!-- JS to push to the site folder. -->
+  <fileset id="jsFiles" dir="${basedir}/js">
+    <include name="*.*"/>
+  </fileset>
+  
   <!-- Fonts for the site. -->
 <!--  <fileset id="fonts" dir="${basedir}/fonts">
     <include name="*.*"/>
@@ -88,6 +93,9 @@
   <target name="copyRequiredFiles">
     <copy todir="${basedir}/products/img">
       <fileset refid="imgFiles"/>
+    </copy>
+    <copy todir="${basedir}/products/js">
+      <fileset refid="jsFiles"/>
     </copy>
     <copy todir="${basedir}/products" file="${basedir}/logos/favicon.svg"/>
     <zip basedir="${basedir}/logos" zipfile="${basedir}/products/logos.zip"/>

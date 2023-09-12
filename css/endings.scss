@@ -124,6 +124,25 @@ article, aside, figcaption, figure, footer, header, hgroup, main, menu, nav, sec
     display: block;
 }
 
+/* Language-switching stuff. */
+body.en *[lang="fr"], body.fr *[lang="en"]{
+    display: none;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 0.25em auto 0.25em 0.25em;
+    padding: 0.25em;
+    width: auto;
+    border: solid 1pt #008AFF;
+    background-color: #F5F5F5;
+    input{
+        accent-color: #008AFF;
+    }
+}
+
 header{
     text-align: center;
     width: 66%;

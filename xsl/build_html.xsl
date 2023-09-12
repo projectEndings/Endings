@@ -114,7 +114,7 @@
         <xsl:param name="currDoc" as="document-node()" tunnel="yes"/>
         <xsl:copy>
             <xsl:sequence select="$projTitle || ': '"/>
-            <xsl:value-of select="$currDoc//h1"/>
+            <xsl:value-of select="string-join($currDoc//h1, ' | ')"/>
         </xsl:copy>
     </xsl:template>
     
@@ -136,7 +136,7 @@
         <xsl:param name="currDoc" as="document-node()" tunnel="yes"/>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name() = 'content')]"/>
-            <xsl:attribute name="content" select="$projTitle || ': ' || xs:string($currDoc//h1)"/>
+            <xsl:attribute name="content" select="$projTitle || ': ' || string-join($currDoc//h1, ' | ')"/>
         </xsl:copy>
     </xsl:template>
     
@@ -161,6 +161,18 @@
         </xsl:choose>
     </xsl:template>
     
+    
+    <!-- *********** LANG TEMPLATES *********************** -->   
+    <xd:doc>
+        <xd:desc>If there's no French content, don't bother with the 
+        language switcher.</xd:desc>
+    </xd:doc>
+    <xsl:template match="aside">
+        <xsl:param name="currDoc" as="document-node()" tunnel="yes"/>
+        <xsl:if test="$currDoc/descendant::*[@lang='fr']">
+            <xsl:next-match/>
+        </xsl:if>
+    </xsl:template>
     
     <!-- *********** MAIN TEMPLATES *********************** -->
     

@@ -23,11 +23,9 @@
     
     <xsl:mode name="french" on-no-match="shallow-copy"/>
     
-    <xsl:template match="article/*[not(self::main) and not(@lang)] | main/*[not(@lang)]">
-        <xsl:if test="@lang or following-sibling::*[@lang]">
-            <xsl:message terminate="yes">THIS FILE ALREADY HAS CONTENT DISTINGUISHED BY LANGUAGE. TERMINATING.</xsl:message>
-        </xsl:if>
+    <xsl:template match="body/*[not(self::main) and not(@lang)] | main/*[not(@lang)]">
         <xsl:copy>
+            <xsl:apply-templates select="@*"/>
             <xsl:attribute name="lang" select="'en'"/>
             <xsl:apply-templates/>
         </xsl:copy>
