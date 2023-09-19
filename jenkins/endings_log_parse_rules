@@ -1,0 +1,26 @@
+# Rules file for staticSearch build on Jenkins. This suppresses errors we know about and can't fix
+# or errors in files that aren't intended to be validated with our schema.
+
+#Limitation of Schematron compiler.
+ok /Warning! The child axis starting at an attribute node will never select anything/
+
+#Clock alignment error message is random and pointless.
+ok /WARNING: clock of the subversion server/
+
+#A warning we give to users as a matter of course.
+ok /WARNING: Contents of element with @id='staticSearch' will be overwritten/
+ok /WARNING: The element with @id='staticSearch' is not a div element./
+
+#JavaScript compiler non-errors:
+ok /\[jscomp\] 0 error\(s\), 0 warning\(s\)/
+
+#Commit messages FFS
+ok /Commit message:/
+
+#Intentional errors in test files
+ok /badthings.html/
+
+error /[Ee]rror/
+warning /[Ww]arning/
+warning /WARNING/
+error /ERROR/
