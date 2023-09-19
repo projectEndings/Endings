@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="index" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>The Endings Project</h1>
-    <h2>Building Sustainable Digital Humanities Projects</h2>
+    <h1 lang="en">The Endings Project</h1>
+    <h1 lang="fr">The Endings Project</h1>
+    <h2 lang="en">Building Sustainable Digital Humanities Projects</h2>
+    <h2 lang="fr">Construire des projets durables en humanités numériques</h2>
     <main>
-        <p><strong>How do and how should DH projects conclude?</strong></p> 
-        <p>The Endings Project is a five-year project funded by the Social Sciences and Humanities
-            Research Council (<a href="http://www.sshrc-crsh.gc.ca/">SSHRC</a>) that is creating tools, principles, policies and recommendations for digital scholarship
-            practitioners to create accessible, stable, long-lasting resources in the humanities.</p> 
-        <p>Some of the questions we are attempting to answer include “how should we preserve
-            projects to retain their dynamic features” &amp; “where should projects be archived?”
-            To learn more about us, visit our <a href="about.html">About Page</a>.</p>
+        <p lang="en"><strong>How do and how should DH projects conclude?</strong></p>
+        <p lang="fr"><strong>Comment les projets de recherche numérique se terminent-ils et comment devraient-ils se terminer ?</strong></p>
+        <p lang="en">The Endings Project is a project funded by an Insight Grant from the Social Sciences and
+            Humanities Research Council of Canada (<a href="http://www.sshrc-crsh.gc.ca/">SSHRC</a>)
+            that has created tools, principles, policies and recommendations for digital scholarship
+            practitioners to create accessible, stable, long-lasting resources in the
+            humanities.</p>
+        <p lang="fr">Le projet « Endings » est un projet financé par une subvention Savoir du
+            Conseil de recherches en sciences humaines du Canada (<a
+                href="http://www.sshrc-crsh.gc.ca/">CRSH</a>) qui a élaboré des outils, des
+            principes, des politiques et des recommandations à l'intention des praticiens de la
+            recherche numérique afin de créer des ressources accessibles, stables et durables dans
+            le domaine des sciences humaines.</p>
+        <p lang="en">Some of the questions we are attempting to answer include <q>how should we
+            preserve projects to retain their dynamic features</q> &amp; <q>where should projects be
+            archived?</q> To learn more about us, visit our <a href="about.html">About Page</a>.</p>
+        
+        <p lang="fr">Parmi les questions auxquelles nous tentons de répondre, citons <!--« --><q>comment
+            préserver les projets pour conserver leurs caractéristiques dynamiques</q><!-- »--> et <!--« --><q>où
+            archiver les projets</q><!-- »-->. Pour en savoir plus sur nous, visitez notre page <a href="about.html">À propos</a>.</p>
     </main>
 </body>
