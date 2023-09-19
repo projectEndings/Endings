@@ -169,7 +169,7 @@
     </xd:doc>
     <xsl:template match="aside">
         <xsl:param name="currDoc" as="document-node()" tunnel="yes"/>
-        <xsl:if test="$currDoc/descendant::*[@lang='fr']">
+        <xsl:if test="$currDoc//main/descendant::*[@lang='fr']">
             <xsl:next-match/>
         </xsl:if>
     </xsl:template>

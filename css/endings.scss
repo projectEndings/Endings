@@ -129,6 +129,10 @@ body.en *[lang="fr"], body.fr *[lang="en"]{
     display: none;
 }
 
+body:not(.fr) *[lang="fr"]{
+    display: none;
+}
+
 aside{
     display: flex;
     flex-direction: column;

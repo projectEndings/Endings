@@ -48,7 +48,8 @@ function getViewFromStorage() {
 function changeView(view) {
     console.log(view);
     //Is it a suitable value?
-    if (view.match(/^((en)|(fr))$/)) {
+    if ((view.match(/^((en)|(fr))$/)) && (document.querySelectorAll('main *[lang="' + view + '"]').length > 0)) {
+    console.log(document.querySelectorAll('main *[lang="' + view + '"]').length);
         //Is the page already set to this?
         if (!(document.body.classList.contains(view))) {
             document.body.classList.remove('en', 'fr');
