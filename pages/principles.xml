@@ -1,91 +1,192 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<body id="principles" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Principles</h1>
-    <h2>Endings Principles for Digital Longevity<br/>
+<body xmlns="http://www.w3.org/1999/xhtml" id="principles">
+    
+    <h1 lang="en">Principles</h1>
+    <h1 lang="fr">Principes</h1>
+    
+    <h2 lang="en">Endings Principles for Digital Longevity<br/>
         Version 2.2.1, 2023-03-03</h2>
+    <h2 lang="fr">Principes du projet Endings pour la longévité numérique<br/>
+        Version 2.2.1, 2023-03-03</h2>
+    
     <main>
-        <p>We divide digital projects into five primary components:</p> 
+        
+        <p lang="en">We divide digital projects into five primary components:</p>
+        <p lang="fr">Nous divisons les projets numériques en cinq composantes principales :</p> 
+        
         <ol> 
-            <li><a href="principles.html#data">Data</a></li> 
-            <li><a href="principles.html#documentation">Documentation</a></li> 
-            <li><a href="principles.html#processing">Processing</a></li> 
-            <li><a href="principles.html#products">Products</a></li> 
-            <li><a href="principles.html#release-management">Release management</a></li> </ol> 
-        <h3 id="data">1 Data</h3> 
-        <p>Data is the expression of the source information, knowledge, and expertise of our
-            researchers. The following principles apply to data:
-        </p> 
-        <p>1.1 Data is stored only in formats that conform to open standards and that are amenable
-            to processing (TEI XML, GML, ODF, TXT).</p> 
-        <p>1.2 Data is subject to version control (Subversion, Git).</p> 
-        <p>1.3 Data is continually subject to validation and diagnostic analysis.</p> 
-        <h3 id="documentation">2 Documentation</h3> 
-        <p>2.1 Data models, including field names, descriptions, and controlled values, should
-            be clearly documented in a static document that is maintained with the data and forms
-            part of the products.</p> 
-        <p>2.2 All rights and intellectual property issues should be clearly documented. Where
-            possible the Data and Products should be released under open licenses (Creative Commons,
-            GNU, BSD, MPL).</p> 
-        <h3 id="processing">3 Processing</h3> 
-        <p>Processing code is written and maintained by the project technical staff, and is also
-            subject to version control. Processing code provides all the following functions:</p> 
-        <p>3.1 Relentless validation: all processing includes validation/linting of all inputs
-            and
-            outputs and all validation errors should exit the process and prevent further execution
-            until the errors are resolved.</p> 
-        <p>3.2 Continuous integration: any change to the source data requires an entire rebuild
-            of the site (triggered automatically where possible). </p> 
-        <p>3.3 Code is contingent: while code is not expected to have significant longevity,
-            wherever possible, all code should follow Endings principles for data and products.</p> 
-        <h3 id="products">4 Products</h3> 
-        <p>Products are the project outputs intended for end-users, typically in the form of
-            websites
-            or print documents. The following principles apply to products intended for the web:
-        </p> 
-        <p>4.1 No dependence on server-side software: build a static website with no databases,
-            no PHP, no Python.</p> 
-        <p>4.2 No boutique or fashionable technologies: use only standards with support across
-            all platforms, whose long-term viability is assured. Our choices are HTML5, JavaScript,
-            and CSS.</p> 
-        <p>4.3 No dependence on external libraries or services: no JQuery, no AngularJS, no Bootstrap,
-            no Google Search.</p> 
-        <p>4.4 No query strings: every entity in the site has a unique page with a simple URL
-            that will function on any domain or IP address.</p> 
-        <p>4.5 Inclusion of data: every site should include a documented copy of the source data,
-            so that users of the site can repurpose the work easily.</p> 
-        <p>4.6 Massive redundancy: every page contains all the components it needs, so that it
-            will function without the rest of the site if necessary, even though doing so means
-            duplicating
-            information across the site.</p> 
-        <p>4.7 Graceful failure: every page should still function effectively even in the absence
-            of
-            JavaScript or CSS support.</p> 
-        <p>These principles are tempered by the following concessions:</p> 
-        <p>4.8 Once a fully-working static site is achieved, it may be enhanced by the use of
-            other services such as a server-side indexing tool (Solr, eXist) to support searching
-            and similar functionality.</p> 
-        <p>4.9 The use of an external library may be necessary to support a specific function
-            that is too complex to be coded locally (such as mapping or cryptography). Any such
-            libraries must be open-source and widely-used, and must not themselves have dependencies.</p> 
-        <h3 id="release-management">5 Release Management</h3> 
-        <p>Release management handles the public release of products. These principles apply
-            to release management:</p> 
-        <p>5.1 Releases should be periodical and carefully planned. The “rolling release” model
-            should be avoided.
-        </p> 
-        <p>5.2 A release should only be made when the entire product set is coherent, consistent,
-            and complete (passing all validation and diagnostic tests).
             
-        </p> 
-        <p>5.3 Like editions of print works, each release of a web resource should be clearly
-            identified on every page by its build date and some kind of version number.
+            <li lang="en"><a href="principles.html#data">Data</a></li>
+            <li lang="fr"><a href="principles.html#data">Données</a></li> 
             
-        </p> 
-        <p>5.4 Web resources should include detailed instructions for citation, so that end-users
-            can unambiguously cite a specific page from a specific edition.</p> 
-        <p>5.5 URLs for individual resources within a digital publication should persist across
-            editions. Any moved, retired, or deleted resources no longer available at a previously
-            accessible URL should be redirected appropriately.</p> 
+            <li lang="en"><a href="principles.html#documentation">Documentation</a></li>
+            <li lang="fr"><a href="principles.html#documentation">Documentation</a></li> 
+            
+            <li lang="en"><a href="principles.html#processing">Processing</a></li>
+            <li lang="fr"><a href="principles.html#processing">Traitement</a></li> 
+            
+            <li lang="en"><a href="principles.html#products">Products</a></li>
+            <li lang="fr"><a href="principles.html#products">Produits</a></li> 
+            
+            <li lang="en"><a href="principles.html#release-management">Release management</a></li>
+            <li lang="fr"><a href="principles.html#release-management">Gestion des versions</a></li> </ol> 
+        
+        
+        <div id="data">
+            
+            <h3 lang="en">1 Data</h3>
+            <h3 lang="fr">1 Les données</h3> 
+            
+            <p lang="en">Data is the expression of the source information, knowledge, and expertise of our
+                researchers. The following principles apply to data:
+            </p>
+            <p lang="fr">Les données sont l'expression de l'information source, de la connaissance et de l'expertise de nos chercheurs. Les principes suivants s'appliquent aux données :</p> 
+            
+            <p lang="en">1.1 Data is stored only in formats that conform to open standards and that are amenable
+                to processing (TEI XML, GML, ODF, TXT).</p>
+            <p lang="fr">1.1 Les données sont stockées uniquement dans des formats conformes aux normes des données ouvertes et pouvant être traitées (TEI XML, GML, ODF, TXT).</p> 
+            
+            <p lang="en">1.2 Data is subject to version control (Subversion, Git).</p>
+            <p lang="fr">1.2 Les données sont soumises à un contrôle de version (Subversion, Git).</p> 
+            
+            <p lang="en">1.3 Data is continually subject to validation and diagnostic analysis.</p>
+            <p lang="fr">1.3 Les données font continuellement l'objet d'une validation et d'une analyse diagnostique.</p> 
+        </div>
+        
+        
+        <div id="documentation">
+            
+            <h3 lang="en">2 Documentation</h3>
+            <h3 lang="fr">2 Documentation</h3> 
+            
+            <p lang="en">2.1 Data models, including field names, descriptions, and controlled values, should
+                be clearly documented in a static document that is maintained with the data and forms
+                part of the products.</p>
+            <p lang="fr">2.1 Les modèles de données, y compris les noms de champs, les descriptions et les valeurs contrôlées, doivent être clairement documentés dans un document statique qui est conservé avec les données et fait partie des produits.</p> 
+            
+            <p lang="en">2.2 All rights and intellectual property issues should be clearly documented. Where
+                possible the Data and Products should be released under open licenses (Creative Commons,
+                GNU, BSD, MPL).</p>
+            <p lang="fr">2.2 Toutes les questions relatives aux droits et à la propriété intellectuelle doivent être clairement documentées. Dans la mesure du possible, les données et les produits doivent être diffusés sous licence libre (Creative Commons, GNU, BSD, MPL).</p> 
+        </div>
+        
+        <div id="processing">
+            
+            <h3 lang="en">3 Processing</h3>
+            <h3 lang="fr">3 Traitement</h3> 
+            
+            <p lang="en">Processing code is written and maintained by the project technical staff, and is also
+                subject to version control. Processing code provides all the following functions:</p>
+            <p lang="fr">Le code de traitement est écrit et maintenu par le personnel technique du projet et est également soumis à un contrôle de version. Le code de traitement assure toutes les fonctions suivantes :</p> 
+            
+            <p lang="en">3.1 Relentless validation: all processing includes validation/linting of all inputs
+                and
+                outputs and all validation errors should exit the process and prevent further execution
+                until the errors are resolved.</p>
+            <p lang="fr">3.1 Validation incessante : tout traitement comprend la validation/<em>linting</em> de toutes les entrées et sorties. Toutes les erreurs de validation doivent arrêter le processus et empêcher la poursuite de l'exécution jusqu'à ce que les erreurs soient résolues.</p> 
+            
+            <p lang="en">3.2 Continuous integration: any change to the source data requires an entire rebuild
+                of the site (triggered automatically where possible). </p>
+            <p lang="fr">3.2 Intégration continue : toute modification des données sources nécessite une reconstruction complète du site (déclenchée automatiquement dans la mesure du possible).</p> 
+            
+            <p lang="en">3.3 Code is contingent: while code is not expected to have significant longevity,
+                wherever possible, all code should follow Endings principles for data and products.</p>
+            <p lang="fr">3.3 Le code est contingent : bien que le code ne soit pas censé avoir une longévité importante, il doit, dans la mesure du possible, respecter les principes « Endings » pour les données et les produits.</p> 
+        </div>
+        
+        
+        <div id="products">
+            
+            <h3 lang="en">4 Products</h3>
+            <h3 lang="fr">4 Produits</h3> 
+            
+            <p lang="en">Products are the project outputs intended for end-users, typically in the form of
+                websites
+                or print documents. The following principles apply to products intended for the web:
+            </p>
+            <p lang="fr">Les produits sont les résultats du projet destinés aux utilisateurs finaux, généralement sous la forme de sites web ou de documents imprimés. Les principes suivants s'appliquent aux produits destinés au web :</p> 
+            
+            <p lang="en">4.1 No dependence on server-side software: build a static website with no databases,
+                no PHP, no Python.</p>
+            <p lang="fr">4.1 Pas de dépendance à l'égard des logiciels côté serveur : créer un site web statique sans bases de données, ni PHP, ni Python.</p> 
+            
+            <p lang="en">4.2 No boutique or fashionable technologies: use only standards with support across
+                all platforms, whose long-term viability is assured. Our choices are HTML5, JavaScript,
+                and CSS.</p>
+            <p lang="fr">4.2 Pas de technologies sur mesure ou à la mode : n'utiliser que des standards avec soutien à travers toutes les plateformes et dont la viabilité à long terme est assurée. Nos choix sont HTML5, JavaScript et CSS.</p> 
+            
+            <p lang="en">4.3 No dependence on external libraries or services: no JQuery, no AngularJS, no Bootstrap,
+                no Google Search.</p>
+            <p lang="fr">4.3 Pas de dépendance de bibliothèques ou de services externes : pas de JQuery, pas d'AngularJS, pas de Bootstrap, pas de Google Search.</p> 
+            
+            <p lang="en">4.4 No query strings: every entity in the site has a unique page with a simple URL
+                that will function on any domain or IP address.</p>
+            <p lang="fr">4.4 Pas de chaînes de requête : chaque entité du site a une page unique avec une URL simple qui fonctionnera sur n'importe quel domaine ou adresse IP.</p> 
+            
+            <p lang="en">4.5 Inclusion of data: every site should include a documented copy of the source data,
+                so that users of the site can repurpose the work easily.</p>
+            <p lang="fr">4.5 Inclusion de données : chaque site devrait inclure une copie documentée des données sources, afin que les utilisateurs du site puissent facilement réutiliser le travail.</p> 
+            
+            <p lang="en">4.6 Massive redundancy: every page contains all the components it needs, so that it
+                will function without the rest of the site if necessary, even though doing so means
+                duplicating
+                information across the site.</p>
+            <p lang="fr">4.6 Redondance massive : chaque page contient tous les composants dont elle a besoin, de sorte qu'elle puisse fonctionner sans le reste du site si nécessaire, même si cela implique de reproduire l'information sur l'ensemble du site.</p> 
+            
+            <p lang="en">4.7 Graceful failure: every page should still function effectively even in the absence
+                of
+                JavaScript or CSS support.</p>
+            <p lang="fr">4.7 Défaillance en douceur : chaque page doit continuer à fonctionner efficacement même en l'absence de support JavaScript ou CSS.</p> 
+            
+            <p lang="en">These principles are tempered by the following concessions:</p>
+            <p lang="fr">Ces principes sont tempérés par les concessions suivantes :</p> 
+            
+            <p lang="en">4.8 Once a fully-working static site is achieved, it may be enhanced by the use of
+                other services such as a server-side indexing tool (Solr, eXist) to support searching
+                and similar functionality.</p>
+            <p lang="fr">4.8 Lorsqu'un site statique fonctionne parfaitement, il peut être amélioré par l'utilisation d'autres services tels qu'un outil d'indexation côté serveur (Solr, eXist) pour faciliter la recherche et d'autres fonctionnalités similaires.</p> 
+            
+            <p lang="en">4.9 The use of an external library may be necessary to support a specific function
+                that is too complex to be coded locally (such as mapping or cryptography). Any such
+                libraries must be open-source and widely-used, and must not themselves have dependencies.</p>
+            <p lang="fr">4.9 L'utilisation d'une bibliothèque externe peut s'avérer nécessaire pour prendre en charge une fonction spécifique trop complexe pour être codée localement (comme la cartographie ou la cryptographie). Ces bibliothèques doivent être en accès libre et largement utilisées, et ne doivent pas avoir elles-mêmes de dépendances.</p> 
+        </div>
+        
+        
+        <div id="release-management">
+            
+            <h3 lang="en">5 Release Management</h3>
+            <h3 lang="fr">5 Gestion des versions</h3> 
+            
+            <p lang="en">Release management handles the public release of products. These principles apply
+                to release management:</p>
+            <p lang="fr">La gestion des versions sert à gérer la diffusion publique des produits. Les principes suivants s'appliquent à la gestion des versions :</p> 
+            
+            <p lang="en">5.1 Releases should be periodical and carefully planned. The “rolling release” model
+                should be avoided.
+            </p>
+            <p lang="fr">5.1 Les versions doivent être périodiques et soigneusement planifiées. Le modèle <em>rolling release</em> ou publication continue doit être évité.</p> 
+            
+            <p lang="en">5.2 A release should only be made when the entire product set is coherent, consistent,
+                and complete (passing all validation and diagnostic tests).
+                
+            </p>
+            <p lang="fr">5.2 Une version ne doit être diffusée que lorsque l'ensemble du produit est cohérent, homogène et complet (c'est-à-dire qu'il a passé avec succès tous les tests de validation et de diagnostic).</p> 
+            
+            <p lang="en">5.3 Like editions of print works, each release of a web resource should be clearly
+                identified on every page by its build date and some kind of version number.
+                
+            </p>
+            <p lang="fr">5.3 À l'instar des éditions d'ouvrages imprimés, chaque version d'une ressource web doit être clairement identifiée sur chaque page par sa date de création et un numéro de version.</p> 
+            
+            <p lang="en">5.4 Web resources should include detailed instructions for citation, so that end-users
+                can unambiguously cite a specific page from a specific edition.</p>
+            <p lang="fr">5.4 Les ressources web doivent inclure des instructions détaillées pour la citation, afin que les utilisateurs finaux puissent citer sans ambiguïté une page spécifique d'une édition spécifique.</p> 
+            
+            <p lang="en">5.5 URLs for individual resources within a digital publication should persist across
+                editions. Any moved, retired, or deleted resources no longer available at a previously
+                accessible URL should be redirected appropriately.</p>
+            <p lang="fr">5.5 Les URL des ressources individuelles d'une publication numérique doivent persister d'une version à l'autre. Toute ressource déplacée, retirée ou supprimée qui n'est plus disponible à une URL précédemment accessible doit être redirigée de manière appropriée.</p> 
+        </div>
     </main>
     
 </body>

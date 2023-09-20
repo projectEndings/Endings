@@ -31,7 +31,7 @@
     <xd:doc>
         <xd:desc>The meat template.</xd:desc>
     </xd:doc>
-    <xsl:template match="*[self::h1 or self::h2 or self::p or self::li][not(@lang)]">
+    <xsl:template match="*[self::h1 or self::h2 or self::h3 or self::p or self::li][not(@lang)]">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:attribute name="lang" select="'en'"/>
