@@ -1,78 +1,151 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<body id="accomplishments" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Accomplishments &amp; Outcomes</h1>
+<body xmlns="http://www.w3.org/1999/xhtml" id="accomplishments">
+    
+    <h1 lang="en">Accomplishments &amp; Outcomes</h1>
+    <h1 lang="fr">Réalisation et Résultats</h1>
+    
     <main>
-        <p>The Endings project funding from the <a
-                href="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx">Social Sciences and
-                Humanities Research Council of Canada (SSHRC)</a> has enabled us to complete
+        
+        <p lang="en">The Endings project funding from the <a href="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx">Social Sciences and
+            Humanities Research Council of Canada (SSHRC)</a> has enabled us to complete
             a great deal of practical and theoretical work, listed here:
         </p>
+        <p lang="fr">Le financement du projet Endings par le <a href="https://www.sshrc-crsh.gc.ca/home-accueil-fra.aspx">Conseil de recherches en sciences humaines du Canada (CRSH)</a> nous a permis de réaliser un grand nombre de travaux pratiques et théoriques, dont voici la liste :</p>
+        
         
         <ul> 
-            <li><a href="principles.html">Project Principles</a></li> 
-            <li><a href="compliance.html">Endings Compliance</a></li> 
-            <li><a href="outputs.html">Our Publications, Presentations and Workshops</a></li> 
-            <li><a href="survey.html">Survey Results</a></li> 
-            <li><a href="software.html">Software</a></li> 
-            <li><a href="https://github.com/projectEndings/">Our Code (on GitHub)</a></li>
+            
+            <li lang="en"><a href="principles.html">Project Principles</a></li>
+            <li lang="fr"><a href="principles.html">Principes du projet</a></li> 
+            
+            <li lang="en"><a href="compliance.html">Endings Compliance</a></li>
+            <li lang="fr"><a href="compliance.html">Conformité aux principes du projet Endings</a></li> 
+            
+            <li lang="en"><a href="outputs.html">Our Publications, Presentations and Workshops</a></li>
+            <li lang="fr"><a href="outputs.html">Nos publications, présentations et ateliers</a></li> 
+            
+            <li lang="en"><a href="survey.html">Survey Results</a></li>
+            <li lang="fr"><a href="survey.html">Résultats de notre enquête</a></li> 
+            
+            <li lang="en"><a href="software.html">Software</a></li>
+                <li lang="fr"><a href="software.html">Logiciels</a></li> 
+            
+            <li lang="en"><a href="https://github.com/projectEndings/">Our Code (on GitHub)</a></li>
+                <li lang="fr"><a href="https://github.com/projectEndings/">Notre code (sur GitHub)</a></li>
         </ul> 
         
-        <p>Our work has received a great deal of favourable feedback; here are some posts and 
-        publications mentioning Endings:</p>
+        
+        <p lang="en">Our work has received a great deal of favourable feedback; here are some posts and
+            
+            publications mentioning Endings:</p>
+        <p lang="fr">Notre travail a fait l'objet de nombreux commentaires favorables ; voici quelques articles et publications mentionnant Endings :</p>
+        
         
         <ul class="bibliography">
             
-            <li>Battershill, Claire and Shawna Ross. <i>Using Digital Humanities in the Classroom: A Practical Introduction for Teachers, Lecturers, and Students</i>. Bloomsbury Publishing, Mar 24, 2022.</li>
             
-            <li>Bauer, Joe. <q>New Services and Resources to Support Digital Projects in the Humanities and Qualitative Social Sciences.</q>
+            <li>Battershill, Claire and Shawna Ross. <i>Using Digital Humanities in the Classroom: A Practical Introduction for Teachers,
+                Lecturers, and Students</i>. Bloomsbury Publishing, Mar 24, 2022.</li>
+            
+            
+            
+            <li>Bauer, Joe. <q>New Services and Resources to Support Digital Projects in the Humanities and Qualitative
+                Social Sciences.</q>
                 MLSA Technology Services, University of Michigan. October 9, 2021. <a href="https://lsa.umich.edu/technology-services/news-events/all-news/search-news/archive/lsa-technology-services-announces-digital-scholarship-studio.html">https://lsa.umich.edu/technology-services/news-events/all-news/search-news/archive/lsa-technology-services-announces-digital-scholarship-studio.html</a>.</li>
             
-            <li>CLE Teaching Collaborative. <q>The Endings Project.</q> <a href="https://www.referatory.cleteaching.org/items/show/832">https://www.referatory.cleteaching.org/items/show/832</a>.</li>
-             
-            <li>Crompton, Constance. <q>Planning Web Projects for Longevity and Sustainability.</q> Course offered at DH@Site (Ottawa), May 24-25, 2022. Workshop modelled on the Endings Project. <a href="https://dhsite.org/dhsite-2022-workshops/">https://dhsite.org/dhsite-2022-workshops/</a>.</li>
-           
-            <li>Daniel, Dominique. <q>Special Issue of the Digital Humanities Quarterly: Project Resiliency in the Digital Humanities.</q> H-HistBibl. June 9, 2023. <a href="https://networks.h-net.org/node/14775/discussions/12872598/special-issue-digital-humanities-quarterly-project-resiliency">https://networks.h-net.org/node/14775/discussions/12872598/special-issue-digital-humanities-quarterly-project-resiliency</a>.</li>
             
-                        <li>DH@Bucknell. <q>Ending and Archiving Your Project.</q> <a href="https://dhbucknell.scholar.bucknell.edu/resources/dh-tools-software/ending-archiving-your-project/">https://dhbucknell.scholar.bucknell.edu/resources/dh-tools-software/ending-archiving-your-project/</a>.</li>
+            
+            <li>CLE Teaching Collaborative. <q>The Endings Project.</q> <a href="https://www.referatory.cleteaching.org/items/show/832">https://www.referatory.cleteaching.org/items/show/832</a>.</li>
+            
+            
+            
+            <li>Crompton, Constance. <q>Planning Web Projects for Longevity and Sustainability.</q> Course offered at DH@Site (Ottawa), May 24-25, 2022. Workshop modelled on the Endings
+                Project. <a href="https://dhsite.org/dhsite-2022-workshops/">https://dhsite.org/dhsite-2022-workshops/</a>.</li>
+            
+            
+            
+            <li>Daniel, Dominique. <q>Special Issue of the Digital Humanities Quarterly: Project Resiliency in the Digital
+                Humanities.</q> H-HistBibl. June 9, 2023. <a href="https://networks.h-net.org/node/14775/discussions/12872598/special-issue-digital-humanities-quarterly-project-resiliency">https://networks.h-net.org/node/14775/discussions/12872598/special-issue-digital-humanities-quarterly-project-resiliency</a>.</li>
+            
+            
+            
+            <li>DH@Bucknell. <q>Ending and Archiving Your Project.</q> <a href="https://dhbucknell.scholar.bucknell.edu/resources/dh-tools-software/ending-archiving-your-project/">https://dhbucknell.scholar.bucknell.edu/resources/dh-tools-software/ending-archiving-your-project/</a>.</li>
+            
+            
             
             <li>Donlon, Anne, et al. <q>Project: The Endings Project.</q> <i>dh+lib</i> review. April 15, 2021. <a href="https://dhandlib.org/2021/04/15/project-the-endings-project/">https://dhandlib.org/2021/04/15/project-the-endings-project/</a>.</li>
+            
+            
             
             <li>Evalyn, Lawrence et al. <q>White Paper on Canada’s Future DRI Ecosystem. Gaps in Digital Research Infrastructure
                 for Canadian Digital Humanities Researchers.</q> Digital Research Alliance of Canada. March 2022. <a href="https://alliancecan.ca/sites/default/files/2022-03/ndrio_dh_white_paper_digital_humanities_university_of_toronto.pdf">https://alliancecan.ca/sites/default/files/2022-03/ndrio_dh_white_paper_digital_humanities_university_of_toronto.pdf</a>.</li>
             
-            <li>Gillaspy, Tiffany. <q>Innovation Fuels Sustainability: How Innovative Elements Promoted Longevity in Three Digital Humanities Projects in Music.</q> Diss. University of Iowa, 2023. P. 4.</li>
-            
-            <li> Han, Sophia. <q>Digital Longevity in the Digital Humanities: The Endings Symposium. A Conversation with Joey Takeda.</q> June 30, 2021.  <a href="https://www.lib.sfu.ca/help/publish/dh/dhil/dhil-blog/endings-project">https://www.lib.sfu.ca/help/publish/dh/dhil/dhil-blog/endings-project</a>.</li>
             
             
-            <li>McCarthy, Gavan; La Rosa, Marco; Thieberger, Nick (2023). Online Heritage Resource Manager (OHRM) Datasets transformed to Research Object Crates as part of the Describo Collections Integration Project.. University of Melbourne. Collection. <a href="https://doi.org/10.26188/c.6795084.v2">https://doi.org/10.26188/c.6795084.v2</a>. </li>
+            <li>Gillaspy, Tiffany. <q>Innovation Fuels Sustainability: How Innovative Elements Promoted Longevity in Three
+                Digital Humanities Projects in Music.</q> Diss. University of Iowa, 2023. P. 4.</li>
+            
+            
+            
+            <li> Han, Sophia. <q>Digital Longevity in the Digital Humanities: The Endings Symposium. A Conversation
+                with Joey Takeda.</q> June 30, 2021.  <a href="https://www.lib.sfu.ca/help/publish/dh/dhil/dhil-blog/endings-project">https://www.lib.sfu.ca/help/publish/dh/dhil/dhil-blog/endings-project</a>.</li>
+            
+            
+            
+            
+            <li>McCarthy, Gavan; La Rosa, Marco; Thieberger, Nick (2023). Online Heritage Resource
+                Manager (OHRM) Datasets transformed to Research Object Crates as part of the Describo
+                Collections Integration Project.. University of Melbourne. Collection. <a href="https://doi.org/10.26188/c.6795084.v2">https://doi.org/10.26188/c.6795084.v2</a>. </li>
+            
+            
             
             <li>McGrath, Jim. <q>Project Endings and Precarious Labor.</q> July 19, 2023. <a href="https://jimmcgrath.us/teaching/project-endings-and-precarious-labor/">https://jimmcgrath.us/teaching/project-endings-and-precarious-labor/</a>.</li>
             
+            
+            
             <li>Munson, R. <q>King, Edmund, Principal Investigator. The UK Reading Experience Database.</q> <i>Renaissance and Reformation</i>, vol. 43, no. 3, Dec. 2020, pp. 245-51, <a href="https://doi.org/10.33137/rr.v43i3.35311">https://doi.org/10.33137/rr.v43i3.35311</a>.</li>
+            
+            
             
             <li>Narlock, Mikala R. <q>Digital Preservation Services at Digital Scholarship Centers.</q> <i>Journal of Academic Librarianship</i> vol. 47, no. 3 (2021). <a href="https://doi.org/10.1016/j.acalib.2021.102334">https://doi.org/10.1016/j.acalib.2021.102334</a>.</li>
             
-
+            
+            
+            
             <li>NC State University Libraries. <q>Digital Scholarship.</q> No date. <a href="https://www.lib.ncsu.edu/do/digital-scholarship">https://www.lib.ncsu.edu/do/digital-scholarship</a>.</li>
+            
+            
             
             <li>Robinson, Peter. <q>staticSearch and Me: getting started.</q> 20 July 2023. <a href="https://scholarlydigitaleditions.blogspot.com/2023/07/staticsearch-and-me.html">https://scholarlydigitaleditions.blogspot.com/2023/07/staticsearch-and-me.html</a>.</li>
             
+            
+            
             <li>Robinson, Peter. <q>In praise of staticSearch.</q> 6 August 2023. <a href="https://scholarlydigitaleditions.blogspot.com/2023/08/in-praise-of-staticsearch.html">https://scholarlydigitaleditions.blogspot.com/2023/08/in-praise-of-staticsearch.html</a>.</li>
+            
+            
             
             <li>Roy Rosenzweig Center for History and New Media Sustainable DH Project. No date. <q>High Level Resources.</q> <a href="https://www.lib.ncsu.edu/do/digital-scholarship">https://sustainabledh.org/resources</a>.</li>
             
-            <li>STRS Project Team. <q>The Socio-Technical Sustainability Roadmap: Module A2: How long do you want your project to last?</q> No date.
+            
+            
+            <li>STRS Project Team. <q>The Socio-Technical Sustainability Roadmap: Module A2: How long do you want your project
+                to last?</q> No date.
                 The Visual Media Workshop, University of Pittsburgh. <a href="https://sites.haa.pitt.edu/sustainabilityroadmap/a2-longevity/">https://sites.haa.pitt.edu/sustainabilityroadmap/a2-longevity/</a>.
             </li>
+            
+            
             
             <li>
                 Takeda, Joseph. 2022. <q>The Digital <q>Lyon in Mourning</q>.</q> <i>The International Review of Scottish Studies</i> Vol. 47 (2022): Jacobite Special Issue, 72–76. <a href="https://www.irss.uoguelph.ca/index.php/irss/issue/view/462/90">https://www.irss.uoguelph.ca/index.php/irss/issue/view/462/90</a>.
             </li>
             
+            
+            
             <li>Tucker, Joanna. <q>Facing the Challenge of Digital Sustainability as Humanities Researchers.</q> <i>Journal of the British Academy</i> No. 10: 93-120 (2022). <a href="https://doi.org/10.5871/jba/010.093">https://doi.org/10.5871/jba/010.093</a>. <!--<q>The Endings Project have also been probing the wider question of when DH projects actually ‘end’, intellectually rather than financially, and offer some principles for what they call ‘release management’. […] There are reasons to be optimistic about the future of sustainable DH. There has been the  emergence of some general guidance (such as the ‘FAIR’ principles or the work of The Endings Project) as well as shared standards (including the likes of Persistent Identifiers for digital  material, or IIIF for images).</q>--></li>
             
+            
+            
             <li>Young, Chris. Syllabus for <q>INF2256 -- Digital Scholarship.</q> University of Toronto Faculty of Information. Winter 2022. <a href="https://sites.utm.utoronto.ca/chrisyoung/sites/sites.utm.utoronto.ca.chrisyoung/files/public_assets/INF2256_DigitalScholarshipSyllabus_20220104_1.0.pdf">https://sites.utm.utoronto.ca/chrisyoung/sites/sites.utm.utoronto.ca.chrisyoung/files/public_assets/INF2256_DigitalScholarshipSyllabus_20220104_1.0.pdf</a>.</li>
+            
             
         </ul>
         
