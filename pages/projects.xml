@@ -3,25 +3,7 @@
     <h1>Projects</h1>
     <h3>Building Sustainable Digital Humanities Projects</h3>
     <main>
-        <!-- I don't believe we need this intro stuff any more. -->
-        <!-- 
-            <p>Whereas the codex has proven its reliability over centuries, the digital documents
-                  in increasingly wide use today are evanescent and fragile. The digital humanities
-                  are facing an urgent problem: experts warn of a new “digital dark age” as our ability
-                  to produce digital content continues to outpace our capacity to preserve and access
-                  on-line resources for the long term. Awareness of the challenge of preserving and
-                  future-proofing these digital projects—many based on boutique technologies and customized
-                  code—is growing across the DH landscape, but to date more literature has been devoted
-                  to identifying the problem than to solving it.</p> 
-               <p>In April 2016, the Social Sciences and Humanities Research Council of Canada funded
-                  for four years <em>Endings: Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability</em>, a project exploring practical answers to the questions of how and where DH projects
-                  should be archived in order maintain the dynamic features that make them readable,
-                  searchable, and even interactive. Our research is based on four case studies, each
-                  one a Digital Humanities project born from print sources.</p> 
-               <p>The deep enrichment afforded to print by digital tools must not be lost in the face
-                  of poor (or no) viable preservation strategies. Our goal is to afford the same sort
-                  of stability to DH work that print has provided for so long.</p> 
-                  -->
+
         <p>The Endings project began with a portfolio of four long-running University of Victoria
             projects as test cases for developing our guidelines, principles and approaches for
             achieving sustainability:</p>
@@ -61,7 +43,9 @@
             active for a long time. One additional project, the <i>Scandinavian Canadian Studies
                 Journal</i>, was originally an Endings site, but due to a change of editorship it is
             now hosted elsewhere and is no longer Endings-compliant.</p>
-        <h3 id="map-of-early-modern-london">Map of Early Modern London</h3>
+        
+        <div id="map-of-early-modern-london">
+        <h3>Map of Early Modern London</h3>
         <p>The Map of Early Modern London (<a href="https://mapoflondon.uvic.ca/index.htm"
             >MoEML</a>) has four distinct projects:</p>
         <ul>
@@ -108,60 +92,70 @@
                 France”</a></p>
         <p><a
                 href="http://www.cbc.ca/news/canada/british-columbia/shakespeare-s-london-mapped-online-by-uvic-researchers-1.3046122"
-                >Apr 23, 2015 – “Shakespeare’s London mapped online by UVic researchers”</a></p>
-        <h3 id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">Le Mariage sous
+                >Apr 23, 2015 – “Shakespeare’s London mapped online by UVic researchers”</a></p></div>
+        
+        <div id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">
+        <h3>Le Mariage sous
             l’Ancien Régime (Marriage in Early Modern France)</h3>
-        <p>During the Early Modern era (16<sup>th</sup>-18<sup>th</sup> centuries) Western society
-            was obsessed by marriage, an institution evolving rapidly as the Catholic Church faced
-            revolt from protestants and governments sought to legislate in areas previously left
-            under religious authority. From the formal beginning of the Counter-Reformation with the
-            Council of Trent in 1545 until the end of Louis XIV’s reign in 1715, attempts in France
-            to renew the institution of marriage inspired debate resulting in the production of new
-            sorts of texts and images alongside the rebirth of certain traditional forms of
-            critique. The documents in this anthology are the fruit of the conflict among competing
-            discourses: what we call the “nuptial imaginary” is composed of diverse textual genres,
-            each with its own characteristics, but all concerned with the fears, desires, and
-            phantasms that were increasingly visible in an Early Modern society reacting to new
-            social, political, and religious configurations.</p>
-        <p>Between the 1570s and 1630s, the misogynist and misogamist satire so common in the Middle
-            Ages experienced renewed vigour, playing with traditional historical and mythological
-            allusions while also using pseudo-scientific glosses on medical discourse and
-            Renaissance travel literature. As this “new polemics” disappeared from published texts
-            in the 1640s, satire directed at shrews and their hen-pecked husbands found purchase in
-            popular images: the anthology contains over 70 engravings on the theme of unhappy
-            marriage.</p>
-        <p>The mid century provides a more hopeful view. Already at the end of the 16<sup>th</sup>
-            century there had been backlash against the new marriage satire, and by the 1650s, salon
-            literature painted a more nuanced picture of both the perils and the pleasures of
-            married life. Another textual genre born in the 1630s out of the marriage debates is the
-            Catholic marriage manual destined to guide couples through the pitfalls of married life.
-            The anthology includes three examples illustrating the movement away from “consoling”
-            couples in the 1660s to increasing severity from the Church as the century progressed:
-            more egalitarian relations between wife and husband were seen as dangerously undermining
-            traditional social structures.</p>
-        <p>Significantly, in non-religious discourse during the last third of the century, ridicule
-            predominates, both of dysfunctional couples and of the institution itself, putting in
-            doubt attempts by the Church and the monarchy to reaffirm the importance of marriage as
-            an essential social building block. This questioning posture can be seen most clearly in
-            fiction; among the several novels included in the anthology, <em>Les Agreemens et les
-                chagrins du mariage</em> stands out for its biting denunciation.</p>
-        <p>From over a century of critique, a more profound renewal of the institution became
-            possible in 18<sup>th-</sup>century France: the middle-class ideal of couples as
-            helpmeets, anchored in early protestant discourse, gradually took on new purchase in
-            pre-Revolutionary times. If resources become available, this anthology can include
-            documents illustrating this evolution.</p>
-        <p>The goal of this project is not only to develop the corpus described above, but also to
-            contribute to the exploration of the potential of the digital scholarly edition, as
-            illustrated in the critical apparatus: notes, bibliography, commentary and textual
-            analysis, and especially the proper-name index containing hundreds of entries.</p>
-        <p>The rights to reproduce the engravings were purchased from the Bibliothèque Nationale de
-            France thanks to funding from the Social Sciences and Humanities Research Council of
-            Canada. Other elements of the site (contributions from the editors, transcription of
-            texts, code and encoding) are distributed under the terms of a Creative Commons license
-            (Attribution-NonCommercial-NoDerivs 2.5 Canada: <a
-                href="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/deed.en"
-                >https://creativecommons.org/licenses/by-nc-nd/2.5/ca/deed.en</a>).</p>
-        <h3 id="Nxaʔamxčín-database-and-dictionary">Nxaʔamxčín Database and Dictionary</h3>
+        <p lang="en">Should one marry? The question posed by Rabelais’s Panurge proved inescapable in the West, especially from the time of the Counter-Reformations onwards. From the beginnings of the Council of Trent in 1545 to the end of the reign of Louis XIV in 1715, attempts to renew marriage in France came up against the growing intervention of the monarchy in an institution that had previously been dominated by the Church. The encounter between these two authorities was tumultuous, but it was also conducive to the proliferation of documents that are the subject of this site: the <q>nuptial imaginary</q> is made up of various textual genres, each with its own character, but all dealing with fears, desires and fantasies about the marital union in the context of the major upheavals in religious, political, social and cultural thought and practices of early modernity (16th-18th centuries).</p>
+            
+            <p lang="fr">
+                Doit-on se marier ? La question de Panurge s’avère incontournable en Occident, surtout à partir des Contre-réformes. Des débuts du Concile de Trente en 1545 jusqu’à la fin du règne de Louis XIV en 1715, les tentatives de renouveler le mariage se heurtent en France à l’intervention croissante de la monarchie dans cette institution dominée auparavant par l’Église. La rencontre entre ces deux autorités fut tumultueuse mais propice au foisonnement des documents qui font l’objet de ce site : l’imaginaire nuptial se compose de divers genres textuels, chacun ayant son caractère propre, mais tous traitant des peurs, des désirs et des fantasmes au sujet de l’union conjugale dans le contexte des grands remous dans la pensée et les pratiques religieuses, politiques, sociales et culturelles de la première modernité (XVIe-XVIIIe siècles).   
+            </p>
+            
+            <p lang="en">
+                This virtual anthology is first and foremost rooted in polemical discourse on marriage, which is divided into three chronological sections. Between around 1570 and 1630, misogynist and misogamist satire flourished: the topoi of the Middle Ages were renewed through pseudo-scientific glosses on medical discourse and cultural comparisons inspired by the travel literature of explorers. Traditional historical and mythological allusions were also revived to fuel criticism of women and marriage. When this <q>new polemics</q> disappeared from the world of textual publishing in the 1630s, the satire directed against shrews and their cuckolded husbands was recovered in engravings; we have provided over 70 examples. Relegated to these popular images until the last quarter of the century, satire on women and marriage was again revived in certain works of fiction and in the theatre from the 1680s onwards.
+            </p>
+            
+            <p lang="fr">
+                Cette anthologie virtuelle est tout d’abord ancrée dans la parole polémique relative au mariage, déployée en trois tranches chronologiques. Entre 1570 environ et 1630, la satire misogyne et misogame connaît une floraison importante : les topoi du Moyen Âge se renouvellent grâce à des gloses pseudo-savantes sur le discours médical et des comparaisons culturelles inspirées par les récits de voyage d’exploration. Les allusions historiques et mythologiques traditionnelles sont également ravivées pour mieux alimenter la critique des femmes et du mariage. Quand cette nouvelle polémique disparaît du monde de l’édition textuelle aux années 1630, la satire dirigée contre les mégères et leurs maris cocus se récupère dans les gravures ; nous en fournissons plus de 70 exemples. Reléguée à ces images populaires jusqu’au dernier quart du siècle, la satire de la femme et du mariage fait encore peau neuve dans certains ouvrages de fiction et au théâtre dès les années 1680.
+            </p>
+            
+            <p lang="en">
+                While misogyny was present in varying degrees in the criticism of marriage throughout the century, the valorization of wives was evident in the textual production emanating from the salons, especially from the 1650s onwards under the influence of the movement known as <i>Préciosité</i>. The celebration of women received a further boost when fairy tales became fashionable at the turn of the eighteenth century; in both cases, the success of women writers was a key element. Between the 1640s and 1670s, even Catholic treatises on marriage praised women and supported both members of the couple in the face of the challenges of marriage, which was usually arranged.
+            </p>
+            
+            <p lang="fr">
+                Si la misogynie est présente à divers degrés dans la critique du mariage tout au long du siècle, la valorisation des épouses se manifeste dans la production textuelle émanant des salons, ce surtout à partir des années 1650 sous l’influence du mouvement précieux. La célébration de la femme connaît un nouvel élan lorsque les contes de fée deviennent à la mode au tournant du XVIIIe siècle ; dans les deux cas, le succès des écrivaines y est pour beaucoup. Entre les années 1640 et 1670, même les traités catholiques sur le mariage font l’éloge de la femme et soutiennent les deux membres du couple devant le défi que représente le mariage, la plupart du temps forcé. 
+            </p>
+            
+            <p lang="en">
+                By the end of the seventeenth century, however, Catholic treatises and worldly discourse reverted to a distrust of women as responsible for the evils of marriage, a reflection of the trend we see in novels and theatre too. The tension between these two trends intensified: some texts and images emphasized women's moral weakness, while others stress women's strength of character and creativity. What they have in common is a scathing critique of the institution of marriage.
+            </p>
+            
+            <p lang="fr">
+                Toujours est-il qu’à la fin du XVIIe siècle, les traités catholiques et le discours mondain reviennent à la méfiance de la femme tenue responsable des maux du mariage, un reflet du courant que nous observons dans les romans et au théâtre aussi. La tension entre ces deux tendances s’intensifie : certains textes et images soulignent la faiblesse morale de la femme tandis que d’autres insistent sur la force de caractère et la créativité féminines. Ce qu’elles ont en commun est une critique acerbe de l’institution du mariage. 
+            </p>
+            
+            <p lang="en">
+                The examination of marriage since the sixteenth century, developed from various angles in the seventeenth, prepared the ground for the emerging models of the eighteenth century: on the one hand, the easy divorce, freed from traditional Catholic constraints, proposed by certain jurists even before the Revolution; on the other, the love matches and harmonious family relationships affecting all levels of society. These divergent visions are the result of the evolution of ideas about married life throughout early modernity – ideas that persist in various forms today.
+            </p>
+            
+            <p lang="fr">
+                La mise en examen du mariage depuis le XVIe siècle, développée sous divers angles au XVIIe, a préparé le terrain aux modèles émergents du XVIIIe siècle : d’une part, le divorce facile, libéré des contraintes catholiques traditionnelles, proposé par certains juristes même avant la Révolution ; de l’autre, le portrait du mariage amoureux et des relations de famille harmonieuses touchant à tous les niveaux sociaux. Ces imaginaires divergents sont le fruit de l’évolution des idées sur l’union conjugale tout au long de la première modernité – des idées qui persistent sous différentes formes de nos jours.
+            </p>
+            
+            <p lang="en">
+                Please note that the aim of this anthology is not only to create a corpus of texts and images of marriage during the <i>Ancien Régime</i>, but also to explore the potential of virtual scholarly publishing, hence the regular addition of notes, references linked to our index of proper names, bibliographical entries, links to resources external to the site, articles commenting on the corpus, and textual analyses using our search engine. Le mariage sous l’Ancien Régime is also a case study in The Endings Project: Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability, funded, as was the anthology, by the Insight program of the <a href="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</a>.
+            </p>
+            
+            <p lang="fr">
+                Il est à noter que cette anthologie a pour but non seulement de créer un corpus de textes et d’images au sujet du mariage sous l’Ancien Régime, mais aussi d’explorer les potentialités de l’édition savante virtuelle, d’où le rajout à un rythme régulier de notes, de références reliés à notre index de noms propres, d’entrées bibliographiques, de liens à des ressources externes au site, d’articles commentant le corpus et d’analyses textuelles grâce à notre engin de recherche. Le mariage sous l’Ancien Régime est aussi un étude de cas participant au projet <a href="https://endings.uvic.ca/">Endings: Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability</a>, financé, comme l’anthologie l’a été, par le programme Savoir du <a href="https://www.sshrc-crsh.gc.ca/">Conseil de recherches en sciences humaines du Canada</a>.
+            </p>
+            
+            <p lang="en">
+                Reproduction rights for the engravings were purchased from the Bibliothèque Nationale de France. The other elements of the site (the contributions of the editors, the transcriptions of the texts, the encoding and the code) are distributed under the terms of this licence: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons Attribution - Noncommercial - No Derivative Works 4.0 Canada</a>. 
+            </p>
+            
+            <p lang="fr">
+                Les droits de reproduction des gravures ont été achetés à la Bibliothèque Nationale de France. Les autres éléments du site (les contributions des éditeurs, les transcriptions des textes, l'encodage et le code) sont distribués sous les termes de cette licence : <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr">Creative Commons - Attribution - Pas d’Utilisation Commerciale - Pas de Modification 4.0 Canada</a>.
+            </p>
+        
+        </div>
+        
+        <div id="Nxaʔamxčín-database-and-dictionary">
+        
+        <h3>Nxaʔamxčín Database and Dictionary</h3>
         <p>This is a database of words and phrases from the Nxaʔamxčín language (sometimes referred
             to in English as Moses, or Moses-Columbia Salish). The purpose of this database is to
             pull together all the materials on Nxaʔamxčín compiled by M. Dale Kinkade and Ewa
@@ -176,7 +170,11 @@
             <li>to serve as a model for the role of digitization in language preservation and
                 revitalization.</li>
         </ul>
-        <h3 id="robert-graves-diary">Robert Graves Diary</h3>
+        
+        </div>
+        
+        <div id="robert-graves-diary">
+        <h3>Robert Graves Diary</h3>
         <p>The University of Victoria digital edition of the Robert Graves Diary has long been seen as a
             pioneering XML publication project. Beginning with a pilot markup project in 2001 (still
             used as an example for training purposes by the TEI), it evolved into a complete edition
@@ -190,5 +188,7 @@
             our Endings sites to be transitioned to long-term archive hosting at the University
             of Victoria Library.
         </p>
+        </div>
+        
     </main>
 </body>
