@@ -1,268 +1,383 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <body id="people" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>People</h1>
-    <h2>Building Sustainable Digital Humanities Projects</h2>
-    <main>
-        <ul>
-            <li><a href="#endings-humanities-faculty">Humanities Faculty</a></li>
-            <li><a href="#librarians">Librarians</a></li>
-            <li><a href="#programmers">Programmers</a></li>
-            <li><a href="#research-assistants">Research Assistants</a></li>
-        </ul>
-        <p><br/> Over the years, many colleagues and students had a hand in building these various
-            projects. Each day we gratefully remember their contributions as we build on their work
-            for The Endings Project. </p>
-        <h3 id="humanities-faculty">Humanities Faculty</h3>
-        <h4 id="claire-carlin">Claire Carlin</h4>
-        <h4 id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">Le Mariage sous
-            l’Ancien Régime (Marriage in Early Modern France)</h4>
-        
-        <p lang="en">Professor emerita of Early Modern French studies, <strong>Claire Carlin</strong> (PhD, University of California) began her career at UVic in 1989. Her major publications focus on the history of theatre and on representations of Early Modern marriage. Her specializations include 17th-century theatre, history of marriage and of medicine in the 16th-18th centuries, and digital humanities.</p>
-        
-        <p lang="fr">Professeure émérite des études françaises de la première modernité, <strong>Claire Carlin</strong> (PhD, University of California) est devenue membre du corps professoral de l'UVic en 1989. Ses principales publications portent sur l'histoire du théâtre et sur les représentations du mariage au début de l'époque moderne. Elle est spécialiste du théâtre du XVIIe siècle, de l'histoire du mariage et de la médecine aux XVIe-XVIIIe siècles ainsi que des humanités numériques.</p>
-        
-        <p lang="en">Her research projects include the following:</p>
-        
-        <p lang="fr">Ses projets de recherche :</p>
-        
-        <p lang="en"><strong>Representations of marriage in early modern France:</strong>
-            <a href="http://mariage.uvic.ca">Le Mariage sous l’Ancien Régime</a> is a digital anthology and scholarly edition funded by SSHRC, 2001-2004 and 2007-2013. Besides numerous articles on this topic, she delivered keynote addresses to the Société pour l’Analyse de la Topique Romanesque (SATOR), Université de Paris VII, in 2007 and to the joint conference of the Société d’étude du XVIIe siècle, the British Society for Seventeenth-Century French Studies, the North American Society for Seventeenth-Century French Literature and the Centre international de rencontres sur le XVIIe siècle at Oxford University in 2006. She also edited <i>Le Mariage sous l’Ancien Régime</i>, a special issue of <i>Dalhousie French Studies</i>, 56, fall 2001. </p>
-        
-        <p lang="fr"><strong>Representations du mariage dans la France de la première modernité :</strong>  <a href="https://mariage.uvic.ca/">Le Mariage sous l'Ancien Régime</a> est une anthologie numérique et une édition savante financée par le CRSH de 2001 à 2004 et de 2007 à 2013. Outre de nombreux articles sur ce sujet, elle a prononcé des conférences d’honneur à la Société pour l'analyse de la topique romane (SATOR), Université de Paris VII, en 2007 et à la conférence conjointe de la Société d'étude du XVIIe siècle, de la British Society for Seventeenth-Century French Studies, de la North American Society for Seventeenth-Century French Literature et du Centre international de rencontres sur le XVIIe siècle à l'Université d'Oxford en 2006. Elle a également édité <i>Le Mariage sous l'Ancien Régime</i>, numéro spécial de <i>Dalhousie French Studies</i>, 56, automne 2001.</p>
-        
-        <p lang="en"><strong>Theatre of Pierre Corneille:</strong> She has edited Pierre Corneille’s <i>La Veuve and La Suivante</i> for the <i>Théâtre complet</i>, vol. I (Classiques Garnier, 2014). She has published monographs on Corneille’s theatre in 2000 (<i>Women Reading Corneille: Feminist Psychocriticisms of Le Cid</i>) and 1998 (<i>Pierre Corneille Revisited</i>).</p>
-        
-        <p lang="fr"><strong>Théâtre de Pierre Corneille :</strong> Elle a édité <i>La Veuve et La Suivante</i> de Pierre Corneille pour le Théâtre complet, vol. I (Classiques Garnier, 2014). Elle a publié des monographies sur le théâtre de Corneille en 2000 (<i>Women Reading Corneille : Feminist Psychocriticisms of Le Cid</i>) et en 1998 (<i>Pierre Corneille Revisited</i>).</p>
-        
-      
-        <p lang="en"><strong>History of Medicine:</strong> <i>Imagining Contagion in Early Modern Europe</i> (Basingstoke: Palgrave Macmillan, 2005) was the result of a project she led where each contribution was discussed in depth by the team during a meeting in 2003. This project was funded by SSHRC and the Hannah Foundation for the History of Medicine.</p>
-        
-        <p lang="fr"><strong>Histoire de la médecine :</strong> <i>Imagining Contagion in Early Modern Europe</i> (Basingstoke : Palgrave Macmillan, 2005) est le résultat d'un projet qu'elle a dirigé et dans le cadre duquel chaque contribution a été discutée en profondeur par l'équipe lors d'une réunion en 2003. Ce projet a été financé par le CRSH et la Fondation Hannah pour l'histoire de la médecine.</p>
-        
-        
-        <p lang="en"><a href="files/cv_carlin.pdf">Claire Carlin’s CV</a></p>
-        
-        <p lang="fr"><a href="files/cv_carlin.pdf">CV de Claire Carlin</a></p>
-        
-        <iframe width="838" height="471"
-            src="https://www.youtube.com/embed/uaCVXdXgNy4?feature=oembed" style="border: 0;"
-            allow="fullscreen"/>
-        <hr/>
-        <h4 id="ewa-czaykowska-higgins">Ewa Czaykowska-Higgins</h4>
-        <h4 id="the-nxaamxcin-database-and-dictionary">The Nxa’amxcin Database and Dictionary</h4>
-        <p><strong>Ewa Czaykowska-Higgins</strong> (PhD, MIT) is a professor in the University of
-            Victoria’s Department of Linguistics. Her research focuses primarily on Salish
-            languages, and much of her work as a linguist has been as an ally supporting language
-            revitalization efforts in several Salish communities. </p>
-        <p>Her current work includes participation in a project that examines patterns of intonation
-            in four Salish languages: one project aim is the development of a toolkit for describing
-            and teaching intonation effectively. She is also involved in the construction of
-                <strong>a dictionary and online database of Nxaʔamxčín, an Interior Salish
-                language.</strong> The digital component of that project additionally forms one of
-            the case studies of Project Endings, a SSHRC-funded investigation of how to make digital
-            projects in the humanities more sustainable. </p>
-        <p>Czaykowska-Higgins says languages have been an abiding interest, in part because she
-            comes from an immigrant-settler family (her native language is Polish). “I just love
-            patterns in language. Languages are so deeply interesting in and of themselves. It’s not
-            something that most people realize because we use language unconsciously. But when you
-            start to look deeper into how languages work, it’s just fascinating.” </p>
-        <p>And as a linguist, she understands that language is at the core of who we are and how we
-            identify ourselves. “It’s connected to the land, it’s connected to our history, it’s key
-            to a lot of political issues—even our <em>spirituality</em> is in language. It’s so
-            central to who we are as human beings.” </p>
-        <iframe width="838" height="471"
-            src="https://www.youtube.com/embed/IA-zg71sBgA?feature=oembed" style="border: 0;"
-            allow="fullscreen"/>
-        <hr/>
-        <h4 id="janelle-jenstad">Janelle Jenstad</h4>
-        <h4 id="the-map-of-early-modern-london">The Map of Early Modern London</h4>
-        <p><strong>Janelle Jenstad</strong> (PhD, Queen’s University) associate professor in the
-            department of English at the University of Victoria, is the general editor and
-            coordinator of <a href="https://mapoflondon.uvic.ca/">The Map of Early Modern
-            London</a>. She is also the assistant coordinating editor of Internet Shakespeare
-            Editions. She has taught at Queen’s University, the Summer Academy at the Stratford
-            Festival, the University of Windsor, and the University of Victoria. Her articles have
-            appeared in the <em>Journal of Medieval and Early Modern Studies, Early Modern Literary
-                Studies, Elizabethan Theatre, Shakespeare Bulletin: A Journal of Performance
-                Criticism, and The Silver Society Journal</em>. Her book chapters have appeared (or
-            will appear) in <em>Performing Maternity in Early Modern England</em> (Ashgate, 2007),
-                <em>Approaches to Teaching Othello</em> (Modern Language Association, 2005),
-                <em>Shakespeare, Language and the Stage, The Fifth Wall: Approaches to Shakespeare
-                from Criticism, Performance and Theatre Studies</em> (Arden/Thomson Learning, 2005),
-                <em>Institutional Culture in Early Modern Society</em> (Brill, 2004), <em>New
-                Directions in the Geohumanities: Art, Text, and History at the Edge of Place</em>
-            (Routledge, 2011), and <em>Teaching Early Modern English Literature from the
-                Archives</em> (MLA, forthcoming). She is currently working on an edition of <em>The
-                Merchant of Venice</em> for ISE and Broadview P. She lectures regularly on London
-            studies, digital humanities, and on Shakespeare in performance. </p>
-        <p><a href="https://janellejenstad.com/">Janelle Jenstad’s Personal Website</a></p>
-        <iframe width="838" height="471"
-            src="https://www.youtube.com/embed/klkLh76fOc8?feature=oembed" style="border: 0;"
-            allow="fullscreen"/>
-        <hr/>
-        <h4 id="elizabeth-grove-white">Elizabeth Grove-White</h4>
-        <h4 id="the-robert-graves-diary-project">The Robert Graves Diary Project</h4>
-        <p>Following the birth of the first of her four children, <strong>Elizabeth
-                Grove-White</strong> (PhD Trinity College Dublin) worked as a researcher, writer,
-            editor, and producer at the CBC where she won Canada’s Peabody Award for her
-            documentary, “The Longest Journey.” She has taught in Toronto’s Ryerson University as
-            well as working for a variety of print and broadcast media in Canada. Her travel pieces
-            have appeared in a range of print and digital formats and she remains a frequent
-            contributor to the <em>Globe and Mail’s</em> Books section. </p>
-        <p>A summer internship as a student reporter with the UK’s <em>Computer Weekly</em>
-            newspaper, started Elizabeth’s career-long interest in digital media. She has been
-            teaching and researching digital media since 1991 and received SSHRC funding for her
-            digital edition of the <a href="https://graves.uvic.ca/">Robert Graves Diary</a> in UVic
-            Library’s Special Collections. </p>
-        <h3 id="librarians">Librarians</h3>
-        <h4 id="corey-davis-systems-librarian">Corey Davis, Systems Librarian</h4>
-        <p><strong>Corey Davis</strong> is a Systems Librarian at the University of Victoria and was
-            also the Digital Preservation Network Manager from Council of Prairie and Pacific
-            University Libraries until 2017. He is currently on the committees of several
-            organizations including the Chair of the Web Archiving Group for the Council of Prairie
-            and Pacific University Libraries and of the Digital Preservation Working Group at the
-            University of Victoria. Also, in 2015 Corey was awarded the Digital Humanities Institute
-            Resident Fellowship from the University of Rochester. Corey has a BA with Distinction in
-            Greek and Roman Studies from UVic and graduated with a Masters in Library and
-            Information Science from UBC in 2003. </p>
-        <p><a href="files/cv_davis.pdf">Corey Davis’s CV</a></p>
-        <hr/>
-        <h4 id="john-durno-head-of-library-systems">John Durno, Head of Library Systems</h4>
-        <p>For the past eleven years, <strong>John Durno</strong> has been Head of Library Systems
-            at the University of Victoria, where he manages the exceptional team responsible for
-            building and maintaining the Libraries’ IT environment. John’s recent publications
-            include Ddgital archaeology and forensics, which includes working with floppy discs from
-            the 1980s and Building capacities in digital archaeology. John received a BFA, MFA, and
-            MLIS all from the University of British Columbia. His research interests including
-            digital forensics, digital archaeology, and any other excuse to muck about with old
-            hardware and software. </p>
-        <p>Durno’s <a href="https://orcid.org/0000-0003-0419-9742">ORCID</a></p>
-        <hr/>
-        <h4 id="lisa-goddard-associate-university-librarian-for-digital-scholarship-and-strategy"
-            >Lisa Goddard, Associate University Librarian for Digital Scholarship and Strategy</h4>
-        <p><strong>Lisa Goddard</strong> is the Associate University Librarian for Digital
-            Scholarship and Strategy at University of Victoria Libraries. She holds degrees from
-            Queen’s, McGill, and Memorial University, and is currently completing an MA in
-            Humanities Computing at the University of Alberta. Lisa’s research interests include
-            open access publishing, semantic web technologies, digital publishing &amp;
-            preservation, and digital humanities. </p>
-        <p>Goddard’s <a href="https://orcid.org/0000-0002-4970-053X">ORCID</a></p>
-        <hr/>
-        <h4 id="j-matthew-huculak-digital-scholarship-librarian">J. Matthew Huculak, Digital
-            Scholarship Librarian</h4>
-        <p><strong>Dr. J. Matthew Huculak</strong> is Digital Scholarship Librarian at the
-            University of Victoria. He is an Advisory Board Member of Project Muse at Johns Hopkins
-            University Press, the Director of the <a href="http://mvp.uvic.ca">Modernist Versions
-                Project</a> and co-founder of <a href="https://openmods.uvic.ca">Open
-            Modernisms</a>, an open-source web-based resource to share open-access course packs. He
-            co-teaches the PreDigital Book course at the [Digital Humanities Summer
-            Insitute}(https://dhsi.org) and is former Project Manger at the <a
-                href="https://modjourn.org">Modernist Journals Project</a>. With degrees in both
-            library science and literature he publishes and teaches at the intersections of
-            archives, libraries, book history, modernism, and periodical studies. </p>
-        <p>Huculak’s <a href="https://orcid.org/0000-0002-2717-1112">ORCID</a>. </p>
-        <h3 id="programmers">Programmers</h3>
-        <h4 id="martin-holmes-programmer-consultant">Martin Holmes, Programmer Consultant</h4>
-        <p><strong>Martin Holmes</strong> has a B.A. (Hons) in English and an MPhil for research in
-            Phonology, as well as the RSA/Cambridge Dip. TEFLA. He has taught English as a
-            second/foreign language in Britain, Japan, Indonesia, Greece, Saudi Arabia and Canada.
-            In the 1990s he moved from teaching into programming with an emphasis on creating online
-            language teaching materials and has recently been focusing on both electronic and
-            traditional print publishing using XML-based technologies. He is a founder and partner
-            (with Stewart Arneil) in Half-Baked Software Inc., a company created with the university
-            to commercially exploit software created by Stewart and Martin in the HCMC. He has also
-            published several pieces of educational software independently. He was an elected member
-            of the Technical Council of the Text Encoding Initiative 2010-2015, and Managing Editor
-            of the <i>Journal of the Text Encoding Initiative</i> for three years, and was Technical
-            Editor of the <i>Scandinavian Canadian Studies Journal</i> for many years. His recent
-            projects include the <a href="https://mapoflondon.uvic.ca">Map of Early Modern
-                London</a>, the <a href="https://bcgenesis.uvic.ca">Colonial Despatches</a>
-            collection, the <a href="https://graves.uvic.ca">Robert Graves Diary</a> project, <a
-                href="https://mariage.uvic.ca">Le mariage sous L’Ancien Régime</a>, <a
-                href="https://dvpp.uvic.ca">Digital Victorian Periodical Poetry</a>, and <a
-                href="https://lemdo.uvic.ca/">Linked Early Modern Drama Online</a>. </p>
-        <p><a href="https://www.mholmes.com/cv/cv_web.xml">Martin Holmes’s CV</a></p>
-        <hr/>
-        <h4 id="stewart-arneil-programmer-consultant">Stewart Arneil, Programmer Consultant</h4>
-        <p><strong>Stewart Arneil</strong> is responsible for: creating project specifications,
-            supervising workflow for projects, and developing client and server software and
-            websites. He also sits on the Digital Humanities committee and ensures that activities
-            and operations in the HCMC are consistent with strategic priorities and policies set by
-            the committee. </p>
-        <p>Stewart has 25 years of experience in both private and public sectors in design,
-            management and development of software. He is particularly interested in project design
-            and management, language learning, and training people in the appropriate use of
-            technology in research, teaching, and learning. </p>
-        <p>He holds an M.A. in Computational Theory, certification as an Instructional Designer, and
-            a Master’s Certificate in Project Management. </p>
-        <p>Stewart is a founder and partner (with Martin Holmes) in Half-Baked Software Inc., a
-            company created with the university to take advantage of commercial opportunities for
-            software created in part by Stewart in the HCMC. </p>
-        <p>In addition to his work on the Endings project, Stewart leads a research cluster and
-            coordinates data integration for the Landscapes of Injustice project; he is a developer
-            of the Great Unexplained Mysteries in Canadian History website; he maintains and
-            upgrades the FrancoToile project; he wrote project specifications, coordinated
-            developers and managed contractors on the VIHistory project, and maintains the codebase
-            and databases; supervised development of the Capital Trials at the Old Bailey database. </p>
-        <hr/>
-        <h4 id="greg-newton">Greg Newton</h4>
-        <p><strong>Greg Newton</strong> holds a B.A. (double-major) in English and History, as well
-            as a post-degree diploma in Applied Linguistics and a Masters in Education (Educational
-            Technology). He is responsible for developing client and server software and websites,
-            managing hardware in the HCMC research lab, and maintaining Humanities server
-            infrastructure in co-operation with Research Computing. </p>
-        <p>In addition to the Endings Project, Greg’s current projects include <a
-                href="https://myths.uvic.ca/">Myths on Maps</a> and the <a
-                href="https://cgwp.uvic.ca/">Canadian Great War Project</a></p>
-        <hr/>
-        <h4 id="joseph-takeda-junior-programmerresearch-assistant">Joseph Takeda,
-            Programmer/Research Assistant</h4>
-        <p><strong>Joseph Takeda</strong> received his BA (Honours with Distinction) in English and
-            Women’s Studies from the University of Victoria in 2016, and his MA in English (Science
-            and Technology Research Stream) from the University of British Columbia in 2021. In
-            2016, Joseph was awarded the Department of English Medal of Excellence and the SSHRC
-            CGS-M (UBC). His recent publications include “Making the RA Matter: Pedagogy, Interface,
-            and Practices” written with Janelle Jenstad and “The MoEML Finding Aid to the Bills of
-            Mortality”. He was a Programmer on The Endings Project, and is co-author of the
-            staticSearch project. He is currently a User Interface Developer at the Digital
-            Humanities Innovation Lab (Simon Fraser University). </p>
-        <h3 id="research-assistants">Research Assistants</h3>
-        <h4 id="emily-comeau-researcher">Emily Comeau, Researcher</h4>
-        <p><strong>Emily Comeau</strong> completed her MA in Linguistics in 2018 at the University
-            of Victoria, where her research explored the role of literacy in Indigenous language
-            revitalization and the implications of print literacy for decolonization. She also has a
-            BA in Linguistics and International Studies from the University of Alberta. She
-            began her doctoral program at UBCO in fall 2021. Emily has been working on the Endings
-            Project and Le Mariage Sous L¹Ancien Régime since 2017. </p>
-        <h4 id="sarah-kell-researcher">Sarah Kell, Researcher</h4>
-        <p><strong>Sarah Kell</strong> has a BA in Linguistics and a MEd in Indigenous Language
-            Revitalization, both from the University of Victoria. She has been co-editor of the
-            Nxaʔamxčín Database and Dictionary since 2010. Sarah also assists UVic linguists with
-            research on other Salish languages and consults on Indigenous language curriculum
-            development with First Nations, school districts, and the BC Ministry of Education. </p>
-        <hr/>
-        <h4 id="daniel-martin-researcher">Daniel Martin, Researcher</h4>
-        <p><strong>Daniel Martin</strong> was an MA student in English. His research considered the
-            relationship between creative pedagogy and first year composition courses - this project
-            was supported by a teaching and learning scholarship from the Centre for Teaching and
-            learning at UVic. He also holds a BA in English and Writing from the University of Leeds
-            and a Post-Graduate Certificate in Education from the University of Teesside in the UK.
-            Daniel worked on the Endings project from July to November 2018. </p>
-        <hr/>
-        <h4 id="tye-landels-gruenewald-researcher">Tye Landels-Gruenewald, Researcher</h4>
-        <p><strong>Tye Landels-Gruenewald</strong> was an undergraduate at UVic studying for an
-            English major (Honors with Distinction) and European Studies minor, and then went on to
-            take an MA at Queen’s University. He is also a past President of the English Students’
-            Society and the 2014 3M National Student Fellowship Recipient. As an English Honours
-            student, Tye turned his passion for geography and urban studies to helping create the
-            Map of Early Modern London. </p>
-        <hr/>
-        <h4 id="jennifer-polack-research-assistant">Jennifer Polack, Research Assistant</h4>
-        <p><strong>Jennifer Polack</strong> was an undergraduate student studying for her BA
-            (English Major, Professional Communications Minor) at the University of Victoria. She
-            worked as a co-op student for The Endings Project. Her previous co-op positions include
-            a fundraising coordinator for the Victoria Native Friendship Centre and editorial
-            assistant on the International Journal of Indigenous Health. She is also a social media
-            and content developer for Animikii, Inc. </p>
-    </main>
+	<h1>People</h1>
+	<h2>Building Sustainable Digital Humanities Projects</h2>
+	<main>
+		<ul>
+			<li><a href="#endings-humanities-faculty">Humanities Faculty</a></li>
+			<li><a href="#librarians">Librarians</a></li>
+			<li><a href="#programmers">Programmers</a></li>
+			<li><a href="#research-assistants">Research Assistants</a></li>
+		</ul>
+		<p><br /> Over the years, many colleagues and students had a hand in building these various
+			projects. Each day we gratefully remember their contributions as we build on their work
+			for The Endings Project. </p>
+		<h3 id="humanities-faculty">Humanities Faculty</h3>
+		<h4 id="claire-carlin">Claire Carlin</h4>
+		<h4 id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">Le Mariage sous
+			l’Ancien Régime (Marriage in Early Modern France)</h4>
+
+		<p lang="en">Professor emerita of Early Modern French studies, <strong>Claire Carlin</strong> (PhD, University of California) began her career at UVic in 1989. Her major publications focus on the history of theatre and on representations of Early Modern marriage. Her specializations include 17th-century theatre, history of marriage and of medicine in the 16th-18th centuries, and digital humanities.</p>
+
+		<p lang="fr">Professeure émérite des études françaises de la première modernité, <strong>Claire Carlin</strong> (PhD, University of California) est devenue membre du corps professoral de l'UVic en 1989. Ses principales publications portent sur l'histoire du théâtre et sur les représentations du mariage au début de l'époque moderne. Elle est spécialiste du théâtre du XVIIe siècle, de l'histoire du mariage et de la médecine aux XVIe-XVIIIe siècles ainsi que des humanités numériques.</p>
+
+		<p lang="en">Her research projects include the following:</p>
+
+		<p lang="fr">Ses projets de recherche :</p>
+
+		<p lang="en"><strong>Representations of marriage in early modern France:</strong>
+			<a href="http://mariage.uvic.ca">Le Mariage sous l’Ancien Régime</a> is a digital anthology and scholarly edition funded by SSHRC, 2001-2004 and 2007-2013. Besides numerous articles on this topic, she delivered keynote addresses to the Société pour l’Analyse de la Topique Romanesque (SATOR), Université de Paris VII, in 2007 and to the joint conference of the Société d’étude du XVIIe siècle, the British Society for Seventeenth-Century French Studies, the North American Society for Seventeenth-Century French Literature and the Centre international de rencontres sur le XVIIe siècle at Oxford University in 2006. She also edited <i>Le Mariage sous l’Ancien Régime</i>, a special issue of <i>Dalhousie French Studies</i>, 56, fall 2001.
+		</p>
+
+		<p lang="fr"><strong>Representations du mariage dans la France de la première modernité :</strong> <a href="https://mariage.uvic.ca/">Le Mariage sous l'Ancien Régime</a> est une anthologie numérique et une édition savante financée par le CRSH de 2001 à 2004 et de 2007 à 2013. Outre de nombreux articles sur ce sujet, elle a prononcé des conférences d’honneur à la Société pour l'analyse de la topique romane (SATOR), Université de Paris VII, en 2007 et à la conférence conjointe de la Société d'étude du XVIIe siècle, de la British Society for Seventeenth-Century French Studies, de la North American Society for Seventeenth-Century French Literature et du Centre international de rencontres sur le XVIIe siècle à l'Université d'Oxford en 2006. Elle a également édité <i>Le Mariage sous l'Ancien Régime</i>, numéro spécial de <i>Dalhousie French Studies</i>, 56, automne 2001.</p>
+
+		<p lang="en"><strong>Theatre of Pierre Corneille:</strong> She has edited Pierre Corneille’s <i>La Veuve and La Suivante</i> for the <i>Théâtre complet</i>, vol. I (Classiques Garnier, 2014). She has published monographs on Corneille’s theatre in 2000 (<i>Women Reading Corneille: Feminist Psychocriticisms of Le Cid</i>) and 1998 (<i>Pierre Corneille Revisited</i>).</p>
+
+		<p lang="fr"><strong>Théâtre de Pierre Corneille :</strong> Elle a édité <i>La Veuve et La Suivante</i> de Pierre Corneille pour le Théâtre complet, vol. I (Classiques Garnier, 2014). Elle a publié des monographies sur le théâtre de Corneille en 2000 (<i>Women Reading Corneille : Feminist Psychocriticisms of Le Cid</i>) et en 1998 (<i>Pierre Corneille Revisited</i>).</p>
+
+
+		<p lang="en"><strong>History of Medicine:</strong> <i>Imagining Contagion in Early Modern Europe</i> (Basingstoke: Palgrave Macmillan, 2005) was the result of a project she led where each contribution was discussed in depth by the team during a meeting in 2003. This project was funded by SSHRC and the Hannah Foundation for the History of Medicine.</p>
+
+		<p lang="fr"><strong>Histoire de la médecine :</strong> <i>Imagining Contagion in Early Modern Europe</i> (Basingstoke : Palgrave Macmillan, 2005) est le résultat d'un projet qu'elle a dirigé et dans le cadre duquel chaque contribution a été discutée en profondeur par l'équipe lors d'une réunion en 2003. Ce projet a été financé par le CRSH et la Fondation Hannah pour l'histoire de la médecine.</p>
+
+
+		<p lang="en"><a href="files/cv_carlin.pdf">Claire Carlin’s CV</a></p>
+
+		<p lang="fr"><a href="files/cv_carlin.pdf">CV de Claire Carlin</a></p>
+
+		<iframe width="838" height="471" src="https://www.youtube.com/embed/uaCVXdXgNy4?feature=oembed" style="border: 0;" allow="fullscreen" />
+		<hr />
+		<h4 id="ewa-czaykowska-higgins">Ewa Czaykowska-Higgins</h4>
+		<h4 id="the-nxaamxcin-database-and-dictionary">The Nxa’amxcin Database and Dictionary</h4>
+		<p lang="en"><strong>Ewa Czaykowska-Higgins</strong> (PhD, MIT) is a professor in the University of Victoria’s Department of Indigenous Education. Her research focuses primarily on Salish languages, and much of her work as a linguist has been as an ally supporting language revitalization efforts in several Salish communities.
+		</p>
+
+		<p lang="fr"><strong>Ewa Czaykowska-Higgins</strong> (PhD, MIT) est professeure au Département de Indigenous Education de l'Université de Victoria. Ses recherches portent principalement sur les langues salish, et une grande partie de son travail de linguiste a consisté à soutenir les efforts de revitalisation des langues dans plusieurs communautés salish.</p>
+
+		<p lang="en">Her current work includes participation in a project that examines patterns of intonation
+			in four Salish languages: one project aim is the development of a toolkit for describing
+			and teaching intonation effectively. She is also involved in the construction of
+			<strong>a dictionary and online database of Nxaʔamxčín, an Interior Salish
+				language.</strong> The digital component of that project additionally forms one of
+			the case studies of Project Endings.
+		</p>
+
+		<p lang="fr">Elle participe actuellement à un projet qui examine les modèles d'intonation dans quatre langues salish : l'un des objectifs du projet est le développement d'une boîte à outils pour décrire et enseigner l'intonation de manière efficace. Elle participe également à la construction d'<strong>un dictionnaire et d'une base de données en ligne de Nxaʔamxčín, une langue salish intérieure</strong>. La composante numérique de ce projet constitue en outre l'une des études de cas du projet Endings.</p>
+
+
+		<p lang="en">Czaykowska-Higgins says languages have been an abiding interest, in part because she
+			comes from an immigrant-settler family (her native language is Polish). “I just love
+			patterns in language. Languages are so deeply interesting in and of themselves. It’s not
+			something that most people realize because we use language unconsciously. But when you
+			start to look deeper into how languages work, it’s just fascinating.” </p>
+
+		<p lang="fr">Czaykowska-Higgins explique que les langues ont toujours suscité son intérêt, en partie parce qu'elle vient d'une famille d'immigrants et de colons (sa langue maternelle est le polonais). « Les schémas linguistiques me passionnent. Les langues sont si profondément intéressantes en elles-mêmes. La plupart des gens n'en sont pas conscients, car nous utilisons les langues de manière inconsciente. Mais lorsqu'on commence à approfondir le fonctionnement des langues, c'est tout simplement fascinant. »</p>
+
+
+		<p lang="en">And as a linguist, she understands that language is at the core of who we are and how we
+			identify ourselves. “It’s connected to the land, it’s connected to our history, it’s key
+			to a lot of political issues—even our <em>spirituality</em> is in language. It’s so
+			central to who we are as human beings.” </p>
+
+		<p lang="fr">En tant que linguiste, elle comprend que la langue est au cœur de notre identité et de notre façon de nous identifier. « Elle est liée à la terre, à notre histoire, à de nombreuses questions politiques - même notre spiritualité est dans la langue. Elle est au cœur de ce que nous sommes en tant qu'êtres humains. »</p>
+
+
+		<iframe width="838" height="471" src="https://www.youtube.com/embed/IA-zg71sBgA?feature=oembed" style="border: 0;" allow="fullscreen" />
+		<hr />
+		<h4 id="janelle-jenstad">Janelle Jenstad</h4>
+		<h4 id="the-map-of-early-modern-london">The Map of Early Modern London</h4>
+		<p lang="en"><strong>Janelle Jenstad</strong> (PhD, Queen’s University) professor in the
+			department of English at the University of Victoria, is the general editor and
+			coordinator of <a href="https://mapoflondon.uvic.ca/">The Map of Early Modern
+				London</a>. She has taught at Queen’s University, the Summer Academy at the Stratford
+			Festival, the University of Windsor, and the University of Victoria. Her articles have
+			appeared in the <em>Journal of Medieval and Early Modern Studies, Early Modern Literary
+				Studies, Elizabethan Theatre, Shakespeare Bulletin: A Journal of Performance
+				Criticism, and The Silver Society Journal</em>. Her book chapters have appeared (or
+			will appear) in <em>Performing Maternity in Early Modern England</em> (Ashgate, 2007),
+			<em>Approaches to Teaching Othello</em> (Modern Language Association, 2005),
+			<em>Shakespeare, Language and the Stage, The Fifth Wall: Approaches to Shakespeare
+				from Criticism, Performance and Theatre Studies</em> (Arden/Thomson Learning, 2005),
+			<em>Institutional Culture in Early Modern Society</em> (Brill, 2004), <em>New
+				Directions in the Geohumanities: Art, Text, and History at the Edge of Place</em>
+			(Routledge, 2011), and <em>Teaching Early Modern English Literature from the
+				Archives</em> (MLA, forthcoming). She is currently working on an edition of <em>The
+				Merchant of Venice</em> for ISE and Broadview P. She lectures regularly on London
+			studies, digital humanities, and on Shakespeare in performance.
+		</p>
+
+		<p lang="en"><a href="https://janellejenstad.com/">Janelle Jenstad’s Personal Website</a></p>
+
+		<p lang="fr">Janelle Jenstad (PhD, Queen's University), professeure au département d'anglais de l'Université de Victoria, est rédactrice en chef et coordinatrice de <a href="https://mapoflondon.uvic.ca/">The Map of Early Modern London</a>. Elle a enseigné à l'Université Queen's, à l'Académie d'été du Festival de Stratford, à l'Université de Windsor et à l'Université de Victoria. Ses articles ont été publiés dans le <em>Journal of Medieval and Early Modern Studies</em>, <em>Early Modern Literary Studies</em>, <em>Elizabethan Theatre</em>, <em>Shakespeare Bulletin : A Journal of Performance Criticism</em> et <em>The Silver Society Journal</em>. Ses chapitres de livres sont parus dans <em>Performing Maternity in Early Modern England</em> (Ashgate, 2007), <em>Approaches to Teaching Othello</em> (Modern Language Association, 2005), <em>Shakespeare, Language and the Stage</em>, <em>The Fifth Wall : Approaches to Shakespeare from Criticism, Performance and Theatre Studies</em> (Arden/Thomson Learning, 2005), <em>Institutional Culture in Early Modern Society</em> (Brill, 2004), <em>New Directions in the Geohumanities : Art, Text, and History at the Edge of Place</em> (Routledge, 2011), et <em>Teaching Early Modern English Literature from the Archives</em> (MLA). Elle travaille actuellement sur une édition du Marchand de Venise pour ISE et Broadview P. Elle donne régulièrement des conférences sur les études londoniennes, les humanités numériques et Shakespeare en spectacle.</p>
+
+		<p lang="fr"><a href="https://janellejenstad.com/">Le site de Janelle Jenstad</a></p>
+
+
+
+		<iframe width="838" height="471" src="https://www.youtube.com/embed/klkLh76fOc8?feature=oembed" style="border: 0;" allow="fullscreen" />
+		<hr />
+		<h4 id="elizabeth-grove-white">Elizabeth Grove-White</h4>
+		<h4 id="the-robert-graves-diary-project">The Robert Graves Diary Project</h4>
+		<p lang="en">Following the birth of the first of her four children, <strong>Elizabeth
+				Grove-White</strong> (PhD Trinity College Dublin) worked as a researcher, writer,
+			editor, and producer at the CBC where she won Canada’s Peabody Award for her
+			documentary, “The Longest Journey.” She has taught in Toronto’s Ryerson University as
+			well as working for a variety of print and broadcast media in Canada. Her travel pieces
+			have appeared in a range of print and digital formats and she remains a frequent
+			contributor to the <em>Globe and Mail’s</em> Books section. </p>
+
+		<p lang="fr">Après la naissance du premier de ses quatre enfants, Elizabeth Grove-White (PhD Trinity College Dublin) a travaillé comme chercheuse, rédactrice, éditrice et productrice à la CBC, où elle a remporté le prix Peabody du Canada pour son documentaire "The Longest Journey". Elle a enseigné à l'université Ryerson de Toronto et a travaillé pour divers médias imprimés et audiovisuels au Canada. Ses articles sur les voyages ont été publiés dans divers formats imprimés et numériques et elle contribue fréquemment à la section Livres du <em>Globe and Mail</em>.</p>
+
+		<p lang="en">A summer internship as a student reporter with the UK’s <em>Computer Weekly</em>
+			newspaper, started Elizabeth’s career-long interest in digital media. She has been
+			teaching and researching digital media since 1991 and received SSHRC funding for her
+			digital edition of the <a href="https://graves.uvic.ca/">Robert Graves Diary</a> in UVic
+			Library’s Special Collections. </p>
+
+		<p lang="fr">Un stage d'été en tant que journaliste étudiant pour le journal britannique <em>Computer Weekly</em> est à l'origine de l'intérêt qu'Elizabeth porte aux médias numériques depuis le début de sa carrière. Elle enseigne et fait des recherches sur les médias numériques depuis 1991 et a reçu un financement du CRSH pour son édition numérique du <a href="https://graves.uvic.ca/">journal de Robert Graves</a> dans les collections spéciales de la bibliothèque de l'UVic.</p>
+
+		<div id="librarians">
+			<h3 lang="en">Librarians</h3>
+			<h3 lang="fr">Bibliothécaires</h3>
+			<h4 id="corey-davis-systems-librarian" lang="en">Corey Davis, Systems Librarian</h4>
+			<h4 id="corey-davis-systèmes-bibliothécaire" lang="fr">Corey Davis, Systems Librarian</h4>
+
+			<p lang="en"><strong>Corey Davis</strong> is a Systems Librarian at the University of Victoria and was
+				also the Digital Preservation Network Manager from Council of Prairie and Pacific
+				University Libraries until 2017. He is currently on the committees of several
+				organizations including the Chair of the Web Archiving Group for the Council of Prairie
+				and Pacific University Libraries and of the Digital Preservation Working Group at the
+				University of Victoria. Also, in 2015 Corey was awarded the Digital Humanities Institute
+				Resident Fellowship from the University of Rochester. Corey has a BA with Distinction in
+				Greek and Roman Studies from UVic and graduated with a Masters in Library and
+				Information Science from UBC in 2003. </p>
+
+			<p lang="fr"><strong>Corey Davis</strong> est bibliothécaire de systèmes à l'Université de Victoria et a également été Gestionnaire du réseau de préservation numérique du Council of Prairie and Pacific University Libraries (Conseil des bibliothèques universitaires des Prairies et du Pacifique) jusqu'en 2017. Il fait actuellement partie des comités de plusieurs organisations, notamment en tant que Président du Groupe d'archivage Web pour le Council of Prairie and Pacific University Libraries et du Groupe de travail sur la préservation numérique à l'Université de Victoria. En 2015, Corey a reçu la bourse de résidence du Digital Humanities Institute de l'Université de Rochester. Corey est titulaire d'une licence avec distinction en études grecques et romaines de l'UVic et d'une maîtrise en bibliothéconomie et sciences de l'information de l'UBC en 2003.</p>
+
+			<p lang="en"><a href="files/cv_davis.pdf">Corey Davis’s CV</a></p>
+			<p lang="fr"><a href="files/cv_davis.pdf">CV de Corey Davis</a></p>
+
+			<hr />
+			<h4 lang="en" id="john-durno-head-of-library-systems">John Durno, Head of Library Systems</h4>
+			<h4 lang="fr" id="john-durno-responsable-des-systèmes-des-bibliothèque-universitaires">John Durno, Responsable des systèmes des bibliothèque universitaires
+			</h4>
+
+			<p lang="en">For the past eleven years, <strong>John Durno</strong> has been Head of Library Systems
+				at the University of Victoria, where he manages the exceptional team responsible for
+				building and maintaining the Libraries’ IT environment. John’s recent publications
+				include "Digital archaeology and forensics", which includes working with floppy discs from
+				the 1980s and "Building capacities in digital archaeology." John received a BFA, MFA, and
+				MLIS all from the University of British Columbia. His research interests including
+				digital forensics, digital archaeology, and any other excuse to muck about with old
+				hardware and software.</p>
+
+			<p lang="fr">Depuis onze ans, John Durno est responsable des systèmes des bibliothèques à l'Université de Victoria, où il dirige l'équipe exceptionnelle chargée de créer et de maintenir l'environnement informatique des bibliothèques. Les publications récentes de John comprennent « Digital archaeology and forensics », qui inclut le travail avec des disquettes des années 1980 et « Building capacities in digital archaeology ». John est titulaire d'une licence, d'une maîtrise et d'une maîtrise en sciences de l'information de l'Université de la Colombie-Britannique. Ses recherches portent notamment sur la criminalistique numérique, l'archéologie numérique et tout autre prétexte pour manipuler du matériel et des logiciels anciens.</p>
+
+			<p lang="en">Durno’s <a href="https://orcid.org/0000-0003-0419-9742">ORCID</a></p>
+			<p lang="fr"><a href="https://orcid.org/0000-0003-0419-9742">ORCID de J. Durno</a></p>
+
+
+
+			<hr />
+			<h4 lang="en" id="lisa-goddard-associate-university-librarian-for-digital-scholarship-and-strategy">Lisa Goddard, Associate University Librarian for Digital Scholarship and Strategy</h4>
+			<h4 lang="fr" id="lisa-goddard-bibliothécaire-universitaire-adjointe-pour-la-recherche-et-la-stratégie-numériques">Lisa Goddard, Bibliothécaire universitaire adjointe pour la recherche et la stratégie numériques</h4>
+
+			<p lang="en"><strong>Lisa Goddard</strong> is the Associate University Librarian for Digital
+				Scholarship and Strategy at University of Victoria Libraries. She holds degrees from
+				Queen’s, McGill, and Memorial University, and is currently completing an MA in
+				Humanities Computing at the University of Alberta. Lisa’s research interests include
+				open access publishing, semantic web technologies, digital publishing &amp;
+				preservation, and digital humanities.</p>
+
+			<p lang="fr"><strong>Lisa Goddard</strong> est Bibliothécaire universitaire adjointe pour la recherche et la stratégie numériques aux bibliothèques de l'université de Victoria. Elle est diplômée des universités Queen's, McGill et Memorial, et termine actuellement une maîtrise en informatique des sciences humaines à l'Université de l'Alberta. Les recherches de Lisa portent sur l'édition en libre accès, les technologies du web sémantique, l'édition et la conservation numériques, et les humanités numériques.</p>
+
+			<p lang="en">Goddard’s <a href="https://orcid.org/0000-0002-4970-053X">ORCID</a></p>
+
+			<p lang="fr">Goddard’s <a href="https://orcid.org/0000-0002-4970-053X">ORCID de L. Goddard</a></p>
+
+
+			<hr />
+			<h4 lang="en" id="j-matthew-huculak-digital-scholarship-librarian">J. Matthew Huculak, Digital
+				Scholarship Librarian</h4>
+			<h4 lang="fr" id="j-matthew-huculak-bibliothécaire-chargé-de-la-recherche-numérique">J. Matthew Huculak, Bibliothécaire chargé de la recherche numérique</h4>
+
+			<p lang="en"><strong>Dr. J. Matthew Huculak</strong> is Head, Advanced Research Services at the
+				University of Victoria. He is an Advisory Board Member of Project Muse at Johns Hopkins
+				University Press, the Director of the <a href="http://mvp.uvic.ca">Modernist Versions
+					Project</a> and co-founder of <a href="https://openmods.uvic.ca">Open
+					Modernisms</a>, an open-source web-based resource to share open-access course packs. He
+				co-teaches the PreDigital Book course at the <a href="https://d.docs.live.net/342804a3fad22039/Documents/Digital%20Humanities%20Summer%20Insitute">Digital Humanities Summer Insitute</a> and is former Project Manger at the <a href="https://modjourn.org">Modernist Journals Project</a>. With degrees in both
+				library science and literature he publishes and teaches at the intersections of
+				archives, libraries, book history, modernism, and periodical studies.</p>
+
+			<p lang="fr"><strong>Le Dr. J. Matthew Huculak</strong> est Directeur des services de recherche avancée et Bibliothécaire chargé de la recherche numérique à l'Université de Victoria. Il est membre du conseil consultatif du Project Muse de Johns Hopkins University Press, directeur du <a href="http://mvp.uvic.ca">Modernist Versions Project</a> et cofondateur d'<a href="https://openmods.uvic.ca">Open Modernisms</a>, une ressource web en source ouverte permettant de partager des supports de cours en libre accès. Il co-enseigne le cours sur le livre pré-numérique au <a href="https://d.docs.live.net/342804a3fad22039/Documents/Digital Humanities Summer Insitute">Digital Humanities Summer Insitute</a> et est l'ancien chef de projet du<a href="https://modjourn.org/">Modernist Journals Project</a>. Diplômé en bibliothéconomie et en littérature, il publie et enseigne à l'intersection des archives, des bibliothèques, de l'histoire du livre, du modernisme et des études sur les périodiques.</p>
+
+
+
+
+			<p lang="en">Huculak’s <a href="https://orcid.org/0000-0002-2717-1112">ORCID</a>.</p>
+			<p lang="fr">Huculak’s <a href="https://orcid.org/0000-0002-2717-1112">ORCID de J. M. Huculak</a>.</p>
+
+		</div><!--end librarians-->
+
+		<div id="programmers">
+
+			<h3 lang="en">Programmers</h3>
+			<h3 lang="fr">Programmeurs</h3>
+
+			<h4 lang="en" id="martin-holmes-programmer-consultant">Martin Holmes, Programmer Consultant</h4>
+			<h4 lang="fr" id="martin-holmes-programmeur-consultant">Martin Holmes, Programmeur consultant</h4>
+			<p lang="en"><strong>Martin Holmes</strong> has a B.A. (Hons) in English and an MPhil for research in
+				Phonology, as well as the RSA/Cambridge Dip. TEFLA. He has taught English as a
+				second/foreign language in Britain, Japan, Indonesia, Greece, Saudi Arabia and Canada.
+				In the 1990s he moved from teaching into programming with an emphasis on creating online
+				language teaching materials and has recently been focusing on both electronic and
+				traditional print publishing using XML-based technologies. He is a founder and partner
+				(with Stewart Arneil) in Half-Baked Software Inc., a company created with the university
+				to commercially exploit software created by Stewart and Martin in the <a href="https://hcmc.uvic.ca">HCMC</a>. He has also
+				published several pieces of educational software independently. He was an elected member
+				of the Technical Council of the Text Encoding Initiative 2010-2015, and Managing Editor
+				of the <i>Journal of the Text Encoding Initiative</i> for three years, and was Technical
+				Editor of the <i>Scandinavian Canadian Studies Journal</i> for many years. His recent
+				projects include the <a href="https://mapoflondon.uvic.ca">Map of Early Modern
+					London</a>, the <a href="https://bcgenesis.uvic.ca">Colonial Despatches</a>
+				collection, the <a href="https://graves.uvic.ca">Robert Graves Diary</a> project, <a href="https://mariage.uvic.ca">Le mariage sous L’Ancien Régime</a>, <a href="https://dvpp.uvic.ca">Digital Victorian Periodical Poetry</a>, and <a href="https://lemdo.uvic.ca/">Linked Early Modern Drama Online</a>.</p>
+				
+			<p lang="fr">Martin Holmes est titulaire d'un B.A. (Hons) en anglais et d'un MPhil pour la recherche en phonologie, ainsi que du RSA/Cambridge Dip. TEFLA. Il a enseigné l'anglais langue seconde/étrangère en Grande-Bretagne, au Japon, en Indonésie, en Grèce, en Arabie Saoudite et au Canada. Dans les années 1990, il est passé de l'enseignement à la programmation en mettant l'accent sur la création de matériel d'enseignement des langues en ligne. Récemment, il s'est concentré sur l'édition électronique et imprimée traditionnelle en utilisant les technologies basées sur le XML. Il est l'un des fondateurs et partenaires (avec Stewart Arneil) de Half-Baked Software Inc, une société créée avec l'université pour exploiter commercialement les logiciels créés par Stewart et Martin dans le <a href="https://hcmc.uvic.ca">HCMC</a>. Il a également publié plusieurs logiciels éducatifs de manière indépendante. Il a été membre élu du Conseil technique de la Text Encoding Initiative 2010-2015, et rédacteur en chef du <em>Journal of the Text Encoding Initiative</em> pendant trois ans. Il a également été rédacteur technique du <em>Scandinavian Canadian Studies</em> Journal pendant de nombreuses années. Ses projets récents comprennent le <a href="https://mapoflondon.uvic.ca">>Map of Early Modern London</a>, la collection des <a href="https://bcgenesis.uvic.ca">Colonial Despatches</a>, le <a href="https://graves.uvic.ca">Robert Graves Diary</a>, <a href="https://mariage.uvic.ca">Le mariage sous L’Ancien Régime</a>, <a href="https://dvpp.uvic.ca">Digital Victorian Periodical Poetry</a> et <a href="https://lemdo.uvic.ca/">Linked Early Modern Drama Online</a>.</p>
+
+			<p lang="en"><a href="https://www.mholmes.com/cv/cv_web.xml">Martin Holmes’s CV</a></p>
+			<p lang="fr"><a href="https://www.mholmes.com/cv/cv_web.xml">CV de Martin Holmes</a></p>
+			
+			
+			
+			<hr />
+			<h4 lang="en" id="stewart-arneil-programmer-consultant">Stewart Arneil, Programmer Consultant</h4>
+			<h4 lang="fr" id="stewart-arneil-programmeur-consultant">Stewart Arneil, Programmeur consultant</h4>
+			
+			<p lang="en"><strong>Stewart Arneil</strong> is responsible for: creating project specifications,
+				supervising workflow for projects, and developing client and server software and
+				websites. He also sits on the Digital Humanities committee and ensures that activities
+				and operations in the HCMC are consistent with strategic priorities and policies set by
+				the committee. </p>
+				
+			<p lang="fr">Stewart Arneil est responsable de l'élaboration des spécifications des projets, de la supervision du flux de travail pour les projets et du développement de logiciels clients et serveurs et de sites web. Il siège également au comité Digital Humanities et veille à ce que les activités et les opérations du HCMC soient conformes aux priorités stratégiques et aux politiques définies par le comité.</p>
+
+				
+			<p lang="en">Stewart has 25 years of experience in both private and public sectors in design,
+				management and development of software. He is particularly interested in project design
+				and management, language learning, and training people in the appropriate use of
+				technology in research, teaching, and learning. </p>
+				
+			<p lang="fr">Stewart a 25 ans d'expérience dans les secteurs privé et public en matière de conception, de gestion et de développement de logiciels. Il s'intéresse particulièrement à la conception et à la gestion de projets, à l'apprentissage des langues et à la formation à l'utilisation appropriée des technologies dans la recherche, l'enseignement et l'apprentissage.</p>
+			
+			<p lang="en">He holds an M.A. in Computational Theory, certification as an Instructional Designer, and
+				a Master’s Certificate in Project Management. </p>
+				
+			<p lang="fr">Il est titulaire d'une maîtrise en théorie informatique, d'une certification en tant que concepteur pédagogique et d'un certificat de maîtrise en gestion de projet.</p>	
+				
+			<p lang="en">Stewart is a founder and partner (with Martin Holmes) in Half-Baked Software Inc., a
+				company created with the university to take advantage of commercial opportunities for
+				software created in part by Stewart in the HCMC. </p>
+			
+			<p lang="fr">Stewart est l'un des fondateurs et partenaires (avec Martin Holmes) de Half-Baked Software Inc, une société créée avec l'université pour profiter des opportunités commerciales des logiciels créés en partie par Stewart dans le <a href="https://hcmc.uvic.ca">HCMC</a>.</p>
+	
+				
+			<p lang="en">In addition to his work on the Endings project, Stewart is working on a project visualizing braided and multiple narrative structures in novels, is a technical advisor on the "Past Wrongs Future Choices" and the "Narrative Art and Visual Storytelling in Holocaust and Human Rights Education" projects, and coordinates data integration for the "Landscapes of Injustice" project. He also was a developer of the "Great Unexplained Mysteries in Canadian History" website.</p>
+			
+			<p lang="fr">En plus de son travail sur le projet Endings, Stewart travaille sur un projet de visualisation des structures narratives entrelacées et multiples dans les romans, est conseiller technique pour les projets <a href="https://www.landscapesofinjustice.com/pastwrongsfuturechoices/">Past Wrongs Future, Choices</a> et <a href="https://holocaustgraphicnovels.org/">Narrative Art and Visual Storytelling in Holocaust and Human Rights Education</a> et coordonne l'intégration des données pour le projet <a href="https://www.landscapesofinjustice.com/">Landscapes of Injustice</a>. Il a également participé au développement du site web <a href="https://canadianmysteries.ca/en/index.php">Great Unsolved Mysteries in Canadian History</a> / <a href="https://canadianmysteries.ca/fr/index.php">Les grands mystères de l'histoire canadienne</a>.</p>
+
+			
+				
+			<hr />
+			<h4 lang="en" id="greg-newton">Greg Newton</h4>
+			<h4 lang="fr" id="newton-greg">Greg Newton</h4>
+			
+			<p lang="en"><strong>Greg Newton</strong> holds a B.A. (double-major) in English and History, as well
+				as a post-degree diploma in Applied Linguistics and a Masters in Education (Educational
+				Technology). He is responsible for developing client and server software and websites,
+				managing hardware in the <a href="https://hcmc.uvic.ca">HCMC</a> research lab, and maintaining Humanities server
+				infrastructure in co-operation with Research Computing.</p>
+				
+			<p lang="fr"><strong>Greg Newton</strong> est titulaire d'une licence (double majeure) en anglais et en histoire, ainsi que d'un diplôme d'études supérieures en linguistique appliquée et d'une maîtrise en éducation (technologie éducative). Il est responsable du développement de logiciels clients et serveurs et de sites web, de la gestion du matériel dans le laboratoire de recherche du HCMC et du maintien de l'infrastructure du serveur Humanities en coopération avec Research Computing.</p>
+				
+			<p lang="en">In addition to the Endings Project, Greg’s current projects include <a href="https://myths.uvic.ca/">Myths on Maps</a> and the <a href="https://cgwp.uvic.ca/">Canadian Great War Project</a></p>
+			
+			<p lang="fr">Outre le projet Endings, les projets actuels de Greg comprennent <a href="https://myths.uvic.ca/">Myths on Maps</a> et le <a href="https://cgwp.uvic.ca/">Canadian Great War Project</a> sur la Grande Guerre.</p>
+
+			
+			<hr />
+			
+			<h4 lang="en" id="joseph-takeda-junior-programmerresearch-assistant">Joseph Takeda,
+				Programmer/Research Assistant</h4>
+			
+			<h4 lang="fr" id="joseph-takeda-programmeur-de-recherche">Joseph Takeda, programmeur/assistant de recherche</h4>	
+				
+			<p lang="en"><strong>Joseph Takeda</strong> received his BA (Honours with Distinction) in English and
+				Women’s Studies from the University of Victoria in 2016, and his MA in English (Science
+				and Technology Research Stream) from the University of British Columbia in 2021. In
+				2016, Joseph was awarded the Department of English Medal of Excellence and the SSHRC
+				CGS-M (UBC). His recent publications include “Making the RA Matter: Pedagogy, Interface,
+				and Practices” written with Janelle Jenstad and “The MoEML Finding Aid to the Bills of
+				Mortality”. He was a Programmer on The Endings Project, and is co-author of the
+				staticSearch project. He is currently a User Interface Developer at the Digital
+				Humanities Innovation Lab (Simon Fraser University).</p>
+				
+			<p lang="fr">Joseph Takeda a obtenu son baccalauréat (avec distinction) en anglais et en études des femmes de l'Université de Victoria en 2016, et sa maîtrise en anglais (volet recherche en science et technologie) de l'Université de la Colombie-Britannique en 2021. En 2016, Joseph a reçu la médaille d'excellence du département d'anglais et la BESC-M du CRSH (UBC). Ses publications récentes comprennent "Making the RA Matter: Pedagogy, Interface, and Practices" écrit avec Janelle Jenstad et "The MoEML Finding Aid to the Bills of Mortality". Il a été programmeur pour le projet Endings et est co-auteur du projet staticSearch. Il est actuellement développeur d'interface utilisateur au Digital Humanities Innovation Lab (Université Simon Fraser).</p>
+	
+			</div><!--end programmers-->
+			<div id="research-assistants">	
+			
+			<h3 lang="en">Research Assistants</h3>
+			<h3 lang="fr">Assistants de recherche</h3>
+			
+			<h4 lang="en" id="emily-comeau-researcher">Emily Comeau, Researcher</h4>
+			<h4 lang="fr" id="emily-comeau-chercheuse">Emily Comeau, chercheuse</h4>
+			
+			<p lang="en"><strong>Emily Comeau</strong> completed her MA in Linguistics in 2018 at the University
+				of Victoria, where her research explored the role of literacy in Indigenous language
+				revitalization and the implications of print literacy for decolonization. She also has a
+				BA in Linguistics and International Studies from the University of Alberta. She
+				began her doctoral program at UBCO in fall 2021. Emily has been working on the Endings
+				Project and Le Mariage Sous L¹Ancien Régime since 2017.</p>
+			
+			<p lang="fr">Emily Comeau a obtenu sa maîtrise en linguistique en 2018 à l'Université de Victoria, où ses recherches ont exploré le rôle de la littératie dans la revitalisation des langues autochtones et les implications de la littératie imprimée pour la décolonisation. Elle est également titulaire d'une licence en linguistique et en études internationales de l'Université de l'Alberta. Elle a commencé son programme de doctorat à l'UBCO à l'automne 2021. Emily a travaillé sur le projet Endings et <a href="https://mariage.uvic.ca">Le mariage sous L’Ancien Régime</a> entre 2017 et 2019.</p>
+
+				
+				
+				
+			<h4 id="sarah-kell-researcher">Sarah Kell, Researcher</h4>
+			<p><strong>Sarah Kell</strong> has a BA in Linguistics and a MEd in Indigenous Language
+				Revitalization, both from the University of Victoria. She has been co-editor of the
+				Nxaʔamxčín Database and Dictionary since 2010. Sarah also assists UVic linguists with
+				research on other Salish languages and consults on Indigenous language curriculum
+				development with First Nations, school districts, and the BC Ministry of Education. </p>
+			<hr />
+			<h4 id="daniel-martin-researcher">Daniel Martin, Researcher</h4>
+			<p><strong>Daniel Martin</strong> was an MA student in English. His research considered the
+				relationship between creative pedagogy and first year composition courses - this project
+				was supported by a teaching and learning scholarship from the Centre for Teaching and
+				learning at UVic. He also holds a BA in English and Writing from the University of Leeds
+				and a Post-Graduate Certificate in Education from the University of Teesside in the UK.
+				Daniel worked on the Endings project from July to November 2018. </p>
+			<hr />
+			<h4 id="tye-landels-gruenewald-researcher">Tye Landels-Gruenewald, Researcher</h4>
+			<p><strong>Tye Landels-Gruenewald</strong> was an undergraduate at UVic studying for an
+				English major (Honors with Distinction) and European Studies minor, and then went on to
+				take an MA at Queen’s University. He is also a past President of the English Students’
+				Society and the 2014 3M National Student Fellowship Recipient. As an English Honours
+				student, Tye turned his passion for geography and urban studies to helping create the
+				Map of Early Modern London. </p>
+			<hr />
+			<h4 id="jennifer-polack-research-assistant">Jennifer Polack, Research Assistant</h4>
+			<p><strong>Jennifer Polack</strong> was an undergraduate student studying for her BA
+				(English Major, Professional Communications Minor) at the University of Victoria. She
+				worked as a co-op student for The Endings Project. Her previous co-op positions include
+				a fundraising coordinator for the Victoria Native Friendship Centre and editorial
+				assistant on the International Journal of Indigenous Health. She is also a social media
+				and content developer for Animikii, Inc. </p>
+			</div><!--end research assistants-->
+
+		
+	</main>
 </body>
