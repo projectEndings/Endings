@@ -25,6 +25,11 @@
     <include name="*.*"/>
   </fileset>
   
+  <!-- PDFs and other docs to push to the site folder. -->
+  <fileset id="docFiles" dir="${basedir}/files">
+    <include name="*.*"/>
+  </fileset>
+  
   <!-- JS to push to the site folder. -->
   <fileset id="jsFiles" dir="${basedir}/js">
     <include name="*.*"/>
@@ -93,6 +98,9 @@
   <target name="copyRequiredFiles">
     <copy todir="${basedir}/products/img">
       <fileset refid="imgFiles"/>
+    </copy>
+    <copy todir="${basedir}/products/files">
+      <fileset refid="docFiles"/>
     </copy>
     <copy todir="${basedir}/products/js">
       <fileset refid="jsFiles"/>
