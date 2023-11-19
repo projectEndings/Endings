@@ -3,6 +3,29 @@
     <h1>News</h1>
     <main>
         <article>
+            <h3 class="post-title">staticSearch 1.4.5 released!</h3>
+            <p class="post-meta">Posted on Oct 4, 2023</p>
+            <div class="post-entry-container">
+                <div class="post-entry">
+                    <p>A new production-ready release of the staticSearch tool has been
+                        released:</p>
+                    <ul>
+                        <li><a
+                            href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.5"
+                            >staticSearch</a> version 1.4.5. </li>
+                    </ul>
+                    <p>This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
+                        is already used in <a
+                            href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
+                            >many Endings-compliant sites</a>. This release contains several new
+                        features and improvements. You can see the full documentation <a
+                            href="staticSearch/docs/index.html">here</a>, along with a <a
+                                href="staticSearch/docs/newSinceVersion1.html">list of changes</a>. </p>
+                </div>
+            </div>
+            
+        </article>
+        <article>
             <h3 class="post-title">staticSearch 1.4.4 released!</h3>
             <p class="post-meta">Posted on Feb 5, 2023</p>
             <div class="post-entry-container">
