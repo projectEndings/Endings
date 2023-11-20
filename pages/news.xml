@@ -1,225 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="news" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>News</h1>
+    <h1 lang="en">News</h1>
+	<h1 lang="fr">Nouvelles</h1>
     <main>
         <article>
-            <h3 class="post-title">staticSearch 1.4.5 released!</h3>
-            <p class="post-meta">Posted on Oct 4, 2023</p>
+            <h3 class="post-title" lang="en">staticSearch 1.4.5 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.5 !</h3>
+            <p class="post-meta" lang="en">Posted on Oct 4, 2023</p>
+			<p class="post-meta" lang="fr">Publié le 4 octobre 2023</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new production-ready release of the staticSearch tool has been
+                    <p lang="en">A new production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">Une nouvelle version de l'outil staticSearch, prête à l’emploi, a été publiée :</p>
                     <ul>
                         <li><a
                             href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.5"
                             >staticSearch</a> version 1.4.5. </li>
                     </ul>
-                    <p>This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
+                    <p lang="en">This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
                         is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
                             href="staticSearch/docs/index.html">here</a>, along with a <a
                                 href="staticSearch/docs/newSinceVersion1.html">list of changes</a>. </p>
+								
+					<p lang="fr">Il s'agit d'une version de correction de bogues à la branche stable 1.4 de staticSearch. Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète ici, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>.</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.4.4 released!</h3>
-            <p class="post-meta">Posted on Feb 5, 2023</p>
+            <h3 class="post-title" lang="en">staticSearch 1.4.4 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.4 !</h3>
+            <p class="post-meta" lang="en">Posted on Feb 5, 2023</p>
+			<p class="post-meta" lang="fr">Publié le 5 février 2023</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new production-ready release of the staticSearch tool has been
+                    <p lang="en">A new production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">Une nouvelle version de l'outil staticSearch, prête à l’emploi, a été publiée :
+</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.4"
                                 >staticSearch</a> version 1.4.4. </li>
                     </ul>
-                    <p>This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
+                    <p lang="en">This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
                         is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
                             href="staticSearch/docs/index.html">here</a>, along with a <a
-                            href="staticSearch/docs/newSinceVersion1.html">list of changes</a>. </p>
+                            href="staticSearch/docs/newSinceVersion1.html">list of changes</a>.</p>
+					<p lang="fr">Il s'agit d'une version de correction de bogues à la branche stable 1.4 de staticSearch. Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète ici, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>.
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">Nicholas Thieberger Presentation</h3>
-            <p class="post-meta">Posted on March 22, 2022</p>
+            <h3 class="post-title" lang="en">Nicholas Thieberger Presentation</h3>
+			<h3 class="post-title" lang="fr">Présentation de Nicholas Thieberger</h3>
+            <p class="post-meta" lang="en">Posted on March 22, 2022</p>
+			<p class="post-meta" lang="fr">Publié le 22 mars 2022</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>Dr. Nicholas Thieberger presented a follow-up to his Endings Symposium paper
+                    <p lang="en">Dr. Nicholas Thieberger presented a follow-up to his Endings Symposium paper
                         called <q>How do we know what we know about the world’s languages?</q> on
                         March 21, 2022. A <a href="Nick_Thieberger_Lansdowne_2022-03-21.mp4"
                             >video</a> of the presentation is available.</p>
+					<p lang="fr">Nicholas Thieberger a présenté le 21 mars 2022 le suivi de sa présenatation lors du symposium Endings intitulé "How do we know what we know about the world's languages ?" Une <a href="https://endings.uvic.ca/Nick_Thieberger_Lansdowne_2022-03-21.mp4">video</a> de la présentation est disponible.</p>
                 </div>
             </div>
         </article>
         <article>
-            <h3 class="post-title">James Cummings Presentation</h3>
-            <p class="post-meta">Posted on Feb 1, 2022</p>
+            <h3 class="post-title" lang="en">James Cummings Presentation</h3>
+			<h3 class="post-title" lang="fr">Présentation de James Cummings</h3>
+            <p class="post-meta" lang="en">Posted on Feb 1, 2022</p>
+			<p class="post-meta" lang="fr">Publié le 1 février 2022</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>Dr. James Cummings presented a follow-up to his Endings Symposium paper,
+                    <p lang="en">Dr. James Cummings presented a follow-up to his Endings Symposium paper,
                         called <q>“Here to enter a dyvel wyth thunder and fyre” – A Plea for
                             Editorial Infrastructure in the Digital Age</q> on January 31, 2022. A
                             <a href="James_Cummings_Landsdowne_2022.mp4">video</a> of the
                         presentation is available.</p>
+						
+					<p lang="fr">James Cummings a présenté le 31 janvier 2022 un suivi de sa présentation lors du symposium Endings, intitulé “‘Here to enter a dyvel wyth thunder and fyre’ – A  Plea for Editorial Infrastructure in the Digital Age.” Une <a href="https://endings.uvic.ca/James_Cummings_Landsdowne_2022.mp4">video</a> de la présentation est disponible.</p>
                 </div>
             </div>
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.4.1 released!</h3>
-            <p class="post-meta">Posted on Feb 15, 2022</p>
+            <h3 class="post-title" lang="en">staticSearch 1.4.1 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.1 !</h3>
+            <p class="post-meta" lang="en">Posted on Feb 15, 2022</p>
+			<p class="post-meta" lang="fr">Publié le 15 février 2022</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new production-ready release of the staticSearch tool has been
+                    <p lang="en">A new production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">Une nouvelle version de l'outil staticSearch, prête à l’emploi, a été publiée :
+</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.1"
                                 >staticSearch</a> version 1.4.1. </li>
                     </ul>
-                    <p>This tool is already used in <a
+                    <p lang="en">This tool is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
                             href="staticSearch/docs/index.html">here</a>, along with a <a
                             href="staticSearch/docs/newSinceVersion1.html">list of changes</a>. </p>
+					<p lang="fr">Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète <a href="https://endings.uvic.ca/staticSearch/docs/index.html">ici</a>, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>. 
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.3 released!</h3>
-            <p class="post-meta">Posted on May 2, 2021</p>
+            <h3 class="post-title" lang="en">staticSearch 1.3 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.3 !</h3>
+            <p class="post-meta" lang="en">Posted on May 2, 2021</p>
+			<p class="post-meta" lang="fr">Publié le 2 mai 2021</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new production-ready release of the staticSearch tool has been
+                    <p lang="en">A new production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">Une nouvelle version de l'outil staticSearch, prête à l’emploi, a été publiée :
+</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.3.0"
                                 >staticSearch</a> version 1.3.0. </li>
                     </ul>
-                    <p>This tool is already used in <a
+                    <p lang="en">This tool is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
                             href="staticSearch/docs/index.html">here</a>, along with a <a
                             href="staticSearch/docs/newSinceVersion1.html">list of changes</a>. </p>
+							
+					<p lang="fr">Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète <a href="https://endings.uvic.ca/staticSearch/docs/index.html">ici</a>, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>.
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">Francotoile goes live!</h3>
-            <p class="post-meta">Posted on April 7, 2021</p>
+            <h3 class="post-title" lang="en">Francotoile goes live!</h3>
+			<h3 class="post-title" lang="fr">Le site Francotoile mis à jour</h3>
+            <p class="post-meta" lang="en">Posted on April 7, 2021</p>
+			<p class="post-meta" lang="fr">Publié le 7 avril 2021</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new entirely static Endings-compliant site has been published:</p>
-                    <ul>
+                    <p lang="en">A new entirely static Endings-compliant site has been published:</p>
+					<p lang="fr">Un nouveau site entièrement statique et conforme à Endings a été publié :</p>
+                    <ul lang="en">
                         <li><a href="https://francotoile.uvic.ca">Francotoile</a>, edition 2.0b.
                         </li>
                     </ul>
-                    <p>Dr. Catherine Caws's Francotoile project was first published over a dozen
+					<ul lang="fr">
+						<li><a href="https://francotoile.uvic.ca">Francotoile</a>, édition 2.0b.</li>
+					</ul>
+                    <p lang="en">Dr. Catherine Caws's Francotoile project was first published over a dozen
                         years ago, as a Tomcat/eXist application; it has now been entirely rewritten
                         as a static site, using the staticSearch engine. </p>
+						
+					<p lang="fr">Le projet Francotoile de la Professeure Catherine Caws a été publié pour la première fois il y a plus d'une douzaine d'années, sous la forme d'une application Tomcat/eXist ; il a maintenant été entièrement réécrit sous la forme d'un site statique, utilisant le moteur de recherche staticSearch.</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.2 released!</h3>
-            <p class="post-meta">Posted on March 3, 2021</p>
+            <h3 class="post-title" lang="en">staticSearch 1.2 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.2 !</h3>
+            <p class="post-meta" lang="en">Posted on March 3, 2021</p>
+			<p class="post-meta" lang="fr">Publié le 3 mars 2021</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>The second production-ready release of the staticSearch tool has been
+                    <p lang="en">The second production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">La deuxième version prête à l’emploi de l'outil staticSearch a été publiée :</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.2.0"
                                 >staticSearch</a> version 1.2.0. </li>
                     </ul>
-                    <p>This tool is already used in <a
+                    <p lang="en">This tool is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
                             href="staticSearch/docs/index.html">here</a>. </p>
+					<p lang="fr">Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète <a href="https://endings.uvic.ca/staticSearch/docs/index.html">ici</a>, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>.
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.1 released!</h3>
-            <p class="post-meta">Posted on January 9, 2021</p>
+            <h3 class="post-title" lang="en">staticSearch 1.1 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.1 !</h3>
+            <p class="post-meta" lang="en">Posted on January 9, 2021</p>
+			<p class="post-meta" lang="fr">Publié le 9 janvier 2021</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>The second production-ready release of the staticSearch tool has been
+                    <p lang="en">The second production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">La deuxième version prête à l’emploi de l'outil staticSearch a été publiée :</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.1.0"
                                 >staticSearch</a> version 1.1.0. </li>
                     </ul>
-                    <p>This tool is already used in <a
+                    <p lang="en">This tool is already used in <a
                             href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html"
                             >many Endings-compliant sites</a>. This release contains several new
                         features and improvements. You can see the full documentation <a
-                            href="staticSearch/docs/index.html">here</a>. </p>
+                            href="staticSearch/docs/index.html">here</a>.</p>
+							
+					<p lang="fr">Cet outil est déjà utilisé dans <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Cette version contient plusieurs nouvelles fonctionnalités et améliorations. Vous pouvez consulter la documentation complète <a href="https://endings.uvic.ca/staticSearch/docs/index.html">ici</a>, ainsi que la <a href="https://endings.uvic.ca/staticSearch/docs/newSinceVersion1.html">liste des changements</a>.
+</p>
                 </div>
+				
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">staticSearch 1.0 released!</h3>
-            <p class="post-meta">Posted on October 14, 2020</p>
+            <h3 class="post-title" lang="en">staticSearch 1.0 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.0 !</h3>
+            <p class="post-meta" lang="en">Posted on October 14, 2020</p>
+			<p class="post-meta" lang="fr">Publié le 14 octobre 2020</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>The first production-ready release of the staticSearch tool has been
+                    <p lang="en">The first production-ready release of the staticSearch tool has been
                         released:</p>
+					<p lang="fr">La première version prête à l’emploi de l'outil staticSearch a été publiée :</p>
                     <ul>
                         <li><a
                                 href="https://github.com/projectEndings/staticSearch/releases/tag/v1.0.0"
                                 >staticSearch</a> version 1.0.0. </li>
                     </ul>
-                    <p>This tool is already used in a number of Endings-compliant sites. You can see
+                    <p lang="en">This tool is already used in a number of Endings-compliant sites. You can see
                         the full documentation <a href="staticSearch/docs/index.html">here</a>. </p>
+						
+					<p lang="fr">Cet outil est déjà utilisé dans un certain nombre de <a href="https://endings.uvic.ca/staticSearch/docs/projectsUsingSS.html">de nombreux sites conformes à Endings</a>. Vous pouvez consulter la documentation complète <a href=
+					"https://endings.uvic.ca/staticSearch/docs/index.html">ici</a>.
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">MyNDIR goes live!</h3>
-            <p class="post-meta">Posted on August 18, 2020</p>
+            <h3 class="post-title" lang="en">MyNDIR goes live!</h3>
+			<h3 class="post-title" lang="fr">MyNDIR est en ligne !</h3>
+            <p class="post-meta" lang="en">Posted on August 18, 2020</p>
+			<p class="post-meta" lang="fr">Publié le 18 août 2020</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>A new entirely static Endings-compliant site has been published:</p>
-                    <ul>
+                    <p lang="en">A new entirely static Endings-compliant site has been published:</p>
+					<p lang="fr">Un nouveau site entièrement statique et conforme à Endings a été publié :</p>
+                    <ul lang="en">
                         <li><a href="https://myndir.uvic.ca">My Norse Digital Image Repository</a>,
                             edition 2.0. </li>
                     </ul>
-                    <p>MyNDIR is a long-term project by Trish Baer that was originally a
+					<ul lang="fr">
+						<li><a href="https://myndir.uvic.ca">My Norse Digital Image Repository</a>, édition 2.0.</li>
+					</ul>
+                    <p lang="en">MyNDIR is a long-term project by Trish Baer that was originally a
                         Cocoon/eXist application. Trish attended our 2019 DHSI course on Endings,
                             <q>Endings: How to End (and Archive) your Digital Project,</q> and has
                         since worked with HCMC to restructure and redesign the site. Check out the
                         fabulous results! </p>
+					<p lang="fr">MyNDIR est un projet à long terme de Trish Baer qui était à l'origine une application Cocoon/eXist. Trish a participé à notre cours <a href="https://dhsi.org/">DHSI</a> 2019, "Endings: How to End (and Archive) your Digital Project,", et a depuis travaillé avec HCMC pour restructurer et redessiner le site. Jetez un coup d'œil aux fabuleux résultats !
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <h3 class="post-title">Progress in Lockdown</h3>
-            <p class="post-meta">Posted on August 5, 2020</p>
+            <h3 class="post-title" lang="en">Progress in Lockdown</h3>
+			<h3 class="post-title" lang="fr">Les progrès pendant le confinement</h3>
+            <p class="post-meta" lang="en">Posted on August 5, 2020</p>
+			<p class="post-meta" lang="fr">Publié le 5 août 2020</p>
             <div class="post-entry-container">
                 <div class="post-entry">
-                    <p>We have just published three entirely static sites:</p>
-                    <ul>
+                    <p lang="en">We have just published three entirely static sites:</p>
+					<p lang="fr">Nous venons de publier trois sites entièrement statiques :</p>
+                    <ul lang="en">
                         <li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern
                             London</a>, edition 6.4. </li>
                         <li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches</a>, edition
@@ -227,13 +297,25 @@
                         <li><a href="https://johnkeats.uvic.ca">Mapping Keats's Progress</a>,
                             edition 3.0. </li>
                     </ul>
-                    <p>and we're about to publish a fourth, Trish Baer's MyNDIR.</p>
-                    <p>All four of these are using recent versions of the Endings <a
+					<ul lang="fr">
+						<li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern
+							London</a>, édition 6.4. </li>
+						<li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches</a>, édition
+							2.1. </li>
+						<li><a href="https://johnkeats.uvic.ca">Mapping Keats's Progress</a>,
+							édition 3.0. </li>
+					</ul>
+                    <p lang="en">and we're about to publish a fourth, Trish Baer's MyNDIR.</p>
+					<p lang="fr">et nous sommes sur le point d'en publier un quatrième, MyNDIR de Trish Baer.</p>
+                    <p lang="en">All four of these are using recent versions of the Endings <a
                             href="https://github.com/projectEndings/staticSearch">staticSearch
                             tool</a>, which now includes support for wildcard searches as well as
                         booleans and a variety of different search filters. Check it out at the <a
                             href="https://bcgenesis.uvic.ca/search.html">Despatches site</a>. </p>
-                    <p>This is a significant point in our work. Not only have we developed a set of
+							
+					<p lang="fr">Ces quatre projets utilisent des versions récentes de l'outil Endings <a href="https://github.com/projectEndings/staticSearch">staticSearch</a>, qui prend désormais en charge les recherches par caractères génériques ainsi que les booléens et une variété de filtres de recherche différents. Découvrez-le sur le site <a href="https://bcgenesis.uvic.ca/search.html">Despatches</a>.</p>
+							
+                    <p lang="en">This is a significant point in our work. Not only have we developed a set of
                         rigorous principles for digital longevity; we have also applied them with
                         complete success to a substantial number of projects. We have solved the
                         search-dependency problem far more effectively than we expected to be able
@@ -242,7 +324,12 @@
                         elegant than what the old databases used to afford us. We have been able to
                         take down two XML database applications, and when MyNDIR is published we'll
                         be able to remove a third and shut down an entire Tomcat instance. </p>
-                    <p>We're also able to demonstrate that multiple editions can live side-by-side,
+					
+					<p lang="fr">Il s'agit d'une étape importante de notre travail. Non seulement avons-nous développé un ensemble de principes rigoureux pour la longévité numérique, nous les avons également appliqués avec succès à un grand nombre de projets. Nous avons résolu le problème de la dépendance à l'égard de la recherche bien plus efficacement que nous ne l'espérions ; lorsque nous avons commencé Endings, nous n'avions aucune idée de la manière de l'aborder, et maintenant nous avons des pages de recherche qui sont meilleures, plus rapides, plus configurables et plus élégantes que ce que les anciennes bases de données nous permettaient d'obtenir. Nous avons été en mesure de supprimer deux applications de base de données XML et, lorsque MyNDIR sera publié, nous serons en mesure d'en supprimer une troisième et d'arrêter une instance Tomcat entière.
+
+					</p>	
+						
+                    <p lang="en">We're also able to demonstrate that multiple editions can live side-by-side,
                         just like books on a shelf; <a href="https://mapoflondon.uvic.ca/old/6.3/"
                             >MoEML</a> 6.3 is still available, as is <a
                             href="https://bcgenesis.uvic.ca/old/2.0/">Despatches 2.0</a>. There's no
@@ -250,23 +337,34 @@
                         we want to and we can afford the disk space. At any point, the Library can
                         take any or all of these editions and serve them itself without any server
                         requirements other than any old web server. </p>
+						
+					<p lang="fr">Nous sommes également en mesure de démontrer que plusieurs éditions peuvent coexister, comme des livres sur une étagère ; <a href="https://mapoflondon.uvic.ca/old/6.3/">MoEML</a> 6.3 est toujours disponible, tout comme <a href="https://bcgenesis.uvic.ca/old/2.0/">Despatches 2.0</a>. Il n'y a aucune raison de ne pas les conserver, ainsi que toutes les éditions ultérieures, pour toujours si nous le voulons et si nous pouvons nous permettre d'utiliser l'espace disque. À tout moment, la bibliothèque peut prendre l'une ou l'autre de ces éditions, ou toutes, et les diffuser elle-même sans avoir besoin d'un serveur autre qu'un vieux serveur web.
+</p>
                 </div>
             </div>
             
         </article>
         <article>
-            <a href="2018-12-19-tri-agency-statement/index.html">
+            <a href="2018-12-19-tri-agency-statement/index.html" lang="en">
                 <h3 class="post-title">Tri-Agency Statement of Principles on Digital Data
                     Management</h3>
             </a>
-            <p class="post-meta"> Posted on December 19, 2018 </p>
+			
+			<a href="2018-12-19-tri-agency-statement/index.html" lang="fr">
+				<h3 class="post-title">Déclaration de principes des trois organismes sur la gestion des données numériques
+</h3>
+			</a>
+            <p class="post-meta" lang="en">Posted on December 19, 2018</p>
+			<p class="post-meta" lang="fr">Publié le 19 décembre 2018</p>
             <div class="post-entry-container">
-                <div class="post-entry"> The Government of Canada has released its official
+                <div class="post-entry" lang="en"> The Government of Canada has released its official
                     statement on data management and long-term accessibility for publicly funded
                     research and seeks feedback on its draft policy. <a
                         href="2018-12-19-tri-agency-statement/index.html" class="post-read-more"
                         >[Read More]</a>
                 </div>
+				<div class="post-entry" lang="fr">Le gouvernement du Canada a publié sa déclaration officielle sur la gestion des données et l'accessibilité à long terme pour la recherche financée par des fonds publics et sollicite des commentaires sur son projet de politique. <a href="https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-statement-principles-digital-data-management">Lire la suite</a>
+				</div>
             </div>
             
         </article>
