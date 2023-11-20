@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="contact" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Contact us</h1>
+    <h1 lang="en">Contact us</h1>
+	<h1 lang="fr">Nous contacter</h1>
+	
     
     <main>
-        <h3 id="main-contact">Main contact</h3> 
-        <p><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, University of Victoria</p>
+        <h3 id="main-contact" lang="en">Main contact</h3>
+		<h3 id="contact-principal" lang="fr">Contact principal</h3> 
+        <p lang="en"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, University of Victoria</p>
+		<p lang="fr"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, Université de Victoria
+</p>
     </main>
 </body>
