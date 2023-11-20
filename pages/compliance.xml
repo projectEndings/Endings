@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="compliance" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Endings Compliance</h1>
-    <h2>Deliberately coherent, consistent, complete, versioned, valid, dated, portable, static, no
+    <h1 lang="en">Endings Compliance</h1>
+	<h1 lang="fr">CONFORMITÉ AUX PRINCIPES 
+		DU PROJET « ENDINGS »</h1> 
+    <h2 lang="en">Deliberately coherent, consistent, complete, versioned, valid, dated, portable, static, no
         server scripting, no databases</h2>
+	<h2 lang="fr">Délibérément cohérent, homogène, complet, versionné, valide, daté, portable, statique, sans script de serveur, sans base de données.</h2> 
     <main>
         <p style="text-align: center;">
             <img src="img/endings_logo_badge_transparent.svg"
@@ -11,9 +14,12 @@
                 style="margin-left: auto; margin-right: auto;" alt="Dark Endings logo badge"/>
             <img src="img/endings_logo_badge_white.svg"
                 style="margin-left: auto; margin-right: auto;" alt="Light Endings logo badge"/></p>
-        <p>To claim your project's products are Endings-compliant is to promise that they adhere to
+				
+        <p lang="en">To claim your project's products are Endings-compliant is to promise that they adhere to
             the <a href="principles.html">Endings principles</a>. This means that:</p>
-        <ul>
+		<p lang="fr">Affirmer que les produits de votre projet sont conformes aux <a href="principles.html">principes Endings</a> signifie que :</p>
+		
+        <ul lang="en">
             <li>All code (XML, CSS, HTML, etc.) has been thoroughly validated.</li>
             <li>All internal links have been tested and targets confirmed to exist.</li>
             <li>All internal links are relative, so the site can be hosted anywhere.</li>
@@ -24,10 +30,25 @@
             <li>There are no external dependencies; or if there are, then they are peripheral to the
                 main functionality, and when they fail, the results will not be significant.</li>
         </ul>
-        <p>You can <a href="logos.zip">download a package of our logos</a> in various formats, and
+		
+		<ul lang="fr">
+			<li>Tout le code (XML, CSS, HTML, etc.) a été soigneusement validé.</li>
+			<li>Tous les liens internes ont été testés et les objectifs ont été confirmés.</li>
+			<li>Tous les liens internes sont relatifs, de sorte que le site peut être hébergé n'importe où.</li>
+			<li>Aucun support de script côté serveur (PHP, JSP, Python, etc.) n'est nécessaire.</li>
+			<li>Aucun logiciel de base de données n'est nécessaire.</li>
+			<li>Chaque page du site comporte les mêmes informations claires sur l'édition et la date, de sorte qu'elle peut être citée de façon efficace.</li>
+			<li>Il n'y a pas de dépendances externes ; ou s'il y en a, elles sont périphériques à la fonctionnalité principale, et en cas de défaillance, les résultats ne seront pas significatifs.</li>
+		</ul>
+		
+	
+        <p lang="en">You can <a href="logos.zip">download a package of our logos</a> in various formats, and
             add one to your site, linking to this page.</p>
-        <p>We have developed the <a href="principles.html">Endings principles</a> based on the
-            results of a five-year research project on the sustainability of digital humanities
+			
+		<p lang="fr">Vous pouvez <a href="logos.zip">télécharger un ensemble de nos logos</a> dans différents formats et en ajouter un sur votre site, avec un lien vers cette page.</p>
+			
+        <p lang="en">We have developed the <a href="principles.html">Endings principles</a> based on the
+            results of a research project on the sustainability of digital humanities
             projects. In order to give your projectʼs website the best possible chance of survival;
             and to make it as easy as possible for a library, archive, community organization, or
             other memory institution to assume ownership of the site for long-term preservation
@@ -37,5 +58,10 @@
             the duration of your project. But, you should plan adequate resources (time and funding)
             to <q>staticize</q> your site as well as to find a final long-term home for that site
             (in a library, archive, etc.).</p>
+			
+			
+		<p lang="fr">Nous avons élaboré les <a href="principles.html">principes Endings</a> sur la base des résultats d'un projet de recherche initié en 2016 sur la pérennité des projets en humanités numériques. Afin de donner au site web de votre projet les meilleures chances de survie et de permettre à une bibliothèque, à un service d'archives, à une organisation communautaire ou à une autre institution de mémoire d'assumer la propriété du site en vue d'une conservation et/ou d'un accès à long terme, vous devez avoir à l'esprit l'« état final » de votre site web lorsque vous commencez votre projet (bien qu'il ne soit jamais trop tard pour entamer ce processus). Pour les besoins de votre recherche, de votre collaboration ou de votre travail, un site web dynamique peut s'avérer tout à fait judicieux pendant la durée de votre projet. Cependant, vous devez prévoir des ressources adéquates (temps et financement) pour « statiser » votre site et lui trouver un emplacement définitif à long terme (dans une bibliothèque, un centre d'archives, etc.).
+
+		</p>
     </main>
 </body>
