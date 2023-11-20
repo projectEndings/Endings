@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="resources" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Other Resources</h1>
+    <h1 lang="en">Other Resources</h1>
+	<h1 lang="fr">Autres ressources</h1>
     <main>
-        <p>As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
+	
+        <p lang="en">As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
                 outcomes</a>, we list here a collection of resources that we have found useful,
             especially in the early phases of our research.</p>
-        <h3 id="useful-projects">Useful Projects</h3>
+			
+		<p lang="fr">En complément des réalisations et des résultats du projet Endings, nous présentons ici une liste de ressources que nous avons trouvées utiles, en particulier dans les premières phases de notre recherche.</p>
+			
+        <h3 id="useful-projects" lang="en">Useful Projects</h3>
+		<h3 id="projects-useful" lang="fr">Projets utiles</h3>
         <ul class="bibliography">
             <li>
                 The Digital Documentation Process, “Make your DH projects findable, citable, and
@@ -21,12 +27,17 @@
                         >https://sites.haa.pitt.edu/sustainabilityroadmap/</a>
             </li>
         </ul>
-        <h3 id="papers--other-publications">Papers &amp; Other Publications</h3>
-        <p>This list demonstrates that preservation has been a concern of the DH community since the
+        <h3 id="papers--other-publications" lang="en">Papers &amp; Other Publications</h3>
+		<h3 id="papers-other" lang="fr">Présentations et autres publications</h3>
+        <p lang="en">This list demonstrates that preservation has been a concern of the DH community since the
             late 1990s. We present the list in two parts in order to demonstrate our awareness of
-            the increasing attention to the challenges addressed in our application.</p>
+            the increasing attention to the challenges addressed in our project.</p>
+			
+		<p lang="fr">Cette liste montre que la préservation est une préoccupation de la communauté des DH depuis la fin des années 1990. Nous présentons la liste en deux parties afin de montrer que nous sommes conscients de l'attention croissante portée aux défis abordés par notre projet.</p>
         
-        <h4 id="part-i-early-warnings-up-to-2005">Part I: Early warnings, up to 2005</h4>
+        <h4 id="part-i-early-warnings-up-to-2005" lang="en">Part I: Early warnings, up to 2005</h4>
+		<h4 id="part-1" lang="fr">1<sup>ere</sup> Partie : Avertissements précoces, jusqu'en 2005</h4>
+
         
         <ul class="bibliography">
         <li>Alemneh D. et al. “A Metadata Approach to Preservation of Digital Resources: The
@@ -113,7 +124,8 @@
                 >http://www.sshrc-crsh.gc.ca/about-au_sujet/publications/da_finalreport_e.pdf</a></li>
         </ul>
         
-        <h4 id="part-ii-2005-onwards">Part II: 2005 onwards</h4>
+        <h4 id="part-ii-2005-onwards" lang="en">Part II: 2005 onwards</h4>
+		<h4 id="part-ii" lang="fr">2<sup>e</sup> Partie : à partir de 2005</h4>
         
 <ul class="bibliography">        
         <li>ArchiveReady.com: Website Archivability Testing Tool, 20 August 2015. <a
