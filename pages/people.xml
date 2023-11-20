@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <body id="people" xmlns="http://www.w3.org/1999/xhtml">
-	<h1>People</h1>
-	<h2>Building Sustainable Digital Humanities Projects</h2>
+	<h1 lang="en">People</h1>
+	<h1 lang="fr">ÉQUIPE</h1>
+	<h2 lang="en">Building Sustainable Digital Humanities Projects</h2>
+	<h2 lang="fr">Construire des projets durables en humanités numériques
+</h2>
+	
 	<main>
-		<ul>
+		<ul lang="en">
 			<li><a href="#endings-humanities-faculty">Humanities Faculty</a></li>
 			<li><a href="#librarians">Librarians</a></li>
 			<li><a href="#programmers">Programmers</a></li>
 			<li><a href="#research-assistants">Research Assistants</a></li>
 		</ul>
-		<p><br /> Over the years, many colleagues and students had a hand in building these various
+		<ul lang="fr">
+			<li><a href="#endings-humanities-faculty">Professeures de sciences humaines</a></li>
+			<li><a href="#librarians">Bibliothécaires</a></li>
+			<li><a href="#programmers">Programmeurs</a></li>
+			<li><a href="#research-assistants">Assistants de recherche</a></li>
+		</ul>
+		<p lang="en"><br /> Over the years, many colleagues and students had a hand in building these various
 			projects. Each day we gratefully remember their contributions as we build on their work
 			for The Endings Project. </p>
-		<h3 id="humanities-faculty">Humanities Faculty</h3>
-		<h4 id="claire-carlin">Claire Carlin</h4>
-		<h4 id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">Le Mariage sous
+		<p lang="fr">Au fil des années, de nombreux collègues et étudiants ont participé à l'élaboration de ces différents projets. Chaque jour, nous nous souvenons avec gratitude de leurs contributions, alors que nous nous appuyons sur leur travail pour le projet Endings.</p>
+		
+		<div id="humanities-faculty">
+		
+		<h3 lang="en">Humanities Faculty</h3>
+		<h3 lang="fr">Faculté des humanités</h3>
+		
+		<h4 id="claire-carlin" lang="en">Claire Carlin</h4>
+		<h4 id="carlin-clair" lang="fr">Claire Carlin</h4>
+		
+		<h4 id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france" lang="en">Le Mariage sous
 			l’Ancien Régime (Marriage in Early Modern France)</h4>
+		
+		<h4 lang="fr">Le Mariage sous l'Ancien Régime </h4>
 
 		<p lang="en">Professor emerita of Early Modern French studies, <strong>Claire Carlin</strong> (PhD, University of California) began her career at UVic in 1989. Her major publications focus on the history of theatre and on representations of Early Modern marriage. Her specializations include 17th-century theatre, history of marriage and of medicine in the 16th-18th centuries, and digital humanities.</p>
 
@@ -136,6 +156,8 @@
 			Library’s Special Collections. </p>
 
 		<p lang="fr">Un stage d'été en tant que journaliste étudiant pour le journal britannique <em>Computer Weekly</em> est à l'origine de l'intérêt qu'Elizabeth porte aux médias numériques depuis le début de sa carrière. Elle enseigne et fait des recherches sur les médias numériques depuis 1991 et a reçu un financement du CRSH pour son édition numérique du <a href="https://graves.uvic.ca/">journal de Robert Graves</a> dans les collections spéciales de la bibliothèque de l'UVic.</p>
+		
+		</div><!--end humanities faculty-->
 
 		<div id="librarians">
 			<h3 lang="en">Librarians</h3>
@@ -346,36 +368,49 @@
 				
 				
 				
-			<h4 id="sarah-kell-researcher">Sarah Kell, Researcher</h4>
-			<p><strong>Sarah Kell</strong> has a BA in Linguistics and a MEd in Indigenous Language
+			<h4 id="sarah-kell-researcher" lang="en">Sarah Kell, Researcher</h4>
+			<h4 id="sarah-kell-chercheuse" lang="fr">Sarah Kell, chercheuse</h4>
+			<p lang="en"><strong>Sarah Kell</strong> has a BA in Linguistics and a MEd in Indigenous Language
 				Revitalization, both from the University of Victoria. She has been co-editor of the
 				Nxaʔamxčín Database and Dictionary since 2010. Sarah also assists UVic linguists with
 				research on other Salish languages and consults on Indigenous language curriculum
 				development with First Nations, school districts, and the BC Ministry of Education. </p>
+			<p lang="fr">Sarah Kell est titulaire d'un baccalauréat en linguistique et d'une maîtrise en revitalisation des langues autochtones, tous deux obtenus à l'Université de Victoria. Elle est corédactrice de la base de données et du dictionnaire Nxaʔamxčín depuis 2010. Sarah aide également les linguistes de l'UVic à mener des recherches sur d'autres langues salish et consulte les Premières nations, les conseils scolaires et le ministère de l'Éducation de la Colombie-Britannique sur l'élaboration de programmes d'études en langues autochtones.</p>
 			<hr />
-			<h4 id="daniel-martin-researcher">Daniel Martin, Researcher</h4>
-			<p><strong>Daniel Martin</strong> was an MA student in English. His research considered the
+			<h4 id="daniel-martin-researcher" lang="en">Daniel Martin, Researcher</h4>
+			<h4 id="daniel-martin-chercheur" lang="fr">Daniel Martin, chercheur</h4>
+			<p lang="en"><strong>Daniel Martin</strong> was an MA student in English. His research considered the
 				relationship between creative pedagogy and first year composition courses - this project
 				was supported by a teaching and learning scholarship from the Centre for Teaching and
 				learning at UVic. He also holds a BA in English and Writing from the University of Leeds
 				and a Post-Graduate Certificate in Education from the University of Teesside in the UK.
 				Daniel worked on the Endings project from July to November 2018. </p>
+			<p lang="fr">
+				Daniel Martin était étudiant en maîtrise d'anglais. Ses recherches ont porté sur la relation entre la pédagogie créative et les cours de composition de première année. Ce projet a été soutenu par une bourse d'enseignement et d'apprentissage du Centre for Teaching and Learning de l'Université de Victoria. Il est également titulaire d'une licence d'anglais et d'écriture de l'Université de Leeds et d'un certificat d'études supérieures en éducation de l'Université de Teesside au Royaume-Uni. Daniel a travaillé sur le projet Endings de juillet à novembre 2018.
+			</p>
 			<hr />
-			<h4 id="tye-landels-gruenewald-researcher">Tye Landels-Gruenewald, Researcher</h4>
-			<p><strong>Tye Landels-Gruenewald</strong> was an undergraduate at UVic studying for an
+			<h4 id="tye-landels-gruenewald-researcher" lang="en">Tye Landels-Gruenewald, Researcher</h4>
+			<h4 id="tye-landels-gruenewald-chercheur" lang="fr">Tye Landels-Gruenewald, chercheur</h4>
+			<p lang="en"><strong>Tye Landels-Gruenewald</strong> was an undergraduate at UVic studying for an
 				English major (Honors with Distinction) and European Studies minor, and then went on to
 				take an MA at Queen’s University. He is also a past President of the English Students’
 				Society and the 2014 3M National Student Fellowship Recipient. As an English Honours
 				student, Tye turned his passion for geography and urban studies to helping create the
 				Map of Early Modern London. </p>
+				
+			<p lang="fr">Tye Landels-Gruenewald a fait des études de premier cycle à l'UVic, où il a obtenu un BA en anglais (Honor avec distinction) et une mineure en études européennes, avant de passer une maîtrise à l'Université Queen's. Il est également l'ancien président de la English Students' Society et le lauréat 2014 de la Bourse nationale 3M. En tant qu'étudiant en anglais, Tye a mis sa passion pour la géographie et les études urbaines au service de la création du <a href="https://mapoflondon.uvic.ca">Map of Early Modern London</a>.</p>
 			<hr />
-			<h4 id="jennifer-polack-research-assistant">Jennifer Polack, Research Assistant</h4>
-			<p><strong>Jennifer Polack</strong> was an undergraduate student studying for her BA
+			<h4 id="jennifer-polack-research-assistant" lang="en">Jennifer Polack, Research Assistant</h4>
+			<h4 id="jennifer-polack-assistante-de-recherche" lang="fr">Jennifer Polack, assistante de recherche</h4>
+			<p lang="en"><strong>Jennifer Polack</strong> was an undergraduate student studying for her BA
 				(English Major, Professional Communications Minor) at the University of Victoria. She
 				worked as a co-op student for The Endings Project. Her previous co-op positions include
 				a fundraising coordinator for the Victoria Native Friendship Centre and editorial
 				assistant on the International Journal of Indigenous Health. She is also a social media
 				and content developer for Animikii, Inc. </p>
+			<p lang="fr">
+			Jennifer Polack était étudiante en licence (majeure en anglais, mineure en communications professionnelles) à l'Université de Victoria. Elle a travaillé en tant qu'étudiante coopérative pour le projet Endings. Elle a également été coordinatrice de la collecte de fonds pour le Victoria Native Friendship Centre et assistante éditoriale pour l'<cite>International Journal of Indigenous Health</cite>. Elle était également développeuse de contenu et de médias sociaux pour Animikii, Inc.
+			</p>
 			</div><!--end research assistants-->
 
 		
