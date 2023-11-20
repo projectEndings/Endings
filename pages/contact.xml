@@ -7,8 +7,8 @@
     <main>
         <h3 id="main-contact" lang="en">Main contact</h3>
 		<h3 id="contact-principal" lang="fr">Contact principal</h3> 
-        <p lang="en"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, University of Victoria</p>
-		<p lang="fr"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, Université de Victoria
+        <p lang="en"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, University of Victoria.</p>
+		<p lang="fr"><a href="mailto:mholmes@uvic.ca">Martin Holmes</a>, Humanities Computing Media Centre, Université de Victoria.
 </p>
     </main>
 </body>
