@@ -1,2 +1,7 @@
 .DS_Store
 
+#Pat's editor
+.nova
+
+# Built pages
+products/*
