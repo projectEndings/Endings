@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="outputs" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Publications, Presentations and Workshops</h1>
+    <h1 lang="en">Publications, Presentations and Workshops</h1>
+    <h1 lang="fr">Publications, présentations et ateliers</h1>
     
-    <main>
-        <p>Half of the work of the Endings project has been focused on knowledge mobilization. Here we list all the 
+	
+	<main>
+        <p lang="en">Half of the work of the Endings project has been focused on knowledge mobilization. Here we list all the 
         <a href="#publications">publications</a>, <a href="#presentations">presentations</a>, and <a href="#workshops">workshops</a> we have produced.</p>
+		
+		<p lang="fr">La moitié du travail du projet Endings s'est concentrée sur la mobilisation des connaissances. Nous dressons ici la liste de toutes les <a href="#publications">publications</a>, <a href="#presentations">présentations</a> et <a href="#workshops">ateliers</a> que nous avons organisés.</p>
         
         <div id="publications">
-            <h3>Publications: Special issue of <i>DHQ</i></h3>
-            <p>Our flagship publication is the special edition of <i>Digital Humanities Quarterly</i> entitled
+            <h3 lang="en">Publications: Special issue of <i>DHQ</i></h3>
+			<h3 lang="fr">Publications : Numéro spécial de DHQ</h3>
+            
+			<p lang="en">Our flagship publication is the special edition of <i>Digital Humanities Quarterly</i> entitled
                 <i><a href="http://digitalhumanities.org/dhq/vol/17/1/index.html">Project Resiliency</a></i>, edited by 
                 Martin Holmes, Matt Huculak, and Janelle Jenstad. These are the articles in that issue:</p>
+			
+			<p lang="fr">Notre publication phare est le numéro spécial de Digital Humanities Quarterly intitulé <a href="http://digitalhumanities.org/dhq/vol/17/1/index.html">Project Resiliency</a>, édité par Martin Holmes, Matt Huculak et Janelle Jenstad. Voici les articles de ce numéro :</p>
+	
+				
             <ul class="bibliography">
                 <li><a href="http://digitalhumanities.org/dhq/vol/17/1/000671/000671.html">Introduction to Special Issue: Project
                     Resiliency in the Digital Humanities</a>. Martin Holmes, University of Victoria Humanities Computing and Media Centre; Janelle Jenstad, University of Victoria Department of English; J. Matthew Huculak, University of Victoria Advanced Research Services &amp; Digital Scholarship Librarian.</li>
@@ -38,7 +48,8 @@
                     Endings Interviews: A Summary of Methodological Foundations</a>. Emily Comeau, University of British Columbia.</li>
             </ul>
             
-            <h4>Other publications</h4>
+            <h4 lang="en">Other publications</h4>
+			<h4 lang="fr">Autres publications</h4>
             <ul class="bibliography"> 
                 
                 <li>Arneil, Stewart. 2023. 
@@ -56,7 +67,8 @@
         </div>
         
         <div id="presentations">
-            <h3>Presentations</h3>
+            <h3 lang="en">Presentations</h3>
+			<h3 lang="fr">Présentations</h3>
             <ul class="bibliography">
                 <li> 
                     Arneil, Stewart, and Martin Holmes. 2017. <q>Archiving form and function: preserving
@@ -144,7 +156,8 @@
         </div>
         
         <div id="workshops">
-            <h3>Workshops</h3>
+            <h3 lang="en">Workshops</h3>
+			<h3 lang="fr">Ateliers</h3>
             <ul class="bibliography">
                 <li><q>Endings: How to End (and Archive) your Digital Project.</q> Martin Holmes, Janelle Jenstad and Claire Carlin, with Stewart Arneil, Ewa Czaykowska-Higgins, John Durno, Lisa Goddard, Matt Huculak, Greg Newton, and Joseph Takeda. 1-week workshop, Digital Humanities Summer Institute, 2019.</li>
                 <li><q>How to End your Digital Project.</q> Janelle Jenstad and Joey Takeda. DH@Guelph Summer Workshops, 2023.</li>
