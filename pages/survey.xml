@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="survey" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Endings Project Survey Results</h1>
-    <h2>Building Sustainable Digital Humanities Projects</h2>
+    <h1 lang="en">Endings Project Survey Results</h1>
+	<h1 lang="fr">RÉSULTATS DE L’ENQUÊTE RÉALISÉE 
+		PAR LE PROJET « ENDINGS »</h1>
+    <h2 lang="en">Building Sustainable Digital Humanities Projects</h2>
+	<h2 lang="fr">Construire des projets durables en humanités numériques</h2>
     <main>
-        <p>The Project Endings global online survey was conducted between 2017 and 2018. The
+        <p lang="en">The Project Endings global online survey was conducted between 2017 and 2018. The
                   Call for Participation was sent out over DH-Listservs in English in 2017, and 127
                   respondents accessed the online form, and all participants were free to answer or
                   not answer
@@ -13,10 +16,26 @@
                   interviewed.
                   
                   The following anonymized results are from the online form only (<a href="https://hcmc.uvic.ca/endings/survey.html">original survey link</a>). Any written answers have been omitted to preserve anonymity.</p> 
-               <p>The total number of participants in the survey was 127; however, there were no "required"
+				  
+				<p lang="fr">Une enquête mondiale en ligne a été menée entre 2017 et 2018. L'appel à participation a été envoyé sur DH-Listservs en anglais en 2017, et 127 répondants ont accédé au formulaire en ligne ; tous les participants étaient libres de répondre ou non aux questions individuelles. Sur l'ensemble du groupe, les répondants ont eu la possibilité de s'identifier comme étant intéressés par un entretien d'une heure avec des questions plus détaillées. Sur ce groupe, 25 personnes issues de différents projets de DH ont été interrogées. Les résultats anonymes suivants proviennent uniquement du formulaire en ligne <a href="https://hcmc.uvic.ca/endings/survey.html">lien vers l'enquête originale</a>. Les réponses écrites ont été omises pour préserver l'anonymat.</p>
+ 
+				  
+				  
+               <p lang="en">The total number of participants in the survey was 127; however, there were no "required"
                   answers, so
                   each question has a different number of respondents, and percentages are calculated
-                  based on the number of actual respondents in each case.</p> <!--coded by Matt Huculak October 2022. Making each answer a separate div for potential future styling; each div contains a table for each answer.--> 
+                  based on the number of actual respondents in each case.</p> 
+				  
+				  
+				 <p lang="fr">Le nombre total de participants au sondage était de 127 ; cependant, il n'y avait pas de réponses "obligatoires", de sorte que chaque question a un nombre différent de répondants, et les pourcentages sont calculés sur la base du nombre de répondants réels dans chaque cas.</p>
+
+				  
+				  <p lang="fr">[Étant donné que le sondage a été effectué uniquement en anglais, nous avons décidé de ne pas le traduire en français pour éviter de donner une impression erronée du processus.]</p>
+
+				  
+				  
+				  
+				  <!--coded by Matt Huculak October 2022. Making each answer a separate div for potential future styling; each div contains a table for each answer.--> 
                <h3 id="general">General Information</h3> 
                <div id="q1"> 
                   <h4>1. Does your project contain born-digital material?</h4> 
