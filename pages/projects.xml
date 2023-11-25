@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="projects" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Projects</h1>
-    <h3>Building Sustainable Digital Humanities Projects</h3>
+    <h1 lang="en">Projects</h1>
+	<h1 lang="fr">Projets</h1>
+    <h3 lang="en">Building Sustainable Digital Humanities Projects</h3>
     <main>
 
-        <p>The Endings project began with a portfolio of four long-running University of Victoria
+        <p lang="en">The Endings project began with a portfolio of four long-running University of Victoria
             projects as test cases for developing our guidelines, principles and approaches for
             achieving sustainability:</p>
-        <ul>
+			
+		<p lang="fr">Le projet Endings a commencé avec un portefeuille de quatre projets de longue durée de l'Université de Victoria qui ont servi d’études de cas pour l'élaboration de nos lignes directrices, de nos principes et de nos approches en matière de pérennité :</p>
+
+		
+			
+        <ul lang="en">
             <li><a href="https://graves.uvic.ca">The Robert Graves Diary</a></li>
             <li>The Nxa’amxcín Database and Dictionary (currently not public)</li>
             <li><a href="https://mariage.uvic.ca/">Le Mariage sous l’Ancien Régime</a></li>
             <li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern London</a></li>
         </ul>
-        <p>These original projects are described below. As the Endings work has proceeded, other digital
+		
+		<ul lang="fr">
+			<li><a href="https://graves.uvic.ca">The Robert Graves Diary</a></li>
+			<li>The Nxa’amxcín Database and Dictionary (currently not public)</li>
+			<li><a href="https://mariage.uvic.ca/">Le Mariage sous l’Ancien Régime</a></li>
+			<li><a href="https://mapoflondon.uvic.ca">The Map of Early Modern London</a></li>
+		</ul>
+		
+		
+        <p lang="en">These original projects are described below. As the Endings work has proceeded, other digital
             projects have been <q>adopted</q> as Endings exemplars:</p>
-        <ul>
+		
+		<p lang="fr">Ces projets originaux sont décrits ci-dessous. Au fur et à mesure de l'évolution des travaux sur le projet Endings, d'autres projets numériques ont été « adoptés » en tant qu'exemples de la mise en œuvre des principes du projet :</p>
+	
+			
+        <ul lang="en">
             <li><a href="https://majw.uvic.ca/">Medieval Anglo-Jewish Women</a></li>
             <li><a href="https://francotoile.uvic.ca">Francotoile</a></li>
             <!--<li><a href="http://mvp.uvic.ca">Modernist Versions Project</a></li>-->
@@ -31,24 +50,51 @@
             <li>Kwakwendahchondiahk: Projet de dictionnaire wendat | Wendat Dictionary Project 
                 (site not yet public)</li>
         </ul>
-        <p>And of course this Endings site itself is naturally Endings-compliant:</p>
+		
+		<ul lang="fr">
+			<li><a href="https://majw.uvic.ca/">Medieval Anglo-Jewish Women</a></li>
+			<li><a href="https://francotoile.uvic.ca">Francotoile</a></li>
+			<!--<li><a href="http://mvp.uvic.ca">Modernist Versions Project</a></li>-->
+			<li><a href="https://bcgenesis.uvic.ca">The Colonial Despatches of Vancouver Island and
+					British Columbia</a></li>
+			<li><a href="https://myndir.uvic.ca">My Norse Digital Image Repository</a></li>
+			<li><a href="https://johnkeats.uvic.ca">Mapping Keat’s Progress</a></li>
+			<li><a href="https://loi.uvic.ca/archive/">The Landscapes of Injustice Archive</a></li>
+			<li><a href="https://winnifredeatonarchive.org/">The Winnifred Eaton Archive</a></li>
+			<li><a href="https://dvpp.uvic.ca">Digital Victorian Periodical Poetry</a></li>
+			<li><a href="https://lemdo.uvic.ca/">Linked Early Modern Drama Online (LEMDO)</a> (site
+				still under development)</li>
+			<li>Kwakwendahchondiahk: Projet de dictionnaire wendat | Wendat Dictionary Project 
+				(site not yet public)</li>
+		</ul>
+		
+        <p lang="en">And of course this Endings site itself is naturally Endings-compliant:</p>
         
+		<p lang="fr">Et bien sûr, ce site Endings est lui-même conforme aux principes Endings :
+</p>
+		
         <ul>
             <li><a href="https://endings.uvic.ca/">The Endings Project</a></li>
         </ul>
         
-        <p>Most of these projects are still very much in their prime, and one or two of them are
+        <p lang="en">Most of these projects are still very much in their prime, and one or two of them are
             only just getting started. In fact, it is much easier to design a project from scratch
             with longevity in mind than it is to rescue or re-work an old project which has been
             active for a long time. One additional project, the <i>Scandinavian Canadian Studies
                 Journal</i>, was originally an Endings site, but due to a change of editorship it is
             now hosted elsewhere and is no longer Endings-compliant.</p>
+			
+		<p lang="fr">La plupart de ces derniers projets en sont encore à leurs débuts, et un ou deux d'entre eux ne font que commencer. En fait, il est beaucoup plus facile de concevoir un projet à partir de zéro en pensant à sa longévité que de sauver ou de retravailler un ancien projet qui a été longtemps actif. Un projet supplémentaire, le <cite>Scandinavian Canadian Studies Journal</cite>, était à l'origine un site conforme aux principes Endings, mais en raison d'un changement de rédacteur en chef, il est désormais hébergé ailleurs et n'est plus compatible avec ces principes.</p>
+
         
         <div id="map-of-early-modern-london">
         <h3>Map of Early Modern London</h3>
-        <p>The Map of Early Modern London (<a href="https://mapoflondon.uvic.ca/index.htm"
+        <p lang="en">The Map of Early Modern London (<a href="https://mapoflondon.uvic.ca/index.htm"
             >MoEML</a>) has four distinct projects:</p>
-        <ul>
+		
+		<p lang="fr">Le Map of Early Modern London (<a href="https://mapoflondon.uvic.ca/index.htm">MoEML</a>) comprend quatre projets distincts :</p>	
+			
+        <ul lang="en">
             <li>a digital edition of the <a href="https://mapoflondon.uvic.ca/map.htm">1561 Agas
                     woodcut map of London</a>;</li>
             <li>an <a href="https://mapoflondon.uvic.ca/mdtEncyclopedia.htm?listType=subcategory"
@@ -60,8 +106,23 @@
             <li>and a versioned edition of John Stow’s <a
                     href="https://mapoflondon.uvic.ca/stow.htm">Survey of London</a>.</li>
         </ul>
-        <p>These four projects draw data from MoEML’s five databases:</p>
-        <ul>
+		
+		<ul lang="fr">
+			<li>une édition numérique du <a href="">plan de Londres dit Agas gravé sur bois en 1561</a> ;</li>
+		<li>	une <a href="https://mapoflondon.uvic.ca/mdtEncyclopedia.htm?listType=subcategory">Encyclopédie</a> et un <a href="https://mapoflondon.uvic.ca/gazetteer_a.htm">Répertoire descriptif</a> des personnes, des lieux, des thèmes et des termes relevant de Londres ;</li>
+			<li>une <a href="https://mapoflondon.uvic.ca/mdtPrimarySourceLibrary.htm?listType=subcategory">Bibliothèque</a> de textes balisés riches en toponymes londoniens ;</li>
+			<li>et une édition en plusieurs versions du <a href="https://mapoflondon.uvic.ca/stow.htm">Survey of London de John Stow</a>.</li>
+
+		</ul>
+		
+		
+		
+        <p lang="en">These four projects draw data from MoEML’s five databases:</p>
+		
+		<p lang="fr">Ces quatre projets puisent leurs données dans les cinq bases de données du MoEML :</p>
+
+		
+        <ul lang="en">
             <li>a <a
                     href="https://mapoflondon.uvic.ca/mdtEncyclopediaLocation.htm?listType=subcategory"
                     >Placeography</a> of locations (e.g., streets, sites, playhouses, taverns,
@@ -77,22 +138,52 @@
             <li>and a <a href="https://mapoflondon.uvic.ca/GLOSS1.htm">Glossary</a> of terms
                 relevant to early modern London.</li>
         </ul>
-        <p>Map of Early Modern London is on <a href="https://www.twitter.com/MoEMLondon">Twitter</a>
+		
+		<ul lang="fr">
+			<li>un <a href="https://mapoflondon.uvic.ca/mdtEncyclopediaLocation.htm?listType=subcategory">Répertoire des lieux</a> (rues, sites, maisons de jeux, tavernes, églises, quartiers et caractéristiques topographiques) ;</li>
+			<li>un <a href="https://mapoflondon.uvic.ca/mdtEncyclopediaPersonography_subcategories.htm">Répertoire des personnes</a> londoniennes du début de l'époque moderne, à la fois historique et littéraire ;</li>
+			<li>un <a href="https://mapoflondon.uvic.ca/mdtEncyclopediaOrganization.htm">Répertoire des organisations</a> (par exemple, les sociétés de livrée et autres corporations) ;</li>
+			<li>une <a href="https://mapoflondon.uvic.ca/mdtEncyclopediaBibliography_subcategories.htm">Bibliographie</a> des sources primaires et secondaires ;</li>
+			<li>et un <a href="https://mapoflondon.uvic.ca/GLOSS1.htm">Glossaire</a> de termes relatifs à la Londres du début de l'ère moderne.</li>
+
+		</ul>
+		
+        <p lang="en">Map of Early Modern London is on <a href="https://www.twitter.com/MoEMLondon">Twitter</a>
             and <a href="https://www.facebook.com/pages/The-Map-of-Early-Modern-London/317355293645"
                 >Facebook</a>. Check out our <a
                 href="https://mapoflondon.uvic.ca/mdtParatextBlogPost.htm">blog</a> for updates and
             to find out more about the project.</p>
-        <h3 id="in-the-news">In the News</h3>
-        <p><a
+			
+		<p lang="fr">Le Map of Early Modern London se trouve sur <a href="https://twitter.com/MoEMLondon">X (Twitter)</a> et <a href="https://www.facebook.com/pages/The-Map-of-Early-Modern-London/317355293645">Facebook</a>. Consultez notre <a href="https://mapoflondon.uvic.ca/mdtParatextBlogPost.htm">blog</a> pour des mises à jour et pour en savoir plus sur le projet.</p>
+			
+			
+			
+        <h3 id="in-the-news" lang="en">In the News</h3>
+		<h3 id="in-the-news" lang="fr">Dans les médias</h3>
+		
+		
+        <p lang="en"><a
                 href="https://www.citylab.com/equity/2015/04/an-interactive-map-of-shakespeares-london/390060/"
                 >April 9, 2015 – “An Interactive Map of Shakespeare’s London” by Tanvi Misra</a></p>
-        <p><a
+				
+		<p lang="fr"><a  href="https://www.citylab.com/equity/2015/04/an-interactive-map-of-shakespeares-london/390060/">April 9, 2015 – “An Interactive Map of Shakespeare’s London” by Tanvi Misra</a></p>
+	
+        <p lang="en"><a
                 href="http://www.ctvnews.ca/lifestyle/interactive-maps-show-travellers-shakespeare-s-london-hugo-s-france-1.2323442"
                 >April 12, 2015 – “Interactive maps show travellers Shakespeare’s London, Hugo’s
                 France”</a></p>
-        <p><a
+				
+		<p lang="fr"><a href="http://www.ctvnews.ca/lifestyle/interactive-maps-show-travellers-shakespeare-s-london-hugo-s-france-1.2323442">April 12, 2015 – “Interactive maps show travellers Shakespeare’s London, Hugo’s France”</a></p>
+		
+		
+        <p lang="en"><a
                 href="http://www.cbc.ca/news/canada/british-columbia/shakespeare-s-london-mapped-online-by-uvic-researchers-1.3046122"
-                >Apr 23, 2015 – “Shakespeare’s London mapped online by UVic researchers”</a></p></div>
+                >Apr 23, 2015 – “Shakespeare’s London mapped online by UVic researchers”</a></p>
+			
+		
+		<p lang="fr"><a href="http://www.cbc.ca/news/canada/british-columbia/shakespeare-s-london-mapped-online-by-uvic-researchers-1.3046122">Apr 23, 2015 – “Shakespeare’s London mapped online by UVic researchers”</a>	</p>
+			
+			</div>
         
         <div id="le-mariage-sous-lancien-régime-marriage-in-early-modern-france">
         <h3>Le Mariage sous
@@ -155,13 +246,18 @@
         
         <div id="Nxaʔamxčín-database-and-dictionary">
         
-        <h3>Nxaʔamxčín Database and Dictionary</h3>
-        <p>This is a database of words and phrases from the Nxaʔamxčín language (sometimes referred
+        <h3 lang="en">Nxaʔamxčín Database and Dictionary</h3>
+		<h3 lang="fr">Nxaʔamxčín Database and Dictionary</h3>
+        <p lang="en">This is a database of words and phrases from the Nxaʔamxčín language (sometimes referred
             to in English as Moses, or Moses-Columbia Salish). The purpose of this database is to
             pull together all the materials on Nxaʔamxčín compiled by M. Dale Kinkade and Ewa
             Czaykowska-Higgins, two linguists who worked closely with native speakers of the
             language. The goals of the project are as follows:</p>
-        <ul>
+		
+		<p lang="fr">Il s'agit d'une base de données de mots et d'expressions de la langue Nxaʔamxčín (parfois appelée en anglais Moses, ou Moses-Columbia Salish). L'objectif est de rassembler tous les documents sur le Nxaʔamxčín compilés par M. Dale Kinkade et Ewa Czaykowska-Higgins, deux linguistes qui ont travaillé en étroite collaboration avec des locuteurs dont le Nxaʔamxčín est la langue maternelle. Les objectifs du projet sont les suivants :</p>
+	
+			
+        <ul lang="en">
             <li>to make these materials available and easily accessible to the Nxaʔamxčín community,
                 rather than to leave them stored on file cards and in notebooks;</li>
             <li>to serve as a searchable tool for learners, teachers, speakers, and linguists;</li>
@@ -170,12 +266,20 @@
             <li>to serve as a model for the role of digitization in language preservation and
                 revitalization.</li>
         </ul>
+		
+		<ul lang="en">
+			<li>rendre ces matériaux disponibles et facilement accessibles à la communauté Nxaʔamxčín, plutôt que de les laisser stockés sur des fiches et dans des cahiers ;</li>
+			<li>servir d'outil de recherche pour les apprenants, les enseignants, les locuteurs et les linguistes ;</li>
+			<li>servir de source pour le vocabulaire et les expressions Nxaʔamxčín ;</li>
+			<li>servir de source pour la création d'un dictionnaire Nxaʔamxčín en format imprimé ;</li>
+			<li>servir de modèle pour le rôle de la numérisation dans la préservation et la revitalisation des langues.</li>
+		</ul>
         
         </div>
         
         <div id="robert-graves-diary">
         <h3>Robert Graves Diary</h3>
-        <p>The University of Victoria digital edition of the Robert Graves Diary has long been seen as a
+        <p lang="en">The University of Victoria digital edition of the Robert Graves Diary has long been seen as a
             pioneering XML publication project. Beginning with a pilot markup project in 2001 (still
             used as an example for training purposes by the TEI), it evolved into a complete edition
             of the diaries of Robert Graves from the period 1935 to 1939 and was one of the first
@@ -188,6 +292,12 @@
             our Endings sites to be transitioned to long-term archive hosting at the University
             of Victoria Library.
         </p>
+		
+		<p lang="fr">
+		L'édition numérique du Journal de Robert Graves créé à l'Université de Victoria est depuis longtemps considérée comme un projet pionnier de publication en XML. Débutant par un projet pilote de balisage en 2001 (toujours utilisé comme exemple à des fins de formation par la TEI), il a évolué vers une édition complète des journaux de Robert Graves de 1935 à 1939 et a été l'un des premiers projets construits sur le système de base de données XML eXist, aujourd'hui largement utilisé. Fruit d'une collaboration entre le département d'anglais de l'Université de Victoria, le HCMC et les bibliothèques de l'Université de Victoria (dont les collections spéciales conservent le manuscrit original), il a été largement cité et référencé comme un projet modèle dans le domaine des humanités numériques depuis sa première publication en 2004. La base de données a été partagée avec succès avec le Trinity College de Dublin. Le site a été réécrit pour être conforme aux principes Endings et a été le premier de nos sites Endings à être transféré vers un hébergement d'archives à long terme à la bibliothèque de l'Université de Victoria.
+
+		</p>
+		
         </div>
         
     </main>

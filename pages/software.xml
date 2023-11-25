@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body id="software" xmlns="http://www.w3.org/1999/xhtml">
-    <h1>Software</h1>
+    <h1 lang="en">Software</h1>
+	<h1 lang="fr">LOGICIELS</h1>
     <main>
-        <p>As part of our work on Endings, Martin Holmes and Joey Takeda have created two
+        <p lang="en">As part of our work on Endings, Martin Holmes and Joey Takeda have created two
             collections of software which are open-source on GitHub.</p>
+		<p lang="fr">Dans le cadre de notre travail sur « Endings », Martin Holmes et Joey Takeda ont créé deux collections de logiciels qui sont en libre accès sur GitHub.</p>
+
+			
         <h3 id="static-search">staticSearch</h3>
-        <p>This <a href="https://github.com/projectEndings/staticSearch">codebase</a> provides a
+		
+        <p lang="en">This <a href="https://github.com/projectEndings/staticSearch">codebase</a> provides a
             pure-JSON search engine for your HTML5 website, including boolean and phrasal searches,
             various types of search filter, keyword-in-context results, and bookmarkable search
             results. It uses no back-end code at all, so it complies with Endings principles. Take a
@@ -13,15 +18,33 @@
                 site search</a> for a simple working example, and <a
                 href="https://bcgenesis.uvic.ca/search.html">The Colonial Despatches</a> site for a
             more complex one.</p>
-        <p>You can see the full documentation for the latest release <a
+			
+		<p lang="fr">Ce <a href="https://github.com/projectEndings/staticSearch">codebase</a> fournit un moteur de recherche purement JSON pour votre site web HTML5, y compris des recherches booléennes et phrastiques, différents types de filtres de recherche, des résultats par mot-clé dans le contexte, et des résultats de recherche pouvant être mis en signet. Il n'utilise aucun code d'arrière-plan et respecte donc les principes Endings. Jetez un coup d'œil sur <a href="https://johnkeats.uvic.ca/search.html">la recherche sur le site Mapping Keats's Progress</a> pour un exemple simple et fonctionnel, et sur le site <a href="https://bcgenesis.uvic.ca/search.html">The Colonial Despatches</a> pour un exemple plus complexe.</p>
+
+			
+			
+        <p lang="en">You can see the full documentation for the latest release <a
                 href="staticSearch/docs/index.html">here</a>.</p>
-        <h3 id="tei-diagnostics">TEI Diagnostics</h3>
-        <p>This <a href="https://github.com/projectEndings/diagnostics">codebase</a> is a toolkit
+				
+		<p lang="fr">Vous pouvez consulter la documentation complète de la dernière version <a href="staticSearch/docs/index.html">ici</a>.</p>
+				
+				
+        <h3 id="tei-diagnostics" lang="en">TEI Diagnostics</h3>
+		<h3 id="tei-diagnostics" lang="fr">Diagnostic TEI</h3>
+		
+        <p lang="en">This <a href="https://github.com/projectEndings/diagnostics">codebase</a> is a toolkit
             for checking the coherence, consistency and completeness of your TEI XML project from
             inside the Oxygen XML Editor (although you can also use it at the command line). It
             performs a number of generic checks through the collection, but it is also easily
             extensible to check other features that may be particular to your project.</p>
-        <p>A similar <a href="https://github.com/projectEndings/html_diagnostics">toolkit</a> is
+
+<p lang="fr">Ce <a href="https://github.com/projectEndings/diagnostics">codebase</a> est un ensemble d'outils permettant de vérifier la cohérence, la consistance et la complétude de votre projet TEI XML à partir de l'éditeur XML Oxygen (bien que vous puissiez également l'utiliser à la ligne de commande). Il effectue un certain nombre de vérifications génériques à travers la collection, mais il est également facilement extensible pour vérifier d'autres caractéristiques qui peuvent être particulières à votre projet.</p>
+
+			
+        <p lang="en">A similar <a href="https://github.com/projectEndings/html_diagnostics">toolkit</a> is
             available to check your HTML.</p>
+			
+		<p lang="fr">Une <a href="https://github.com/projectEndings/html_diagnostics">boîte à outils</a> similaire est disponible pour vérifier votre HTML.
+</p>
     </main>
 </body>
