@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.2"
    viewBox="0 0 25181.25 18846.25"
    preserveAspectRatio="xMidYMid"
    clip-path="url(#presentation_clip_path)"
    xml:space="preserve"
    id="svg5404"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    width="100%"
    height="100%"
    sodipodi:docname="exist_diagram_1.svg"
-   style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"><metadata
+   style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+   inkscape:export-filename="/home/mholmes/endings/Endings/presentations/bcnet_2024/images/exist_diagram_1.png"
+   inkscape:export-xdpi="9.1485577"
+   inkscape:export-ydpi="9.1485577"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
    id="metadata6467"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
@@ -29,21 +32,22 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="956"
-   inkscape:window-height="805"
+   inkscape:window-width="1920"
+   inkscape:window-height="1109"
    id="namedview6465"
    showgrid="false"
    fit-margin-top="0"
    fit-margin-left="0"
    fit-margin-right="0"
    fit-margin-bottom="0"
-   inkscape:zoom="0.010930987"
-   inkscape:cx="12484.125"
-   inkscape:cy="9366.125"
+   inkscape:zoom="0.087447896"
+   inkscape:cx="12447.412"
+   inkscape:cy="9365.577"
    inkscape:window-x="0"
-   inkscape:window-y="27"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg5404" />
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g6233"
+   inkscape:pagecheckerboard="0" />
  <defs
    id="defs5406">
   <clipPath
@@ -56,7 +60,21 @@
    height="21590"
    id="rect5409" />
   </clipPath>
- </defs>
+ 
+    
+    
+    
+    
+    
+   
+     
+     
+     
+     
+     
+     
+     
+    </defs>
  <defs
    id="defs5411">
   <font
@@ -406,92 +424,110 @@
       <text
    x="1750"
    y="2220"
-   id="text5541">e</text>
+   id="text5541"
+   style="line-height:0%">e</text>
 
       <text
    x="2220"
    y="2220"
-   id="text5543">X</text>
+   id="text5543"
+   style="line-height:0%">X</text>
 
       <text
    x="2783"
    y="2220"
-   id="text5545">i</text>
+   id="text5545"
+   style="line-height:0%">i</text>
 
       <text
    x="3020"
    y="2220"
-   id="text5547">s</text>
+   id="text5547"
+   style="line-height:0%">s</text>
 
       <text
    x="3490"
    y="2220"
-   id="text5549">t</text>
+   id="text5549"
+   style="line-height:0%">t</text>
 
       <text
    x="3774"
    y="2220"
-   id="text5551"> </text>
+   id="text5551"
+   style="line-height:0%"> </text>
 
       <text
    x="4011"
    y="2220"
-   id="text5553">X</text>
+   id="text5553"
+   style="line-height:0%">X</text>
 
       <text
    x="4574"
    y="2220"
-   id="text5555">M</text>
+   id="text5555"
+   style="line-height:0%">M</text>
 
       <text
    x="5281"
    y="2220"
-   id="text5557">L</text>
+   id="text5557"
+   style="line-height:0%">L</text>
 
       <text
    x="5780"
    y="2220"
-   id="text5559"> </text>
+   id="text5559"
+   style="line-height:0%"> </text>
 
       <text
    x="6017"
    y="2220"
-   id="text5561">D</text>
+   id="text5561"
+   style="line-height:0%">D</text>
 
       <text
    x="6627"
    y="2220"
-   id="text5563">a</text>
+   id="text5563"
+   style="line-height:0%">a</text>
 
       <text
    x="7097"
    y="2220"
-   id="text5565">t</text>
+   id="text5565"
+   style="line-height:0%">t</text>
 
       <text
    x="7380"
    y="2220"
-   id="text5567">a</text>
+   id="text5567"
+   style="line-height:0%">a</text>
 
       <text
    x="7850"
    y="2220"
-   id="text5569">b</text>
+   id="text5569"
+   style="line-height:0%">b</text>
 
       <text
    x="8367"
    y="2220"
-   id="text5571">a</text>
+   id="text5571"
+   style="line-height:0%">a</text>
 
       <text
    x="8837"
    y="2220"
-   id="text5573">s</text>
+   id="text5573"
+   style="line-height:0%">s</text>
 
       <text
    x="9307"
    y="2220"
-   id="text5575">e</text>
+   id="text5575"
+   style="line-height:0%">e</text>
 </g>
      <rect
    x="1501"
@@ -540,37 +576,44 @@
       <text
    x="3722"
    y="19286"
-   id="text5595">B</text>
+   id="text5595"
+   style="line-height:0%">B</text>
 
       <text
    x="4285"
    y="19286"
-   id="text5597">r</text>
+   id="text5597"
+   style="line-height:0%">r</text>
 
       <text
    x="4569"
    y="19286"
-   id="text5599">o</text>
+   id="text5599"
+   style="line-height:0%">o</text>
 
       <text
    x="5039"
    y="19286"
-   id="text5601">w</text>
+   id="text5601"
+   style="line-height:0%">w</text>
 
       <text
    x="5648"
    y="19286"
-   id="text5603">s</text>
+   id="text5603"
+   style="line-height:0%">s</text>
 
       <text
    x="6072"
    y="19286"
-   id="text5605">e</text>
+   id="text5605"
+   style="line-height:0%">e</text>
 
       <text
    x="6541"
    y="19286"
-   id="text5607">r</text>
+   id="text5607"
+   style="line-height:0%">r</text>
 </g>
      <path
    d="m 5073,17636 c 1742,0 3074,500 3074,1155 0,655 -1332,1156 -3074,1156 -1742,0 -3073,-501 -3073,-1156 0,-655 1331,-1155 3073,-1155 z m -3073,0 0,0 z m 6148,2312 0,0 z"
@@ -598,37 +641,44 @@
       <text
    x="3522"
    y="19086"
-   id="text5619">B</text>
+   id="text5619"
+   style="line-height:0%">B</text>
 
       <text
    x="4085"
    y="19086"
-   id="text5621">r</text>
+   id="text5621"
+   style="line-height:0%">r</text>
 
       <text
    x="4369"
    y="19086"
-   id="text5623">o</text>
+   id="text5623"
+   style="line-height:0%">o</text>
 
       <text
    x="4839"
    y="19086"
-   id="text5625">w</text>
+   id="text5625"
+   style="line-height:0%">w</text>
 
       <text
    x="5448"
    y="19086"
-   id="text5627">s</text>
+   id="text5627"
+   style="line-height:0%">s</text>
 
       <text
    x="5872"
    y="19086"
-   id="text5629">e</text>
+   id="text5629"
+   style="line-height:0%">e</text>
 
       <text
    x="6341"
    y="19086"
-   id="text5631">r</text>
+   id="text5631"
+   style="line-height:0%">r</text>
 </g>
      <rect
    x="2001"
@@ -694,42 +744,50 @@
       <text
    x="4022"
    y="14300"
-   id="text5659">R</text>
+   id="text5659"
+   style="line-height:0%">R</text>
 
       <text
    x="4479"
    y="14300"
-   id="text5661">e</text>
+   id="text5661"
+   style="line-height:0%">e</text>
 
       <text
    x="4831"
    y="14300"
-   id="text5663">q</text>
+   id="text5663"
+   style="line-height:0%">q</text>
 
       <text
    x="5182"
    y="14300"
-   id="text5665">u</text>
+   id="text5665"
+   style="line-height:0%">u</text>
 
       <text
    x="5533"
    y="14300"
-   id="text5667">e</text>
+   id="text5667"
+   style="line-height:0%">e</text>
 
       <text
    x="5885"
    y="14300"
-   id="text5669">s</text>
+   id="text5669"
+   style="line-height:0%">s</text>
 
       <text
    x="6202"
    y="14300"
-   id="text5671">t</text>
+   id="text5671"
+   style="line-height:0%">t</text>
 
       <text
    x="6380"
    y="14300"
-   id="text5673">:</text>
+   id="text5673"
+   style="line-height:0%">:</text>
 </g>
      <g
    id="g5675"
@@ -737,52 +795,62 @@
       <text
    x="4227"
    y="15011"
-   id="text5677">h</text>
+   id="text5677"
+   style="line-height:0%">h</text>
 
       <text
    x="4578"
    y="15011"
-   id="text5679">t</text>
+   id="text5679"
+   style="line-height:0%">t</text>
 
       <text
    x="4756"
    y="15011"
-   id="text5681">t</text>
+   id="text5681"
+   style="line-height:0%">t</text>
 
       <text
    x="4934"
    y="15011"
-   id="text5683">p</text>
+   id="text5683"
+   style="line-height:0%">p</text>
 
       <text
    x="5285"
    y="15011"
-   id="text5685">:</text>
+   id="text5685"
+   style="line-height:0%">:</text>
 
       <text
    x="5463"
    y="15011"
-   id="text5687">/</text>
+   id="text5687"
+   style="line-height:0%">/</text>
 
       <text
    x="5641"
    y="15011"
-   id="text5689">/</text>
+   id="text5689"
+   style="line-height:0%">/</text>
 
       <text
    x="5819"
    y="15011"
-   id="text5691">.</text>
+   id="text5691"
+   style="line-height:0%">.</text>
 
       <text
    x="5997"
    y="15011"
-   id="text5693">.</text>
+   id="text5693"
+   style="line-height:0%">.</text>
 
       <text
    x="6174"
    y="15011"
-   id="text5695">.</text>
+   id="text5695"
+   style="line-height:0%">.</text>
 </g>
      <path
    d="m 3184,13455 3811,0 0,1559 c -1509,-12 -1458,307 -2820,382 -487,-45 -665,-81 -991,-133 l 0,-1808 z m 0,0 0,0 z m 3811,1941 0,0 z"
@@ -810,42 +878,50 @@
       <text
    x="3822"
    y="14100"
-   id="text5707">R</text>
+   id="text5707"
+   style="line-height:0%">R</text>
 
       <text
    x="4279"
    y="14100"
-   id="text5709">e</text>
+   id="text5709"
+   style="line-height:0%">e</text>
 
       <text
    x="4631"
    y="14100"
-   id="text5711">q</text>
+   id="text5711"
+   style="line-height:0%">q</text>
 
       <text
    x="4982"
    y="14100"
-   id="text5713">u</text>
+   id="text5713"
+   style="line-height:0%">u</text>
 
       <text
    x="5333"
    y="14100"
-   id="text5715">e</text>
+   id="text5715"
+   style="line-height:0%">e</text>
 
       <text
    x="5685"
    y="14100"
-   id="text5717">s</text>
+   id="text5717"
+   style="line-height:0%">s</text>
 
       <text
    x="6002"
    y="14100"
-   id="text5719">t</text>
+   id="text5719"
+   style="line-height:0%">t</text>
 
       <text
    x="6180"
    y="14100"
-   id="text5721">:</text>
+   id="text5721"
+   style="line-height:0%">:</text>
 </g>
      <g
    id="g5723"
@@ -853,52 +929,62 @@
       <text
    x="4027"
    y="14811"
-   id="text5725">h</text>
+   id="text5725"
+   style="line-height:0%">h</text>
 
       <text
    x="4378"
    y="14811"
-   id="text5727">t</text>
+   id="text5727"
+   style="line-height:0%">t</text>
 
       <text
    x="4556"
    y="14811"
-   id="text5729">t</text>
+   id="text5729"
+   style="line-height:0%">t</text>
 
       <text
    x="4734"
    y="14811"
-   id="text5731">p</text>
+   id="text5731"
+   style="line-height:0%">p</text>
 
       <text
    x="5085"
    y="14811"
-   id="text5733">:</text>
+   id="text5733"
+   style="line-height:0%">:</text>
 
       <text
    x="5263"
    y="14811"
-   id="text5735">/</text>
+   id="text5735"
+   style="line-height:0%">/</text>
 
       <text
    x="5441"
    y="14811"
-   id="text5737">/</text>
+   id="text5737"
+   style="line-height:0%">/</text>
 
       <text
    x="5619"
    y="14811"
-   id="text5739">.</text>
+   id="text5739"
+   style="line-height:0%">.</text>
 
       <text
    x="5797"
    y="14811"
-   id="text5741">.</text>
+   id="text5741"
+   style="line-height:0%">.</text>
 
       <text
    x="5974"
    y="14811"
-   id="text5743">.</text>
+   id="text5743"
+   style="line-height:0%">.</text>
 </g>
      <rect
    x="3184"
@@ -947,52 +1033,62 @@
       <text
    x="3441"
    y="10117"
-   id="text5763">C</text>
+   id="text5763"
+   style="line-height:0%">C</text>
 
       <text
    x="4051"
    y="10117"
-   id="text5765">o</text>
+   id="text5765"
+   style="line-height:0%">o</text>
 
       <text
    x="4521"
    y="10117"
-   id="text5767">n</text>
+   id="text5767"
+   style="line-height:0%">n</text>
 
       <text
    x="4990"
    y="10117"
-   id="text5769">t</text>
+   id="text5769"
+   style="line-height:0%">t</text>
 
       <text
    x="5227"
    y="10117"
-   id="text5771">r</text>
+   id="text5771"
+   style="line-height:0%">r</text>
 
       <text
    x="5511"
    y="10117"
-   id="text5773">o</text>
+   id="text5773"
+   style="line-height:0%">o</text>
 
       <text
    x="5981"
    y="10117"
-   id="text5775">l</text>
+   id="text5775"
+   style="line-height:0%">l</text>
 
       <text
    x="6167"
    y="10117"
-   id="text5777">l</text>
+   id="text5777"
+   style="line-height:0%">l</text>
 
       <text
    x="6354"
    y="10117"
-   id="text5779">e</text>
+   id="text5779"
+   style="line-height:0%">e</text>
 
       <text
    x="6823"
    y="10117"
-   id="text5781">r</text>
+   id="text5781"
+   style="line-height:0%">r</text>
 </g>
      <path
    d="m 5073,8467 c 1742,0 3074,500 3074,1155 0,655 -1332,1156 -3074,1156 -1742,0 -3073,-501 -3073,-1156 0,-655 1331,-1155 3073,-1155 z m -3073,0 0,0 z m 6148,2312 0,0 z"
@@ -1020,52 +1116,62 @@
       <text
    x="3241"
    y="9917"
-   id="text5793">C</text>
+   id="text5793"
+   style="line-height:0%">C</text>
 
       <text
    x="3851"
    y="9917"
-   id="text5795">o</text>
+   id="text5795"
+   style="line-height:0%">o</text>
 
       <text
    x="4321"
    y="9917"
-   id="text5797">n</text>
+   id="text5797"
+   style="line-height:0%">n</text>
 
       <text
    x="4790"
    y="9917"
-   id="text5799">t</text>
+   id="text5799"
+   style="line-height:0%">t</text>
 
       <text
    x="5027"
    y="9917"
-   id="text5801">r</text>
+   id="text5801"
+   style="line-height:0%">r</text>
 
       <text
    x="5311"
    y="9917"
-   id="text5803">o</text>
+   id="text5803"
+   style="line-height:0%">o</text>
 
       <text
    x="5781"
    y="9917"
-   id="text5805">l</text>
+   id="text5805"
+   style="line-height:0%">l</text>
 
       <text
    x="5967"
    y="9917"
-   id="text5807">l</text>
+   id="text5807"
+   style="line-height:0%">l</text>
 
       <text
    x="6154"
    y="9917"
-   id="text5809">e</text>
+   id="text5809"
+   style="line-height:0%">e</text>
 
       <text
    x="6623"
    y="9917"
-   id="text5811">r</text>
+   id="text5811"
+   style="line-height:0%">r</text>
 </g>
      <rect
    x="2001"
@@ -1131,32 +1237,38 @@
       <text
    x="4201"
    y="5621"
-   id="text5839">X</text>
+   id="text5839"
+   style="line-height:0%">X</text>
 
       <text
    x="4624"
    y="5621"
-   id="text5841">Q</text>
+   id="text5841"
+   style="line-height:0%">Q</text>
 
       <text
    x="5120"
    y="5621"
-   id="text5843">u</text>
+   id="text5843"
+   style="line-height:0%">u</text>
 
       <text
    x="5471"
    y="5621"
-   id="text5845">e</text>
+   id="text5845"
+   style="line-height:0%">e</text>
 
       <text
    x="5822"
    y="5621"
-   id="text5847">r</text>
+   id="text5847"
+   style="line-height:0%">r</text>
 
       <text
    x="6034"
    y="5621"
-   id="text5849">y</text>
+   id="text5849"
+   style="line-height:0%">y</text>
 </g>
      <path
    d="M 5074,3546 7704,5197 5074,6849 2445,5197 5074,3546 l 0,0 z m -2629,0 0,0 z m 5259,3303 0,0 z"
@@ -1184,32 +1296,38 @@
       <text
    x="3998"
    y="5418"
-   id="text5861">X</text>
+   id="text5861"
+   style="line-height:0%">X</text>
 
       <text
    x="4421"
    y="5418"
-   id="text5863">Q</text>
+   id="text5863"
+   style="line-height:0%">Q</text>
 
       <text
    x="4917"
    y="5418"
-   id="text5865">u</text>
+   id="text5865"
+   style="line-height:0%">u</text>
 
       <text
    x="5268"
    y="5418"
-   id="text5867">e</text>
+   id="text5867"
+   style="line-height:0%">e</text>
 
       <text
    x="5619"
    y="5418"
-   id="text5869">r</text>
+   id="text5869"
+   style="line-height:0%">r</text>
 
       <text
    x="5831"
    y="5418"
-   id="text5871">y</text>
+   id="text5871"
+   style="line-height:0%">y</text>
 </g>
      <rect
    x="2445"
@@ -1315,17 +1433,20 @@
       <text
    x="10665"
    y="5036"
-   id="text5915">X</text>
+   id="text5915"
+   style="line-height:0%">X</text>
 
       <text
    x="11088"
    y="5036"
-   id="text5917">M</text>
+   id="text5917"
+   style="line-height:0%">M</text>
 
       <text
    x="11618"
    y="5036"
-   id="text5919">L</text>
+   id="text5919"
+   style="line-height:0%">L</text>
 </g>
      <g
    id="g5921"
@@ -1333,52 +1454,62 @@
       <text
    x="9800"
    y="5747"
-   id="text5923">C</text>
+   id="text5923"
+   style="line-height:0%">C</text>
 
       <text
    x="10257"
    y="5747"
-   id="text5925">o</text>
+   id="text5925"
+   style="line-height:0%">o</text>
 
       <text
    x="10647"
    y="5747"
-   id="text5927">l</text>
+   id="text5927"
+   style="line-height:0%">l</text>
 
       <text
    x="10824"
    y="5747"
-   id="text5929">l</text>
+   id="text5929"
+   style="line-height:0%">l</text>
 
       <text
    x="11002"
    y="5747"
-   id="text5931">e</text>
+   id="text5931"
+   style="line-height:0%">e</text>
 
       <text
    x="11354"
    y="5747"
-   id="text5933">c</text>
+   id="text5933"
+   style="line-height:0%">c</text>
 
       <text
    x="11705"
    y="5747"
-   id="text5935">t</text>
+   id="text5935"
+   style="line-height:0%">t</text>
 
       <text
    x="11917"
    y="5747"
-   id="text5937">i</text>
+   id="text5937"
+   style="line-height:0%">i</text>
 
       <text
    x="12094"
    y="5747"
-   id="text5939">o</text>
+   id="text5939"
+   style="line-height:0%">o</text>
 
       <text
    x="12484"
    y="5747"
-   id="text5941">n</text>
+   id="text5941"
+   style="line-height:0%">n</text>
 </g>
      <rect
    x="9232"
@@ -1444,17 +1575,20 @@
       <text
    x="17129"
    y="3935"
-   id="text5969">X</text>
+   id="text5969"
+   style="line-height:0%">X</text>
 
       <text
    x="17552"
    y="3935"
-   id="text5971">M</text>
+   id="text5971"
+   style="line-height:0%">M</text>
 
       <text
    x="18082"
    y="3935"
-   id="text5973">L</text>
+   id="text5973"
+   style="line-height:0%">L</text>
 </g>
      <g
    id="g5975"
@@ -1462,57 +1596,68 @@
       <text
    x="16301"
    y="4646"
-   id="text5977">r</text>
+   id="text5977"
+   style="line-height:0%">r</text>
 
       <text
    x="16513"
    y="4646"
-   id="text5979">e</text>
+   id="text5979"
+   style="line-height:0%">e</text>
 
       <text
    x="16864"
    y="4646"
-   id="text5981">s</text>
+   id="text5981"
+   style="line-height:0%">s</text>
 
       <text
    x="17182"
    y="4646"
-   id="text5983">u</text>
+   id="text5983"
+   style="line-height:0%">u</text>
 
       <text
    x="17533"
    y="4646"
-   id="text5985">l</text>
+   id="text5985"
+   style="line-height:0%">l</text>
 
       <text
    x="17673"
    y="4646"
-   id="text5987">t</text>
+   id="text5987"
+   style="line-height:0%">t</text>
 
       <text
    x="17850"
    y="4646"
-   id="text5989"> </text>
+   id="text5989"
+   style="line-height:0%"> </text>
 
       <text
    x="18028"
    y="4646"
-   id="text5991">d</text>
+   id="text5991"
+   style="line-height:0%">d</text>
 
       <text
    x="18380"
    y="4646"
-   id="text5993">a</text>
+   id="text5993"
+   style="line-height:0%">a</text>
 
       <text
    x="18731"
    y="4646"
-   id="text5995">t</text>
+   id="text5995"
+   style="line-height:0%">t</text>
 
       <text
    x="18909"
    y="4646"
-   id="text5997">a</text>
+   id="text5997"
+   style="line-height:0%">a</text>
 </g>
      <path
    d="m 15675,2682 3811,0 0,2376 c -1509,-19 -1458,467 -2820,581 -487,-69 -665,-124 -991,-203 l 0,-2754 z m 0,0 0,0 z m 3811,2957 0,0 z"
@@ -1540,17 +1685,20 @@
       <text
    x="16929"
    y="3735"
-   id="text6009">X</text>
+   id="text6009"
+   style="line-height:0%">X</text>
 
       <text
    x="17352"
    y="3735"
-   id="text6011">M</text>
+   id="text6011"
+   style="line-height:0%">M</text>
 
       <text
    x="17882"
    y="3735"
-   id="text6013">L</text>
+   id="text6013"
+   style="line-height:0%">L</text>
 </g>
      <g
    id="g6015"
@@ -1558,57 +1706,68 @@
       <text
    x="16101"
    y="4446"
-   id="text6017">r</text>
+   id="text6017"
+   style="line-height:0%">r</text>
 
       <text
    x="16313"
    y="4446"
-   id="text6019">e</text>
+   id="text6019"
+   style="line-height:0%">e</text>
 
       <text
    x="16664"
    y="4446"
-   id="text6021">s</text>
+   id="text6021"
+   style="line-height:0%">s</text>
 
       <text
    x="16982"
    y="4446"
-   id="text6023">u</text>
+   id="text6023"
+   style="line-height:0%">u</text>
 
       <text
    x="17333"
    y="4446"
-   id="text6025">l</text>
+   id="text6025"
+   style="line-height:0%">l</text>
 
       <text
    x="17473"
    y="4446"
-   id="text6027">t</text>
+   id="text6027"
+   style="line-height:0%">t</text>
 
       <text
    x="17650"
    y="4446"
-   id="text6029"> </text>
+   id="text6029"
+   style="line-height:0%"> </text>
 
       <text
    x="17828"
    y="4446"
-   id="text6031">d</text>
+   id="text6031"
+   style="line-height:0%">d</text>
 
       <text
    x="18180"
    y="4446"
-   id="text6033">a</text>
+   id="text6033"
+   style="line-height:0%">a</text>
 
       <text
    x="18531"
    y="4446"
-   id="text6035">t</text>
+   id="text6035"
+   style="line-height:0%">t</text>
 
       <text
    x="18709"
    y="4446"
-   id="text6037">a</text>
+   id="text6037"
+   style="line-height:0%">a</text>
 </g>
      <rect
    x="15675"
@@ -1674,22 +1833,26 @@
       <text
    x="22848"
    y="4551"
-   id="text6065">X</text>
+   id="text6065"
+   style="line-height:0%">X</text>
 
       <text
    x="23271"
    y="4551"
-   id="text6067">S</text>
+   id="text6067"
+   style="line-height:0%">S</text>
 
       <text
    x="23695"
    y="4551"
-   id="text6069">L</text>
+   id="text6069"
+   style="line-height:0%">L</text>
 
       <text
    x="23999"
    y="4551"
-   id="text6071">T</text>
+   id="text6071"
+   style="line-height:0%">T</text>
 </g>
      <path
    d="m 23415,2476 2630,1651 -2630,1652 -2629,-1652 2629,-1651 0,0 z m -2629,0 0,0 z m 5259,3303 0,0 z"
@@ -1717,22 +1880,26 @@
       <text
    x="22645"
    y="4348"
-   id="text6083">X</text>
+   id="text6083"
+   style="line-height:0%">X</text>
 
       <text
    x="23068"
    y="4348"
-   id="text6085">S</text>
+   id="text6085"
+   style="line-height:0%">S</text>
 
       <text
    x="23492"
    y="4348"
-   id="text6087">L</text>
+   id="text6087"
+   style="line-height:0%">L</text>
 
       <text
    x="23796"
    y="4348"
-   id="text6089">T</text>
+   id="text6089"
+   style="line-height:0%">T</text>
 </g>
      <rect
    x="20786"
@@ -1798,27 +1965,32 @@
       <text
    x="22540"
    y="8476"
-   id="text6117">X</text>
+   id="text6117"
+   style="line-height:0%">X</text>
 
       <text
    x="22963"
    y="8476"
-   id="text6119">H</text>
+   id="text6119"
+   style="line-height:0%">H</text>
 
       <text
    x="23421"
    y="8476"
-   id="text6121">T</text>
+   id="text6121"
+   style="line-height:0%">T</text>
 
       <text
    x="23810"
    y="8476"
-   id="text6123">M</text>
+   id="text6123"
+   style="line-height:0%">M</text>
 
       <text
    x="24339"
    y="8476"
-   id="text6125">L</text>
+   id="text6125"
+   style="line-height:0%">L</text>
 </g>
      <g
    id="g6127"
@@ -1826,32 +1998,38 @@
       <text
    x="22735"
    y="9187"
-   id="text6129">o</text>
+   id="text6129"
+   style="line-height:0%">o</text>
 
       <text
    x="23086"
    y="9187"
-   id="text6131">u</text>
+   id="text6131"
+   style="line-height:0%">u</text>
 
       <text
    x="23438"
    y="9187"
-   id="text6133">t</text>
+   id="text6133"
+   style="line-height:0%">t</text>
 
       <text
    x="23616"
    y="9187"
-   id="text6135">p</text>
+   id="text6135"
+   style="line-height:0%">p</text>
 
       <text
    x="23967"
    y="9187"
-   id="text6137">u</text>
+   id="text6137"
+   style="line-height:0%">u</text>
 
       <text
    x="24318"
    y="9187"
-   id="text6139">t</text>
+   id="text6139"
+   style="line-height:0%">t</text>
 </g>
      <path
    d="m 21510,7223 3811,0 0,2376 c -1509,-19 -1458,467 -2820,581 -487,-69 -665,-124 -991,-203 l 0,-2754 z m 0,0 0,0 z m 3811,2957 0,0 z"
@@ -1879,27 +2057,32 @@
       <text
    x="22340"
    y="8276"
-   id="text6151">X</text>
+   id="text6151"
+   style="line-height:0%">X</text>
 
       <text
    x="22763"
    y="8276"
-   id="text6153">H</text>
+   id="text6153"
+   style="line-height:0%">H</text>
 
       <text
    x="23221"
    y="8276"
-   id="text6155">T</text>
+   id="text6155"
+   style="line-height:0%">T</text>
 
       <text
    x="23610"
    y="8276"
-   id="text6157">M</text>
+   id="text6157"
+   style="line-height:0%">M</text>
 
       <text
    x="24139"
    y="8276"
-   id="text6159">L</text>
+   id="text6159"
+   style="line-height:0%">L</text>
 </g>
      <g
    id="g6161"
@@ -1907,32 +2090,38 @@
       <text
    x="22535"
    y="8987"
-   id="text6163">o</text>
+   id="text6163"
+   style="line-height:0%">o</text>
 
       <text
    x="22886"
    y="8987"
-   id="text6165">u</text>
+   id="text6165"
+   style="line-height:0%">u</text>
 
       <text
    x="23238"
    y="8987"
-   id="text6167">t</text>
+   id="text6167"
+   style="line-height:0%">t</text>
 
       <text
    x="23416"
    y="8987"
-   id="text6169">p</text>
+   id="text6169"
+   style="line-height:0%">p</text>
 
       <text
    x="23767"
    y="8987"
-   id="text6171">u</text>
+   id="text6171"
+   style="line-height:0%">u</text>
 
       <text
    x="24118"
    y="8987"
-   id="text6173">t</text>
+   id="text6173"
+   style="line-height:0%">t</text>
 </g>
      <rect
    x="21510"
@@ -2015,17 +2204,20 @@
       <text
    x="10302"
    y="8980"
-   id="text6209">C</text>
+   id="text6209"
+   style="line-height:0%">C</text>
 
       <text
    x="10759"
    y="8980"
-   id="text6211">S</text>
+   id="text6211"
+   style="line-height:0%">S</text>
 
       <text
    x="11183"
    y="8980"
-   id="text6213">S</text>
+   id="text6213"
+   style="line-height:0%">S</text>
 </g>
      <path
    d="m 8848,7974 3811,0 0,1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 l 0,-1358 z m 0,0 0,0 z m 3811,1458 0,0 z"
@@ -2053,17 +2245,20 @@
       <text
    x="10102"
    y="8780"
-   id="text6225">C</text>
+   id="text6225"
+   style="line-height:0%">C</text>
 
       <text
    x="10559"
    y="8780"
-   id="text6227">S</text>
+   id="text6227"
+   style="line-height:0%">S</text>
 
       <text
    x="10983"
    y="8780"
-   id="text6229">S</text>
+   id="text6229"
+   style="line-height:0%">S</text>
 </g>
      <rect
    x="8848"
@@ -2078,169 +2273,169 @@
   <g
    class="com.sun.star.drawing.CustomShape"
    id="g6233">
-   <g
-   id="g6235">
-    <path
-   d="m 13417,10038 3811,0 0,1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 l 0,-1358 z m 0,0 0,0 z m 3811,1458 0,0 z"
+   <path
+   d="m 13417,10038 h 3811 v 1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 z m 0,0 z m 3811,1458 z"
    id="path6237"
    inkscape:connector-curvature="0"
-   style="fill:#808080;stroke:none" />
-    <path
-   d="m 13417,10038 3811,0 0,1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 l 0,-1358"
+   style="fill:#808080;stroke:none" /><path
+   d="m 13417,10038 h 3811 v 1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 v -1358"
    id="path6239"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-    <path
-   d="m 13417,10038 0,0"
+   style="fill:none;stroke:#808080" /><path
+   d="m 13417,10038 v 0"
    id="path6241"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-    <path
-   d="m 17228,11496 0,0"
+   style="fill:none;stroke:#808080" /><path
+   d="m 17228,11496 v 0"
    id="path6243"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-    <g
-   font-size="635px"
-   font-style="normal"
-   font-weight="400"
-   id="g6245"
-   style="font-size:635px;font-style:normal;font-weight:400;font-family:Arial embedded">
-     <g
+   style="fill:none;stroke:#808080" /><g
    id="g6247"
-   style="fill:#808080;stroke:none">
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:#808080;stroke:none">
       <text
    x="13843"
    y="10844"
-   id="text6249">J</text>
+   id="text6249"
+   style="line-height:0%">J</text>
 
       <text
    x="14161"
    y="10844"
-   id="text6251">a</text>
+   id="text6251"
+   style="line-height:0%">a</text>
 
       <text
    x="14512"
    y="10844"
-   id="text6253">v</text>
+   id="text6253"
+   style="line-height:0%">v</text>
 
       <text
    x="14829"
    y="10844"
-   id="text6255">a</text>
+   id="text6255"
+   style="line-height:0%">a</text>
 
       <text
    x="15181"
    y="10844"
-   id="text6257">S</text>
+   id="text6257"
+   style="line-height:0%">S</text>
 
       <text
    x="15604"
    y="10844"
-   id="text6259">c</text>
+   id="text6259"
+   style="line-height:0%">c</text>
 
       <text
    x="15922"
    y="10844"
-   id="text6261">r</text>
+   id="text6261"
+   style="line-height:0%">r</text>
 
       <text
    x="16133"
    y="10844"
-   id="text6263">i</text>
+   id="text6263"
+   style="line-height:0%">i</text>
 
       <text
    x="16273"
    y="10844"
-   id="text6265">p</text>
+   id="text6265"
+   style="line-height:0%">p</text>
 
       <text
    x="16624"
    y="10844"
-   id="text6267">t</text>
-</g>
-     <path
-   d="m 13217,9838 3811,0 0,1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 l 0,-1358 z m 0,0 0,0 z m 3811,1458 0,0 z"
+   id="text6267"
+   style="line-height:0%">t</text>
+</g><path
+   d="m 13217,9838 h 3811 v 1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 z m 0,0 z m 3811,1458 z"
    id="path6269"
    inkscape:connector-curvature="0"
-   style="fill:#ffffff;stroke:none" />
-     <path
-   d="m 13217,9838 3811,0 0,1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 l 0,-1358"
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:#ffffff;stroke:none" /><path
+   d="m 13217,9838 h 3811 v 1171 c -1509,-9 -1458,230 -2820,287 -487,-34 -665,-61 -991,-100 V 9838"
    id="path6271"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-     <path
-   d="m 13217,9838 0,0"
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:none;stroke:#808080" /><path
+   d="m 13217,9838 v 0"
    id="path6273"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-     <path
-   d="m 17028,11296 0,0"
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:none;stroke:#808080" /><path
+   d="m 17028,11296 v 0"
    id="path6275"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#808080" />
-     <g
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:none;stroke:#808080" /><g
    id="g6277"
-   style="fill:#3c3c3c;stroke:none">
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:#3c3c3c;stroke:none">
       <text
-   x="13643"
+   x="13812.093"
    y="10644"
-   id="text6279">J</text>
+   id="text6279"
+   style="line-height:0%">J</text>
 
       <text
    x="13961"
    y="10644"
-   id="text6281">a</text>
+   id="text6281"
+   style="line-height:0%">a</text>
 
       <text
    x="14312"
    y="10644"
-   id="text6283">v</text>
+   id="text6283"
+   style="line-height:0%">v</text>
 
       <text
    x="14629"
    y="10644"
-   id="text6285">a</text>
+   id="text6285"
+   style="line-height:0%">a</text>
 
       <text
    x="14981"
    y="10644"
-   id="text6287">S</text>
+   id="text6287"
+   style="line-height:0%">S</text>
 
       <text
    x="15404"
    y="10644"
-   id="text6289">c</text>
+   id="text6289"
+   style="line-height:0%">c</text>
 
       <text
    x="15722"
    y="10644"
-   id="text6291">r</text>
+   id="text6291"
+   style="line-height:0%">r</text>
 
       <text
    x="15933"
    y="10644"
-   id="text6293">i</text>
+   id="text6293"
+   style="line-height:0%">i</text>
 
       <text
    x="16073"
    y="10644"
-   id="text6295">p</text>
+   id="text6295"
+   style="line-height:0%">p</text>
 
       <text
    x="16424"
    y="10644"
-   id="text6297">t</text>
-</g>
-     <rect
+   id="text6297"
+   style="line-height:0%">t</text>
+</g><rect
    x="13217"
    y="9839"
    width="3811"
    height="1458"
    id="rect6299"
-   style="fill:none;stroke:none" />
-    </g>
-   </g>
+   style="font-style:normal;font-weight:400;font-size:635px;font-family:'Arial embedded';fill:none;stroke:none" />
   </g>
   <g
    class="com.sun.star.drawing.ConnectorShape"
