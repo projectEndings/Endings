@@ -276,6 +276,12 @@ ul.footer-links{
     }
 }
 
+footer p.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 q:lang(fr){
     padding-left: 0.25em;
     padding-right: 0.25em;
