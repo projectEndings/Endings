@@ -3,21 +3,34 @@
     <h1 lang="en">Resources</h1>
 	<h1 lang="fr">Ressources</h1>
     <main>
-	    <h2 lang="en">Our Logos</h2>
-<h2 lang="fr">Nos logos</h2>
-	<p lang="en">If your projectʼs products are <a href="principles.html">Endings-compliant</a>, you can <a href="https://endings.uvic.ca/logos.zip">download a package of our logos</a> in various formats, and add one to your site.</p>   
-<p lang="fr">Si les produits de votre projet sont conformes aux <a href="principles.html">principes Endings</a>, vous pouvez <a href="https://endings.uvic.ca/logos.zip">télécharger un ensemble de nos logos</a> dans différents formats et en ajouter un sur votre site.</p>
-	    
-	<h2 lang="en">Other Resources</h2>
-	    <h2 lang="fr">Autres ressources</h2>
+        
+        <ul lang="en">
+            <li><a href="#our-logos">Our logos</a></li>
+            <li><a href="#useful-projects">Useful projects</a></li>
+            <li><a href="#papers-other">Papers &amp; Other Publications</a></li>
+        </ul>
+        
+        <ul lang="fr">
+            <li><a href="#nos-logos">Nos logos</a></li>
+            <li><a href="#projets-utiles">Projets utiles</a></li>
+            <li><a href="#pub-autres">Présentations et autres publications</a></li>
+        </ul>
+
         <p lang="en">As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
-                outcomes</a>, we list here a collection of resources that we have found useful,
+            outcomes</a>, we list here a collection of resources that we have found useful,
             especially in the early phases of our research.</p>
-			
-		<p lang="fr">En complément des réalisations et des résultats du projet Endings, nous présentons ici une liste de ressources que nous avons trouvées utiles, en particulier dans les premières phases de notre recherche.</p>
+        
+        <p lang="fr">En complément des réalisations et des résultats du projet Endings, nous présentons ici une liste de ressources que nous avons trouvées utiles, en particulier dans les premières phases de notre recherche.</p>
+                
+        
+        <h3 id="our-logos" lang="en">Our logos</h3>
+        <h3 id="nos-logos" lang="fr">Nos logos</h3>
+
+            <p lang="en">If your projectʼs products are <a href="principles.html">Endings-compliant</a>, you can <a href="https://endings.uvic.ca/logos.zip">download a package of our logos</a> in various formats, and add one to your site.</p>   
+            <p lang="fr">Si les produits de votre projet sont conformes aux <a href="principles.html">principes Endings</a>, vous pouvez <a href="https://endings.uvic.ca/logos.zip">télécharger un ensemble de nos logos</a> dans différents formats et en ajouter un sur votre site.</p>
 			
         <h3 id="useful-projects" lang="en">Useful Projects</h3>
-		<h3 id="projects-useful" lang="fr">Projets utiles</h3>
+		<h3 id="projets-utiles" lang="fr">Projets utiles</h3>
         <ul class="bibliography">
             <li>
                 The Digital Documentation Process, “Make your DH projects findable, citable, and
@@ -33,8 +46,9 @@
                         >https://sites.haa.pitt.edu/sustainabilityroadmap/</a>
             </li>
         </ul>
-        <h3 id="papers--other-publications" lang="en">Papers &amp; Other Publications</h3>
-		<h3 id="papers-other" lang="fr">Présentations et autres publications</h3>
+        
+        <h3 id="papers-other" lang="en">Papers &amp; Other Publications</h3>
+		<h3 id="pub-autres" lang="fr">Présentations et autres publications</h3>
         <p lang="en">This list demonstrates that preservation has been a concern of the DH community since the
             late 1990s. We present the list in two parts in order to demonstrate our awareness of
             the increasing attention to the challenges addressed in our project.</p>
@@ -44,7 +58,6 @@
         <h4 id="part-i-early-warnings-up-to-2005" lang="en">Part I: Early warnings, up to 2005</h4>
 		<h4 id="part-1" lang="fr">1<sup>ere</sup> Partie : Avertissements précoces, jusqu'en 2005</h4>
 
-        
         <ul class="bibliography">
         <li>Alemneh D. et al. “A Metadata Approach to Preservation of Digital Resources: The
             University of North Texas Libraries’ Experience.” <em>First Monday</em> 7.8 (2002). <a
