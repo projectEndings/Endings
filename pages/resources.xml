@@ -16,13 +16,7 @@
             <li><a href="#pub-autres">Présentations et autres publications</a></li>
         </ul>
 
-        <p lang="en">As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
-            outcomes</a>, we list here a collection of resources that we have found useful,
-            especially in the early phases of our research.</p>
-        
-        <p lang="fr">En complément des réalisations et des résultats du projet Endings, nous présentons ici une liste de ressources que nous avons trouvées utiles, en particulier dans les premières phases de notre recherche.</p>
-                
-        
+             
         <h3 id="our-logos" lang="en">Our logos</h3>
         <h3 id="nos-logos" lang="fr">Nos logos</h3>
 
@@ -31,7 +25,15 @@
 			
         <h3 id="useful-projects" lang="en">Useful Projects</h3>
 		<h3 id="projets-utiles" lang="fr">Projets utiles</h3>
-        <ul class="bibliography">
+       
+	     <p lang="en">As a supplement to the Endings projectʼs <a href="outputs.html">accomplishments and
+            outcomes</a>, we list here a collection of resources that we have found useful,
+            especially in the early phases of our research.</p>
+        
+        <p lang="fr">En complément des réalisations et des résultats du projet Endings, nous présentons ici une liste de ressources que nous avons trouvées utiles, en particulier dans les premières phases de notre recherche.</p>
+                
+        
+	    <ul class="bibliography">
             <li>
                 The Digital Documentation Process, “Make your DH projects findable, citable, and
                     stable.” <a href="https://digitalhumanitiesddp.com"
