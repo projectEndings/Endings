@@ -4,10 +4,10 @@
 	<h1 lang="fr">Nouvelles</h1>
     <main>
         <article>
-            <h3 class="post-title" lang="en">staticSearch 1.4.5 released!</h3>
-			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.5 !</h3>
-            <p class="post-meta" lang="en">Posted on Oct 4, 2023</p>
-			<p class="post-meta" lang="fr">Publié le 4 octobre 2023</p>
+            <h3 class="post-title" lang="en">staticSearch 1.4.9 released!</h3>
+			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.9 !</h3>
+            <p class="post-meta" lang="en">Posted on Oct 23, 2024</p>
+			<p class="post-meta" lang="fr">Publié le 12 octobre 2024</p>
             <div class="post-entry-container">
                 <div class="post-entry">
                     <p lang="en">A new production-ready release of the staticSearch tool has been
@@ -15,8 +15,8 @@
 					<p lang="fr">Une nouvelle version de l'outil staticSearch, prête à l’emploi, a été publiée :</p>
                     <ul>
                         <li><a
-                            href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.5"
-                            >staticSearch</a> version 1.4.5. </li>
+                            href="https://github.com/projectEndings/staticSearch/releases/tag/v1.4.9"
+                            >staticSearch</a> version 1.4.9 </li>
                     </ul>
                     <p lang="en">This is a bugfix release to the stable 1.4 branch of staticSearch. This tool
                         is already used in <a
