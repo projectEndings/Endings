@@ -3,6 +3,14 @@
     <h1 lang="en">News</h1>
 	<h1 lang="fr">Nouvelles</h1>
     <main>
+        
+        <article>
+            <h3 class="post-title" lang="en">The TEI has awarded its 2025 Community Prize to Endings!</h3>
+            <h3 class="post-title" lang="fr">La TEI a décerné son prix Communitaire 2025 au projet « Endings »!</h3>
+            <p class="post-meta" lang="en">Posted on Sept 26, 2025</p>
+            <p class="post-meta" lang="fr">Publié le 26 septembre 2025</p>
+        </article>
+        
         <article>
             <h3 class="post-title" lang="en">staticSearch 1.4.9 released!</h3>
 			<h3 class="post-title" lang="fr">Sortie de staticSearch 1.4.9 !</h3>
